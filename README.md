@@ -1,4 +1,4 @@
-[## Welcome to GitHub Pages](https://zkeq.github.io/zkeq/%C2%B7index.htm)
+## [Welcome to GitHub Pages](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
 [You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
@@ -9,7 +9,7 @@
 [Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
 ```markdown
-[Syntax highlighted code block](https://zkeq.github.io/zkeq/%C2%B7index.htm)
+Syntax highlighted code block
 
 # Header 1
 ## Header 2
@@ -18,12 +18,12 @@
 - Bulleted
 - List
 
-[1. Numbered](https://zkeq.github.io/zkeq/%C2%B7index.htm)
-[2. List](https://zkeq.github.io/zkeq/%C2%B7index.htm)
+1. Numbered
+2. List
 
-[**Bold** and _Italic_ and `Code` text](https://zkeq.github.io/zkeq/%C2%B7index.htm)
+**Bold** and _Italic_ and `Code` text
 
-[Link(url) and !Image(src)](https://zkeq.github.io/zkeq/%C2%B7index.htm)
+Link(url) and !Image(src)
 ```
 
 [For more details see GitHub Flavored Markdown](https://zkeq.github.io/zkeq/%C2%B7index.htm)
