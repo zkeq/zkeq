@@ -11,12 +11,12 @@
 ```markdown
 [Syntax highlighted code block](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-# [Header 1](https://zkeq.github.io/zkeq/%C2%B7index.htm)
-## [Header 2](https://zkeq.github.io/zkeq/%C2%B7index.htm)
-### [Header 3](https://zkeq.github.io/zkeq/%C2%B7index.htm)
+# Header 1
+## Header 2
+### Header 3
 
-[- Bulleted](https://zkeq.github.io/zkeq/%C2%B7index.htm)
-[- List](https://zkeq.github.io/zkeq/%C2%B7index.htm)
+- Bulleted
+- List
 
 [1. Numbered](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 [2. List](https://zkeq.github.io/zkeq/%C2%B7index.htm)
