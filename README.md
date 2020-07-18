@@ -2,7 +2,7 @@
 
 [Mr. Chillman](https://music.163.com/#/song?id=1352548429)
 
-![Mr. Chillman](http://p1.music.126.net/gCuegCHQMR7qkmj5RNXRnA==/109951163952280335.jpg "Mr. Chillman")
+![Mr. Chillman](http://p1.music.126.net/gCuegCHQMR7qkmj5RNXRnA==/109951163952280335.jpg?param=200y200 "Mr. Chillman")
 
 ##### Mr. Sandman, bring me a dream
 ###### 睡眠精灵啊，向您求一晚好梦
