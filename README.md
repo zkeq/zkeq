@@ -1,8 +1,8 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-[媛来如此（prod.LAKEY INSPIRED）（翻自 LAKEY INSPIRED）](https://music.163.com/#/song?id=1386617144)
+[媛来如此（prod.LAKEY INSPIRED）](https://music.163.com/#/song?id=1386617144)
 
-![媛来如此（prod.LAKEY INSPIRED）（翻自 LAKEY INSPIRED）](http://p2.music.126.net/YqmBePdnihH4u1nmVazu3A==/109951164322518577.jpg?param=66y66 "媛来如此（prod.LAKEY INSPIRED）（翻自 LAKEY INSPIRED）")
+![媛来如此（prod.LAKEY INSPIRED）](http://p2.music.126.net/YqmBePdnihH4u1nmVazu3A==/109951164322518577.jpg?param=66y66 "媛来如此（prod.LAKEY INSPIRED）")
 
 #### Hook：
 ##### 写给你的真心话我怕你不会听
