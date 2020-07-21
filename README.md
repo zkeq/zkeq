@@ -117,5 +117,4 @@
 
 
 
-<audio id="bgmMusic" src="http://sr.sycdn.kuwo.cn/ba8c6596ca087fbb9780973f8dfa6ac8/5f16da9f/resource/n3/70/44/3528081448.mp3
-" preload="auto" type="audio/mp3" autoplay loop></audio>
+<audio id="bgmMusic" src="http://sr.sycdn.kuwo.cn/ba8c6596ca087fbb9780973f8dfa6ac8/5f16da9f/resource/n3/70/44/3528081448.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
