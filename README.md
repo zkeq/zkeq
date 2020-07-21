@@ -110,4 +110,5 @@
 
 
 
-<audio id="bgmMusic" src="http://dl.stream.qqmusic.qq.com/M500000pawHm1u0io3.mp3?vkey=3DC4CCDC0CE421FE165C10E245F82B3A2C7634D0EEBA27A7F1F23D05DDE99C21A97865F0DB0E99841E58BD861C6DFB0F6D85D160D7CCBA7A&guid=316104278&uin=0&fromtag=143" preload="auto" type="audio/mp3" autoplay loop></audio>
+<audio id="bgmMusic" src="http://dl.stream.qqmusic.qq.com/M500000pawHm1u0io3.mp3?vkey=3DC4CCDC0CE421FE165C10E245F82B3A2C7634D0EEBA27A7F1F23D05DDE99C21A97865F0DB0E99841E58BD861C6DFB0F6D85D160D7CCBA7A&guid=316104278&uin=0&fromtag=143
+" preload="auto" type="audio/mp3" autoplay loop></audio>
