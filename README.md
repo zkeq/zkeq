@@ -1,114 +1,121 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-[Stay With Me](https://y.qq.com/n/yqq/song/0014XqnQ31OzYK.html)
+[&burn](https://music.163.com/#/song?id=524272601)
 
-![Stay With Me](https://y.gtimg.cn/music/photo_new/T002R500x500M0000046l5AB1E0FwV.jpg?param=200y200 "Stay With Me")
+![&burn](http://img1.kwcdn.kuwo.cn/star/albumcover/500/79/33/889862845.jpg "&burn")
 
-##### Stay With Me - 灿烈 (찬열)/PUNCH (펀치)
-
-##### 词：지훈
-
-##### 曲：이승주/로코베리(Rocoberry)
-
-##### 编曲：이승주
-
-##### 나의 두 눈을 감으면
-###### 闭上我的双眼
-##### 떠오르는 그 눈동자
-###### 浮现的那双瞳孔
-##### 자꾸 가슴이 시려서 잊혀지길 바랬어
-###### 因为心总是凉的 希望你被遗忘
-##### 꿈이라면 이제 깨어났으면
-###### 若是一场梦的话 现在就醒来吧
-##### 제발
-###### 拜托
-##### 정말 니가 나의 운명인걸까 넌
-###### 你真的是我的命运吗
-##### Falling you
-###### Falling you
-##### 운명처럼 너를 falling
-###### 为你而倾倒 像命运一样 为你倾倒
-##### 또 나를 부르네 calling
-###### 再次打电话叫我
-##### 헤어나올수 없어 제발 hold me
-###### 我无法摆脱 拜托抓住我
-##### 내 인연의 끈이 넌지
-###### 我的姻缘线是你
-##### 기다린 니가 맞는지
-###### 等待的是你
-##### 가슴이 먼저 왜 내려앉는지
-###### 为什么心却先沉了下来
-##### Stay with me
-###### Stay with me
-##### 내 마음속 깊은 곳에 니가 사는지
-###### 在我内心深处 那个地方有你
-##### Stay with me
-###### Stay with me
-##### 내 안에 숨겨왔던 진실
-###### 我内心隐藏的真实
-##### 나의 두 눈을 감으면
-###### 若闭上我的双眼
-##### 떠오르는 그 눈동자
-###### 浮现的那双瞳孔
-##### 자꾸 가슴이 시려서 잊혀지길 바랬어
-###### 因为心总是凉的 希望你被遗忘
-##### 꿈이라면 이제 깨어났으면
-###### 若是梦的话 如今已经醒了的话
-##### 제발
-###### 拜托
-##### 정말 니가 나의 운명인걸까 넌
-###### 你真的是我的命运吗
-##### Falling you
-###### Falling you
-##### 가슴은 뛰고 있어
-###### 为你而倾倒
-##### 여전히 널 보고 있어
-###### 心在跳动
-##### 자꾸만 숨이 막혀서
-###### 依然在望着你
-##### 아직은 멀리에서
-###### 因为总会窒息
-##### 너를 지켜보고 싶어
-###### 仍然在远方
-##### 내가 또 왜이러는지
-###### 想要守护你
-##### 처음 너를 봤을 때부터 다르게
-###### 我为什么又这个样子
-##### 운명의 시간은 또 더디게 갔지
-###### 与第一次见你时不同地
-##### 내 가슴은 널 향했고 내 심장은
-###### 命运的时间再一次缓慢地
-##### 다시 또 뛰었고
-###### 我的内心向着你
-##### 꺼져버리던 희미한 불빛 너로 인해
-###### 我的心脏再次跳动
-##### 다시 타오르는 눈빛
-###### 已经远去的模糊的火光
-##### 마치 오래전부터 널 사랑한것 같아
-###### 因为你而再次燃烧起来的目光
-##### 무언가에 이끌리듯 끌려온것 같아
-###### 向许久之前爱你那样
-##### 나의 두 눈을 감으면
-###### 像被什么牵动着吸引而来一样
-##### 떠오르는 그 눈동자
-###### 若闭上我的双眼
-##### 자꾸 가슴이 시려서 잊혀지길 바랬어
-###### 浮现的那双瞳孔
-##### 꿈이라면 꿈이라면 이제 깨어났으면
-###### 因为心总是凉的 希望你被遗忘
-##### 꿈이 아니길 제발
-###### 若是梦的话 如今已经醒了的话
-##### 혹시 니가 정말 니가 나의 운명인걸까
-###### 拜托
-##### 운명이라면 넌 falling you
-###### 你真的是我的命运吗falling you
+#### &burn
 
 
 
+##### Lips meet teeth and tongue
+###### 双唇抿合，碰触齿舌
+##### My heart skips eight beats at once
+###### 瞬间我的心脏紧跳了八次
+##### If we were meant to be, we would have been by now
+###### 倘若你我命中注定，本应早已携手
+##### See what you wanna see all, I see is him right now
+###### 你可见你愿看到的一切，而此刻我能看到的只有他
+##### Him right now
+###### 此刻唯有他
+##### I'll sit and watch your car burn
+###### 我将会坐看你的车燃烧
+##### With the fire that you started in me
+###### 伴随着你曾留在我心中的那团火焰
+##### But you never came back to ask it out
+###### 纵然你从来没有回首相提
+##### Go ahead and watch my heart burn
+###### 随他去吧，看着我这燃烧的心
+##### With the fire that you started in me
+###### 伴随着你曾埋入我心底的火焰
+##### But I'll never let you back to put it out
+###### 但我将永远不会让你来把它取走
+##### (Thanks)
+###### 谢谢
+##### Your love feels so fake
+###### 你予我的爱如此虚假
+##### My demands aren't high to make
+###### 我的要求并非遥不可及
+##### If I could get to sleep, I would have slept by now
+###### 如果我能入睡的话，我现在就已入眠
+##### Your lies will never keep, I think you need to blow 'em out
+###### 你的那些谎言将不再留于我心，我想需要你把它们（随着那燃烧的车）吹散
+##### Blow them out
+###### 将他们吹出我心
+##### I'll sit and watch your car burn
+###### 我将会坐看你的车燃烧
+##### With the fire that you started in me
+###### 伴随着你曾留在我心中的那团火焰
+##### But you never came back to ask it out
+###### 纵然你从来没有回首相提
+##### Go ahead and watch my heart burn
+###### 继续看着我心燃烧
+##### With the fire that you started in me
+###### 伴随着你曾埋入我心底的火焰
+##### But I'll never let you back to put it out
+###### 但我将永远不会让你来把它取走
+##### 7-4-2008
+###### 2008年4月7日
+##### I still remember that
+###### 我仍然记得
+##### Heaven sent a present my way
+###### 那日上天赐给了我一个礼物
+##### I won't forget your laugh
+###### 我不会忘记你的笑语
+##### Packing everything when you leave
+###### 离开我时请带好你的物品
+##### You know you coming back
+###### 你知道你会回来的
+##### Wanna see me down on my knees
+###### 你想看我向你跪地求婚
+##### But that was made for a ring
+###### 但那是为婚戒才会准备的
+##### I try to wait for the storm to calm down
+###### 我试图等待你我间这场风暴的停歇
+##### But that's stubborn baby, leading a war
+###### 但你可真是个倔强的孩子，领导着你我之间的战争
+##### We droned down on each other
+###### 我们彼此曾坦诚交流
+##### Tryin' to even the score
+###### 我们尝试将此事扯平
+##### We all been found guilty in the court of aorta
+###### 在青春欲望的法庭上，我们两人都有罪过
+##### And I'll watch your car burn
+###### 那我就坐看你的车燃烧
+##### With the fire that you started in me
+###### 伴随着你曾留在我心中的那团火焰
+##### But you never came back to ask it out
+###### 但我将永远不会让你来把它取走
+##### Go ahead and watch my heart burn
+###### 继续看着我心燃烧吧
+##### With the fire that you started in me
+###### 伴随着你曾埋入我心底的那团火焰
+##### But I'll never let you back to put it out
+###### 但我将永远不会让你来把它取走
+##### Watch your car watch your car burn
+###### 注视着你的车燃烧
+##### I won't forget your laugh
+###### 我不会忘记你的欢声笑语
+##### Go ahead and watch my heart watch my heart burn
+###### 继续感受我心燃烧
+##### You know you coming back you know you coming back
+###### 你知道你会回来的，会回来的
+##### Watch your car watch your car burn
+###### 注视着你的车燃烧
+##### Tryin' to even the score
+###### 尝试着竟想分出高下
+##### (Go ahead and watch my heart, watch my heart burn)
+###### 继续感受我内心，它在痛苦燃烧
+
+##### Found guilty in the court of aorta
+###### 在审判你我澎湃欲望的法庭上，我被判有罪
 
 
 
 
 
-<audio id="bgmMusic" src="http://other.player.ri01.sycdn.kuwo.cn/d200a0fa937638f0a2fc78a62999d38d/5f16d037/resource/n1/40/12/1968135052.mp3
+
+
+
+<audio id="bgmMusic" src="http://sr.sycdn.kuwo.cn/ba8c6596ca087fbb9780973f8dfa6ac8/5f16da9f/resource/n3/70/44/3528081448.mp3
 " preload="auto" type="audio/mp3" autoplay loop></audio>
