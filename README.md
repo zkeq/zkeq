@@ -9,7 +9,7 @@
 
 ##### 作曲 : Soulostar
 ##### 作词 : NINEONE
-#   
+#  ⠀⠀⠀⠀
 #### Verse NINEONE:
 ##### Hey 该闭上你双眼
 ##### 美梦的App会开启独家限免
@@ -39,7 +39,7 @@
 ##### 把一切交给大脑 我想它会制造幽默
 ##### The Voice Of 91是救生衣
 ##### 这是Nine One In One Night陪你闭上眼睛
-#  
+#  ⠀⠀⠀⠀
 #### Hook NINEONE:
 ##### It's Time To Close Your Eyes
 ###### 是时候闭上你的眼睛了
@@ -86,7 +86,7 @@
 ###### 你将永远在我脑海
 ##### Let Me Show You How To Fly
 ###### 我来演示一下如何飞行
-#   
+#   ⠀⠀⠀⠀
 #### Hook NINEONE:
 ##### It's Time To Close Your Eyes
 ###### 是时候该闭上你的眼睛了
