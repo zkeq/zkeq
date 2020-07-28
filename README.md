@@ -4,7 +4,7 @@
 
 
 
-![今晚月色真美 风也溫柔](http://p1.music.126.net/k0dN_-VgTlAfanUifBAUXQ==/109951163888814897.jpg "今晚月色真美 风也溫柔")
+![今晚月色真美 风也溫柔](http://p1.music.126.net/k0dN_-VgTlAfanUifBAUXQ==/109951163888814897.jpg?param=200y200 "今晚月色真美 风也溫柔")
 
 ##### 纯音乐，无歌词
 
