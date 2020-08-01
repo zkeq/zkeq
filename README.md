@@ -1,16 +1,71 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-[sorry i like you](https://music.163.com/#/song?id=520459812)
+[How Are You Fine Thank You And You](https://music.163.com/#/song?id=1460682463)
 
 
 
-![sorry i like you](http://p1.music.126.net/bd9iBU2Pu7bfCeOdqJfDhg==/109951163072002012.jpg "sorry i like you")
+![How Are You Fine Thank You And You](http://p2.music.126.net/v3iRlFhY9NwhaRooGkJDTQ==/109951165115724763.jpg "How Are You Fine Thank You And You")
 
-##### 纯音乐，无歌词
-###### 芝加哥独立音乐制作人burbank于2017年6月30日发布单曲《sorry i like you》。
+##### 作曲 : 梁老师Tsong
+##### 作词 : 梁老师Tsong
+##### 制作人：王晓夫
+##### 编曲：GC
+##### 掏出了磁带准备换到下一面
+##### 体育课又取消了那是个下雨天
+##### 播放着八度空间 一晃很多年
+##### 我摘下了耳机 就再也没有见
+##### 我的兄弟how are you
+##### im fine thank you and you
+##### 教室最后排的角落
+##### 传纸条的我们两个
+##### 听周杰伦和陶喆就是不听老师讲课
+##### 讨论班上谁最好看
+##### 谁去给她买早饭
+##### 你说你要谈恋爱了我劝你好聚好散
+##### 还记得我陪你打架 和你陪我打球
+##### 还有那年我们一起追的灌篮高手
+##### 也彼此争吵不休 关于那些可笑理由
+##### 共用一副耳机听着直到世界尽头
+##### 谢谢你陪伴我的成长
+##### 人生中最美好的时光
+##### 毕业前也有过的迷茫
+##### 散伙饭吃的热泪盈眶
+##### 回想那年
+
+##### 掏出了磁带准备换到下一面
+##### 体育课又取消了那是个下雨天
+##### 播放着八度空间 一晃很多年
+##### 我摘下了耳机 就再也没有见
+##### 我的兄弟 how are you
+##### im fine thank you and you
+
+##### 你知道我仍是你忠实的依靠
+##### 但我不知道
+##### 我的支持现在的你需要不需要
+##### 年少时意气风发 以为能征服世界
+##### 长大后鲜衣怒马 奔向了不同的事业
+##### 别再问彼此好不好 不好还不是低头走
+##### 只不过以你为标准 再没交过新朋友
+##### 中途放弃的朋友们尊重你们的选择
+##### 毕竟对抗全世界的主角不是那么好演的
+##### 这首心里话请听
+##### 亲爱的甲乙丙丁
+##### 让过去成为过去
+##### 让已经接受已经
+##### 也许你们已经不是当年无杂质的裸钻
+##### 重要的不是海贼王 是一路来的伙伴
+
+##### 掏出了磁带准备换到下一面
+##### 体育课又取消了那是个下雨天
+##### 播放着八度空间 一晃很多年
+##### 我摘下了耳机 就再也没有见
+##### 我的兄弟how are you
+##### im fine thank you and you
+##### 录音：王晓夫
+##### 混音：王晓夫
+##### 人声制作：王晓夫
+##### 母带：王晓夫
 
 
 
-
-
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=520459812.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1460682463.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
