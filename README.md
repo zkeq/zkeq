@@ -1,6 +1,6 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-[One Day](https://music.163.com/#/song?id=1460682463)
+[One Day](https://music.163.com/#/song?id=1325614219)
 
 
 
@@ -108,4 +108,4 @@
 ###### 你我与这冗长的时间，一并托付于彼此
 
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1460682463.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1325614219.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
