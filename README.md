@@ -1,71 +1,111 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-[How Are You Fine Thank You And You](https://music.163.com/#/song?id=1460682463)
+[One Day](https://music.163.com/#/song?id=1460682463)
 
 
 
-![How Are You Fine Thank You And You](http://p2.music.126.net/v3iRlFhY9NwhaRooGkJDTQ==/109951165115724763.jpg "How Are You Fine Thank You And You")
+![One Day](http://p2.music.126.net/pW4MKpf37kuneLbZbedtuQ==/109951163666896716.jpg "One Day")
 
-##### 作曲 : 梁老师Tsong
-##### 作词 : 梁老师Tsong
-##### 制作人：王晓夫
-##### 编曲：GC
-##### 掏出了磁带准备换到下一面
-##### 体育课又取消了那是个下雨天
-##### 播放着八度空间 一晃很多年
-##### 我摘下了耳机 就再也没有见
-##### 我的兄弟how are you
-##### im fine thank you and you
-##### 教室最后排的角落
-##### 传纸条的我们两个
-##### 听周杰伦和陶喆就是不听老师讲课
-##### 讨论班上谁最好看
-##### 谁去给她买早饭
-##### 你说你要谈恋爱了我劝你好聚好散
-##### 还记得我陪你打架 和你陪我打球
-##### 还有那年我们一起追的灌篮高手
-##### 也彼此争吵不休 关于那些可笑理由
-##### 共用一副耳机听着直到世界尽头
-##### 谢谢你陪伴我的成长
-##### 人生中最美好的时光
-##### 毕业前也有过的迷茫
-##### 散伙饭吃的热泪盈眶
-##### 回想那年
-
-##### 掏出了磁带准备换到下一面
-##### 体育课又取消了那是个下雨天
-##### 播放着八度空间 一晃很多年
-##### 我摘下了耳机 就再也没有见
-##### 我的兄弟 how are you
-##### im fine thank you and you
-
-##### 你知道我仍是你忠实的依靠
-##### 但我不知道
-##### 我的支持现在的你需要不需要
-##### 年少时意气风发 以为能征服世界
-##### 长大后鲜衣怒马 奔向了不同的事业
-##### 别再问彼此好不好 不好还不是低头走
-##### 只不过以你为标准 再没交过新朋友
-##### 中途放弃的朋友们尊重你们的选择
-##### 毕竟对抗全世界的主角不是那么好演的
-##### 这首心里话请听
-##### 亲爱的甲乙丙丁
-##### 让过去成为过去
-##### 让已经接受已经
-##### 也许你们已经不是当年无杂质的裸钻
-##### 重要的不是海贼王 是一路来的伙伴
-
-##### 掏出了磁带准备换到下一面
-##### 体育课又取消了那是个下雨天
-##### 播放着八度空间 一晃很多年
-##### 我摘下了耳机 就再也没有见
-##### 我的兄弟how are you
-##### im fine thank you and you
-##### 录音：王晓夫
-##### 混音：王晓夫
-##### 人声制作：王晓夫
-##### 母带：王晓夫
-
+##### Stay exactly as you are
+###### 一切都还是老样子
+##### In my shirt dancing around the room
+###### 你穿着我的衬衫在房间里跳舞
+##### Please stay exactly as you are
+###### 请让一切都还是老样子吧
+##### The way you smile and greet the rising moon
+###### 褶皱的月辉映的你笑脸粉红色
+##### And you told me my voice was sweet like a kiss
+###### 你说像蜜糖后的吻，我的唇应和你的耳朵
+##### And I said when I lose it what will you do?
+###### 我说若是一切都不遂心意你会做什么
+##### I don’t know what the point of anything is
+###### 我愚笨的抓不住事情的根本
+##### But I hope I can spend my time next to you
+###### 但我希望你我能在你的身边虚度我的时间
+##### Maybe when we’re older
+###### 兴许等你我两鬓共生了白发
+##### You will say
+###### 你会说
+##### Let’s move to somewhere colder
+###### 搬去更冷的地方吧
+##### And we’ll stay
+###### 然后我们会停下
+##### Round the corner from your parents house at the lake
+###### 就在你父母房子旁偌大的湖边
+##### And we’ll take care of them as they age
+###### 当它们老了我们就一起照顾他们吧
+##### It’ll be us one day
+###### 有朝一日你眉心的温软属于我
+##### It’ll be us one day
+###### 有朝一日我心头的蜜意属于你
+##### Do you remember at the start
+###### 你可记得万事万物的本源
+##### Writing backwards on the window pane
+###### 写在窗户薄脆边缘的翻转的文字
+##### I think I’m partial to your heart
+###### 就像我偏爱你不论是非的心
+##### Scream I love you on a busy train
+###### 在拥挤狭长的列车上大喊我爱你
+##### And you told me my voice was sweet like a kiss
+###### 可你却说我的声音像是咀嚼了绵软的空气
+##### And I said when I lose it what will you do?
+###### 可我问你假如失去了你会怎么做
+##### I don’t know what the point of anything is
+###### 万事皆苦闷
+##### But I hope I can spend my time next to you
+###### 只你是欢欣
+##### Maybe when we’re older
+###### 等花过了季节，等川河远了山麓，等你我的时间沉淀，趁你我年迈
+##### You will say
+###### 你会说
+##### Let’s move to somewhere colder
+###### 去些寒冷的地方吧
+##### And we’ll stay
+###### 我们就住下吧
+##### Round the corner from your parents house at the lake
+###### 湖面的涟漪弄皱你父母的房子
+##### And we’ll take care of them as they age
+###### 等他们老了我们一起照顾他们
+##### It’ll be us one day
+###### 有朝一日你满腔的蜜意属于我
+##### It’ll be us one day
+###### 有朝一日我掌心的雨雪属于你
+##### I got your hand you got my shoulder
+###### 我紧握你的手你环住我的肩膀
+##### You take the lead I’ll follow you around
+###### 你带着满载风月的路途，我跟着你
+##### You’ll always have someone to hold you
+###### 总会有人拥你满怀
+##### We’ll figure this out
+###### 我们会明白的
+##### Maybe when we’re older
+###### 等雏燕舒展新翼，等桃李进了丰收的日子里，等你我的故事慢诉，等你我变老
+##### You will say
+###### 你会说
+##### Let’s move to somewhere colder
+###### 就去更冷的地方吧
+##### And we’ll stay
+###### 我们定会留下来
+##### Round the corner from your parents house at the lake
+###### 环着你父母房子旁的湖
+##### And we’ll take care of them as they age
+###### 等他们老了我们一起照顾他们
+##### It’ll be us one day
+###### 这生活如蜜属于你我
+##### It’ll be us one day
+###### 这色彩驳杂属于你我
+##### Maybe when we’re older
+###### 我猜就在我们年迈以后
+##### It’ll be us one day
+###### 你属于我
+##### Maybe when we’re older
+###### 我想就在我们年迈以后
+##### It’ll be us one day
+###### 我属于你
+##### Maybe when we’re older
+###### 就在我们年迈以后
+##### It’ll be us one day
+###### 你我与这冗长的时间，一并托付于彼此
 
 
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1460682463.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
