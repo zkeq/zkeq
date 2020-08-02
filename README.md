@@ -48,4 +48,4 @@
 ###### 作为迪士尼2016年动画压轴之作，由《疯狂动物城》、《超能陆战队》、《冰雪奇缘》原班人马打造的动画冒险喜剧《海洋奇缘》（Moana）将于11月25日中美同步公映。电影一大亮点是片中的美妙音乐，配乐幕后是一支获奖无数的团队，包括托尼奖获奖者林-曼努尔·米兰达（曾担任托尼奖及普利策奖获奖音乐剧《汉密尔顿》及托尼奖获奖音乐剧《身在高地》主创），格莱美获奖作曲家马克·曼西纳（曾为《生死时速》、《人猿泰山》及《狮子王》作曲）等。原声带强势更收录电影片尾曲How Far I’ll Go，由加拿大人气才女Alessia Cara倾情献唱。Alessia的演唱轻盈愉悦，活力满满，完美契合了电影将要展现的奇幻冒险旅程，将莫阿娜的勇敢乐观以及旅途中的宏大冒险展露无遗，而温暖励志的歌词仿佛是莫阿娜的内心独白！除外，同样由林-曼努尔·米兰达谱写的另一首美妙歌曲You’re Welcome将由半神毛伊（道恩·强森）在片中演唱，而好莱坞唱片实力歌手 Jordon Fisher则联手米兰达合唱该曲的片尾版本。 
 
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1325614219.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=451981461.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
