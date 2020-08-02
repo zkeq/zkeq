@@ -1,111 +1,51 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-[One Day](https://music.163.com/#/song?id=1325614219)
+[海洋之心](https://music.163.com/#/song?id=451981461)
 
 
 
-![One Day](http://p2.music.126.net/pW4MKpf37kuneLbZbedtuQ==/109951163666896716.jpg "One Day")
+![海洋之心](http://p1.music.126.net/s0RHi6Oz0WshynpTZHezyQ==/2946691245586885.jpg "海洋之心")
 
-##### Stay exactly as you are
-###### 一切都还是老样子
-##### In my shirt dancing around the room
-###### 你穿着我的衬衫在房间里跳舞
-##### Please stay exactly as you are
-###### 请让一切都还是老样子吧
-##### The way you smile and greet the rising moon
-###### 褶皱的月辉映的你笑脸粉红色
-##### And you told me my voice was sweet like a kiss
-###### 你说像蜜糖后的吻，我的唇应和你的耳朵
-##### And I said when I lose it what will you do?
-###### 我说若是一切都不遂心意你会做什么
-##### I don’t know what the point of anything is
-###### 我愚笨的抓不住事情的根本
-##### But I hope I can spend my time next to you
-###### 但我希望你我能在你的身边虚度我的时间
-##### Maybe when we’re older
-###### 兴许等你我两鬓共生了白发
-##### You will say
-###### 你会说
-##### Let’s move to somewhere colder
-###### 搬去更冷的地方吧
-##### And we’ll stay
-###### 然后我们会停下
-##### Round the corner from your parents house at the lake
-###### 就在你父母房子旁偌大的湖边
-##### And we’ll take care of them as they age
-###### 当它们老了我们就一起照顾他们吧
-##### It’ll be us one day
-###### 有朝一日你眉心的温软属于我
-##### It’ll be us one day
-###### 有朝一日我心头的蜜意属于你
-##### Do you remember at the start
-###### 你可记得万事万物的本源
-##### Writing backwards on the window pane
-###### 写在窗户薄脆边缘的翻转的文字
-##### I think I’m partial to your heart
-###### 就像我偏爱你不论是非的心
-##### Scream I love you on a busy train
-###### 在拥挤狭长的列车上大喊我爱你
-##### And you told me my voice was sweet like a kiss
-###### 可你却说我的声音像是咀嚼了绵软的空气
-##### And I said when I lose it what will you do?
-###### 可我问你假如失去了你会怎么做
-##### I don’t know what the point of anything is
-###### 万事皆苦闷
-##### But I hope I can spend my time next to you
-###### 只你是欢欣
-##### Maybe when we’re older
-###### 等花过了季节，等川河远了山麓，等你我的时间沉淀，趁你我年迈
-##### You will say
-###### 你会说
-##### Let’s move to somewhere colder
-###### 去些寒冷的地方吧
-##### And we’ll stay
-###### 我们就住下吧
-##### Round the corner from your parents house at the lake
-###### 湖面的涟漪弄皱你父母的房子
-##### And we’ll take care of them as they age
-###### 等他们老了我们一起照顾他们
-##### It’ll be us one day
-###### 有朝一日你满腔的蜜意属于我
-##### It’ll be us one day
-###### 有朝一日我掌心的雨雪属于你
-##### I got your hand you got my shoulder
-###### 我紧握你的手你环住我的肩膀
-##### You take the lead I’ll follow you around
-###### 你带着满载风月的路途，我跟着你
-##### You’ll always have someone to hold you
-###### 总会有人拥你满怀
-##### We’ll figure this out
-###### 我们会明白的
-##### Maybe when we’re older
-###### 等雏燕舒展新翼，等桃李进了丰收的日子里，等你我的故事慢诉，等你我变老
-##### You will say
-###### 你会说
-##### Let’s move to somewhere colder
-###### 就去更冷的地方吧
-##### And we’ll stay
-###### 我们定会留下来
-##### Round the corner from your parents house at the lake
-###### 环着你父母房子旁的湖
-##### And we’ll take care of them as they age
-###### 等他们老了我们一起照顾他们
-##### It’ll be us one day
-###### 这生活如蜜属于你我
-##### It’ll be us one day
-###### 这色彩驳杂属于你我
-##### Maybe when we’re older
-###### 我猜就在我们年迈以后
-##### It’ll be us one day
-###### 你属于我
-##### Maybe when we’re older
-###### 我想就在我们年迈以后
-##### It’ll be us one day
-###### 我属于你
-##### Maybe when we’re older
-###### 就在我们年迈以后
-##### It’ll be us one day
-###### 你我与这冗长的时间，一并托付于彼此
+##### 作曲 : Lin-Manuel Miranda
+##### 作词 : 陈少琪
+##### 我心中有一个无尽的海洋
+##### 没有尽头的彼方
+##### 那里永远有阳光
+##### 不要 完成别人给的梦想
+##### 我有自己专属脸庞
+##### 错误中学会成长
+##### 每一个转弯 每一个路段
+##### 每一次希望 每一次失望
+##### 不管多困难 有什么地方
+##### 是我 不能闯
+##### 我听见地平线那一边 呼唤我
+##### 不用知道 终点多远
+##### 乘着风 迎着浪 扬着帆
+##### 不是疯狂
+##### 因为信仰
+##### 人生是一场考验坚强的流浪
+##### 虽然 留在原点 十分安全
+##### 天堂里面没有悲伤
+##### 但我会失去幻想
+##### 虽然 能和别人一模一样
+##### 会有相同的赞赏
+##### 但我有定制的主张
+##### 每一个转弯 每一个路段
+##### 每一次希望 每一次失望
+##### 不管多困难 有什么地方
+##### 是我不能闯
+##### 我听见地平线那一边 呼唤我
+##### 不用知道 终点多远
+##### 乘着风 迎着浪 扬着帆
+##### 不是疯狂
+##### 因为信仰 越过了黑夜会遇见梦想
+##### 我听见地平线那一边 呼唤我
+##### 不用知道 终点多远
+##### 乘着风 迎着浪
+##### 扬着帆 不是疯狂
+##### 因为信仰 终点在望
+
+###### 作为迪士尼2016年动画压轴之作，由《疯狂动物城》、《超能陆战队》、《冰雪奇缘》原班人马打造的动画冒险喜剧《海洋奇缘》（Moana）将于11月25日中美同步公映。电影一大亮点是片中的美妙音乐，配乐幕后是一支获奖无数的团队，包括托尼奖获奖者林-曼努尔·米兰达（曾担任托尼奖及普利策奖获奖音乐剧《汉密尔顿》及托尼奖获奖音乐剧《身在高地》主创），格莱美获奖作曲家马克·曼西纳（曾为《生死时速》、《人猿泰山》及《狮子王》作曲）等。原声带强势更收录电影片尾曲How Far I’ll Go，由加拿大人气才女Alessia Cara倾情献唱。Alessia的演唱轻盈愉悦，活力满满，完美契合了电影将要展现的奇幻冒险旅程，将莫阿娜的勇敢乐观以及旅途中的宏大冒险展露无遗，而温暖励志的歌词仿佛是莫阿娜的内心独白！除外，同样由林-曼努尔·米兰达谱写的另一首美妙歌曲You’re Welcome将由半神毛伊（道恩·强森）在片中演唱，而好莱坞唱片实力歌手 Jordon Fisher则联手米兰达合唱该曲的片尾版本。 
 
 
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1325614219.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
