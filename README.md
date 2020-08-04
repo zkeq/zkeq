@@ -1,13 +1,6 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-## [溯（钢琴版）（翻自 CORSAK胡梦周）](https://music.163.com/#/song?id=1433584979)
-
-
-
-![溯（钢琴版）（翻自 CORSAK胡梦周）](http://p1.music.126.net/qX7knUIlpmbJ34UBzCCS6w==/109951164802366812.jpg "溯（钢琴版）（翻自 CORSAK胡梦周）")
-
-##### 纯音乐，无歌词
-### [银河赴约](https://music.163.com/#/song?id=1433584979)
+## [银河赴约](https://music.163.com/#/song?id=1433584979)
 ###### 网易云音乐助力高考自制曲目
 
 ------------
@@ -185,4 +178,4 @@
 ###### 张琪雅、张艺颖、赵厉、赵子垚
 ###### （姓名以首字母排序）
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1433584979.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1453907054.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
