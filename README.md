@@ -90,6 +90,6 @@
 ##### 今天的晚安到底谁发
 
 ## 精选评论
-###### @[蔡佳兴Xiknow](https://music.163.com/user/home?id=488692376)
+###### @蔡佳兴Xiknow
 ##### 🔥🔥🔥
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=571758505.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
