@@ -185,6 +185,8 @@
 
 ###### 十二月我们共舞的那个雨天
 
+##### and the way you smile at me,
+
 ###### 你对我微笑时的样子
 
 ##### yes i remember
