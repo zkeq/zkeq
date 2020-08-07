@@ -1,208 +1,216 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-### [I Remember](https://music.163.com/#/song?id=3026583)
-###### I Remember
-###### 歌手：[MOCCA](https://music.163.com/artist?id=66349)
+### [*Lucky*](https://music.163.com/#/song?id=497463179)
+###### *Lucky*
+###### 歌手：[Lenka](https://music.163.com/artist?id=64143)
 
-###### 所属专辑：[My Diary](https://music.163.com/album?id=306178)
+###### 所属专辑：[Lucky](https://music.163.com/album?id=35934030)
 
 ------------
-![I Remember](http://p1.music.126.net/6tyGZOTqY_xCotsMP5xpwg==/109951163436732617.jpg "I Remember")
+![Lucky](http://p2.music.126.net/C1NxAy5W1BNem4M8f7hqLQ==/18892908300363464.jpg "Lucky")
 
-##### i remember...
 
-###### 我犹记
 
-##### the way you glanced at me, yes i remember
+##### You're that cherry on top
 
-###### 你眼眸掠过我的样子，是的，深印我心
+###### 你是我冰淇淋顶的甜蜜樱桃
 
-##### i remember...
+##### The apple of my eye
 
-###### 我犹记
+###### 我眼中无可替代的爱
 
-##### when we caught a shooting star, yes i remember
+##### You have me at hello
 
-###### 我们一起抓住流星的时刻，是的，深印我心
+###### 一句你好你便将我俘获
 
-##### i remember...
+##### And I'll never say goodbye
 
-###### 我犹记
+###### 自此我永远不会与你再见
 
-##### all the things that we shared,
+##### You are a diamond in the rough
 
-###### 我们分享的一切
+###### 你粗砺的本性中自有钻石般的亮眼
 
-##### and the promise we made,
+##### A needle in the hay
 
-###### 我们许下的诺言
+###### 像海底那一枚细针
 
-##### just you and i
+##### The moon in my night The sun in my day
 
-###### 只有你我
+###### 我一生里最美的那轮明月 我平凡日子里那朵暖阳
 
-##### i remember...
+##### And I don't know why
 
-###### 我犹记
+###### 我不知道为什么
 
-##### all the laughter we shared,
+##### I got so lucky
 
-###### 我们交织在一起的欢笑
+###### 我能够如此幸运
 
-##### all the wishes we made,
+##### oh lucky
 
-###### 我们许下的愿望
+###### 喔 如此幸运
 
-##### upon the roof at dawn
+##### Oh lucky
 
-###### 在黎明的屋顶
+###### 喔 如此幸运
 
-##### do you remember...?
+##### Oh lucky
 
-###### 你还记得吗
+###### 喔 如此幸运
 
-##### when we were dancing in the rain in that december
+##### Oh
 
-###### 十二月我们共舞的那个雨天
+###### 喔
 
-##### and i remember that when my father thought you were a burglar
+##### You are the cream of the crop
 
-###### 我的爸爸却把你当做小偷
+###### 你如同百里挑一的存在
 
-##### i remember...
+##### The crackle and pop
 
-###### 我犹记
+###### 整颗心为你噼里啪啦作响
 
-##### all the things that we shared,
+##### The icing on the cake
 
-###### 我们分享的一切
+###### 像蛋糕上点缀的糖霜
 
-##### and the promise we made,
+##### The smile on my face
 
-###### 和我们许下的诺言
+###### 是我面孔上最美的笑容
 
-##### just you and i
+##### You are the fish in the sea
 
-###### 只有你我
+###### 你是海底游弋的鱼
 
-##### i remember...
+##### And the knees on the bees
 
-###### 我犹记
+###### 你是微小但不可或缺的存在
 
-##### all the laughter we shared,
+##### The flame in my fire stars in my sky
 
-###### 我们交织的种种欢笑
+###### 你是我熊熊火焰中那一抹火光 是我夜空的累累繁星
 
-##### all the wishes we made,
+##### I don't know why
 
-###### 和我们许下的愿望
+###### 我不知道为什么
 
-##### upon the roof at dawn
+##### I got so lucky
 
-###### 在黎明的屋顶
+###### 我能够如此幸运
 
-##### i remember...
+##### Oh lucky
 
-###### 我犹记
+###### 喔 如此幸运
 
-##### all the things that we shared,
+##### Oh lucky
 
-###### 我们分享的一切
+###### 喔 如此幸运
 
-##### and the promise we made,
+##### Oh lucky
 
-###### 和我们许下的诺言
+###### 喔 如此幸运
 
-##### just you and i
+##### Oh lucky
 
-###### 只有你我
+###### 喔 如此幸运
 
-##### i remember...
+##### Oh lucky
 
-###### 我犹记
+###### 喔 如此幸运
 
-##### all the laughter we shared,
+##### Oh lucky
 
-###### 我们交织的种种欢笑
+###### 喔 如此幸运
 
-##### all the wishes we made,
+##### Oh lucky
 
-###### 和我们许下的愿望
+###### 喔 如此幸运
 
-##### upon the roof at dawn
+##### Oh
 
-###### 在黎明的屋顶
+###### 喔
 
-##### i remember...
+##### I must have rolled one hell of the dice
 
-###### 我犹记
+###### 我定已经经历了一次地狱 孤注一掷
 
-##### the way you read your books,
+##### To have you walking into my life
 
-###### 你看书时的样子
+###### 才能有你走入我的生活
 
-##### yes i remember
+##### Lucky me
 
-###### 是的，深印我心
+###### 幸运的我
 
-##### the way you tied your shoes,
+##### Lucky me
 
-###### 你系鞋带时的样子
+###### 幸运的我
 
-##### yes i remember
+##### I'm lucky
 
-###### 是的，深印我心
+###### 我如此幸运
 
-##### the cake you loved the most,
+##### Oh lucky
 
-###### 那个你最爱的蛋糕
+###### 喔 如此幸运
 
-##### yes i remember
+##### Oh lucky
 
-###### 是的，深印我心
+###### 喔 如此幸运
 
-##### the way you drank you coffee,
+##### Oh lucky me
 
-###### 你喝咖啡时的样子
+###### 喔 幸运的我
 
-##### i remember
+##### Oh
 
-###### 是 的，深印我心
+###### 喔
 
-##### the way you glanced at me, yes i remember
+##### And I don't know why
 
-###### 你眼眸掠过我的样子，是的，深印我心
+###### 我不知道为什么
 
-##### when we caught a shooting star,
+##### Honey I don't know why
 
-###### 我们一起抓住流星的时刻，是的，深印我心
+###### 亲爱的 我不知道为什么
 
-##### yes i remember
+##### Me say
 
-###### 是的，深印我心
+###### 我说
 
-##### when we were dancing in the rain in that december
+##### I don't know why
 
-###### 十二月我们共舞的那个雨天
+###### 我不知道为什么
 
-##### and the way you smile at me,
+##### I got so lucky
 
-###### 你对我微笑时的样子
-
-##### yes i remember
-
-###### 是的，深印我心
+###### 我能够如此幸运
 -----------------
 -----------------
 -----------------
 
 ## 专辑介绍：
-###### mocca是印尼独立流行乐团的翘楚，乐队已经成立7年，一共出版了3张唱片。除了Frends和Untuk Rena两张以外，还有一张极为著名的My diary。 
+##### Taking a break from her duties as vocalist and keyboardist for Australia's Decoder Ring, songwriter Lenka Kripac relocated to Los Angeles and began crafting eclectic, atmospheric pop songs under her forename. Her solo material took its cues from artists like Jem and Björk, with Lenka pitting her breathy vocals against landscapes of electronic drumbeats, horns, and twinkling piano. A former child actor who'd studied under Cate Blanchett, she also brought a sense of theatricality to her music, and Epic Records brought her aboard the label's roster in late 2007. Lenka decamped to the East Coast to record her debut album in Woodstock, NY, with artists like Howie Day and Missy Higgins stopping by for quick cameos. She then settled in Los Angeles, where she played frequent shows at the intimate Hotel Café before her self-titled album, Lenka, arrived in September 2008. "The Show," the lead single from Lenka's debut, cracked the Top 40 in several countries, including the U.K, Switzerland, and Poland (where it climbed to number one). Meanwhile, Lenka became engaged to James Gulliver Hancock, the visual artist behind several of her music videos, and spent most of the following year touring the world. Her engagement figured heavily on her second album, Two, a collection of pop tunes and winsome love songs that appeared in early 2011. Lenka returned in 2013 with Shadows, an orchestral pop album inspired by the birth of her son. ~ Andrew Leahey
 
-###### mocca 有四位团员，分别是主唱arina, 吉他riko，贝斯toma以及鼓手indra。arina和riko毕业于同一所大学，他们在学校的时候就组了一支乐队，以唱口水歌为主进行表演。没多久arina和riko就厌倦了这种鹦鹉学舌的表演方式，他们开始自己创作。他们的音乐大都是轻快的，充盈着各种快乐的元素，比如bossa bova，disco以及华尔兹等等。这与海岛驻民天生的乐天和单纯不无关系。如果音乐是有颜色的，那么mocca的就是蓝、白、橙，蓝色的天空，白色的云朵和沙滩，以及橙色的太阳。 
+###### 作为澳大利亚译码器乐队的主唱和键盘手，歌手伦卡·克里帕克（Lenka Kripac）暂时离开工作岗位，搬到洛杉矶，开始用自己的名字创作折衷、大气的流行歌曲。她的独奏素材从杰姆和比约克这样的艺术家那里汲取灵感，伦卡用她那令人窒息的嗓音与电子鼓声、喇叭和闪烁的钢琴交相辉映。她曾是儿童演员，曾在凯特·布兰切特（Cate Blanchett）手下学习，她也给自己的音乐带来了戏剧性的感觉，而史诗唱片公司在2007年底将她带上了唱片公司的名单。伦卡潜入东海岸，在纽约伍德斯托克录制她的首张专辑，与豪伊·戴和米西·希金斯这样的艺术家一起，来这里快速客串。随后，她定居洛杉矶，在2008年9月她的同名专辑《伦卡》（Lenka）面世之前，她经常在贴心的酒店咖啡厅演出。”这个节目是兰卡首次亮相的首秀，在包括英国、瑞士和波兰在内的几个国家中排名前40位（在其中排名第一）。与此同时，伦卡与詹姆斯·格列佛·汉考克订婚，詹姆斯·格列佛·汉考克是她的几部音乐录影带的幕后主创，并在接下来的一年里大部分时间里环游世界。她的订婚在她的第二张专辑《Two》中占有重要地位，这张专辑收录了2011年初出现的流行歌曲和一些迷人的情歌。2013年，伦卡重返舞台，这是一张以她儿子的出生为灵感的管弦乐队流行专辑。~安德鲁·莱希
 
-###### mocca的音乐表现了一种简单的执著，和untuk rena里面的那个一心要看花儿是怎么样开放的小女孩一样，他们在用最原始的童真追逐快乐。mocca的四个成员个性迥然，他们有的张扬，有的内敛，有的狂傲，有的谦恭，对音乐的执著让他们走到一起。主唱arina是个很酷的女孩，她曾经说过她的音乐不是唱给观众听的，而是唱给自己的心，有句话说得好，想感动别人首先要感动自己，从这一点看，arina可是比现如今好些歌手们高明多了。相对来说，三位男团员则显得内敛的多，他们是技术主义的簇拥者，为了精湛的技艺不惜付出一切，而生活却简单到仅仅剩下音乐而已。 
+## 小档案 
 
-###### mocca的音乐是非男性化的，我个人怀疑可能是因为arina比较强悍的缘故，现在看来这是件好事，mocca的音乐因此总是柔软而细腻，就像南洋人爱喝的白咖啡一样温润爽滑。mocca的首张唱片my diary，灵感来自于一个女孩的日记，通过这个女孩子记录在日记本的点点滴滴mocca为我们复原了这个爱情故事。从最初的毫不相乾，到偶遇，到情愫暗生，而后矛盾挣扎，好不容易决定勇敢接受，却遭遇破碎的结局。女孩终于明白，雨总会下的，太阳总会出来的，生活不可能一马平川。 
+###### 中 文 名: 蕾恩卡•克莉帕克
+
+###### 外 文 名: Lenka Kripac
+
+###### 别    名: lenka
+
+###### 国    籍: 美国
+
+###### 民    族: 新南威尔士
+
+###### 出 生 地: 澳大利亚新南威尔士
+
+###### 出生日期: 1978-3-19
+
+###### 职    业：歌手、演员、作曲家 
 
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=3026583.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
