@@ -102,4 +102,4 @@
 ---------------------------------
 ##### ![汲澈](https://p2.music.126.net/_ygdojWY5Lfoz0DxPEp28g==/109951164570328972.jpg?param=50y50)  汲澈  ：“请成为永远疯狂永远浪漫永远清澈的存在.”
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1323090317.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1323090317.mp3" preload="auto" type="audio/mp3" autoplay controls ></audio>
