@@ -1,226 +1,105 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-### [Can't Complain](https://music.163.com/#/song?id=26492802)
-###### Can't Complain
-###### 歌手：[Relient K](https://music.163.com/artist?id=41943)
+### [Your sunday (sundaymorning)(maroon5 Cover)](https://music.163.com/#/song?id=1323090317)
+###### Your sunday (sundaymorning)(maroon5 Cover)
+###### 歌手：[Sunny Shin](https://music.163.com/artist?id=30606835)
 
-###### 所属专辑：[Collapsible Lung](https://music.163.com/album?id=2509081)
+###### 所属专辑：[Your sunday (sundaymorning)](https://music.163.com/album?id=74251857)
 
 ------------
-![Can't Complain](http://p2.music.126.net/Y1SUpYJBKVRKcmp9KvVNWA==/109951163360034634.jpg "Can't Complain")
+![Your sunday (sundaymorning)(maroon5 Cover)](http://p1.music.126.net/8WF4ySTvXgWnoDkMp59UEg==/109951163648039084.jpg "Your sunday (sundaymorning)(maroon5 Cover)")
 
 
-##### Lookin' at the cop in the rear view mirror,
+##### Sunday morning rain is falling
 
-###### 从后视镜看向警察
+###### 周日早晨 外面在下雨
 
-##### probably shoulda' stopped but the crosswalk was clear
+##### Steal some covers share some skin
 
-###### 也许我该停车 但斑马线上没有行人
+###### 偷偷拽过的被子 不小心露出的肌肤
 
-##### I'll just imagine it's a ticket to a Broadway show.
+##### Clouds are shrouding us in moments unforgettable
 
-###### 我就幻想这是一张百老汇歌舞剧的门票咯
+###### 被云雾笼罩的我们 记忆在这一刻定格
 
-##### Lookin' at the clouds and they seem kinda funny,
+##### You twist to fit the mold that I am in
 
-###### 天上的云彩看着有点滑稽
+###### 你配合我的挪了挪身子
 
-##### probably gonna rain but my outlook is sunny,
+##### But things just get so crazy living life gets hard to do
 
-###### 也许要下雨了但我相信会阳光明媚的
+###### 这微小的幸福在艰难的生活中显得如此疯狂
 
-##### I'll just imagine that I'm layin' out in Mexico.
+##### And I would gladly hit the road get up and go if I knew
 
-###### 我就幻想自己在墨西哥咯
+###### 倘若知道该怎么做 我想我愿意前行
 
-##### 'Cause I know that pleasures gotta come with pain,
+##### That someday it would lead me back to you
 
-###### 因为我知欢愉总是伴随着疼痛
+###### 总有一天这会让我回到你身边
 
-##### and I know that things won't always go my way
+##### That someday it would lead me back to you
 
-###### 我知事情不会常如我所愿
+###### 总有一天我会回到你身边
 
-##### and I know life is gonna suck some days.
+##### That may be all I need
 
-###### 我知生活有时会糟糕透顶
+###### 或许那就是我所求
 
-##### But I can't complain,
+##### In darkness she is all I see
 
-###### 但我不能抱怨
+###### 黑暗之中 她是我目所能及的一切
 
-##### I can't complain
+##### Come and rest your bones with me
 
-###### 我不能抱怨
+###### 来和我一起放松好吗
 
-##### Every day's too short to let it go to waste.
+##### Driving slow on Sunday morning
 
-###### 时光荏苒 不容虚度
+###### 在周日的早晨兜风
 
-##### And I can't complain,
+##### And I never wanna leave
 
-###### 我不能抱怨
+###### 我永远都不会离去
 
-##### I can't complain.
+##### And I never wanna leave
 
-###### 我不能抱怨
+###### 我永远都不会离去
 
-##### You gotta treat every day like a holiday.
+##### And I never wanna leave
 
-###### 你要将每日都当做假期度过
+###### 我永远都不会离去
 
-##### And I'm tellin' you that I know some days I'm gonna stumble,
+##### And I never wanna leave
 
-###### 我来告诉你 我知道有时自己会跌撞前行
+###### 永远不会离开你
 
-##### and I know the cookie's gonna crumble,
+##### That may be all I need
 
-###### 我知道有时饼干会碎成渣渣
+###### 那就是我所求
 
-##### and I know life is gonna suck some days, but I can't complain.
+##### In darkness she is all I see
 
-###### 我知道有时生活会糟糕透顶，但我不能抱怨
+###### 黑暗之中 她是我目所能及的一切
 
-##### Waitin' on a never ending train at the crossing,
+##### Come and rest your bones with me
 
-###### 在交叉口等待一辆永不终结的列车
+###### 和我一起放松吧
 
-##### payin' it no mind 'cause you just keep on talkin',
+##### Driving slow on Sunday morning
 
-###### 不必介意因为你们只需继续交谈
+###### 在周日的早晨兜风
 
-##### We'll just imagine it's the good old days and take it slow.
+##### And I never wanna leave
 
-###### 我们就想象这是美好的旧时光 慢慢叙旧
-
-##### Spending Christmas eve on the floor at the airport,
-
-###### 在机场大堂度过圣诞夜
-
-##### dying to get back to the people that I care for,
-
-###### 一心想回到牵挂的人身边
-
-##### smile and just dream about my puppy in my bed back home.
-
-###### 微笑一下 只需想象当我回家时小狗在床的画面
-
-##### 'Cause I know that pleasures gotta come with pain,
-
-###### 因为我知欢愉总是伴随着疼痛
-
-##### and I know that things won't always go my way
-
-###### 我知事情不会常如我所愿
-
-##### and I know life is gonna suck some days.
-
-###### 我知生活有时会糟糕透顶
-
-##### But I can't complain,
-
-###### 但我不能抱怨
-
-##### I can't complain
-
-###### 我不能抱怨
-
-##### Every day's too short to let it go to waste.
-
-###### 时光荏苒 不容虚度
-
-##### And I can't complain,
-
-###### 我不能抱怨
-
-##### I can't complain.
-
-###### 我不能抱怨
-
-##### You gotta treat every day like a holiday.
-
-###### 你要将每日都当做假期度过
-
-##### And I'm tellin' you that I know some days I'm gonna stumble,
-
-###### 我来告诉你 我知道有时自己会跌撞前行
-
-##### and I know the cookie's gonna crumble,
-
-###### 我知道有时饼干会碎成渣渣
-
-##### and I know life is gonna suck some days,
-
-###### 我知道有时生活会糟糕透顶，但我不能抱怨
-
-##### If you can't say nothin' good don't say nothin'
-
-###### 若你讲不出开心的事情就不要开口
-
-##### If you stop to think you could come up with somethin'
-
-###### 当世道艰辛，如果你认为已无法
-
-##### That makes you feel so good when time's are rough it's okay.
-
-###### 让自己感觉良好，也没有关系啦
-
-##### I can't complain (Oh oh oh oh oh x2)
-
-###### 我不能抱怨
-
-##### Don't let it go to waste...
-
-###### 莫让时光虚度
-
-##### Now I can't complain (I can't complain)
-
-###### 如今我不能抱怨（我不能抱怨）
-
-##### I can't complain (I can't complain)
-
-###### 我不能抱怨（我不能抱怨）
-
-##### Every day's too short to let it go to waste.
-
-###### 时光荏苒 不容虚度
-
-##### Now I can't complain (I can't complain)
-
-###### 如今我不能抱怨（我不能抱怨）
-
-##### I can't complain (I can't complain)
-
-###### 我不能抱怨（我不能抱怨）
-
-##### You gotta treat every day like a holiday.
-
-###### 你要将每日都当做假期度过
-
-##### And I'm tellin' you that I know some days I'm gonna stumble,
-
-###### 我来告诉你 我知道有时自己会跌撞前行
-
-##### and I know the cookie's gonna crumble,
-
-###### 我知道有时饼干会碎成渣渣
-
-##### and I know life is gonna suck some days,
-
-###### 我知道有时生活会糟糕透顶
-
-##### but I can't complain.
-
-###### 但我不能抱怨
+###### 我们永不分离(●'◡'●)ﾉ❤
 -----------------
 
 
 
 ## 精彩评论:
-##### ![[lshadows](https://music.163.com/user/home?id=6196416)](https://p2.music.126.net/-PPp7A1sLNJnOU4XVeWU9w==/1422768050718121.jpg?param=50y50)  lshadows：
-#####  一定要养成情绪不好就听这歌的习惯
+##### ![TrampoIine](https://p2.music.126.net/2-e_KETGzY09k2XLThT3Pg==/109951165101858579.jpg?param=50y50)  TrampoIine  ![brand-tag brand-vip](https://p1.music.126.net/y8pM-M1mytg6B1ThedCbJA==/109951163709550847.png?param=35y10)：你很可爱 不是cute 是culd love
+---------------------------------
+##### ![汲澈](https://p2.music.126.net/_ygdojWY5Lfoz0DxPEp28g==/109951164570328972.jpg?param=50y50)  汲澈  ：“请成为永远疯狂永远浪漫永远清澈的存在.”
 
-
-
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=26492802.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1323090317.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
