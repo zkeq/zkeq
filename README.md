@@ -105,7 +105,6 @@
 ##### 那天看你奔向我的场景
 
 ##### 那天 不忘记...
------------------
 
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1365905573.mp3" preload="auto" type="audio/mp3" autoplay controls></audio>
 
