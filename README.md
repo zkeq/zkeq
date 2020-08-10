@@ -1,105 +1,339 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-### [Your sunday (sundaymorning)(maroon5 Cover)](https://music.163.com/#/song?id=1323090317)
-###### Your sunday (sundaymorning)(maroon5 Cover)
-###### 歌手：[Sunny Shin](https://music.163.com/artist?id=30606835)
+### [我 仍 记 得 那 天 你 奔 向 我 的 场 景](https://music.163.com/#/song?id=1365905573)
+###### 我 仍 记 得 那 天 你 奔 向 我 的 场 景
+###### 歌手：[UN1K](https://music.163.com/artist?id=12405803)
 
-###### 所属专辑：[Your sunday (sundaymorning)](https://music.163.com/album?id=74251857)
+###### 所属专辑：[我 仍 记 得 那 天 你 奔 向 我 的 场 景](https://music.163.com/album?id=79121064)
 
 ------------
-![Your sunday (sundaymorning)(maroon5 Cover)](http://p1.music.126.net/8WF4ySTvXgWnoDkMp59UEg==/109951163648039084.jpg "Your sunday (sundaymorning)(maroon5 Cover)")
+![我 仍 记 得 那 天 你 奔 向 我 的 场 景](http://p2.music.126.net/_RawZGIbf3C03xhb2D9hJQ==/109951164765817239.jpg "我 仍 记 得 那 天 你 奔 向 我 的 场 景")
 
 
-##### Sunday morning rain is falling
+##### 作曲 : UN1K袁诠
 
-###### 周日早晨 外面在下雨
+##### 作词 : UN1K袁诠
 
-##### Steal some covers share some skin
+##### 编曲：UN1K
 
-###### 偷偷拽过的被子 不小心露出的肌肤
+##### 混音：UN1K
 
-##### Clouds are shrouding us in moments unforgettable
+##### 母带：UN1K
 
-###### 被云雾笼罩的我们 记忆在这一刻定格
+##### 封面：UN1K
 
-##### You twist to fit the mold that I am in
+##### 制作人：UN1K
 
-###### 你配合我的挪了挪身子
+##### 你的眼睛
 
-##### But things just get so crazy living life gets hard to do
+##### 开始渐渐眯起
 
-###### 这微小的幸福在艰难的生活中显得如此疯狂
+##### 那颗泪滴
 
-##### And I would gladly hit the road get up and go if I knew
+##### 划落我的心底
 
-###### 倘若知道该怎么做 我想我愿意前行
+##### 不说一句
 
-##### That someday it would lead me back to you
+##### 就扑入我的怀里
 
-###### 总有一天这会让我回到你身边
+##### 难掩的喜
 
-##### That someday it would lead me back to you
+##### 用力的极
 
-###### 总有一天我会回到你身边
+##### 是我的你
 
-##### That may be all I need
+##### 低头看你
 
-###### 或许那就是我所求
+##### 就是不愿抬起
 
-##### In darkness she is all I see
+##### 埋我胸里
 
-###### 黑暗之中 她是我目所能及的一切
+##### 妆怕是都已化尽
 
-##### Come and rest your bones with me
+##### 一路艰辛
 
-###### 来和我一起放松好吗
+##### 真花了太多心思
 
-##### Driving slow on Sunday morning
+##### 不留余力
 
-###### 在周日的早晨兜风
+##### 终于抱紧你
 
-##### And I never wanna leave
+##### 那天阳光真的闪烁不及
 
-###### 我永远都不会离去
+##### 那天微风真的温柔不急
 
-##### And I never wanna leave
+##### 那天花丛真的芬芳不已
 
-###### 我永远都不会离去
+##### 那天 那天 那天清晰
 
-##### And I never wanna leave
+##### 那天世界仿佛只有我你
 
-###### 我永远都不会离去
+##### 那天彼此在月色下低语
 
-##### And I never wanna leave
+##### 那天你说我是你的神明
 
-###### 永远不会离开你
+##### 那天那天
 
-##### That may be all I need
+##### 你的手心
 
-###### 那就是我所求
+##### 藏着许多秘密
 
-##### In darkness she is all I see
+##### 不用猜忌
 
-###### 黑暗之中 她是我目所能及的一切
+##### 都是我的关于
 
-##### Come and rest your bones with me
+##### 这次结局
 
-###### 和我一起放松吧
+##### 来的真不容易
 
-##### Driving slow on Sunday morning
+##### 不再回避
 
-###### 在周日的早晨兜风
+##### 终于得到你
 
-##### And I never wanna leave
+##### 那天死湖真的泛起涟漪
 
-###### 我们永不分离(●'◡'●)ﾉ❤
+##### 那天枯木真的露出绿意
+
+##### 那天山野真的生机无比
+
+##### 那天 那天 那天神奇
+
+##### 那天的你真的美的超级
+
+##### 那天的我真的假装镇定
+
+##### 那天看你奔向我的场景
+
+##### 那天 不忘记...
 -----------------
 
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1365905573.mp3" preload="auto" type="audio/mp3" autoplay controls></audio>
+
+----------------------------
+----------------------------
+----------------------------
+
+### [Paint me a mountain](https://music.163.com/#/song?id=1459482952)
+###### Paint me a mountain
+###### 歌手： [田原](https://music.163.com/artist?id=9524)
+
+###### 所属专辑：[Paint me a mountain](https://music.163.com/album?id=91801991)
+
+------------
+![Paint me a mountain](http://p1.music.126.net/l-MNaZeoSYcf0XuIoGF1vQ==/109951165102709242.jpg "Paint me a mountain")
+
+##### 作曲 : 田原
+
+##### 作词 : 田原
+
+##### Producer：孔潇一
+
+##### 出品方：上海飞宝文化传媒有限公司
+
+##### Paint me a mountain,
+
+###### 为我画座山
+
+##### I’ll be standing on the top and singing songs for you.
+
+###### 就为你在山顶歌唱
+
+##### Write me a letter,
+
+###### 给我写封信
+
+##### and send it to the place we always dream to be.
+
+###### 寄到我们梦想到达的地方
+
+##### Give me a phone call,
+
+###### 给我一通电话
+
+##### I will answer in the future with my adult voice.
+
+###### 我会在未来用成人的声音接听
+
+##### It’s snowing in September,
+
+###### 九月里下雪
+
+##### but our hearts are warmer than they ever used to be.
+
+###### 我们的心却从未如此温暖
+
+##### 
+
+##### Come to me silently,
+
+###### 静静地靠近我
+
+##### Like a feather from above.
+
+###### 就像羽毛飘落
+
+##### Lost in the sea of dreams,
+
+###### 迷失在梦的海洋中
+
+##### I can see you crystal clear.
+
+你在我眼中却无比清晰
 
 
-## 精彩评论:
-##### ![TrampoIine](https://p2.music.126.net/2-e_KETGzY09k2XLThT3Pg==/109951165101858579.jpg?param=50y50)  TrampoIine  ![brand-tag brand-vip](https://p1.music.126.net/y8pM-M1mytg6B1ThedCbJA==/109951163709550847.png?param=35y10)：你很可爱 不是cute 是could love
----------------------------------
-##### ![汲澈](https://p2.music.126.net/_ygdojWY5Lfoz0DxPEp28g==/109951164570328972.jpg?param=50y50)  汲澈  ：“请成为永远疯狂永远浪漫永远清澈的存在.”
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1323090317.mp3" preload="auto" type="audio/mp3" autoplay controls></audio>
+#### Vocoder:
+
+##### Paint me something wrong,
+
+##### and paint me something right.
+
+##### give me something white,
+
+##### or give me something bright.
+
+##### isolation dies,
+
+##### and combination lies.
+
+##### automation buys,
+
+##### don’t want to be rewind.
+
+
+
+##### Paint me something wrong,
+
+##### and paint me something right.
+
+##### give me something white,
+
+##### or give me something bright.
+
+##### isolation dies,
+
+##### and combination lies.
+
+##### automation buys,
+
+##### don’t want to be rewind.
+
+
+
+##### Paint me a summer,
+
+###### 为我画一个夏天
+
+##### I’ll be swimming in the lake of blue with only you.
+
+###### 我们占领蓝色的湖
+
+##### Give me a minute,
+
+###### 给我一分钟
+
+##### I will slice it into pieces with a knife of gold.
+
+###### 我会用金子做的刀将它切成细丝
+
+
+
+##### Wake up when I’m calling,
+
+###### 呼唤你的时候请醒来
+
+##### The clouds are moving fast.
+
+###### 云在飞速变幻
+
+##### The silver rain is pouring,
+
+###### 银色的雨倾盆
+
+##### Turning into dust.
+
+###### 变为尘埃
+
+
+
+##### Come to me silently,
+
+###### 静静地靠近我
+
+##### Like a feather from above.
+
+###### 就像羽毛飘落
+
+##### Lost in the sea of dreams,
+
+###### 迷失在梦的海洋中
+
+##### I can see you crystal clear.
+
+###### 你在我眼中却无比清晰
+
+
+
+#### Vocoder:
+
+##### Paint me something wrong,
+
+##### and paint me something right.
+
+##### give me something white,
+
+##### or give me something bright.
+
+##### isolation dies,
+
+##### and combination lies.
+
+##### automation buys,
+
+##### don’t want to be rewind.
+
+##### (Repeat)
+
+
+
+###### Recording Engineer 孝晨
+
+###### Mixed,Mastered by 李南博
+
+###### Backing Vocals by Ashley
+
+###### Bass Guitar by Sean Hurley
+
+###### Drums by Chris Brush
+
+###### Arrangement,Programming,Electric Guitar,Synthesizers,Keyboards by 孔潇一
+
+###### 出品人：穆晓穗
+
+###### 监制：肇卜羲
+
+###### 企划：甘鹏
+
+###### 封面设计：BossHai
+
+###### 经纪总监：肇卜羲
+
+###### 艺人经纪：贾仕宁，崔晓旭，兰芸
+
+###### 宣传统筹：崔晓旭
+
+###### 艺人宣传：王美，夏婷婷
+
+###### 艺人视频宣传：罗舒宁
+
+
+## 精彩评论
+#####  ![[JoyZ赵晨唏](https://music.163.com/user/home?id=393483563)](https://p1.music.126.net/AbO0bypsKHvB_IgoeSP5nQ==/109951164667419736.jpg?param=50y50)[JoyZ赵晨唏](https://music.163.com/user/home?id=393483563)：给我画一座山，我愿在山上给你唱歌。🧡
+
+
+#### 开始播放
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1459482952.mp3" preload="auto" type="audio/mp3"  controls></audio>
+
+
+
+
