@@ -217,7 +217,7 @@
 ------------
 ------------
 
-### [只要平凡(https://music.163.com/#/song?id=574919767)
+### [只要平凡](https://music.163.com/#/song?id=574919767)
 ###### 电影《我不是药神》主题曲
 ##### 歌手：[张杰](https://music.163.com/artist?id=6472) / [张碧晨](https://music.163.com/artist?id=1024308)
 
