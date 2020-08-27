@@ -322,17 +322,6 @@
 
 #### Take Flight : [https://music.163.com/#/mv?id=389268](https://music.163.com/#/mv?id=389268)
 
-#### 精彩评论
-
-#### ![[二黎](https://music.163.com/user/home?id=57505141)](https://p1.music.126.net/Rf11rCjs311GFCj22XWHcw==/7982454420189708.jpg?param=50y50)[二黎](https://music.163.com/user/home?id=57505141)<img src="//p1.music.126.net/y8pM-M1mytg6B1ThedCbJA==/109951163709550847.png" style="zoom:25%;" />首先，这个mv相对于她的shatter me拍得成熟了一点，想表达给观众的东西也丰富。她想和我们说的我估计是:不管怎么样，生活需要你去发现她的细节美，就算那是一场梦，也是一场只属于我们心中隐藏着的最柔软，最温柔，最狂野，奇幻的梦，my soul is taking flight
-
---------------------------
-
-#### ![[Fancy-Herro幻象希罗](https://music.163.com/user/home?id=52400105)](https://p1.music.126.net/WwtC6oa2BesmsZjhHFYn1Q==/7998947092324564.jpg?param=50y50)[Fancy-Herro幻象希罗](https://music.163.com/user/home?id=52400105)<img src="//p1.music.126.net/iOnYL-pAvH2LuQfStGOjfQ==/109951163709553273.png" style="zoom:25%;" />：得到了花，便以为得到它的美。为了拯救枯萎的花朵，她打开了无数的门，也遇到了很多波折，受了很多伤，甚至失去了目的，可直到最后才发现:一切的相遇，都是缘分，即使错过，失去，在转身偶遇的一刹那也许就是自己回归初衷的路（请善待美，最美的花不一定要捧在手心里才能满足自己）
-
---------------------------
-
-#### ![[蒸-汽-波-](https://music.163.com/user/home?id=1793109)](https://p2.music.126.net/zSU7Be-O4r12JfECMTLOdw==/7725168697380670.jpg?param=50y50)[蒸-汽-波-](https://music.163.com/user/home?id=1793109)：也许是在说....花代表主角的追寻，翻转与倒行逆施的世界代表对主角追寻的不理解与不认同，花的出现总是伴随着光，说明花对于主角来说并不如外界的人看来只是一朵花，而是代表着更多，更耀眼的东西。
 
 --------------------------
 
