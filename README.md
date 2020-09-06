@@ -94,6 +94,11 @@
 ##### 一如既往
 
 ##### 哪怕从此离开了家乡
+
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=486188245.mp3" preload="auto" type="audio/mp3" autoplay controls></audio>
+var myAuto = document.getElementById('audio');  
+                    myAuto.play();  
+                    
 <!-- 请注意，以下的示例包含超链接，您可能需要手动配置样式使其不变色。如果您嫌麻烦，可以移除。 -->
 <p id="hitokoto"><a href="#" id="hitokoto_text">:D 获取中...</a></p>
 <script>
@@ -115,7 +120,7 @@
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script
 
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=486188245.mp3" preload="auto" type="audio/mp3" autoplay controls></audio>
+
 
 --------------------------
 
