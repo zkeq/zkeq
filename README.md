@@ -11,8 +11,7 @@
 ##### 所属专辑：[热爱可抵岁月漫长](https://music.163.com/album?id=88665546)
 
 ------------------------------
-
- ! [知道终有一天我们会在一起](http://p1.music.126.net/HZ6PDErYILcrt8fpSuscxg==/109951165299399977.jpg)
+![知道终有一天我们会在一起](http://p1.music.126.net/HZ6PDErYILcrt8fpSuscxg==/109951165299399977.jpg)
 
 ##### 作曲 : 顾我
 
