@@ -12,7 +12,7 @@
 
 ------------------------------
 
-![我知道终有一天我们会在一起](http://p1.music.126.net/HZ6PDErYILcrt8fpSuscxg==/109951165299399977.jpg)
+ ![ 知道终有一天我们会在一起 ]( http://p1.music.126.net/HZ6PDErYILcrt8fpSuscxg==/109951165299399977.jpg )
 
 ##### 作曲 : 顾我
 
