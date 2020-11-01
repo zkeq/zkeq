@@ -11,8 +11,7 @@
 ##### 所属专辑：[月圆之夜](https://music.163.com/album?id=80620384)
 
 -----------------
-
- ![月圆之夜](http://p1.music.126.net/6CmLfzkp5mcAXwS7cExBvQ==/109951164240675694.jpg)
+![月圆之夜](http://p1.music.126.net/6CmLfzkp5mcAXwS7cExBvQ==/109951164240675694.jpg)
 
 ##### 作词 : 谢春花
 
