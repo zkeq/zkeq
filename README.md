@@ -12,7 +12,7 @@
 
 -----------------
 
-![月圆之夜](http://p1.music.126.net/6CmLfzkp5mcAXwS7cExBvQ==/109951164240675694.jpg)
+ ! [月圆之夜](http://p1.music.126.net/6CmLfzkp5mcAXwS7cExBvQ==/109951164240675694.jpg)
 
 ##### 作词 : 谢春花
 
