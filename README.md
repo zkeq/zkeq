@@ -109,7 +109,7 @@
 
 
 
-![山阴路的夏天](https://bkimg.cdn.bcebos.com/pic/d1a20cf431adcbefc7eef38ba6af2edda2cc9f61?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg)
+![山阴路的夏天](http://p1.music.126.net/7w7pX7BKTdBcFF1AtuZC2g==/5957153999486269.jpg)
 
 ##### 这次你离开了没有像以前那样说再见，再见也他M的只是再见
 
