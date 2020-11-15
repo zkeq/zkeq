@@ -10,7 +10,7 @@
 
 ##### 专辑 : [F](https://www.91flac.com/album/84800)https://music.163.com/album?id=36789845)
 
-##### 
+----------------------------------------------
 
 ![山阴路的夏天](https://www.learnonly.xyz/jpg.jpg)
 
@@ -140,7 +140,7 @@
 
 #### 开始播放
 
-<audio id="bgmMusic" src="https://www.learnonly.xyz/music.mp3" preload="auto" type="audio/mp3" controls></audio>
+<audio id="bgmMusic" src="https://www.learnonly.xyz/music.mp3" preload="auto" type="audio/mp3" autoplay controls></audio>
 
 --------------------------
 
