@@ -6,9 +6,9 @@
 
 ##### 山阴路的夏天
 
-歌手：[[李志](https://www.91flac.com/singer/529)](https://music.163.com/artist?id=12270575)
+##### 歌手：[李志](https://www.91flac.com/singer/529)
 
-##### 专辑 : [F](https://www.91flac.com/album/84800)https://music.163.com/album?id=36789845)
+##### 专辑:[F](https://www.91flac.com/album/84800)
 
 ----------------------------------------------
 
@@ -150,7 +150,7 @@
 
 ### 陪你过冬天
 
-###### remix
+###### 陪你过冬天 remix
 
 ##### 专辑语种：国语
 
