@@ -11,7 +11,7 @@
 
 --------------------------
 
-![莉莉安](https://www.learnonly.xyz/lla.jpg)
+![莉莉安](https://cdn.learnonly.xyz/lla.jpg)
 
 ##### 她发现孤独的人
 
@@ -124,7 +124,7 @@
 
 #### 开始播放
 
-<audio id="bgmMusic" src="https://www.learnonly.xyz/lla.mp3" preload="auto" type="audio/mp3" autoplay controls></audio>
+<audio id="bgmMusic" src="https://cdn.learnonly.xyz/lla.mp3" preload="auto" type="audio/mp3" autoplay controls></audio>
 
 --------------------------
 
@@ -141,7 +141,7 @@
 
 ----------------------------------------------
 
-![山阴路的夏天](https://www.learnonly.xyz/jpg.jpg)
+![山阴路的夏天](https://cdn.learnonly.xyz/jpg.jpg)
 
 ##### 山阴路的夏天 - 李志
 
@@ -269,7 +269,7 @@
 
 #### 开始播放
 
-<audio id="bgmMusic" src="https://www.learnonly.xyz/music.mp3" preload="auto" type="audio/mp3" controls></audio>
+<audio id="bgmMusic" src="https://cdn.learnonly.xyz/music.mp3" preload="auto" type="audio/mp3" controls></audio>
 
 --------------------------
 
@@ -289,7 +289,7 @@
 
 -----------------
 
-![陪你过冬天](http://www.learnonly.xyz/pngdt.jpg)
+![陪你过冬天](http://cdn.learnonly.xyz/pngdt.jpg)
 
 ##### 让我帮你升温陪你过冬天
 
@@ -403,7 +403,7 @@
 
 #### 开始播放
 
-<audio id="bgmMusic" src="https://www.learnonly.xyz/pngdt.mp3"  type="audio/mp3" controls></audio>
+<audio id="bgmMusic" src="https://cdn.learnonly.xyz/pngdt.mp3"  type="audio/mp3" controls></audio>
 
 ### 专辑介绍
 
