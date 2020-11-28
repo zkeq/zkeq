@@ -11,7 +11,7 @@
 
 --------------------------
 
-![莉莉安](https://http://qkgee455e.hn-bkt.clouddn.com/lla.jpg)
+![莉莉安](http://qkgee455e.hn-bkt.clouddn.com/lla.jpg)
 
 ##### 她发现孤独的人
 
