@@ -113,7 +113,7 @@
 
 #### 开始播放
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1306497931.mp3" preload="auto" type="audio/mp3" controls></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1306497931.mp3" preload="auto" type="audio/mp3" autoplay controls></audio>
 
 -------------------------
 
