@@ -341,7 +341,7 @@
 
 #### 开始播放
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=26217171.mp3" preload="auto" type="audio/mp3" autoplay="" controls=""></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=26217171.mp3" preload="auto" type="audio/mp3"  controls=""></audio>
 
 --------------------
 
@@ -471,7 +471,7 @@
 
 #### 开始播放
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=441491828.mp3" preload="auto" type="audio/mp3" autoplay="" controls=""></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=441491828.mp3" preload="auto" type="audio/mp3"  controls=""></audio>
 
 -----------------
 
@@ -565,7 +565,7 @@
 
 #### 开始播放
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=531295576.mp3" preload="auto" type="audio/mp3" autoplay="" controls=""></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=531295576.mp3" preload="auto" type="audio/mp3"  controls=""></audio>
 
 
 
