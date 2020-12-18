@@ -194,8 +194,9 @@
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=64317.mp3" preload="auto" type="audio/mp3" controls=""></audio>
 
 ----------------
+#### 专辑介绍：
 
-[^专辑介绍：]: 超脱俗世品嚐气氛后 陈奕迅交出审视自我另一面之作 《STRANGER UNDER MY SKIN》 情绪暗潮触动
+###### 超脱俗世品嚐气氛后 陈奕迅交出审视自我另一面之作 《STRANGER UNDER MY SKIN》 情绪暗潮触动
 
 
 
