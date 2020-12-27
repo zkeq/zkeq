@@ -235,7 +235,7 @@
 
 ##### 陪伴你 一直到 这故事说完
 
-<audio id="bgmMusic" src="http://qlzhv8yax.hn-bkt.clouddn.com/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E9%99%AA%E4%BD%A0%E5%BA%A6%E8%BF%87%E6%BC%AB%E9%95%BF%E5%B2%81%E6%9C%88.mp3" preload="auto" type="audio/mp3" controls=""></audio>
+<audio id="bgmMusic" src="https://zkeq.gitee.io/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E9%99%AA%E4%BD%A0%E5%BA%A6%E8%BF%87%E6%BC%AB%E9%95%BF%E5%B2%81%E6%9C%88.mp3" preload="auto" type="audio/mp3" controls=""></audio>
 
 ### 专辑介绍：
 
