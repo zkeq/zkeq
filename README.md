@@ -5,7 +5,9 @@
 
 ###### 平凡天使
 
-<iframe src="//player.bilibili.com/player.html?aid=86299463&bvid=BV1h7411W7n9&cid=147497870&page=1&as_wide=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="200" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=86299463&bvid=BV1h7411W7n9&cid=147497870&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
+</div>
 
 ##### 歌手：[G.E.M.邓紫棋](https://music.163.com/artist?id=7763)
 
