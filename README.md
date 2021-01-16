@@ -1,7 +1,7 @@
  [国内Github解析不稳定，同步更新Gitee](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-# 心灵奇旅
+# 心灵奇旅  Soul
 
 #### PART 1
 
