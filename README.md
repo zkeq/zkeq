@@ -1,175 +1,80 @@
  [国内Github解析不稳定，同步更新Gitee](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-# 心灵奇旅  Soul
+### ｃｏｎｖｅｒｓａｔｉｏｎ
 
-#### PART 1
+###### ｃｏｎｖｅｒｓａｔｉｏｎ
 
-##### It's All Right (From "Soul"/Duet Version)
+##### 歌手：[bbbluelee](https://music.163.com/artist?id=13791519)
 
-###### 歌手：[Jon Batiste](https://music.163.com/artist?id=839277) / [Celeste](https://music.163.com/artist?id=12154172)
+##### 所属专辑：[C o n v ｅｒ S ａｔｉｏｎ----關 於 社 恐 的 心 情](https://music.163.com/album?id=78949146)
 
-###### 所属专辑：[It's All Right (From "Soul"/Duet Version)](https://music.163.com/album?id=120603016)
+----------------
 
-------------------
+![ｃｏｎｖｅｒｓａｔｉｏｎ](http://p2.music.126.net/s4YQSURqK3AoK6kO83fnQA==/109951164059570393.jpg)
 
-![It's All Right (From "Soul"/Duet Version)](http://p2.music.126.net/NY_LgOod1Q3ALvyQcmCU_A==/109951165549142491.jpg)
+###### 作词 : 无
 
-##### 作词 : Curtis Mayfield
+###### 作曲 : bbbluelee
 
-##### 作曲 : Curtis Mayfield
+###### 编曲:Bbbluelee
 
-##### Say it's all right
+##### I'm not very good with people
 
-###### 大声说，没关系
+###### 我不擅长人类交际
 
-##### Say it's all right
+##### If you don't start a conversation
 
-###### 大声说，没关系
+###### 如果你不开口找我
 
-##### It's all right, have a good time
+##### We won't have one
 
-###### 没关系，尽情享受美好时光吧
+###### 我们无故事
 
-##### 'Cause it's all right, whoa, it's all right
+###### 吉他:Bbbluelee
 
-###### 因为一切都是最好的安排，哦，最好的安排
+###### 后期:Bbbluelee
 
-##### Now listen to the beat
+###### FREE BEAT 创作不易 拿BEAT务必关注务必留个评论即可使用
 
-###### 此时此刻听着节拍
+###### 感谢bro and sis
 
-##### And kinda pat your feet
+###### 女声取样自波兰Kat Napiorkowska的关于社交恐惧症短片开头
 
-###### 随性迈出你的步伐
+###### 需要无对白版本歌曲的 私信联系购买使用权
 
-##### You've got soul and everybody knows
+#### 开始播放
 
-###### 你生来如此
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1364001635.mp3" preload="auto" type="audio/mp3" autoplay="" controls=""></audio>
 
-##### That it's all right, whoa, it's all right
+------------------------
 
-###### 并且大家知晓这一切都没关系，哦，这没关系
+---------------
 
-##### When you wake up early in the mornin'
+-------------
 
-###### 当你在清晨醒来
+### 存在信号 (Aw.0000)
 
-##### Feelin' sad like so many of us do
+###### 存在信号 (Aw.0000)
 
-###### 像我们许多人一样觉得伤感
+##### 歌手：[AcuticNotes](https://music.163.com/artist?id=1063210)
 
-##### Just hum a little soul, make life your goal
+##### 所属专辑：[PUELLABYTE](https://music.163.com/album?id=3019831)
 
-###### 只需哼一曲小调，把生活作为你的目标
+---------------
 
-##### And surely something's gotta come to you
+![存在信号 (Aw.0000)](http://p2.music.126.net/9De4HHkOaJ7Dj4gmQbsN9A==/2533274790653318.jpg)
 
-###### 这样，你想拥有的一定会找到你
+纯音乐，无歌词
 
-##### Say it's all right, say it's all right
+#### 开始播放
 
-###### 大声说，没关系。大声说，没关系
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=29405904.mp3" preload="auto" type="audio/mp3" controls=""></audio>
 
-##### It's all right, have a good time
 
-###### 没关系，尽情享受美好时光吧
-
-##### 'Cause it's all right, whoa, it's all right
-
-###### 因为一切都是最好的安排，哦，最好的安排
-
-##### Now everybody clap your hands
-
-###### 此刻大家拍起双手
-
-##### Give yourself a chance
-
-###### 给自己一个机会
-
-##### You've got soul and everybody knows
-
-###### 你生来如此
-
-##### That it's all right, whoa, it's all right
-
-###### 并且大家知晓这一切都没关系，哦，这没关系
-
-##### Whoa, it's all right
-
-###### 哦，最好的安排
-
-##### Now everybody clap your hands
-
-###### 此刻大家拍起双手
-
-##### Give yourself a chance
-
-###### 给自己一个机会
-
-##### 'Cause you've got soul
-
-###### 因为你生来如此
-
-##### Cause you've got soul
-
-###### 发掘你生来如此
-
-##### Cause you've got soul and everybody knows
-
-###### 坚信你生来如此，并且大家知晓
-
-##### That it's all right
-
-###### 这一切都没关系
-
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1805273298.mp3" preload="auto" type="audio/mp3" autoplay="" controls=""></audio>
--------------------
-
---------------
-
-----------
-
-#### PART 2 
-
-##### MV
-
-###### 林俊杰打造皮克斯电影 "心灵奇旅" 主题曲《最向往的地方》
-
-
-<div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=585137387&bvid=BV1hz4y1C7em&cid=253043894&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
-</div>
-
-
-#### PART 3
-
-### [Watch  Now(Click here)](https://www.playm3u8.cn/jiexi.php?url=https://meinv.jingyu-zuida.com/20210102/13954_118d4979/1000k/hls/index.m3u8)
-
-#### PART 4
-
-##### Epiphany (From "Soul"/Score)
-
-###### 歌手：[Trent Reznor](https://music.163.com/artist?id=44996) / [Atticus Ross](https://music.163.com/artist?id=28543)
-
-###### 所属专辑：[Soul (Banda Sonora Original en Castellano)](https://music.163.com/album?id=120600919)
-
------------------
-
-![Epiphany (From "Soul"/Score)](http://p2.music.126.net/xB60M3jdfP2xn-bM-g-Qrg==/109951165549115123.jpg)
-
-###### ![啪_叽_](https://p1.music.126.net/FX6FT8QvBmMB1wpq7Vl4tw==/109951163769994201.jpg?param=50y50)[啪_叽_](https://music.163.com/user/home?id=133943283)<img src="https://p6.music.126.net/obj/wo3DlcOGw6DClTvDisK1/4213923139/f08a/c6ea/10ee/f7e2deef21937a1042e370c47525c956.png" alt="img" style="zoom:25%;" />：我的火花 是第一口披萨 是第一次理发 是第一次趴在暖风口像个小孩子 是第一次坐在穿过氤氲阳光的树下
-
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1805265598.mp3" preload="auto" type="audio/mp3" controls=""></audio>
--------------------------
-
---------------------------
-
--------------------
-
-------------
-
----------
+---------------
+---------------
+---------------
 
 
 
