@@ -1,76 +1,105 @@
  [国内Github解析不稳定，同步更新Gitee](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-### ｃｏｎｖｅｒｓａｔｉｏｎ
+### 是你想成为的大人吗
 
-###### ｃｏｎｖｅｒｓａｔｉｏｎ
+###### 是你想成为的大人吗
 
-##### 歌手：[bbbluelee](https://music.163.com/artist?id=13791519)
+##### 歌手：[尤长靖](https://music.163.com/artist?id=13058503)
 
-##### 所属专辑：[C o n v ｅｒ S ａｔｉｏｎ----關 於 社 恐 的 心 情](https://music.163.com/album?id=78949146)
+##### 所属专辑：[AZORAland·我是尤长靖](https://music.163.com/album?id=97409230)
 
-----------------
+------------
 
-![ｃｏｎｖｅｒｓａｔｉｏｎ](http://p2.music.126.net/s4YQSURqK3AoK6kO83fnQA==/109951164059570393.jpg)
+![是你想成为的大人吗](http://p2.music.126.net/1XfoEJK6dQ2TEw55eXZLfA==/109951165418603915.jpg)
 
-###### 作词 : 无
+##### 作词 : 唐恬
 
-###### 作曲 : bbbluelee
+##### 作曲 : 钱雷
 
-###### 编曲:Bbbluelee
+##### 编曲：钱雷
 
-##### I'm not very good with people
+##### 天黑了 你在哪里等我？
 
-###### 我不擅长人类交际
+##### 在孤单的琴房 或大雪的操场
 
-##### If you don't start a conversation
+##### 在夜深 在黑暗中做梦
 
-###### 如果你不开口找我
+##### 你抓一枚萤火 说想做太阳
 
-##### We won't have one
+##### 在人海 光着脚追风
 
-###### 我们无故事
+##### 在角落 温柔舔舐伤口
 
-###### 吉他:Bbbluelee
+##### 你决定了 前来遇见我
 
-###### 后期:Bbbluelee
+##### 那个你啊 要做会发光的大人啊
 
-###### FREE BEAT 创作不易 拿BEAT务必关注务必留个评论即可使用
+##### 别怕 别怕 别怕 勇敢地长大
 
-###### 感谢bro and sis
+##### 你认得我吗？独一无二的那颗星啊
 
-###### 女声取样自波兰Kat Napiorkowska的关于社交恐惧症短片开头
+##### 因为 我有 你的 棱角和锋芒
 
-###### 需要无对白版本歌曲的 私信联系购买使用权
+##### 下雨了 你在哪里等我？
+
+##### 在舞会的最后 说再见的路口
+
+##### 在我曾 怀疑我的时候
+
+##### 你很酷地挥手 说笨蛋快走
+
+##### 在城市 巨大的迷宫
+
+##### 再没人 听见我的呼救
+
+##### 你哼着歌 前来遇见我
+
+##### 那个你啊 要做会发光的大人啊
+
+##### 别怕 别怕 别怕 孤单地长大
+
+##### 你喜欢我吗？努力未曾让你失望吧？
+
+##### 多远 多疯 多痛 都值得对吗？
+
+##### 当你仰望星空
+
+##### 当我回首初衷
+
+##### 当我回首初衷
+
+##### woo~~~
+
+##### 当我回首初衷
+
+##### 那个你啊 要做会发光的星星啊
+
+##### 别怕 别怕 别怕 你的不一样
+
+##### 你认得我吗？是你想成为的大人吗？
+
+##### 多远 多疯 多痛 都值得对吗？
+
+##### 多远 多疯 多痛 都有你 等我对吗？
+
+##### 吉他：高飞
+
+##### bass：李卓
+
+##### 录音师：李宗远
+
+##### Vocal Edit：李宗远
+
+##### 混音&母带：周天澈
+
+##### 录音棚：Studio 21A
+
+##### 制作人：钱雷
 
 #### 开始播放
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1364001635.mp3" preload="auto" type="audio/mp3" autoplay="" controls=""></audio>
-
-------------------------
-
----------------
-
--------------
-
-### 存在信号 (Aw.0000)
-
-###### 存在信号 (Aw.0000)
-
-##### 歌手：[AcuticNotes](https://music.163.com/artist?id=1063210)
-
-##### 所属专辑：[PUELLABYTE](https://music.163.com/album?id=3019831)
-
----------------
-
-![存在信号 (Aw.0000)](http://p2.music.126.net/9De4HHkOaJ7Dj4gmQbsN9A==/2533274790653318.jpg)
-
-纯音乐，无歌词
-
-#### 开始播放
-
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=29405904.mp3" preload="auto" type="audio/mp3" controls=""></audio>
-
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1479706965.mp3" preload="auto" type="audio/mp3" autoplay="" controls=""></audio>
 
 ---------------
 ---------------
