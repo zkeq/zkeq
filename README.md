@@ -107,11 +107,6 @@
 
 ---------------
 
-###### 附：WHX视频课 [price.learnonly.xyz](https://price.learnonly.xyz/)   (如果有意愿的话
-
-###### 验证信息填 zkeq
-
-###### 1分钱起  包邮
 
 <audio id="bgmMusic" src="https://learnonly-5.oss-cn-guangzhou.aliyuncs.com/bgm.mp3" preload="auto" type="audio/mp3" autoplay="" controls=""></audio>
 
