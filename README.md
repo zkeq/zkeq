@@ -5,7 +5,7 @@
 
 ###### 愿所有想念都被看见，愿我们始终记得为何出发
 
-<video width="100%" height="400" controls>
+<video width="100%" height="100%" controls>
     <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/index-2.mp4" type="video/mp4">
 </video>`
 
