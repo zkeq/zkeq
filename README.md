@@ -19,7 +19,9 @@
 
 ######  (2021五福贺岁短片同名主题曲)
 
-<iframe height=498 width=100% src='https://learnonly-6.oss-cn-heyuan.aliyuncs.com/index.mp4' frameborder=0 'allowfullscreen'></iframe>
+<video width="100%" height="400" controls>
+    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/index.mp4" type="video/mp4">
+</video>
 
 -----------
 
