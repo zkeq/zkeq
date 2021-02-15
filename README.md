@@ -27,7 +27,7 @@
 
 ###### 发行：青柴文化
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1441443016.mp3" preload="auto" type="audio/mp3" controls=""></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1441443016.mp3" preload="auto" type="audio/mp3" autoplay controls=""></audio>
 
 -------------------
 
