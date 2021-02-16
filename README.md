@@ -140,7 +140,7 @@
 
 ###### 发行公司：网易云音乐
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1482169388.mp3" preload="auto" type="audio/mp3"  controls=""></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1482169388.mp3" preload="auto"  autoplay type="audio/mp3"  controls=""></audio>
 
 ----------
 
