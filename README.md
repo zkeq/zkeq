@@ -1,7 +1,9 @@
  [国内Github解析不稳定，同步更新Gitee](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-
+<video width="100%" height="100%" controls="">
+    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E8%BF%99%E6%98%AF%E4%BD%A0%E6%83%B3%E8%A6%81%E7%9A%84%E7%94%9F%E6%B4%BB%E5%90%97.mp4" type="video/mp4" />
+</video>
 
 
 ### 时光，一如既往
@@ -132,7 +134,7 @@
 
 ##### 出品公司：武汉东湖音乐文化发展有限公司
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1822256814.mp3" preload="auto" type="audio/mp3"  autoplay controls=""></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1822256814.mp3" preload="auto" type="audio/mp3"  controls=""></audio>
 
 ----------
 
