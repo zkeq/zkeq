@@ -1,6 +1,163 @@
  [国内Github解析不稳定，同步更新Gitee](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
+### Bad Dream 
+
+###### Bad Dream 
+
+##### 歌手：[Vancouver Sleep Clinic](https://music.163.com/artist?id=844692)
+
+##### 所属专辑：[Bad Dream](https://music.163.com/album?id=80576574)
+
+------------------
+
+![Bad Dream](https://img4.kuwo.cn/star/albumcover/500/77/45/1217935322.jpg)
+
+##### 作词 : Vancouver Sleep Clinic
+
+##### 作曲 : Vancouver Sleep Clinic
+
+##### You made me feel like it's a bad dream
+
+###### 你令我感觉这好似一场噩梦
+
+##### Just a world that I imagined
+
+###### 一场我所幻想的噩梦
+
+##### The truth wouldn't sink in
+
+###### 真相不会沉沦
+
+##### But my chest started sinking
+
+###### 但我的心潮已然沦落
+
+##### And I wished it was a bad dream
+
+###### 我多么希望这只是一场噩梦
+
+##### I'd wake up like nothing happened
+
+###### 当我睁开双眼 都会烟消云散
+
+##### And everything would be alright
+
+###### 一切都将归于安好
+
+##### You were a beautiful distraction
+
+###### 你曾令我神魂颠倒
+
+##### Gave reality my absence
+
+###### 让我的存在难以定义
+
+##### Consumed all my hours
+
+###### 蹉跎我所有的岁月
+
+##### Filled my lungs up with flowers
+
+###### 用鲜花填满我的胸膛
+
+##### You left so many that I can't breathe
+
+###### 你的离去令我窒息
+
+##### I feel heavy, I felt empty
+
+###### 行迈靡靡 百无聊赖
+
+##### But everything will be alright
+
+###### 但一切都将归于安好
+
+##### You will hear me say
+
+###### 你将听到我的呢喃
+
+##### Goodbye my love
+
+###### 后会有期 我的爱人
+
+##### You will hear me say
+
+###### 你将听到我的低语
+
+##### Goodbye my love
+
+###### 有缘再会 我的挚爱
+
+##### It's like I'm living in a bad dream
+
+###### 这就好似我活在噩梦之中
+
+##### Close my eyelids but I can't sleep
+
+###### 双眼紧闭却无法入眠
+
+##### And times that I savored
+
+###### 旧时笙歌 峥嵘岁月
+
+##### Became time that was wasted
+
+###### 全然化为蹉跎
+
+##### I wished I could go backwards
+
+###### 我希望我可以回到过去
+
+##### Before love was just nostalgic
+
+###### 回到曲终人散前
+
+##### And everything would be alright
+
+###### 一切将归于安好
+
+##### You will hear me say
+
+###### 你将听到我的呢喃
+
+##### Goodbye my love
+
+###### 后会有期 我的爱人
+
+##### You will hear me say
+
+###### 你将听到我的低语
+
+##### Goodbye my love
+
+###### 有缘再会 我的挚爱
+
+##### You will hear me say
+
+###### 你将听到我的呢喃
+
+##### I'll be on my way
+
+###### 后会有期 我的爱人
+
+##### You will hear me say
+
+###### 你将听到我的低语
+
+##### I'll be on my way
+
+###### 我将重归正轨
+
+##### Any day now
+
+###### 就在不久之后
+
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1379772383.mp3" preload="auto" type="audio/mp3"  controls="" autoplay</audio>
+--------------------
+--------------------
+--------------------
+
 ### 17
 
 ###### 网剧《极限17》主题曲
