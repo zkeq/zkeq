@@ -154,8 +154,7 @@
 ###### 就在不久之后
 
 
- <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1379772383.mp3" preload="auto" type="audio/mp3" controls="" autoplay audio=""></audio>
-
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1379772383.mp3" preload="auto" type="audio/mp3" autoplay controls=""></audio>
 
 --------------------
 --------------------
