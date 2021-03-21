@@ -301,7 +301,7 @@
 
 ##### 版权方:哇唧唧哇娱乐(天津)有限公司
 
-<audio id="bgmMusic" src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/17.mp3" preload="auto" type="audio/mp3"  controls="" autoplay></audio>
+<audio id="bgmMusic" src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/17.mp3" preload="auto" type="audio/mp3"  controls=""></audio>
 
 ### 时光，一如既往
 
