@@ -1,160 +1,190 @@
  [国内Github解析不稳定，同步更新Gitee](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
-### Bad Dream 
 
-###### Bad Dream 
 
-##### 歌手：[Vancouver Sleep Clinic](https://music.163.com/artist?id=844692)
+### 至此
 
-##### 所属专辑：[Bad Dream](https://music.163.com/album?id=80576574)
+###### 动漫《我是江小白》第二季片尾曲
 
-------------------
+##### 歌手：[房东的猫](https://music.163.com/artist?id=1050282)
 
-![Bad Dream](https://img4.kuwo.cn/star/albumcover/500/77/45/1217935322.jpg)
+##### 所属专辑：[至此](https://music.163.com/album?id=74150847)
 
-##### 作词 : Vancouver Sleep Clinic
+------------------------
 
-##### 作曲 : Vancouver Sleep Clinic
+![至此](http://p1.music.126.net/WS5-o20Rw8NSrFLHdfHs5w==/109951163641446987.jpg)
 
-##### You made me feel like it's a bad dream
+##### 作词 : 少年佩/镜千
 
-###### 你令我感觉这好似一场噩梦
+##### 作曲 : 少年佩
 
-##### Just a world that I imagined
+##### 制作人：黎偌天
 
-###### 一场我所幻想的噩梦
+##### 编曲：黎偌天
 
-##### The truth wouldn't sink in
+##### 监制：李纤橙
 
-###### 真相不会沉沦
+##### 弦乐编写：胡静成
 
-##### But my chest started sinking
+##### 弦乐：国际首席爱乐乐团
 
-###### 但我的心潮已然沦落
+##### 混音：王晨雨
 
-##### And I wished it was a bad dream
+##### 你说青春 应该是什么模样
 
-###### 我多么希望这只是一场噩梦
+##### 是被涂鸦过 四 季 的小巷
 
-##### I'd wake up like nothing happened
+##### 是屋顶啤酒 罐里的幻想
 
-###### 当我睁开双眼 都会烟消云散
+##### 还是转角路 灯下 背影的拉长
 
-##### And everything would be alright
+##### 没结局的回忆
 
-###### 一切都将归于安好
+##### 在失去后圆满
 
-##### You were a beautiful distraction
+##### 是那些说来也无憾的遗憾
 
-###### 你曾令我神魂颠倒
+##### 给了我 抵抗世 界 的臂弯
 
-##### Gave reality my absence
+##### 我们都要向过去告别了
 
-###### 让我的存在难以定义
+##### 答应我 你一定要快乐
 
-##### Consumed all my hours
+##### 未来的某时某刻
 
-###### 蹉跎我所有的岁月
+##### 我们一定会在某地相遇的
 
-##### Filled my lungs up with flowers
+##### 你说青春 应该是什么模样
 
-###### 用鲜花填满我的胸膛
+##### 是被锁在抽屉里的远方
 
-##### You left so many that I can't breathe
+##### 是躲单车后 座上的霞光
 
-###### 你的离去令我窒息
+##### 还是擦肩天桥上 突然的回望
 
-##### I feel heavy, I felt empty
+##### 其实人生至此
 
-###### 行迈靡靡 百无聊赖
+##### 岁月磨平心事
 
-##### But everything will be alright
+##### 有些回忆会被珍藏着
 
-###### 但一切都将归于安好
+##### 有些曲折我会忘了
 
-##### You will hear me say
+##### 我们都要向过去告别了
 
-###### 你将听到我的呢喃
+##### 答应我 你一定要快乐
 
-##### Goodbye my love
+##### 未来的某时某刻
 
-###### 后会有期 我的爱人
+##### 我们一定会在某地相遇的
 
-##### You will hear me say
+##### 我们都要向曾经挥手了
 
-###### 你将听到我的低语
+##### 答应我 别再回头看了
 
-##### Goodbye my love
+##### 青春这只手表 时针分针 慢慢跑
 
-###### 有缘再会 我的挚爱
+##### 跑到终点 那时美好的我们 再会了
 
-##### It's like I'm living in a bad dream
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1321392596.mp3" preload="auto" type="audio/mp3" autoplay controls=""></audio>
 
-###### 这就好似我活在噩梦之中
+----------------
 
-##### Close my eyelids but I can't sleep
+--------------
 
-###### 双眼紧闭却无法入眠
+----------
 
-##### And times that I savored
+### 由于时间与地域的关系
 
-###### 旧时笙歌 峥嵘岁月
+###### Next time
 
-##### Became time that was wasted
+##### 歌手：[房东的猫](https://music.163.com/artist?id=1050282)
 
-###### 全然化为蹉跎
+##### 所属专辑：[这是你想要的生活吗](https://music.163.com/album?id=88183489) - (Isn't it perfect)
 
-##### I wished I could go backwards
+---------------------
 
-###### 我希望我可以回到过去
+![由于时间与地域的关系](http://p1.music.126.net/KYb3H33YZxDWO8pm4EcIFQ==/109951164915642694.jpg)
 
-##### Before love was just nostalgic
+##### 作词 : 少年佩/红鼻子小黑/李纤橙
 
-###### 回到曲终人散前
+##### 作曲 : 少年佩
 
-##### And everything would be alright
+##### 你说由于时间与地域的关系
 
-###### 一切将归于安好
+##### 我们 再见不会超过三十次
 
-##### You will hear me say
+##### 未来的事我哪里 得知
 
-###### 你将听到我的呢喃
+##### 只是这数字 带给我心事
 
-##### Goodbye my love
+##### 如果再见 只有 三十次
 
-###### 后会有期 我的爱人
+##### 你想去世界的哪些地址
 
-##### You will hear me say
+##### 倒数 计时
 
-###### 你将听到我的低语
+##### 怎样相见 才能更有意思
 
-##### Goodbye my love
+##### 第一次 一定要最浪漫的开始
 
-###### 有缘再会 我的挚爱
+##### 因我 知你 最看重仪式
 
-##### You will hear me say
+##### 第二次 要去探究 什么未知
 
-###### 你将听到我的呢喃
+##### 别害怕 试一试
 
-##### I'll be on my way
+##### 你说由于时间与地域的 关系
 
-###### 后会有期 我的爱人
+##### 我们 再见不会超过三十次
 
-##### You will hear me say
+##### 尚未发生的许多故事
 
-###### 你将听到我的低语
+##### 是我今后生涯的 独立分支
 
-##### I'll be on my way
+##### 第七次 会不会去无人灯塔
 
-###### 我将重归正轨
+##### 学海浪拥抱连绵的细沙
 
-##### Any day now
+##### 下一次 你带着我奔跑吗
 
-###### 就在不久之后
+##### 踏着风往前走吧
 
+##### 你说由于时间与地域的关系
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1379772383.mp3" preload="auto" type="audio/mp3" autoplay controls=""></audio>
+##### 我们再见不会超过三十次
+
+##### 倒数 计时
+
+##### 怎样相见 才能更有意思
+
+##### 制作人/编曲/配唱制作人：樊哲忠
+
+##### 监制：李纤橙
+
+##### 和声：少年佩
+
+##### 手风琴：黄婕
+
+##### 小提琴：蔡曜宇
+
+##### 大提琴：刘涵
+
+##### 小提琴录音：单为明@Lights Up Studio
+
+##### 小提琴录音助理：于世政
+
+##### 大提琴录音：陈祺龙@112F Recording Studio
+
+##### 人声录音：陈志翔@Lights Up Studio
+
+##### 混音：赵靖BIG.J @ SBMS Beijing
+
+##### 出品：青柴文化
+
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1382534033.mp3" preload="auto" type="audio/mp3" controls=""></audio>
+
 
 --------------------
 --------------------
