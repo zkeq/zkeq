@@ -2,6 +2,10 @@
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
 
+<video width="100%" height="100%" controls="">
+    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E8%87%B3%E6%AD%A4.mp4" type="video/mp4" />
+</video>
+
 
 ### 至此
 
@@ -87,7 +91,7 @@
 
 ##### 跑到终点 那时美好的我们 再会了
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1321392596.mp3" preload="auto" type="audio/mp3" autoplay controls=""></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1321392596.mp3" preload="auto" type="audio/mp3" controls=""></audio>
 
 ----------------
 
