@@ -1,6 +1,274 @@
  [国内Github解析不稳定，同步更新Gitee](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
+### 라일락 
+
+###### LILAC
+
+##### 歌手：IU
+
+##### 所属专辑：IU 5th Album 'LILAC'
+
+###### 当前视频清晰度：2160P [4K]
+
+<video width="100%" height="100%" controls="">
+    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%5BMV%5D%20IU(%EC%95%84%EC%9D%B4%EC%9C%A0)_LILAC(%EB%9D%BC%EC%9D%BC%EB%9D%BD).mkv" type="video/mp4" />
+</video>
+-------------------------------------
+
+![LILAC](http://p1.music.126.net/JO7EOi6GF8qeYOhCem4e8g==/109951165835781941.jpg)
+
+##### 作词 : IU
+
+##### 作曲 : 임수호, Dr.JO, 웅킴, N!ko
+
+##### 나리는 꽃가루에 눈이 따끔해 (아야)
+
+###### 纷飞的花粉迷眼（啊呀）
+
+##### 눈물이 고여도 꾹 참을래
+
+###### 泪水涌出也要忍住
+
+##### 내 마음 한켠 비밀스런 오르골에 넣어두고서
+
+###### 将我心放在秘密的八音盒中
+
+##### 영원히 되감을 순간이니까
+
+###### 因为这是要永远倒带的瞬间
+
+##### 우리 둘의 마지막 페이지를 잘 부탁해
+
+###### 我们俩的最后一页拜托你了
+
+##### 어느 작별이 이보다 완벽할까
+
+###### 哪一个离别会比这要更完美呢
+
+##### Love me only till this spring
+
+##### Love me only till this spring
+
+##### 오 라일락 꽃이 지는 날 good bye
+
+###### 哦 丁香花落的日子 good bye
+
+##### 이런 결말이 어울려
+
+###### 与这落幕相衬
+
+##### 안녕 꽃잎 같은 안녕
+
+###### 再见 如花瓣一般的再见
+
+##### 하이얀 우리 봄날의 climax
+
+###### 我们雪白春日的climax
+
+##### 아 얼마나 기쁜 일이야
+
+###### 啊 多么快乐的事啊
+
+##### Ooh ooh
+
+###### Ooh ooh
+
+##### Love me only till this spring
+
+###### Love me only till this spring
+
+##### 봄바람처럼
+
+###### 如春风
+
+##### Ooh ooh
+
+###### Ooh ooh
+
+##### Love me only till this spring
+
+###### Love me only till this spring
+
+##### 봄바람처럼
+
+###### 如春风
+
+##### 기분이 달아 콧노래 부르네 (랄라)
+
+###### 心情转换 哼起歌来（不同）
+
+##### 입꼬리는 살짝 올린 채
+
+###### 嘴角微微上扬
+
+##### 어쩜 이렇게 하늘은 더 바람은 또 완벽한 건지
+
+###### 天空怎么如此高 甚至风也这样完美
+
+##### 오늘따라 내 모습 맘에 들어
+
+###### 尤其满意今日我的模样
+
+##### 처음 만난 그날처럼 예쁘다고 말해줄래
+
+###### 就像初见那般 能称赞一句我的美丽吗
+
+##### 어느 이별이 이토록 달콤할까
+
+###### 哪一个离别会这样甜蜜呢
+
+##### Love resembles misty dream
+
+###### Love resembles misty dream
+
+##### 오 라일락 꽃이 지는 날 good bye
+
+###### 哦 丁香花落的日子 good bye
+
+##### 이런 결말이 어울려
+
+###### 与这落幕相衬
+
+##### 안녕 꽃잎 같은 안녕
+
+###### 再见 如花瓣一般的再见
+
+##### 하이얀 우리 봄날의 climax
+
+###### 我们雪白春日的climax
+
+##### 아 얼마나 기쁜 일이야
+
+###### 啊 多么快乐的事啊
+
+##### Ooh ooh
+
+###### Ooh ooh
+
+##### Love resembles misty dream
+
+###### Love resembles misty dream
+
+##### 뜬구름처럼
+
+###### 如浮云
+
+##### Ooh ooh
+
+###### Ooh ooh
+
+##### Love resembles misty dream
+
+###### Love resembles misty dream
+
+##### 뜬구름처럼
+
+###### 如浮云
+
+##### 너도 언젠가 날 잊게 될까
+
+###### 你也会在某天将我遗忘吧
+
+##### 지금 표정과 오늘의 향기도
+
+###### 连同现在的表情和今天的香气
+
+##### 단잠 사이에 스쳐간
+
+###### 就如短眠中消散的
+
+##### 봄날의 꿈처럼
+
+###### 春日的梦
+
+##### 오 라일락 꽃이 지는 날 good bye
+
+###### 哦 丁香花落的日子 good bye
+
+##### 너의 대답이 날 울려
+
+###### 你的回答让我哭泣
+
+##### 안녕 약속 같은 안녕
+
+###### 再见 如约定一般的再见
+
+##### 하이얀 우리 봄날에 climax
+
+###### 我们雪白春日的climax
+
+##### 아 얼마나 기쁜 일이야
+
+###### 啊 多么快乐的事啊
+
+##### Ooh ooh
+
+###### Ooh ooh
+
+##### Love me only until this spring
+
+###### Love me only untill this spring
+
+##### 봄바람처럼
+
+###### 如春风
+
+##### Ooh ooh
+
+###### Ooh ooh
+
+##### Love me only until this spring
+
+###### Love me only untill this spring
+
+##### 봄바람처럼
+
+###### 如春风
+
+##### Ooh ooh
+
+###### Ooh ooh
+
+##### Love resembles misty dream
+
+###### Love resembles misty dream
+
+##### 뜬구름처럼
+
+###### 如浮云
+
+##### Ooh ooh
+
+###### Ooh ooh
+
+##### Love resembles misty dream
+
+###### Love resembles misty dream
+
+##### 뜬구름처럼
+
+###### 如浮云
+
+-----------------
+
+-------------
+
+-----
+### live版
+
+###### 当前视频清晰度：1080P [HD]
+
+<video width="100%" height="100%" controls="">
+    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/iu.mp4" type="video/mp4" />
+</video>
+
+--------------
+--------------
+--------------
+--------------
+--------------
+
 
 <video width="100%" height="100%" controls="">
     <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E8%87%B3%E6%AD%A4.mp4" type="video/mp4" />
