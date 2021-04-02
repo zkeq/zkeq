@@ -9,10 +9,10 @@
 
 ##### 所属专辑：IU 5th Album 'LILAC'
 
-###### 当前视频清晰度：2160P [4K]
+###### 当前视频清晰度：1080P [HD]
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%5BMV%5D%20IU(%EC%95%84%EC%9D%B4%EC%9C%A0)_LILAC(%EB%9D%BC%EC%9D%BC%EB%9D%BD).mkv" type="video/mp4" />
+    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/iu2.MP4" type="video/mp4" />
 </video>
 -------------------------------------
 
