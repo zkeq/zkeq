@@ -12,7 +12,7 @@
 ###### 当前视频清晰度：1080P [HD]
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/iu2.MP4" type="video/mp4" />
+    <source src="https://learnonly.oss-cn-shenzhen.aliyuncs.com/iu2.mp4" type="video/mp4" />
 </video>
 -------------------------------------
 
@@ -260,7 +260,7 @@
 ###### 当前视频清晰度：1080P [HD]
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/iu.mp4" type="video/mp4" />
+    <source src="https://learnonly.oss-cn-shenzhen.aliyuncs.com/iu.mp4" type="video/mp4" />
 </video>
 
 --------------
