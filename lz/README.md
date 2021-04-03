@@ -7,7 +7,7 @@
 
 ### 电声与管弦乐 02. 杭州
 
-![杭州](C:\Users\L\Pictures\QQ截图20210403172945.png)
+![杭州](https://learnonly-3.oss-cn-beijing.aliyuncs.com/lz.png)
 
 <audio id="bgmMusic" src="https://learnonly-3.oss-cn-beijing.aliyuncs.com/hangzhou.mp3" preload="auto" type="audio/mp3" controls=""></audio>
 
