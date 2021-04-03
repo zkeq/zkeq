@@ -1,6 +1,28 @@
  [国内Github解析不稳定，同步更新Gitee](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
+### 【L Z 、电声与管弦乐 II】 05.山阴路的夏天 Nanjing Summer Day
+
+<video width="100%" height="100%" controls="">
+    <source src="https://learnonly-8.oss-cn-hangzhou.aliyuncs.com/%E3%80%90%E7%94%B5%E5%A3%B0%E4%B8%8E%E7%AE%A1%E5%BC%A6%E4%B9%90%20II%E3%80%91%2005.%E5%B1%B1%E9%98%B4%E8%B7%AF%E7%9A%84%E5%A4%8F%E5%A4%A9%20Nanjing%20Summer%20Day.mp4" type="video/mp4" />
+</video>
+
+### L Z 、电声与管弦乐 12.回答
+
+<video width="100%" height="100%" controls="">
+    <source src="https://learnonly-3.oss-cn-beijing.aliyuncs.com/%E7%94%B5%E5%A3%B0%E4%B8%8E%E7%AE%A1%E5%BC%A6%E4%B9%90%2012.%E5%9B%9E%E7%AD%94.mp4" type="video/mp4" />
+</video>
+
+#### 特辑：[L Z 、电声与管弦乐](https://zkeq.github.io/zkeq/lz)   [L Z、电声与管弦乐 II](https://zkeq.github.io/zkeq/lz2)
+
+-----------------
+
+-------------
+
+-----------
+
+
+
 ### 라일락 
 
 ###### LILAC
