@@ -52,4 +52,4 @@
 
 <video width="100%" height="100%" controls="">
     <source src="https://learnonly-8.oss-cn-hangzhou.aliyuncs.com/%E3%80%90%E7%94%B5%E5%A3%B0%E4%B8%8E%E7%AE%A1%E5%BC%A6%E4%B9%90%20II%E3%80%91%2009.%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E4%BC%9A%E5%A5%BD%E5%90%97%20Has%20Man%20a%20Future.mp4" type="video/mp4" />
-</video>****
+</video>
