@@ -1,6 +1,557 @@
  [国内Github解析不稳定，同步更新Gitee](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
+### 你有我
+
+###### 电视剧《陪你一起长大》插曲
+
+##### 歌手：[徐佳莹](https://music.163.com/artist?id=9940)
+
+##### 所属专辑：[你有我](https://music.163.com/album?id=125701612)
+
+---------------------
+
+![你有我](http://p1.music.126.net/wUizNxexAA4Qe9-XUOafog==/109951165870624374.jpg)
+
+##### 作词 : 马嵩惟/浅紫
+
+##### 作曲 : Muna
+
+##### 编曲 : Muna
+
+##### 制作人 : 浅紫
+
+##### 树梢围绕着风 云朵追随天空
+
+##### 当我睡在你眼中
+
+##### 你拉着我的手 时间忘了转动
+
+##### 有种倔强的温柔
+
+##### 嗯 在每一个分岔路口 当我一回头
+
+##### 我就能看见你笑容
+
+##### 放我肩头的双手
+
+##### 有在乎的感受
+
+##### 你的呼吸陪着我抚平了颤抖
+
+##### 泪光后的彩虹
+
+##### 还好你在左右
+
+##### 轻声说你有我
+
+##### 真的爱不用说 一个眼神就懂
+
+##### 你在默默支持我
+
+##### 谢谢 我的每次扑空 我的每次失落
+
+##### 有人竟比我难过
+
+##### 嗯 虽然黑夜总会降落 你说抬起头
+
+##### 我永远做你的星空
+
+##### 放我肩头的双手
+
+##### 有在乎的感受
+
+##### 你的笑声带领我忘记了忧愁
+
+##### 全世界抛脑后
+
+##### 只要你在左右
+
+##### 轻声说你有我
+
+##### 好幸福 彼此失去所有的时候
+
+##### 还能牵起手 凝望微笑说 你有我
+
+##### 我们在对方的眼中
+
+##### 找到了另一个我
+
+##### 我的被动全被你化成了感动
+
+##### 有一天都老了
+
+##### 在夕阳中
+
+##### 亲爱的你有我
+
+###### 配唱制作人 : 陈君豪
+
+###### 录音师 : 叶育轩
+
+###### 录音室 : BB Road Studio
+
+###### 和声 : 徐佳莹
+
+###### 混音师 : Frank Lee
+
+###### 母带 : Frank Lee
+
+###### 弦乐 : 国际首席爱乐乐团
+
+###### 监制 : 浅紫
+
+###### 封面 : 白汐（刘亚杰）
+
+###### 歌曲版权：众匠（北京）文化传媒有限公司
+
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1835587570.mp3" preload="auto" type="audio/mp3" controls="" autoplay ></audio>
+
+--------------
+
+--------------
+
+-----------
+
+### 爱就一个字
+
+###### 爱就一个字
+
+##### 歌手：[王赫野](https://music.163.com/artist?id=47091532)
+
+##### 所属专辑：[爱就一个字（吉他版）](https://music.163.com/album?id=124351705)
+
+----------------------
+
+![爱就一个字](http://p2.music.126.net/sXY3pJFHq2WVDkv7tpWUJw==/109951165808483827.jpg)
+
+###### 作词 : 陈家丽
+
+###### 作曲 : Jean-Michel Ou
+
+###### 原唱：张信哲
+
+##### 拨开天空的乌云 像蓝丝绒一样美丽
+
+##### 我为你翻山越岭 却无心看风景
+
+##### 我想你 身不由己 每个念头有新的梦境
+
+##### 但愿你 没忘记 我永远保护你
+
+##### 不管风雨的打击全心全意
+
+##### 两个人相互辉映 光芒胜过夜晚繁星
+
+##### 我为你翻山越岭 却无心看风景
+
+##### 我想你 鼓足勇气 凭爱情地图散播讯息
+
+##### 但愿你 没忘记 我永远保护你
+
+##### 从此不必再流浪找寻
+
+##### 爱就一个字 我只说一次
+
+##### 你知道我只会用行动表示
+
+##### 烟花太放肆 守住了坚持
+
+##### 看我为你孤注一掷
+
+##### 爱就一个字 我只说一次
+
+##### 恐怕听见的人勾起了相思
+
+##### 热闹的城市 搜索你的影子
+
+##### 让你幸福我愿意试
+
+##### 两个人相互辉映 光芒胜过夜晚繁星
+
+##### 我为你翻山越岭 却无心看风景
+
+##### 我想你 身不由己 凭爱情地图散播讯息
+
+##### 但愿你 没忘记 我永远保护你
+
+##### 从此不必再流浪找寻
+
+##### 爱就一个字 我只说一次
+
+##### 你知道我只会用行动表示
+
+##### 烟花太放肆 守住了坚持
+
+##### 看我为你孤注一掷
+
+##### 爱就一个字 我只说一次
+
+##### 恐怕听见的人勾起了相思
+
+##### 热闹的城市 搜索你的影子
+
+##### 让你幸福我愿意试 喔
+
+##### 爱就一个字 我只说一次
+
+##### 你知道我只会用行动表示
+
+##### 烟花太放肆 守住了坚持
+
+##### 看我为你孤注一掷
+
+##### 爱就一个字 我只说一次
+
+##### 恐怕听见的人勾起了相思
+
+##### 热闹的城市 搜索你的名字
+
+##### 让你幸福是我一生在乎的事
+
+###### 吉他：王宝新
+
+###### 混音：姜大珂
+
+###### 企划：王暴雨
+
+###### 艺人统筹：高赫阳
+
+###### 统筹：丁柏昕/郭凯翌
+
+###### 出品人：谢奇笛
+
+###### 本歌曲来自〖飓风计划〗
+
+###### 网易飓风工作室x青云Lab
+
+###### 10亿现金激励，千亿流量扶持！
+
+###### 业务联系：jf399@vip.163.com
+
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1828026086.mp3" preload="auto" type="audio/mp3" controls=""  ></audio>
+
+-----------------------
+
+--------------
+
+----------
+
+### Love Story 
+
+###### (Taylor's Version) (Elvira Remix)
+
+##### 歌手：[Taylor Swift](https://music.163.com/artist?id=44266) / [Elvira](https://music.163.com/artist?id=32799045)
+
+##### 所属专辑：[Love Story (Taylor's Version) (Elvira Remix)](https://music.163.com/album?id=125182789)
+
+---------------------
+
+![Love Story ](http://p1.music.126.net/hZSQLC2wsZ4e2fe3aEZUIA==/109951165834833715.jpg)
+
+##### 作词 : Taylor Swift
+
+##### 作曲 : Taylor Swift
+
+##### We were both young when I first saw you.
+
+###### 当我初次遇见你 我们正值青春
+
+##### I close my eyes and the flashback starts:
+
+###### 我轻闭双眸 脑海中回忆开始浮现
+
+##### I'm standing there
+
+###### 我站在阳台上
+
+##### On a balcony in summer air.
+
+###### 感受夏季的风吹拂
+
+##### See the lights, see the party, the ball gowns,
+
+###### 视野里 灯光闪烁 舞会上人们身着礼服
+
+##### See you make your way through the crowd,
+
+###### 望见你从熙攘人群穿过来
+
+##### And say, "Hello."
+
+###### 和我打招呼
+
+##### Little did I know...
+
+###### 对此 我唯独知道
+
+##### That you were Romeo, you were throwing pebbles
+
+###### 你就是罗密欧 那朝我窗畔抛掷小石子的人
+
+##### And my daddy said, "Stay away from Juliet."
+
+###### 可我的父亲却说 离朱丽叶远点
+
+##### And I was crying on the staircase
+
+###### 我便独坐在楼梯口 黯然抽泣
+
+##### Begging you, "Please don't go."
+
+###### 我祈求你 不要离我而去
+
+##### And I said,
+
+###### 并说道
+
+##### "Romeo, take me somewhere we can be alone.
+
+###### 罗密欧 请带我前往唯属于你我二人的地方
+
+##### I'll be waiting. All there's left to do is run.
+
+###### 我愿一直等待下去 剩下要做的 只有同你一起逃离
+
+##### You'll be the prince and I'll be the princess.
+
+###### 你和我也将成为王子与公主那样
+
+##### It's a love story. Baby, just say 'Yes'."
+
+###### 这便是我们的爱情故事 亲爱的 只需答应我便好
+
+##### So, I sneak out to the garden to see you.
+
+###### 所以我蹑手蹑脚 溜进花园见你
+
+##### We keep quiet 'cause we're dead if they knew.
+
+###### 我们言行静悄 因为一旦被他们发现 我们就完蛋了
+
+##### So, close your eyes,
+
+###### 所以 轻闭你的双眸
+
+##### Escape this town for a little while.
+
+###### 暂且义无反顾地逃离这座小城镇
+
+##### Oh, oh.
+
+##### 'Cause you were Romeo. I was a scarlet letter.
+
+###### 因为你就是罗密欧 我就是红字中的女主 和你的感情不被认同
+
+##### And my daddy said, "Stay away from Juliet."
+
+###### 可我的父亲却说 离朱丽叶远点
+
+##### But you were everything to me.
+
+###### 但你却是我人生的全部
+
+##### I was begging you, "Please don't go!"
+
+###### 我祈求你 不要离我而去
+
+##### And I said,
+
+###### 并说道
+
+##### "Romeo, take me somewhere we can be alone.
+
+###### 罗密欧 请带我前往唯属于你我二人的地方
+
+##### I'll be waiting. All there's left to do is run.
+
+###### 我愿一直等待下去 剩下要做的 只有同你一起逃离
+
+##### You'll be the prince and I'll be the princess.
+
+###### 你和我也将成为王子与公主那样
+
+##### It's a love story. Baby, just say 'Yes'.
+
+###### 这便是我们的爱情故事 亲爱的 只需答应我便好
+
+##### Romeo, save me. They're trying to tell me how to feel.
+
+罗密欧 请将我救赎 他们竭尽全力 企图将我思维控制
+
+##### This love is difficult but it's real.
+
+###### 这份爱如此艰苦难熬 但却那般真情实感
+
+##### Don't be afraid. We'll make it out of this mess.
+
+###### 我们无需畏惧 你我将冲破反对声的桎梏
+
+##### It's a love story. Baby, just say 'Yes'."
+
+###### 这便是我们的爱情故事 亲爱的 只需答应我便好
+
+##### Oh, oh, oh.
+
+##### I got tired of waiting,
+
+###### 我已厌倦了等待
+
+##### Wondering if you were ever coming around.
+
+###### 遐思着 你是否还会如约而来
+
+##### My faith in you was fading,
+
+###### 我对你爱的执念逐渐消散
+
+##### When I met you on the outskirts of town.
+
+###### 当我在城外郊区同你相遇之时
+
+##### And I said,
+
+###### 我说道
+
+##### "Romeo, save me. I've been feeling so alone.
+
+###### 罗密欧 请将我解救吧 我如此孤单落寞
+
+##### I keep waiting for you, but you never come.
+
+###### 我苦苦等待你多时 可你却从未来过
+
+##### Is this in my head? I don't know what to think."
+
+###### 我脑海混乱 不知所措
+
+##### He knelt to the ground and pulled out a ring and said,
+
+###### 他单膝跪地 取出戒指 虔诚说道
+
+##### "Marry me, Juliet. You'll never have to be alone
+
+###### 朱丽叶 请嫁给我吧 你将永不孤独
+
+##### I love you, and that's all I really know.
+
+###### 我唯独知道 自己深爱的是你
+
+##### I talked to your dad. Go pick out a white dress.
+
+###### 我和你的父亲谈过了 快去挑选件白色婚纱吧
+
+##### It's a love story. Baby, just say 'Yes'."
+
+###### 这便是我们的爱情故事 亲爱的 只需答应我便好
+
+##### Oh, oh, oh, oh, oh, oh.
+
+##### 'Cause we were both young when I first saw you.
+
+###### 因为 当我初次遇见你 我们正值青春
+
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1832563168.mp3" preload="auto" type="audio/mp3" controls=""  ></audio>
+
+--------------
+
+-------------
+
+------------------------
+
+### 溯
+
+###### Reverse (Live)
+
+##### 歌手：[CORSAK胡梦周](https://music.163.com/artist?id=28083351)
+
+##### 所属专辑：[我们的乐队 第1期](https://music.163.com/album?id=86495711)
+
+---------------------------
+
+![溯](http://p1.music.126.net/awh9K8lfyyOtr5X0ysgBFw==/109951164802649972.jpg)
+
+##### 作词 : CORSAK胡梦周
+
+##### 作曲 : CORSAK胡梦周
+
+##### 编曲：Corsak
+
+##### 混音：林梦洋
+
+##### 总想要透过你眼睛
+
+##### 去找寻最原始的野性
+
+##### 没想到最后却闯进
+
+##### 一整座
+
+##### 森林的宁静
+
+##### 你呼吸
+
+##### 蓝丝绒包裹身体
+
+##### 和海洋的哼鸣
+
+##### 我永远不愿醒
+
+##### 我可以
+
+##### 躲进你的身体
+
+##### 进入温暖的你
+
+##### 躲进你的身体
+
+##### 进入温暖的你
+
+##### 总想要透过你眼睛
+
+##### 去找寻水仙的倒影
+
+##### 没想到最后却目睹
+
+##### 一整个
+
+##### 宇宙的繁星
+
+##### 这一秒
+
+##### 只想在爱里沉溺
+
+##### 这世界是块冰
+
+##### 就让她是块冰
+
+##### 我可以
+
+##### 躲进你的身体
+
+##### 进入温暖的你
+
+##### 躲进你的身体
+
+##### 躲进你的身体
+
+##### 进入温暖的你
+
+##### 躲进你的身体
+
+##### 进入温暖的你
+
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1430850573.mp3" preload="auto" type="audio/mp3" controls=""  ></audio>
+
+-------------------
+
+------------------
+
+--------------
+
+-------------
+
+----------------
 
 
 
