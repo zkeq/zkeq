@@ -240,7 +240,7 @@
 
 ###### 歌曲版权：众匠（北京）文化传媒有限公司
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1835587570.mp3" preload="auto" type="audio/mp3" controls="" autoplay ></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1835587570.mp3" preload="auto" type="audio/mp3" controls=""  ></audio>
 
 --------------
 
