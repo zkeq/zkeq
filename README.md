@@ -4,6 +4,150 @@
 
 ###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
 ----------------------
+### 北海道恋人
+
+##### 歌手：[裘德](https://music.163.com/artist?id=12038239)
+
+##### 所属专辑：[颁奖的时候我要缺席](https://music.163.com/album?id=84219953)
+
+-------------------
+
+![北海道恋人](http://p1.music.126.net/RKPyDWCG43iUFjM7WfzruA==/109951164567769090.jpg)
+
+##### 作词 : 黑金雨
+
+##### 作曲 : 裘德
+
+##### 编曲：裘德
+
+##### 制作人：裘德/佘曼妮/李思
+
+##### 吉他：叶知
+
+##### 录音：裘德
+
+##### 和声编写：裘德
+
+##### 和声：裘德
+
+##### 混音师：啊鲤
+
+##### 母带后期制作人：啊鲤
+
+##### 日语校对：盖盖
+
+##### 日语台词：残茶/青柠
+
+##### 封面设计：iwillfafa
+
+##### 封面拍摄：朴图图
+
+##### Just have a taste of the wine we split
+
+###### 泼洒的酒也浅尝一口吧
+
+##### check if all escaped things were sweet
+
+###### 是否逃逸的都是甜蜜的
+
+
+
+##### We followed the path...of runaway stars
+
+###### 沿着落跑的星轨我们去往
+
+##### to lights, bright lights sadly shining
+
+###### 悲伤闪烁的明灯
+
+
+
+##### (Before) drinking up this bottle, shall we hold
+
+###### 饮尽之前，仍紧握吧
+
+##### Burning up these lights, partings unfold
+
+###### 灯火燃尽，分离就要序幕
+
+
+
+##### (Before) breaking up, shall we stay in hokkaido
+
+###### 告别之前，就在北海道吧
+
+##### freezing up the sentences I will be told
+
+###### 我不愿听的句子，都冻结吧
+
+
+
+##### May I warm the frost dwelling on your lips
+
+###### 唇上的雪还许我温暖吗
+
+##### check if all lost things were soft
+
+###### 是否遗失的都是柔软的
+
+
+
+##### Who's cleared the mists on the Mashu lake
+
+###### 摩周湖的雾气被谁驱散了
+
+##### We saw Antares sadly shining
+
+###### 看见悲伤闪烁的心宿二
+
+
+
+##### (Before) drinking up this bottle, shall we hold
+
+###### 饮尽之前，仍紧握吧
+
+##### Open up your eyes, partings unfold
+
+###### 睁眼看见，分离就要序幕
+
+
+
+##### (Before) breaking up, shall we stay in hokkaido
+
+###### 告别之前，就在北海道吧
+
+##### freezing up the sentences I will be told
+
+###### 我不愿听的句子，都冻结吧
+
+
+
+##### (Before) drinking up this bottle, shall we hold
+
+###### 告别之前，就在北海道吧
+
+##### Open up your eyes, partings unfold
+
+###### 我不愿听的句子，都冻结吧
+
+
+
+##### (Before) breaking up, shall we stay in hokkaido
+
+###### 告别之前，就在北海道吧
+
+##### freezing up the sentences I will be told
+
+###### 我不愿听的句子，都冻结吧
+
+##### (We were lovers..)
+
+###### （我们曾是爱人啊）
+
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1405541519.mp3" preload="auto" type="audio/mp3" controls=""    autoplay ></audio>
+---------------------
+---------------------
+---------------------
 
 ### 撒野
 
