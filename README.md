@@ -8,6 +8,8 @@
 
 ##### 先看这个 (大小：21MB)
 
+###### 注意流量消耗哈。
+
 <video width="100%" height="100%" controls="">
     <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/sleep.mp4" type="video/mp4" />
 </video>
