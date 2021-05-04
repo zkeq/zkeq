@@ -4,6 +4,17 @@
 
 ###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
 ----------------------
+###### 小睡眠貌似有加密，等有了时间我开个会员解一下加密。
+
+##### 先看这个
+
+<video width="100%" height="100%" controls="">
+    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/sleep.mp4" type="video/mp4" />
+</video>
+---------------------
+---------------------
+---------------------
+
 ### 北海道恋人
 
 ##### 歌手：[裘德](https://music.163.com/artist?id=12038239)
@@ -144,7 +155,7 @@
 
 ###### （我们曾是爱人啊）
 
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1405541519.mp3" preload="auto" type="audio/mp3" controls=""    autoplay ></audio>
+<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1405541519.mp3" preload="auto" type="audio/mp3" controls=""    ></audio>
 
 --------------
 --------------
