@@ -84,20 +84,6 @@
 
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1497782798.mp3" preload="auto" type="audio/mp3" controls="" ></audio>
 
------------------
-
----------------
-
---------------
-
-----------
-
-![“冬のソナタ”~初めから今まで](http://p1.music.126.net/BqmP6n5cHeTpjeT4RkMLmQ==/822434697576555.jpg)
-
-纯音乐，无歌词
-
-<audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=625568.mp3" preload="auto" type="audio/mp3" controls=""  autoplay></audio>
-
 ----------------------
 ----------------------
 ----------------------
