@@ -190,10 +190,12 @@ id="canvas"></CANVAS>             </DIV></DIV>
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
 		    together.setFullYear(2018,07,11); 			//时间年月日
+		 // 这个日期不知道怎么回事，对不上。只能调前面一个月，正确的日期应该是2018年8月12日
 		    together.setHours(13);						//小时	
 		    together.setMinutes(14);					//分钟
 		    together.setSeconds(5);					//秒前一位
 		    together.setMilliseconds(2);				//秒第二位
+		//这几个分钟，秒数，是自己加上去的.
 
 		    $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
