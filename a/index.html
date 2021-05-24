@@ -1,0 +1,1384 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='file://C://Users//L//AppData//Roaming//Typora/themes/night/mermaid.dark.css' rel='stylesheet' type='text/css' /><link href='file://C://Users//L//AppData//Roaming//Typora/themes/night/codeblock.dark.css' rel='stylesheet' type='text/css' /><link href='file://C://Users//L//AppData//Roaming//Typora/themes/night/sourcemode.dark.css' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-fences-math .MathJax_SVG_Display, .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: visible; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; zoom: 90%; }
+#math-inline-preview-content { zoom: 1.1; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-math .MathJax_SVG_Display { margin-top: 8px; cursor: default; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+
+
+:root {
+  --mermaid-theme: night;
+}
+
+[lang='mermaid'] .label {
+  color: #333;
+}
+
+/* CSS Document */
+
+/** code highlight */
+
+.cm-s-inner .cm-variable,
+.cm-s-inner .cm-operator,
+.cm-s-inner .cm-property {
+    color: #b8bfc6;
+}
+
+.cm-s-inner .cm-keyword {
+    color: #C88FD0;
+}
+
+.cm-s-inner .cm-tag {
+    color: #7DF46A;
+}
+
+.cm-s-inner .cm-attribute {
+    color: #7575E4;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid #b8bfc6;
+    z-index: 3;
+}
+
+.cm-s-inner .cm-string {
+    color: #D26B6B;
+}
+
+.cm-s-inner .cm-comment,
+.cm-s-inner.cm-comment {
+    color: #DA924A;
+}
+
+.cm-s-inner .cm-header,
+.cm-s-inner .cm-def,
+.cm-s-inner.cm-header,
+.cm-s-inner.cm-def {
+    color: #8d8df0;
+}
+
+.cm-s-inner .cm-quote,
+.cm-s-inner.cm-quote {
+    color: #57ac57;
+}
+
+.cm-s-inner .cm-hr {
+    color: #d8d5d5;
+}
+
+.cm-s-inner .cm-link {
+    color: #d3d3ef;
+}
+
+.cm-s-inner .cm-negative {
+    color: #d95050;
+}
+
+.cm-s-inner .cm-positive {
+    color: #50e650;
+}
+
+.cm-s-inner .cm-string-2 {
+    color: #f50;
+}
+
+.cm-s-inner .cm-meta,
+.cm-s-inner .cm-qualifier {
+    color: #b7b3b3;
+}
+
+.cm-s-inner .cm-builtin {
+    color: #f3b3f8;
+}
+
+.cm-s-inner .cm-bracket {
+    color: #997;
+}
+
+.cm-s-inner .cm-atom,
+.cm-s-inner.cm-atom {
+    color: #84B6CB;
+}
+
+.cm-s-inner .cm-number {
+    color: #64AB8F;
+}
+
+.cm-s-inner .cm-variable {
+    color: #b8bfc6;
+}
+
+.cm-s-inner .cm-variable-2 {
+    color: #9FBAD5;
+}
+
+.cm-s-inner .cm-variable-3 {
+    color: #1cc685;
+}
+
+.CodeMirror-selectedtext,
+.CodeMirror-selected {
+    background: #4a89dc;
+    color: #fff !important;
+    text-shadow: none;
+}
+
+.CodeMirror-gutters {
+    border-right: none;
+}
+
+/* CSS Document */
+
+/** markdown source **/
+.cm-s-typora-default .cm-header, 
+.cm-s-typora-default .cm-property
+{
+    color: #cebcca;
+}
+
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor{
+    border-left: 3px solid #b8bfc6;
+}
+
+.cm-s-typora-default .cm-comment {
+    color: #9FB1FF;
+}
+
+.cm-s-typora-default .cm-string {
+    color: #A7A7D9
+}
+
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+    color: #848695;
+    font-style: italic;
+}
+
+.cm-s-typora-default .cm-link {
+    color: #95B94B;
+}
+
+.cm-s-typora-default .CodeMirror-activeline-background {
+    background: rgba(51, 51, 51, 0.72);
+}
+
+.cm-s-typora-default .cm-comment, .cm-s-typora-default .cm-code {
+	color: #8aa1e1;
+}@import "";
+@import "";
+@import "";
+
+:root {
+    --bg-color:  #363B40;
+    --side-bar-bg-color: #2E3033;
+    --text-color: #b8bfc6;
+
+    --select-text-bg-color:#4a89dc;
+
+    --item-hover-bg-color: #0a0d16;
+    --control-text-color: #b7b7b7;
+    --control-text-hover-color: #eee;
+    --window-border: 1px solid #555;
+
+    --active-file-bg-color: rgb(34, 34, 34);
+    --active-file-border-color: #8d8df0;
+
+    --primary-color: #a3d5fe;
+
+    --active-file-text-color: white;
+    --item-hover-bg-color: #70717d;
+    --item-hover-text-color: white;
+    --primary-color: #6dc1e7;
+
+    --rawblock-edit-panel-bd: #333;
+
+    --search-select-bg-color: #428bca;
+}
+
+html {
+    font-size: 16px;
+}
+
+html,
+body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #363B40;
+    background: var(--bg-color);
+    fill: currentColor;
+    line-height: 1.625rem;
+}
+
+#write {
+    max-width: 914px;
+}
+
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+div.code-tooltip-content {
+    color: #b8bfc6;
+    border-color: transparent;
+}
+
+div.code-tooltip,
+.md-hover-tip .md-arrow:after {
+    background: #333;
+}
+
+.popover.bottom > .arrow:after {
+    border-bottom-color: #333;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+hr {
+    height: 2px;
+    border: 0;
+    margin: 24px 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lucida Grande", "Corbel", sans-serif;
+    font-weight: normal;
+    clear: both;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    color: #DEDEDE
+}
+
+h1 {
+    font-size: 2.5rem;
+    /* 36px */
+    line-height: 2.75rem;
+    /* 40px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    letter-spacing: -1.5px;
+}
+
+h2 {
+    font-size: 1.63rem;
+    /* 24px */
+    line-height: 1.875rem;
+    /* 30px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.17rem;
+    /* 18px */
+    line-height: 1.5rem;
+    /* 24px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.12rem;
+    /* 16px */
+    line-height: 1.375rem;
+    /* 22px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    color: white;
+}
+
+h5 {
+    font-size: 0.97rem;
+    /* 16px */
+    line-height: 1.25rem;
+    /* 22px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 0.93rem;
+    /* 16px */
+    line-height: 1rem;
+    /* 16px */
+    margin-bottom: 0.75rem;
+    color: white;
+}
+
+@media (min-width: 980px) {
+    h3.md-focus:before,
+    h4.md-focus:before,
+    h5.md-focus:before,
+    h6.md-focus:before {
+        color: #ddd;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        position: absolute;
+        left: -1.642857143rem;
+        top: .357142857rem;
+        float: left;
+        font-size: 9px;
+        padding-left: 2px;
+        padding-right: 2px;
+        vertical-align: bottom;
+        font-weight: normal;
+        line-height: normal;
+    }
+
+    h3.md-focus:before {
+        content: 'h3';
+    }
+
+    h4.md-focus:before {
+        content: 'h4';
+    }
+
+    h5.md-focus:before {
+        content: 'h5';
+        top: 0px;
+    }
+
+    h6.md-focus:before {
+        content: 'h6';
+        top: 0px;
+    }
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+    outline: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+sup.md-footnote {
+    background-color: #555;
+    color: #ddd;
+}
+
+p {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p,
+ul,
+dd,
+ol,
+hr,
+address,
+pre,
+table,
+iframe,
+.wp-caption,
+.wp-audio-shortcode,
+.wp-video-shortcode {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    /* 24px */
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+::-moz-selection {
+    background: #4a89dc;
+    color: #fff;
+    text-shadow: none;
+}
+
+*.in-text-selection,
+::selection {
+    background: #4a89dc;
+    color: #fff;
+    text-shadow: none;
+}
+
+ul,
+ol {
+    padding: 0 0 0 1.875rem;
+    /* 30px */
+}
+
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin: 0;
+}
+
+b,
+th,
+dt,
+strong {
+    font-weight: bold;
+}
+
+i,
+em,
+dfn,
+cite {
+    font-style: italic;
+}
+
+blockquote {
+    padding-left: 1.875rem;
+    margin: 0 0 1.875rem 1.875rem;
+    border-left: solid 2px #474d54;
+    padding-left: 30px;
+    margin-top: 35px;
+}
+
+pre,
+code,
+kbd,
+tt,
+var {
+    font-size: 0.875em;
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+code,
+tt,
+var {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+}
+
+pre.md-fences {
+    padding: 10px 10px 10px 30px;
+    margin-bottom: 20px;
+    background: #333;
+}
+
+.CodeMirror-gutters {
+    background: #333;
+    border-right: 1px solid transparent;
+}
+
+.enable-diagrams pre.md-fences[lang="sequence"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="flow"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="mermaid"] .code-tooltip {
+    bottom: -2.2em;
+    right: 4px;
+}
+
+code,
+kbd,
+tt,
+var {
+    padding: 2px 5px;
+}
+
+table {
+    max-width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 5px 10px;
+    vertical-align: top;
+}
+
+a {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+hr {
+    background: #474d54;
+    /* variable */
+}
+
+h1 {
+    margin-top: 2em;
+}
+
+a {
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.md-inline-math script {
+    color: #81b1db;
+}
+
+b,
+th,
+dt,
+strong {
+    color: #DEDEDE;
+    /* variable */
+}
+
+mark {
+    background: #D3D40E;
+}
+
+blockquote {
+    color: #9DA2A6;
+}
+
+table a {
+    color: #DEDEDE;
+    /* variable */
+}
+
+th,
+td {
+    border: solid 1px #474d54;
+    /* variable */
+}
+
+.task-list {
+    padding-left: 0;
+}
+
+.md-task-list-item {
+    padding-left: 1.25rem;
+}
+
+.md-task-list-item > input {
+    top: auto;
+}
+
+.md-task-list-item > input:before {
+    content: "";
+    display: inline-block;
+    width: 0.875rem;
+    height: 0.875rem;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #b8bfc6;
+    background-color: #363B40;
+    margin-top: -0.4rem;
+}
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before {
+    content: '\221A';
+    /*◘*/
+    font-size: 0.625rem;
+    line-height: 0.625rem;
+    color: #DEDEDE;
+}
+
+/** quick open **/
+.auto-suggest-container {
+    border: 0px;
+    background-color: #525C65;
+}
+
+#typora-quick-open {
+    background-color: #525C65;
+}
+
+#typora-quick-open input{
+    background-color: #525C65;
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+
+.typora-quick-open-item {
+    background-color: inherit;
+    color: inherit;
+}
+
+.typora-quick-open-item.active,
+.typora-quick-open-item:hover {
+    background-color: #4D8BDB;
+    color: white;
+}
+
+.typora-quick-open-item:hover {
+    background-color: rgba(77, 139, 219, 0.8);
+}
+
+.typora-search-spinner > div {
+  background-color: #fff;
+}
+
+#write pre.md-meta-block {
+    border-bottom: 1px dashed #ccc;
+    background: transparent;
+    padding-bottom: 0.6em;
+    line-height: 1.6em;
+}
+
+.btn,
+.btn .btn-default {
+    background: transparent;
+    color: #b8bfc6;
+}
+
+.ty-table-edit {
+    border-top: 1px solid gray;
+    background-color: #363B40;
+}
+
+.popover-title {
+    background: transparent;
+}
+
+.md-image>.md-meta {
+    color: #BBBBBB;
+    background: transparent;
+}
+
+.md-expand.md-image>.md-meta {
+    color: #DDD;
+}
+
+#write>h3:before,
+#write>h4:before,
+#write>h5:before,
+#write>h6:before {
+    border: none;
+    border-radius: 0px;
+    color: #888;
+    text-decoration: underline;
+    left: -1.4rem;
+    top: 0.2rem;
+}
+
+#write>h3.md-focus:before {
+    top: 2px;
+}
+
+#write>h4.md-focus:before {
+    top: 2px;
+}
+
+.md-toc-item {
+    color: #A8C2DC;
+}
+
+#write div.md-toc-tooltip {
+    background-color: #363B40;
+}
+
+.dropdown-menu .btn:hover,
+.dropdown-menu .btn:focus,
+.md-toc .btn:hover,
+.md-toc .btn:focus {
+    color: white;
+    background: black;
+}
+
+#toc-dropmenu {
+    background: rgba(50, 54, 59, 0.93);
+    border: 1px solid rgba(253, 253, 253, 0.15);
+}
+
+#toc-dropmenu .divider {
+    background-color: #9b9b9b;
+}
+
+.outline-expander:before {
+    top: 2px;
+}
+
+#typora-sidebar {
+    box-shadow: none;
+    border-right: 1px dashed;
+    border-right: none;
+}
+
+.sidebar-tabs {
+    border-bottom:0;
+}
+
+#typora-sidebar:hover .outline-title-wrapper {
+    border-left: 1px dashed;
+}
+
+.outline-title-wrapper .btn {
+    color: inherit;
+}
+
+.outline-item:hover {
+    border-color: #363B40;
+    background-color: #363B40;
+    color: white;
+}
+
+h1.md-focus .md-attr,
+h2.md-focus .md-attr,
+h3.md-focus .md-attr,
+h4.md-focus .md-attr,
+h5.md-focus .md-attr,
+h6.md-focus .md-attr,
+.md-header-span .md-attr {
+    color: #8C8E92;
+    display: inline;
+}
+
+.md-comment {
+    color: #5a95e3;
+    opacity: 1;
+}
+
+.md-inline-math svg {
+    color: #b8bfc6;
+}
+
+#math-inline-preview .md-arrow:after {
+    background: black;
+}
+
+.modal-content {
+    background: var(--bg-color);
+    border: 0;
+}
+
+.modal-title {
+    font-size: 1.5em;
+}
+
+.modal-content input {
+    background-color: rgba(26, 21, 21, 0.51);
+    color: white;
+}
+
+.modal-content .input-group-addon {
+    color: white;
+}
+
+.modal-backdrop {
+    background-color: rgba(174, 174, 174, 0.7);
+}
+
+.modal-content .btn-primary {
+    border-color: var(--primary-color);
+}
+
+.md-table-resize-popover {
+    background-color: #333;
+}
+
+.form-inline .input-group .input-group-addon {
+    color: white;
+}
+
+#md-searchpanel {
+    border-bottom: 1px dashed grey;
+}
+
+/** UI for electron */
+
+.context-menu,
+#spell-check-panel,
+#footer-word-count-info {
+    background-color: #42464A;
+}
+
+.context-menu.dropdown-menu .divider,
+.dropdown-menu .divider {
+    background-color: #777777;
+    opacity: 1;
+}
+
+footer {
+    color: inherit;
+}
+
+@media (max-width: 1000px) {
+    footer {
+        border-top: none;
+    }
+    footer:hover {
+        color: inherit;
+    }
+}
+
+#file-info-file-path .file-info-field-value:hover {
+    background-color: #555;
+    color: #dedede;
+}
+
+.megamenu-content,
+.megamenu-opened header {
+    background: var(--bg-color);
+}
+
+.megamenu-menu-panel h2,
+.megamenu-menu-panel h1,
+.long-btn {
+    color: inherit;
+}
+
+.megamenu-menu-panel input[type='text'] {
+    background: inherit;
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+#recent-file-panel-action-btn {
+    background: inherit;
+    border: 1px grey solid;
+}
+
+.megamenu-menu-panel .dropdown-menu > li > a {
+    color: inherit;
+    background-color: #2F353A;
+    text-decoration: none;
+}
+
+.megamenu-menu-panel table td:nth-child(1) {
+    color: inherit;
+    font-weight: bold;
+}
+
+.megamenu-menu-panel tbody tr:hover td:nth-child(1) {
+    color: white;
+}
+
+.modal-footer .btn-default, 
+.modal-footer .btn-primary,
+.modal-footer .btn-default:not(:hover) {
+    border: 1px solid;
+    border-color: transparent;
+}
+
+.btn-primary {
+    color: white;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: white;
+    border: 1px solid #ddd;
+    background-color: inherit;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: transparent !important;
+}
+
+.megamenu-menu-panel tbody tr:hover td:nth-child(2) {
+    color: inherit;
+}
+
+.megamenu-menu-panel .btn {
+    border: 1px solid #eee;
+    background: transparent;
+}
+
+.mouse-hover .toolbar-icon.btn:hover,
+#w-full.mouse-hover,
+#w-pin.mouse-hover {
+    background-color: inherit;
+}
+
+.typora-node::-webkit-scrollbar {
+    width: 5px;
+}
+
+.typora-node::-webkit-scrollbar-thumb:vertical {
+    background: rgba(250, 250, 250, 0.3);
+}
+
+.typora-node::-webkit-scrollbar-thumb:vertical:active {
+    background: rgba(250, 250, 250, 0.5);
+}
+
+#w-unpin {
+    background-color: #4182c4;
+}
+
+#top-titlebar, #top-titlebar * {
+    color: var(--item-hover-text-color);
+}
+
+.typora-sourceview-on #toggle-sourceview-btn,
+#footer-word-count:hover,
+.ty-show-word-count #footer-word-count {
+    background: #333333;
+}
+
+#toggle-sourceview-btn:hover {
+    color: #eee;
+    background: #333333;
+}
+
+/** focus mode */
+.on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) * {
+    color: #686868 !important;
+}
+
+.on-focus-mode .md-end-block:not(.md-focus) img,
+.on-focus-mode .md-task-list-item:not(.md-focus-container)>input {
+    opacity: #686868 !important;
+}
+
+.on-focus-mode li[cid]:not(.md-focus-container){
+    color: #686868;
+}
+
+.on-focus-mode .md-fences.md-focus .CodeMirror-code>*:not(.CodeMirror-activeline) *,
+.on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) * {
+    color: #686868 !important;
+}
+
+.on-focus-mode .md-focus,
+.on-focus-mode .md-focus-container {
+    color: #fff;
+}
+
+.on-focus-mode #typora-source .CodeMirror-code>*:not(.CodeMirror-activeline) * {
+    color: #686868 !important;
+}
+
+
+/*diagrams*/
+#write .md-focus .md-diagram-panel {
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    width: calc(100% + 2px);
+}
+
+/*diagrams*/
+#write .md-focus.md-fences-with-lineno .md-diagram-panel {
+    margin-left: auto;
+}
+
+.md-diagram-panel-error {
+    color: #f1908e;
+}
+
+.active-tab-files #info-panel-tab-file,
+.active-tab-files #info-panel-tab-file:hover,
+.active-tab-outline #info-panel-tab-outline,
+.active-tab-outline #info-panel-tab-outline:hover {
+    color: #eee;
+}
+
+.sidebar-footer-item:hover,
+.footer-item:hover {
+    background: inherit;
+    color: white;
+}
+
+.ty-side-sort-btn.active,
+.ty-side-sort-btn:hover,
+.selected-folder-menu-item a:after {
+    color: white;
+}
+
+#sidebar-files-menu {
+    border:solid 1px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.79);
+    background-color: var(--bg-color);
+}
+
+.file-list-item {
+    border-bottom:none;
+}
+
+.file-list-item-summary {
+    opacity: 1;
+}
+
+.file-list-item.active:first-child {
+    border-top: none;
+}
+
+.file-node-background {
+    height: 32px;
+}
+
+.file-library-node.active>.file-node-content,
+.file-list-item.active {
+    color: white;
+    color: var(--active-file-text-color);
+}
+
+.file-library-node.active>.file-node-background{
+    background-color: rgb(34, 34, 34);
+    background-color: var(--active-file-bg-color);
+}
+.file-list-item.active {
+    background-color: rgb(34, 34, 34);
+    background-color: var(--active-file-bg-color);
+}
+
+#ty-tooltip {
+    background-color: black;
+    color: #eee;
+}
+
+.md-task-list-item>input {
+    margin-left: -1.3em;
+    margin-top: 0.3rem;
+    -webkit-appearance: none;
+}
+
+.md-mathjax-midline {
+    background-color: #57616b;
+    border-bottom: none;
+}
+
+footer.ty-footer {
+    border-color: #656565;
+}
+
+.ty-preferences .btn-default {
+    background: transparent;
+}
+.ty-preferences .btn-default:hover {
+    background: #57616b;
+}
+
+.ty-preferences select {
+    border: 1px solid #989698;
+    height: 21px;
+}
+
+.ty-preferences .nav-group-item.active {
+    background: var(--item-hover-bg-color);
+}
+
+.ty-preferences input[type="search"] {
+    border-color: #333;
+    background: #333;
+    line-height: 22px;
+    border-radius: 6px;
+    color: white;
+}
+
+.ty-preferences input[type="search"]:focus {
+    box-shadow: none;
+}
+
+[data-is-directory="true"] .file-node-content {
+    margin-bottom: 0;
+}
+
+.file-node-title {
+    line-height: 22px;
+}
+
+.html-for-mac .file-node-open-state, .html-for-mac .file-node-icon {
+    line-height: 26px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(230, 230, 230, 0.30);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(230, 230, 230, 0.50);
+}
+
+#typora-sidebar:hover div.sidebar-content-content::-webkit-scrollbar-thumb:horizontal {
+    background: rgba(230, 230, 230, 0.30);
+}
+
+.nav-group-item:active {
+    background-color: #474d54 !important;
+}
+
+.md-search-hit {
+    background: rgba(199, 140, 60, 0.81);
+    color: #eee;
+}
+
+.md-search-hit * {
+    color: #eee;
+}
+
+#md-searchpanel input {
+    color: white;
+}
+
+.modal-backdrop.in {
+    opacity: 1;
+    backdrop-filter: blur(1px);
+}
+
+
+</style><title>混搭</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='center混搭专区center'><center><span>混搭专区</span></center></h1><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n4039"><a class="md-toc-inner" href="#center混搭专区center">混搭专区</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4043"><a class="md-toc-inner" href="#雷雨">雷雨</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4044"><a class="md-toc-inner" href="#雨落屋檐audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yu-luo-wu-yanmp3--typeaudiomp3-controlszoom66-loop-audio">雨落屋檐</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4045"><a class="md-toc-inner" href="#春雨无声audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8chun-yu-wu-shengmp3--typeaudiomp3-controlszoom66-loop-audio">春雨无声</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4046"><a class="md-toc-inner" href="#夏雨倾盆audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8xia-yu-qing-penmp3--typeaudiomp3-controlszoom66-loop-audio">夏雨倾盆</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4047"><a class="md-toc-inner" href="#秋雨凄凄audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8qiu-yu-qi-qimp3--typeaudiomp3-controlszoom66-loop-audio">秋雨凄凄</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4048"><a class="md-toc-inner" href="#雨打芭蕉audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yu-da-ba-jiaomp3--typeaudiomp3-controlszoom66-loop-audio">雨打芭蕉</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4049"><a class="md-toc-inner" href="#隐隐春雷audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yin-yin-chun-leimp3--typeaudiomp3-controlszoom66-loop-audio">隐隐春雷</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4050"><a class="md-toc-inner" href="#雨滴叶响audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yu-di-ye-xiangmp3--typeaudiomp3-controlszoom66-loop-audio">雨滴叶响</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4051"><a class="md-toc-inner" href="#初春小雨audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8chu-chun-xiao-yump3--typeaudiomp3-controlszoom66-loop-audio">初春小雨</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4052"><a class="md-toc-inner" href="#春雷始鸣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8chun-lei-shi-mingmp3--typeaudiomp3-controlszoom66-loop-audio">春雷始鸣</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4053"><a class="md-toc-inner" href="#一场阵雨audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yi-chang-zhen-yump3--typeaudiomp3-controlszoom66-loop-audio">一场阵雨</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4054"><a class="md-toc-inner" href="#雨打玻璃audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yu-da-bo-limp3--typeaudiomp3-controlszoom66-loop-audio">雨打玻璃</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4055"><a class="md-toc-inner" href="#江湖">江湖</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4056"><a class="md-toc-inner" href="#凌雪藏锋audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996ling-xue-chang-fengmp3--typeaudiomp3-controlszoom66-loop-audio">凌雪藏锋</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4057"><a class="md-toc-inner" href="#凌雪密洞audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996ling-xue-mi-dongmp3--typeaudiomp3-controlszoom66-loop-audio">凌雪密洞</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4058"><a class="md-toc-inner" href="#凌雪隐侠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996ling-xue-yin-xiamp3--typeaudiomp3-controlszoom66-loop-audio">凌雪隐侠</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4059"><a class="md-toc-inner" href="#蓬莱仙岛audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996peng-lai-xian-daomp3--typeaudiomp3-controlszoom66-loop-audio">蓬莱仙岛</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4060"><a class="md-toc-inner" href="#蓬莱飞鸟audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996peng-lai-fei-niaomp3--typeaudiomp3-controlszoom66-loop-audio">蓬莱飞鸟</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4061"><a class="md-toc-inner" href="#蓬莱东海audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996peng-lai-dong-haimp3--typeaudiomp3-controlszoom66-loop-audio">蓬莱东海</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4062"><a class="md-toc-inner" href="#霸刀埙鸣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996ba-dao-yun-mingmp3--typeaudiomp3-controlszoom66-loop-audio">霸刀埙鸣</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4063"><a class="md-toc-inner" href="#藏剑铸剑audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996chang-xue-zhu-jianmp3--typeaudiomp3-controlszoom66-loop-audio">藏剑铸剑</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4064"><a class="md-toc-inner" href="#藏剑金玉audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996chang-jian-jin-yump3--typeaudiomp3-controlszoom66-loop-audio">藏剑金玉</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4065"><a class="md-toc-inner" href="#纯阳雪峰audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996chun-yang-xue-fengmp3--typeaudiomp3-controlszoom66-loop-audio">纯阳雪峰</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4066"><a class="md-toc-inner" href="#丐帮竹筏audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996gai-bang-zhu-jianmp3--typeaudiomp3-controlszoom66-loop-audio">丐帮竹筏</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4067"><a class="md-toc-inner" href="#苍云业火audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996chang-yun-ye-huomp3--typeaudiomp3-controlszoom66-loop-audio">苍云业火</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4068"><a class="md-toc-inner" href="#霸刀矿洞audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e99cb8e58880e79fbfe6b49emp3--typeaudiomp3-controlszoom66-loop-audio">霸刀矿洞</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4069"><a class="md-toc-inner" href="#明教大漠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e6988ee69599e5a4a7e6bca0mp3--typeaudiomp3-controlszoom66-loop-audio">明教大漠</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4070"><a class="md-toc-inner" href="#苍云踏雪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e88b8de4ba91e8b88fe99baamp3--typeaudiomp3-controlszoom66-loop-audio">苍云踏雪</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4071"><a class="md-toc-inner" href="#七秀忆盈audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b883e7a780e5bf86e79b88mp3--typeaudiomp3-controlszoom66-loop-audio">七秀忆盈</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4072"><a class="md-toc-inner" href="#纯阳论剑audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e7baafe998b3e8aebae58991mp3--typeaudiomp3-controlszoom66-loop-audio">纯阳论剑</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4073"><a class="md-toc-inner" href="#少林后山audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e5b091e69e97e5908ee5b1b1mp3--typeaudiomp3-controlszoom66-loop-audio">少林后山</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4074"><a class="md-toc-inner" href="#藏剑海棠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e8978fe58991e6b5b7e6a3a0mp3--typeaudiomp3-controlszoom66-loop-audio">藏剑海棠</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4075"><a class="md-toc-inner" href="#唐门密室audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e59490e997a8e5af86e5aea4mp3--typeaudiomp3-controlszoom66-loop-audio">唐门密室</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4076"><a class="md-toc-inner" href="#明教喵喵audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e6988ee69599e596b5e596b5mp3--typeaudiomp3-controlszoom66-loop-audio">明教喵喵</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4077"><a class="md-toc-inner" href="#天策金戈audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e5a4a9e7ad96e98791e68888mp3--typeaudiomp3-controlszoom66-loop-audio">天策金戈</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4078"><a class="md-toc-inner" href="#丐帮市集audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b890e5b8aee5b882e99b86imp3--typeaudiomp3-controlszoom66-loop-audio">丐帮市集</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4079"><a class="md-toc-inner" href="#长歌弦音audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e995bfe6ad8ce5bca6e99fb3mp3--typeaudiomp3-controlszoom66-loop-audio">长歌弦音</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4080"><a class="md-toc-inner" href="#万花仙迹audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b887e88ab1e4bb99e8bfb9mp3--typeaudiomp3-controlszoom66-loop-audio">万花仙迹</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4081"><a class="md-toc-inner" href="#五毒溪山audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4ba94e6af92e6baaae5b1b1mp3--typeaudiomp3-controlszoom66-loop-audio">五毒溪山</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4082"><a class="md-toc-inner" href="#少林大殿audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e5b091e69e97e5a4a7e6aebfmp3--typeaudiomp3-controlszoom66-loop-audio">少林大殿</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4083"><a class="md-toc-inner" href="#万花丹青audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b887e88ab1e4b8b9e99d92mp3--typeaudiomp3-controlszoom66-loop-audio">万花丹青</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4084"><a class="md-toc-inner" href="#五毒虫笛audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4ba94e6af92e899abe7ac9bmp3--typeaudiomp3-controlszoom66-loop-audio">五毒虫笛</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4085"><a class="md-toc-inner" href="#唐门问道audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e59490e997a8e997aee98193mp3--typeaudiomp3-controlszoom66-loop-audio">唐门问道</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4086"><a class="md-toc-inner" href="#纯阳箫起audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e7baafe998b3e7aeabe8b5b7mp3--typeaudiomp3-controlszoom66-loop-audio">纯阳箫起</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4087"><a class="md-toc-inner" href="#五毒仙谭audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4ba94e6af92e4bb99e8b0admp3--typeaudiomp3-controlszoom66-loop-audio">五毒仙谭</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4088"><a class="md-toc-inner" href="#七秀起舞audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b883e7a780e8b5b7e8889emp3--typeaudiomp3-controlszoom66-loop-audio">七秀起舞</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4089"><a class="md-toc-inner" href="#天策牧场audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e5a4a9e7ad96e789a7e59cbamp3--typeaudiomp3-controlszoom66-loop-audio">天策牧场</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4090"><a class="md-toc-inner" href="#五毒蛊池audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4ba94e6af92e89b8ae6b1a0mp3--typeaudiomp3-controlszoom66-loop-audio">五毒蛊池</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4091"><a class="md-toc-inner" href="#长歌梅引audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e995bfe6ad8ce6a285e5bc95mp3--typeaudiomp3-controlszoom66-loop-audio">长歌梅引</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4092"><a class="md-toc-inner" href="#万花晴昼audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b887e88ab1e699b4e698bcmp3--typeaudiomp3-controlszoom66-loop-audio">万花晴昼</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4094"><a class="md-toc-inner" href="#课堂">课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4095"><a class="md-toc-inner" href="#化学课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e58c96e5ada6e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">化学课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4096"><a class="md-toc-inner" href="#英语课-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e88bb1e8afade8afbe20e285a1-c0acpi3zr7qo7eqbo2jnmp3--typeaudiomp3-controlszoom66-loop-audio">英语课 Ⅱ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4097"><a class="md-toc-inner" href="#地理课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e59cb0e79086e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">地理课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4098"><a class="md-toc-inner" href="#语文课-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e8afade69687e8afbe20e285a1-xyrqjxwn1nfbsrfcsjntmp3--typeaudiomp3-controlszoom66-loop-audio">语文课 Ⅱ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4099"><a class="md-toc-inner" href="#数学课-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e695b0e5ada6e8afbe20e285a1-yveooauig6djhsnxt4sqmp3--typeaudiomp3-controlszoom66-loop-audio">数学课 Ⅱ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4100"><a class="md-toc-inner" href="#哲学课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e593b2e5ada6e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">哲学课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4101"><a class="md-toc-inner" href="#书香课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e4b9a6e9a699e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">书香课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4102"><a class="md-toc-inner" href="#物理课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e789a9e79086e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">物理课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4103"><a class="md-toc-inner" href="#历史课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e58e86e58fb2e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">历史课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4104"><a class="md-toc-inner" href="#生物课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e7949fe789a9e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">生物课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4105"><a class="md-toc-inner" href="#英语课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e88bb1e8afade8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">英语课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4106"><a class="md-toc-inner" href="#数学课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e695b0e5ada6e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">数学课堂</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4107"><a class="md-toc-inner" href="#语文课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e8afade69687e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio">语文课堂</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4108"><a class="md-toc-inner" href="#自然">自然</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4109"><a class="md-toc-inner" href="#红泥小炉audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e7baa2e6b3a5e5b08fe78289mp3--typeaudiomp3-controlszoom66-loop-audio">红泥小炉</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4110"><a class="md-toc-inner" href="#浪卷海贝audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b5aae58db7e6b5b7e8b49dmp3--typeaudiomp3-controlszoom66-loop-audio">浪卷海贝</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4111"><a class="md-toc-inner" href="#雪落伞上audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e99baae890bde4bc9ee4b88amp3--typeaudiomp3-controlszoom66-loop-audio">雪落伞上</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4112"><a class="md-toc-inner" href="#大漠风沙audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e5a4a7e6bca0e9a38ee6b299mp3--typeaudiomp3-controlszoom66-loop-audio">大漠风沙</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4113"><a class="md-toc-inner" href="#大海深处audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e5a4a7e6b5b7e6b7b1e5a484mp3--typeaudiomp3-controlszoom66-loop-audio">大海深处</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4114"><a class="md-toc-inner" href="#潮拍海岸audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6bdaee68b8de6b5b7e5b2b8mp3--typeaudiomp3-controlszoom66-loop-audio">潮拍海岸</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4115"><a class="md-toc-inner" href="#轻踏落叶audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e8bdbbe8b88fe890bde58fb6mp3--typeaudiomp3-controlszoom66-loop-audio">轻踏落叶</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4116"><a class="md-toc-inner" href="#清风徐来audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b885e9a38ee5be90e69da5mp3--typeaudiomp3-controlszoom66-loop-audio">清风徐来</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4117"><a class="md-toc-inner" href="#瀑布飞溅audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e78091e5b883e9a39ee6ba85mp3--typeaudiomp3-controlszoom66-loop-audio">瀑布飞溅</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4118"><a class="md-toc-inner" href="#风吹麦浪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e9a38ee590b9e9baa6e6b5aamp3--typeaudiomp3-controlszoom66-loop-audio">风吹麦浪</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4119"><a class="md-toc-inner" href="#寒风凛冽audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e5af92e9a38ee5879be586bdmp3--typeaudiomp3-controlszoom66-loop-audio">寒风凛冽</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4120"><a class="md-toc-inner" href="#风号雪舞audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e9a38ee58fb7e99baae8889emp3--typeaudiomp3-controlszoom66-loop-audio">风号雪舞</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4121"><a class="md-toc-inner" href="#篝火冉冉audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e7af9de781abe58689e58689mp3--typeaudiomp3-controlszoom66-loop-audio">篝火冉冉</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4122"><a class="md-toc-inner" href="#落叶秋风audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e890bde58fb6e7a78be9a38emp3--typeaudiomp3-controlszoom66-loop-audio">落叶秋风</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4123"><a class="md-toc-inner" href="#清水洗浴audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b885e6b0b4e6b497e6b5b4mp3--typeaudiomp3-controlszoom66-loop-audio">清水洗浴</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4124"><a class="md-toc-inner" href="#冬月踩雪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e586ace69c88e8b8a9e99baamp3--typeaudiomp3-controlszoom66-loop-audio">冬月踩雪</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4125"><a class="md-toc-inner" href="#夜阑听风audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e5a49ce99891e590ace9a38emp3--typeaudiomp3-controlszoom66-loop-audio">夜阑听风</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4126"><a class="md-toc-inner" href="#公园小溪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e585ace59bade5b08fe6baaamp3--typeaudiomp3-controlszoom66-loop-audio">公园小溪</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4127"><a class="md-toc-inner" href="#蒹葭苍苍audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e892b9e891ade88b8de88b8dmp3--typeaudiomp3-controlszoom66-loop-audio">蒹葭苍苍</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4128"><a class="md-toc-inner" href="#海底漫步audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b5b7e5ba95e6bcabe6ada5imp3--typeaudiomp3-controlszoom66-loop-audio">海底漫步</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4129"><a class="md-toc-inner" href="#清晨海边audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b885e699a8e6b5b7e8beb9mp3--typeaudiomp3-controlszoom66-loop-audio">清晨海边</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4130"><a class="md-toc-inner" href="#挪威森林audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e68caae5a881e6a3aee69e97mp3--typeaudiomp3-controlszoom66-loop-audio">挪威森林</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4131"><a class="md-toc-inner" href="#asmr">ASMR</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4132"><a class="md-toc-inner" href="#一碗面条audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e7a297e99da2e69da1mp3--typeaudiomp3-controlszoom66-loop-audio">一碗面条</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4133"><a class="md-toc-inner" href="#一包薯片audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e58c85e896afe78987mp3--typeaudiomp3-controlszoom66-loop-audio">一包薯片</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4134"><a class="md-toc-inner" href="#一颗苹果audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e9a297e88bb9e69e9cmp3--typeaudiomp3-controlszoom66-loop-audio">一颗苹果</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4135"><a class="md-toc-inner" href="#一杯冰水audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e69dafe586b0e6b0b4mp3--typeaudiomp3-controlszoom66-loop-audio">一杯冰水</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4136"><a class="md-toc-inner" href="#苏打汽水audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre88b8fe68993e6b1bde6b0b4mp3--typeaudiomp3-controlszoom66-loop-audio">苏打汽水</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4137"><a class="md-toc-inner" href="#浇花喷雾audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre6b587e88ab1e596b7e99bbemp3--typeaudiomp3-controlszoom66-loop-audio">浇花喷雾</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4138"><a class="md-toc-inner" href="#石子小路audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre79fb3e5ad90e5b08fe8b7afmp3--typeaudiomp3-controlszoom66-loop-audio">石子小路</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4139"><a class="md-toc-inner" href="#泡菜酱汤audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre6b3a1e88f9ce985b1e6b1a4mp3--typeaudiomp3-controlszoom66-loop-audio">泡菜酱汤</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4140"><a class="md-toc-inner" href="#清洗碗碟audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmrasmre6b885e7a29fe6b497e7a297wxbgm051e799bde59bbe-7b6wc8taxxk1qeaxui39png--typeaudiomp3-controlszoom66-loop-audio">清洗碗碟</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4141"><a class="md-toc-inner" href="#一包瓜子audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e58c85e7939ce5ad90mp3--typeaudiomp3-controlszoom66-loop-audio">一包瓜子</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4142"><a class="md-toc-inner" href="#纸张打印audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre7bab8e5bca0e68993e58db0mp3--typeaudiomp3-controlszoom66-loop-audio">纸张打印</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4143"><a class="md-toc-inner" href="#头发烘干audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre5a4b4e58f91e78398e5b9b2mp3--typeaudiomp3-controlszoom66-loop-audio">头发烘干</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4144"><a class="md-toc-inner" href="#修剪发梢audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4bfaee589aae58f91e6a2a2mp3--typeaudiomp3-controlszoom66-loop-audio">修剪发梢</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4145"><a class="md-toc-inner" href="#跳跳糖糖audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre8b7b3e8b7b3e7b396e7b396mp3--typeaudiomp3-controlszoom66-loop-audio">跳跳糖糖</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4147"><a class="md-toc-inner" href="#动物">动物</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4148"><a class="md-toc-inner" href="#夜虫唧唧audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e5a49ce899abe594a7e594a7mp3--typeaudiomp3-controlszoom66-loop-audio">夜虫唧唧</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4149"><a class="md-toc-inner" href="#空山飞鸟audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e7a9bae5b1b1e9a39ee9b89fmp3--typeaudiomp3-controlszoom66-loop-audio">空山飞鸟</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4150"><a class="md-toc-inner" href="#绵羊咩咩audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e7bbb5e7be8ae592a9e592a9mp3--typeaudiomp3-controlszoom66-loop-audio">绵羊咩咩</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4151"><a class="md-toc-inner" href="#林中鸟语audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e69e97e4b8ade9b89fe8afadmp3--typeaudiomp3-controlszoom66-loop-audio">林中鸟语</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4152"><a class="md-toc-inner" href="#打盹的猫audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e68993e79bb9e79a84e78cabmp3--typeaudiomp3-controlszoom66-loop-audio">打盹的猫</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4153"><a class="md-toc-inner" href="#布谷之鸣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e5b883e8b0b7e4b98be9b8a3mp3--typeaudiomp3-controlszoom66-loop-audio">布谷之鸣</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4154"><a class="md-toc-inner" href="#古道瘦马audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e58fa4e98193e798a6e9a9acmp3--typeaudiomp3-controlszoom66-loop-audio">古道瘦马</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4155"><a class="md-toc-inner" href="#画眉啾啾audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e794bbe79c89e595bee595bemp3--typeaudiomp3-controlszoom66-loop-audio">画眉啾啾</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4156"><a class="md-toc-inner" href="#蛙鸣蝉噪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e89b99e9b8a3e89d89e599aamp3--typeaudiomp3-controlszoom66-loop-audio">蛙鸣蝉噪</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4157"><a class="md-toc-inner" href="#莺啼枝头audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e88ebae595bce69e9de5a4b4mp3--typeaudiomp3-controlszoom66-loop-audio">莺啼枝头</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4158"><a class="md-toc-inner" href="#暮云鲸鸣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e69aaee4ba91e9b2b8e9b8a3mp3--typeaudiomp3-controlszoom66-loop-audio">暮云鲸鸣</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4159"><a class="md-toc-inner" href="#海鸥掠影audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e6b5b7e9b8a5e68ea0e5bdb1mp3--typeaudiomp3-controlszoom66-loop-audio">海鸥掠影</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4160"><a class="md-toc-inner" href="#小猫喝奶audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e5b08fe78cabe5969de5a5b6mp3--typeaudiomp3-controlszoom66-loop-audio">小猫喝奶</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4161"><a class="md-toc-inner" href="#小猫轻唤audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e5b08fe78cabe8bdbbe594a4mp3--typeaudiomp3-controlszoom66-loop-audio">小猫轻唤</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4162"><a class="md-toc-inner" href="#白鸥沙洲audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e7a9bae5b1b1e9a39ee9b89fmp3--typeaudiomp3-controlszoom66-loop-audio">白鸥沙洲</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4163"><a class="md-toc-inner" href="#熊猫食竹audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e7868ae78cabe9a39fe7abb9mp3--typeaudiomp3-controlszoom66-loop-audio">熊猫食竹</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4164"><a class="md-toc-inner" href="#鸡犬相闻audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e9b8a1e78aace79bb8e997bbmp3--typeaudiomp3-controlszoom66-loop-audio">鸡犬相闻</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4165"><a class="md-toc-inner" href="#马儿吃草audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e9a9ace584bfe59083e88d89mp3--typeaudiomp3-controlszoom66-loop-audio">马儿吃草</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4166"><a class="md-toc-inner" href="#四声杜鹃audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e59b9be5a3b0e69d9ce9b983mp3--typeaudiomp3-controlszoom66-loop-audio">四声杜鹃</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4167"><a class="md-toc-inner" href="#松鼠吱吱audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e69dbee9bca0e590b1e590b1mp3--typeaudiomp3-controlszoom66-loop-audio">松鼠吱吱</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4169"><a class="md-toc-inner" href="#旋律">旋律</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4170"><a class="md-toc-inner" href="#铃响叮当audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be99383e5938de58faee5bd93mp3--typeaudiomp3-controlszoom66-loop-audio">铃响叮当</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4171"><a class="md-toc-inner" href="#半岛铁盒audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be58d8ae5b29be99381e79b92mp3--typeaudiomp3-controlszoom66-loop-audio">半岛铁盒</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4172"><a class="md-toc-inner" href="#海浪轻涌audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6b5b7e6b5aae8bdbbe6b68cmp3--typeaudiomp3-controlszoom66-loop-audio">海浪轻涌</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4173"><a class="md-toc-inner" href="#漫天星尘audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6bcabe5a4a9e6989fe5b098mp3--typeaudiomp3-controlszoom66-loop-audio">漫天星尘</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4174"><a class="md-toc-inner" href="#日出印象audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be697a5e587bae58db0e8b1a1mp3--typeaudiomp3-controlszoom66-loop-audio">日出印象</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4175"><a class="md-toc-inner" href="#幽谷山涧audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be5b9bde8b0b7e5b1b1e6b6a7mp3--typeaudiomp3-controlszoom66-loop-audio">幽谷山涧</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4176"><a class="md-toc-inner" href="#风铃翩跹audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be9a38ee99383e7bfa9e8b7b9mp3--typeaudiomp3-controlszoom66-loop-audio">风铃翩跹</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4177"><a class="md-toc-inner" href="#水晶八音audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6b0b4e699b6e585abe99fb3mp3--typeaudiomp3-controlszoom66-loop-audio">水晶八音</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4178"><a class="md-toc-inner" href="#奇妙乐园audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be5a587e5a699e4b990e59badmp3--typeaudiomp3-controlszoom66-loop-audio">奇妙乐园</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4179"><a class="md-toc-inner" href="#钢琴曲-ⅰaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a0mp3--typeaudiomp3-controlszoom66-loop-audio">钢琴曲 Ⅰ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4180"><a class="md-toc-inner" href="#钢琴曲-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a1mp3--typeaudiomp3-controlszoom66-loop-audio">钢琴曲 Ⅱ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4181"><a class="md-toc-inner" href="#钢琴曲-ⅲaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a2mp3--typeaudiomp3-controlszoom66-loop-audio">钢琴曲 Ⅲ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4182"><a class="md-toc-inner" href="#钢琴曲-ⅳaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a3mp3--typeaudiomp3-controlszoom66-loop-audio">钢琴曲 Ⅳ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4183"><a class="md-toc-inner" href="#钢琴曲-ⅴaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a4mp3--typeaudiomp3-controlszoom66-loop-audio">钢琴曲 Ⅴ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4184"><a class="md-toc-inner" href="#钢琴曲-ⅵaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a5mp3--typeaudiomp3-controlszoom66-loop-audio">钢琴曲 Ⅵ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4185"><a class="md-toc-inner" href="#钢琴曲-ⅶaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a6mp3--typeaudiomp3-controlszoom66-loop-audio">钢琴曲 Ⅶ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4186"><a class="md-toc-inner" href="#钢琴曲-ⅷaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a7mp3--typeaudiomp3-controlszoom66-loop-audio">钢琴曲 Ⅷ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4187"><a class="md-toc-inner" href="#吉他曲-ⅰaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be59089e4bb96e69bb220e285a0mp3--typeaudiomp3-controlszoom66-loop-audio">吉他曲 Ⅰ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4188"><a class="md-toc-inner" href="#吉他曲-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be59089e4bb96e69bb220e285a1mp3--typeaudiomp3-controlszoom66-loop-audio">吉他曲 Ⅱ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4189"><a class="md-toc-inner" href="#吉他曲-ⅲaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be59089e4bb96e69bb220e285a2mp3--typeaudiomp3-controlszoom66-loop-audio">吉他曲 Ⅲ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4190"><a class="md-toc-inner" href="#吉他曲-ⅳaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be59089e4bb96e69bb220e285a3mp3--typeaudiomp3-controlszoom66-loop-audio">吉他曲 Ⅳ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4191"><a class="md-toc-inner" href="#驯鹿颂歌audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be9a9afe9b9bfe9a282e6ad8cmp3--typeaudiomp3-controlszoom66-loop-audio">驯鹿颂歌</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4193"><a class="md-toc-inner" href="#露水晨曦audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be99cb2e6b0b4e699a8e69ba6mp3--typeaudiomp3-controlszoom66-loop-audio">露水晨曦</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4194"><a class="md-toc-inner" href="#歌诗风铃audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6ad8ce8af97e9a38ee99383mp3--typeaudiomp3-controlszoom66-loop-audio">歌诗风铃</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4195"><a class="md-toc-inner" href="#竖琴曲-ⅰaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be7ab96e790b4e69bb220e285a0mp3--typeaudiomp3-controlszoom66-loop-audio">竖琴曲 Ⅰ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4196"><a class="md-toc-inner" href="#竖琴曲-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be7ab96e790b4e69bb220e285a1mp3--typeaudiomp3-controlszoom66-loop-audio">竖琴曲 Ⅱ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4197"><a class="md-toc-inner" href="#竖琴曲-ⅲaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be7ab96e790b4e69bb220e285a2mp3--typeaudiomp3-controlszoom66-loop-audio">竖琴曲 Ⅲ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4198"><a class="md-toc-inner" href="#竖琴曲-ⅳaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be7ab96e790b4e69bb220e285a3mp3--typeaudiomp3-controlszoom66-loop-audio">竖琴曲 Ⅳ</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4199"><a class="md-toc-inner" href="#悠闲时光audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be682a0e997b2e697b6e58589mp3--typeaudiomp3-controlszoom66-loop-audio">悠闲时光</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4200"><a class="md-toc-inner" href="#梵铃轻摇audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6a2b5e99383e8bdbbe69187mp3--typeaudiomp3-controlszoom66-loop-audio">梵铃轻摇</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4201"><a class="md-toc-inner" href="#脑波">脑波</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4202"><a class="md-toc-inner" href="#平静舒眠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e5b9b3e99d99e88892e79ca0mp3--typeaudiomp3-controlszoom66-loop-audio">平静舒眠</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4203"><a class="md-toc-inner" href="#身心放松audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e8baabe5bf83e694bee69dbemp3httpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e6b7b1e5baa6e586a5e683b3png--typeaudiomp3-controlszoom66-loop-audio">身心放松</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4204"><a class="md-toc-inner" href="#深度冥想audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e6b7b1e5baa6e586a5e683b3mp3--typeaudiomp3-controlszoom66-loop-audio">深度冥想</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4205"><a class="md-toc-inner" href="#深度睡眠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e8baabe5bf83e694bee69dbemp3--typeaudiomp3-controlszoom66-loop-audio">深度睡眠</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4206"><a class="md-toc-inner" href="#生活">生活</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4207"><a class="md-toc-inner" href="#咖啡时光audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe59296e595a1e697b6e58589mp3--typeaudiomp3-controlszoom66-loop-audio">咖啡时光</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4208"><a class="md-toc-inner" href="#老屋的钟audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe88081e5b18be79a84e9929fmp3--typeaudiomp3-controlszoom66-loop-audio">老屋的钟</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4209"><a class="md-toc-inner" href="#旭日农庄audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe697ade697a5e5869ce5ba84mp3--typeaudiomp3-controlszoom66-loop-audio">旭日农庄</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4210"><a class="md-toc-inner" href="#落水滴答audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe890bde6b0b4e6bbb4e7ad94mp3--typeaudiomp3-controlszoom66-loop-audio">落水滴答</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4211"><a class="md-toc-inner" href="#书笺翻动audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe4b9a6e7acbae7bfbbe58aa8mp3--typeaudiomp3-controlszoom66-loop-audio">书笺翻动</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4212"><a class="md-toc-inner" href="#濯洗沐浴audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe6bfafe6b497e6b290e6b5b4mp3--typeaudiomp3-controlszoom66-loop-audio">濯洗沐浴</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4213"><a class="md-toc-inner" href="#童趣盎然audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bb3de7aba5e8b6a3e79b8ee784b6mp3--typeaudiomp3-controlszoom66-loop-audio">童趣盎然</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4214"><a class="md-toc-inner" href="#沙滩嬉戏audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe6b299e6bba9e5ac89e6888fmp3--typeaudiomp3-controlszoom66-loop-audio">沙滩嬉戏</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4215"><a class="md-toc-inner" href="#餐具轻放audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe9a490e585b7e8bdbbe694bemp3--typeaudiomp3-controlszoom66-loop-audio">餐具轻放</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4216"><a class="md-toc-inner" href="#蔬果打汁audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe894ace69e9ce68993e6b181mp3--typeaudiomp3-controlszoom66-loop-audio">蔬果打汁</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4217"><a class="md-toc-inner" href="#搅拌咖啡audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe69085e68b8ce59296e595a1mp3--typeaudiomp3-controlszoom66-loop-audio">搅拌咖啡</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4218"><a class="md-toc-inner" href="#碗筷清洗audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe7a297e7adb7e6b885e6b497mp3--typeaudiomp3-controlszoom66-loop-audio">碗筷清洗</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4219"><a class="md-toc-inner" href="#细跟微步audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe7bb86e8b79fe5beaee6ada5mp3--typeaudiomp3-controlszoom66-loop-audio">细跟微步</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4220"><a class="md-toc-inner" href="#浣洗衣衫audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe6b5a3e6b497e8a1a3e8a1abmp3--typeaudiomp3-controlszoom66-loop-audio">浣洗衣衫</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4221"><a class="md-toc-inner" href="#风雨兼程audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe9a38ee99ba8e585bce7a88bmp3--typeaudiomp3-controlszoom66-loop-audio">风雨兼程</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4222"><a class="md-toc-inner" href="#十字路口audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe58d81e5ad97e8b7afe58fa3mp3--typeaudiomp3-controlszoom66-loop-audio">十字路口</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4223"><a class="md-toc-inner" href="#一壶开水audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe4b880e5a3b6e5bc80e6b0b4mp3--typeaudiomp3-controlszoom66-loop-audio">一壶开水</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4224"><a class="md-toc-inner" href="#泳池游泳audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe6b3b3e6b1a0e6b8b8e6b3b3mp3--typeaudiomp3-controlszoom66-loop-audio">泳池游泳</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4226"><a class="md-toc-inner" href="#城市">城市</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4227"><a class="md-toc-inner" href="#海上邮轮audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e6b5b7e4b88ae982aee8bdaemp3--typeaudiomp3-controlszoom66-loop-audio">海上邮轮</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4228"><a class="md-toc-inner" href="#绿皮火车audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e7bbbfe79aaee781abe8bda6mp3--typeaudiomp3-controlszoom66-loop-audio">绿皮火车</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4229"><a class="md-toc-inner" href="#公共汽车audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e585ace585b1e6b1bde8bda6mp3--typeaudiomp3-controlszoom66-loop-audio">公共汽车</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4230"><a class="md-toc-inner" href="#高速铁路audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e9ab98e9809fe99381e8b7afmp3--typeaudiomp3-controlszoom66-loop-audio">高速铁路</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4231"><a class="md-toc-inner" href="#火车远行audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e781abe8bda6e8bf9ce8a18cmp3--typeaudiomp3-controlszoom66-loop-audio">火车远行</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4232"><a class="md-toc-inner" href="#凌云翱翔audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e5878ce4ba91e7bfb1e7bf94mp3--typeaudiomp3-controlszoom66-loop-audio">凌云翱翔</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4233"><a class="md-toc-inner" href="#城市街头audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e59f8ee5b882e8a197e5a4b4mp3--typeaudiomp3-controlszoom66-loop-audio">城市街头</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4234"><a class="md-toc-inner" href="#海港巨轮audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e6b5b7e6b8afe5b7a8e8bdaemp3--typeaudiomp3-controlszoom66-loop-audio">海港巨轮</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4235"><a class="md-toc-inner" href="#9¾站台audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b8829c2bee7ab99e58fb0mp3--typeaudiomp3-controlszoom66-loop-audio">9¾站台</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4236"><a class="md-toc-inner" href="#宝宝">宝宝</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4237"><a class="md-toc-inner" href="#婴儿酣眠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de5a9b4e584bfe985a3e79ca0mp3--typeaudiomp3-controlszoom66-loop-audio">婴儿酣眠</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4238"><a class="md-toc-inner" href="#宝宝安抚audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de5ae9de5ae9de5ae89e68a9amp3--typeaudiomp3-controlszoom66-loop-audio">宝宝安抚</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4239"><a class="md-toc-inner" href="#摇篮小曲audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de69187e7afaee5b08fe69bb2mp3--typeaudiomp3-controlszoom66-loop-audio">摇篮小曲</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4240"><a class="md-toc-inner" href="#牙牙学语audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de78999e78999e5ada6e8afadmp3--typeaudiomp3-controlszoom66-loop-audio">牙牙学语</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4241"><a class="md-toc-inner" href="#生命力量audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de7949fe591bde58a9be9878fmp3--typeaudiomp3-controlszoom66-loop-audio">生命力量</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4242"><a class="md-toc-inner" href="#生命律动audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de7949fe591bde5be8be58aa8mp3--typeaudiomp3-controlszoom66-loop-audio">生命律动</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n4243"><a class="md-toc-inner" href="#童年歌谣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de7aba5e5b9b4e6ad8ce8b0a3mp3--typeaudiomp3-controlszoom66-loop-audio">童年歌谣</a></span></p></div><h2 id='雷雨'><span>雷雨</span></h2><h5 id='雨落屋檐audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yu-luo-wu-yanmp3--typeaudiomp3-controlszoom66-loop-audio'><span>雨落屋檐</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yu-luo-wu-yan.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yu-luo-wu-yan.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='春雨无声audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8chun-yu-wu-shengmp3--typeaudiomp3-controlszoom66-loop-audio'><span>春雨无声</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/chun-yu-wu-sheng.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/chun-yu-wu-sheng.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='夏雨倾盆audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8xia-yu-qing-penmp3--typeaudiomp3-controlszoom66-loop-audio'><span>夏雨倾盆</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/xia-yu-qing-pen.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/xia-yu-qing-pen.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='秋雨凄凄audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8qiu-yu-qi-qimp3--typeaudiomp3-controlszoom66-loop-audio'><span>秋雨凄凄</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/qiu-yu-qi-qi.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/qiu-yu-qi-qi.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='雨打芭蕉audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yu-da-ba-jiaomp3--typeaudiomp3-controlszoom66-loop-audio'><span>雨打芭蕉</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yu-da-ba-jiao.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yu-da-ba-jiao.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='隐隐春雷audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yin-yin-chun-leimp3--typeaudiomp3-controlszoom66-loop-audio'><span>隐隐春雷</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yin-yin-chun-lei.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yin-yin-chun-lei.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='雨滴叶响audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yu-di-ye-xiangmp3--typeaudiomp3-controlszoom66-loop-audio'><span>雨滴叶响</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yu-di-ye-xiang.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yu-di-ye-xiang.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='初春小雨audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8chu-chun-xiao-yump3--typeaudiomp3-controlszoom66-loop-audio'><span>初春小雨</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/chu-chun-xiao-yu.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/chu-chun-xiao-yu.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='春雷始鸣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8chun-lei-shi-mingmp3--typeaudiomp3-controlszoom66-loop-audio'><span>春雷始鸣</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/chun-lei-shi-ming.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/chun-lei-shi-ming.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='一场阵雨audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yi-chang-zhen-yump3--typeaudiomp3-controlszoom66-loop-audio'><span>一场阵雨</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yi-chang-zhen-yu.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yi-chang-zhen-yu.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='雨打玻璃audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e99bb7e99ba8yu-da-bo-limp3--typeaudiomp3-controlszoom66-loop-audio'><span>雨打玻璃</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yu-da-bo-li.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E9%9B%B7%E9%9B%A8/yu-da-bo-li.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h2 id='江湖'><span>江湖</span></h2><h5 id='凌雪藏锋audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996ling-xue-chang-fengmp3--typeaudiomp3-controlszoom66-loop-audio'><span>凌雪藏锋</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/ling-xue-chang-feng.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/ling-xue-chang-feng.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='凌雪密洞audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996ling-xue-mi-dongmp3--typeaudiomp3-controlszoom66-loop-audio'><span>凌雪密洞</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/ling-xue-mi-dong.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/ling-xue-mi-dong.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='凌雪隐侠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996ling-xue-yin-xiamp3--typeaudiomp3-controlszoom66-loop-audio'><span>凌雪隐侠</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/ling-xue-yin-xia.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/ling-xue-yin-xia.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='蓬莱仙岛audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996peng-lai-xian-daomp3--typeaudiomp3-controlszoom66-loop-audio'><span>蓬莱仙岛</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/peng-lai-xian-dao.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/peng-lai-xian-dao.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='蓬莱飞鸟audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996peng-lai-fei-niaomp3--typeaudiomp3-controlszoom66-loop-audio'><span>蓬莱飞鸟</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/peng-lai-fei-niao.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/peng-lai-fei-niao.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='蓬莱东海audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996peng-lai-dong-haimp3--typeaudiomp3-controlszoom66-loop-audio'><span>蓬莱东海</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/peng-lai-dong-hai.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/peng-lai-dong-hai.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='霸刀埙鸣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996ba-dao-yun-mingmp3--typeaudiomp3-controlszoom66-loop-audio'><span>霸刀埙鸣</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/ba-dao-yun-ming.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/ba-dao-yun-ming.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='藏剑铸剑audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996chang-xue-zhu-jianmp3--typeaudiomp3-controlszoom66-loop-audio'><span>藏剑铸剑</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/chang-xue-zhu-jian.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/chang-xue-zhu-jian.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='藏剑金玉audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996chang-jian-jin-yump3--typeaudiomp3-controlszoom66-loop-audio'><span>藏剑金玉</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/chang-jian-jin-yu.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/chang-jian-jin-yu.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='纯阳雪峰audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996chun-yang-xue-fengmp3--typeaudiomp3-controlszoom66-loop-audio'><span>纯阳雪峰</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/chun-yang-xue-feng.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/chun-yang-xue-feng.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='丐帮竹筏audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996gai-bang-zhu-jianmp3--typeaudiomp3-controlszoom66-loop-audio'><span>丐帮竹筏</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/gai-bang-zhu-jian.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/gai-bang-zhu-jian.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='苍云业火audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996chang-yun-ye-huomp3--typeaudiomp3-controlszoom66-loop-audio'><span>苍云业火</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/chang-yun-ye-huo.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/chang-yun-ye-huo.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='霸刀矿洞audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e99cb8e58880e79fbfe6b49emp3--typeaudiomp3-controlszoom66-loop-audio'><span>霸刀矿洞</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E9%9C%B8%E5%88%80%E7%9F%BF%E6%B4%9E-1hjbD664nZRz0IgVLQRN.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E9%9C%B8%E5%88%80%E7%9F%BF%E6%B4%9E.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='明教大漠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e6988ee69599e5a4a7e6bca0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>明教大漠</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E6%98%8E%E6%95%99%E5%A4%A7%E6%BC%A0-wgTWrtrR1Qwu4kwwJ6yr.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E6%98%8E%E6%95%99%E5%A4%A7%E6%BC%A0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='苍云踏雪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e88b8de4ba91e8b88fe99baamp3--typeaudiomp3-controlszoom66-loop-audio'><span>苍云踏雪</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E8%8B%8D%E4%BA%91%E8%B8%8F%E9%9B%AA-dQ9DdUqj4KNJ5kG6TRiu.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E8%8B%8D%E4%BA%91%E8%B8%8F%E9%9B%AA.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='七秀忆盈audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b883e7a780e5bf86e79b88mp3--typeaudiomp3-controlszoom66-loop-audio'><span>七秀忆盈</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%83%E7%A7%80%E5%BF%86%E7%9B%88-YPLJL7uxLclmtXGyLsnN.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%83%E7%A7%80%E5%BF%86%E7%9B%88.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='纯阳论剑audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e7baafe998b3e8aebae58991mp3--typeaudiomp3-controlszoom66-loop-audio'><span>纯阳论剑</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E7%BA%AF%E9%98%B3%E8%AE%BA%E5%89%91-SmrkuJFBGoSI6tqHxGkR.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E7%BA%AF%E9%98%B3%E8%AE%BA%E5%89%91.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='少林后山audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e5b091e69e97e5908ee5b1b1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>少林后山</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%B0%91%E6%9E%97%E5%90%8E%E5%B1%B1-YL15M2Qtt5ZVG2gSMHfZ.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%B0%91%E6%9E%97%E5%90%8E%E5%B1%B1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='藏剑海棠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e8978fe58991e6b5b7e6a3a0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>藏剑海棠</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E8%97%8F%E5%89%91%E6%B5%B7%E6%A3%A0-HKvDv5m9gaRe1HjPgvIj.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E8%97%8F%E5%89%91%E6%B5%B7%E6%A3%A0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='唐门密室audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e59490e997a8e5af86e5aea4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>唐门密室</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%94%90%E9%97%A8%E9%97%AE%E9%81%93-8QuEoFUOfH7CqgFqS14v.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%94%90%E9%97%A8%E5%AF%86%E5%AE%A4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='明教喵喵audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e6988ee69599e596b5e596b5mp3--typeaudiomp3-controlszoom66-loop-audio'><span>明教喵喵</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E6%98%8E%E6%95%99%E5%96%B5%E5%96%B5-Ff8t69XHiel0jwCpyRRv.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E6%98%8E%E6%95%99%E5%96%B5%E5%96%B5.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='天策金戈audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e5a4a9e7ad96e98791e68888mp3--typeaudiomp3-controlszoom66-loop-audio'><span>天策金戈</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%A4%A9%E7%AD%96%E9%87%91%E6%88%88-RF8XSYjMxPoxBGv8QMIt.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%A4%A9%E7%AD%96%E9%87%91%E6%88%88.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='丐帮市集audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b890e5b8aee5b882e99b86imp3--typeaudiomp3-controlszoom66-loop-audio'><span>丐帮市集</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%90%E5%B8%AE%E5%B8%82%E9%9B%86-If9EfVOIHbmF5ttRLe9C.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%90%E5%B8%AE%E5%B8%82%E9%9B%86i.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='长歌弦音audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e995bfe6ad8ce5bca6e99fb3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>长歌弦音</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E9%95%BF%E6%AD%8C%E5%BC%A6%E9%9F%B3-sUVewyof61t6cNnPJxlg.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E9%95%BF%E6%AD%8C%E5%BC%A6%E9%9F%B3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='万花仙迹audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b887e88ab1e4bb99e8bfb9mp3--typeaudiomp3-controlszoom66-loop-audio'><span>万花仙迹</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%87%E8%8A%B1%E4%BB%99%E8%BF%B9-oAlQAQS6Vc7PMWbeenpa.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%87%E8%8A%B1%E4%BB%99%E8%BF%B9.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='五毒溪山audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4ba94e6af92e6baaae5b1b1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>五毒溪山</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%BA%94%E6%AF%92%E6%BA%AA%E5%B1%B1-TwaMcBHItzfOUtoOHQxy.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%BA%94%E6%AF%92%E6%BA%AA%E5%B1%B1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='少林大殿audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e5b091e69e97e5a4a7e6aebfmp3--typeaudiomp3-controlszoom66-loop-audio'><span>少林大殿</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%B0%91%E6%9E%97%E5%A4%A7%E6%AE%BF-vf1FpRn3yjwVe3kfGt7d.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%B0%91%E6%9E%97%E5%A4%A7%E6%AE%BF.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='万花丹青audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b887e88ab1e4b8b9e99d92mp3--typeaudiomp3-controlszoom66-loop-audio'><span>万花丹青</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%87%E8%8A%B1%E4%B8%B9%E9%9D%92-8wp3yXcFtZjlMo3bvRnn.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%87%E8%8A%B1%E4%B8%B9%E9%9D%92.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='五毒虫笛audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4ba94e6af92e899abe7ac9bmp3--typeaudiomp3-controlszoom66-loop-audio'><span>五毒虫笛</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%BA%94%E6%AF%92%E8%99%AB%E7%AC%9B-fCiLWAyEbAfEuAsQvPLq.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%BA%94%E6%AF%92%E8%99%AB%E7%AC%9B.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='唐门问道audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e59490e997a8e997aee98193mp3--typeaudiomp3-controlszoom66-loop-audio'><span>唐门问道</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%A4%A9%E7%AD%96%E7%89%A7%E5%9C%BA-ZbEeAf9ALHuUb9JLMFi7.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%94%90%E9%97%A8%E9%97%AE%E9%81%93.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='纯阳箫起audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e7baafe998b3e7aeabe8b5b7mp3--typeaudiomp3-controlszoom66-loop-audio'><span>纯阳箫起</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E7%BA%AF%E9%98%B3%E7%AE%AB%E8%B5%B7-l5nBR3eE9q1e3of14kbi.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E7%BA%AF%E9%98%B3%E7%AE%AB%E8%B5%B7.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='五毒仙谭audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4ba94e6af92e4bb99e8b0admp3--typeaudiomp3-controlszoom66-loop-audio'><span>五毒仙谭</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%BA%94%E6%AF%92%E4%BB%99%E8%B0%AD-Nc8tsHkGsKSbbQSF1PGH.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%BA%94%E6%AF%92%E4%BB%99%E8%B0%AD.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='七秀起舞audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b883e7a780e8b5b7e8889emp3--typeaudiomp3-controlszoom66-loop-audio'><span>七秀起舞</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%83%E7%A7%80%E8%B5%B7%E8%88%9E-heNZJrN7D7h4c4KKqCbq.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%83%E7%A7%80%E8%B5%B7%E8%88%9E.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='天策牧场audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e5a4a9e7ad96e789a7e59cbamp3--typeaudiomp3-controlszoom66-loop-audio'><span>天策牧场</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%A4%A9%E7%AD%96%E9%87%91%E6%88%88-RF8XSYjMxPoxBGv8QMIt.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E5%A4%A9%E7%AD%96%E7%89%A7%E5%9C%BA.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='五毒蛊池audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4ba94e6af92e89b8ae6b1a0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>五毒蛊池</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%BA%94%E6%AF%92%E8%9B%8A%E6%B1%A0-6fteYIrax9yFTOcns83O.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%BA%94%E6%AF%92%E8%9B%8A%E6%B1%A0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='长歌梅引audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e995bfe6ad8ce6a285e5bc95mp3--typeaudiomp3-controlszoom66-loop-audio'><span>长歌梅引</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E9%95%BF%E6%AD%8C%E6%A2%85%E5%BC%95-AHVilbtCCF0cAhGs6Ba1.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E9%95%BF%E6%AD%8C%E6%A2%85%E5%BC%95.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='万花晴昼audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6b19fe6b996e4b887e88ab1e699b4e698bcmp3--typeaudiomp3-controlszoom66-loop-audio'><span>万花晴昼</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%87%E8%8A%B1%E6%99%B4%E6%98%BC-k3IkQb78WMt6hGl9dxU9.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%B1%9F%E6%B9%96/%E4%B8%87%E8%8A%B1%E6%99%B4%E6%98%BC.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h2 id='课堂'><span>课堂</span></h2><h5 id='化学课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e58c96e5ada6e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>化学课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E5%8C%96%E5%AD%A6%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E5%8C%96%E5%AD%A6%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='英语课-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e88bb1e8afade8afbe20e285a1-c0acpi3zr7qo7eqbo2jnmp3--typeaudiomp3-controlszoom66-loop-audio'><span>英语课 Ⅱ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E8%8B%B1%E8%AF%AD%E8%AF%BE%20%E2%85%A1.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E8%8B%B1%E8%AF%AD%E8%AF%BE%20%E2%85%A1-c0acpI3zR7QO7EQBo2jn.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='地理课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e59cb0e79086e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>地理课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E5%9C%B0%E7%90%86%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E5%9C%B0%E7%90%86%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='语文课-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e8afade69687e8afbe20e285a1-xyrqjxwn1nfbsrfcsjntmp3--typeaudiomp3-controlszoom66-loop-audio'><span>语文课 Ⅱ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E8%AF%AD%E6%96%87%E8%AF%BE%20%E2%85%A1.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E8%AF%AD%E6%96%87%E8%AF%BE%20%E2%85%A1-XYrQjxWn1nFbsrFcsJnt.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='数学课-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e695b0e5ada6e8afbe20e285a1-yveooauig6djhsnxt4sqmp3--typeaudiomp3-controlszoom66-loop-audio'><span>数学课 Ⅱ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E6%95%B0%E5%AD%A6%E8%AF%BE%20%E2%85%A1.png" style="zoom:22%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E6%95%B0%E5%AD%A6%E8%AF%BE%20%E2%85%A1-YvEooauiG6dJhSnXT4Sq.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='哲学课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e593b2e5ada6e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>哲学课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E5%93%B2%E5%AD%A6%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E5%93%B2%E5%AD%A6%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='书香课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e4b9a6e9a699e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>书香课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E4%B9%A6%E9%A6%99%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E4%B9%A6%E9%A6%99%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='物理课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e789a9e79086e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>物理课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E7%89%A9%E7%90%86%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E7%89%A9%E7%90%86%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='历史课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e58e86e58fb2e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>历史课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E5%8E%86%E5%8F%B2%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E5%8E%86%E5%8F%B2%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='生物课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e7949fe789a9e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>生物课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E7%94%9F%E7%89%A9%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E7%94%9F%E7%89%A9%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='英语课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e88bb1e8afade8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>英语课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E8%8B%B1%E8%AF%AD%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E8%8B%B1%E8%AF%AD%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='数学课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e695b0e5ada6e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>数学课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E6%95%B0%E5%AD%A6%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E6%95%B0%E5%AD%A6%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='语文课堂audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e8afbee5a082e8afade69687e8afbee5a082mp3--typeaudiomp3-controlszoom66-loop-audio'><span>语文课堂</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E8%AF%AD%E6%96%87%E8%AF%BE%E5%A0%82.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%AF%BE%E5%A0%82/%E8%AF%AD%E6%96%87%E8%AF%BE%E5%A0%82.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h2 id='自然'><span>自然</span></h2><h5 id='红泥小炉audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e7baa2e6b3a5e5b08fe78289mp3--typeaudiomp3-controlszoom66-loop-audio'><span>红泥小炉</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E7%BA%A2%E6%B3%A5%E5%B0%8F%E7%82%89.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E7%BA%A2%E6%B3%A5%E5%B0%8F%E7%82%89.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='浪卷海贝audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b5aae58db7e6b5b7e8b49dmp3--typeaudiomp3-controlszoom66-loop-audio'><span>浪卷海贝</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B5%AA%E5%8D%B7%E6%B5%B7%E8%B4%9D.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B5%AA%E5%8D%B7%E6%B5%B7%E8%B4%9D.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='雪落伞上audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e99baae890bde4bc9ee4b88amp3--typeaudiomp3-controlszoom66-loop-audio'><span>雪落伞上</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E9%9B%AA%E8%90%BD%E4%BC%9E%E4%B8%8A.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E9%9B%AA%E8%90%BD%E4%BC%9E%E4%B8%8A.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='大漠风沙audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e5a4a7e6bca0e9a38ee6b299mp3--typeaudiomp3-controlszoom66-loop-audio'><span>大漠风沙</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%A4%A7%E6%BC%A0%E9%A3%8E%E6%B2%99.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%A4%A7%E6%BC%A0%E9%A3%8E%E6%B2%99.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='大海深处audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e5a4a7e6b5b7e6b7b1e5a484mp3--typeaudiomp3-controlszoom66-loop-audio'><span>大海深处</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%A4%A7%E6%B5%B7%E6%B7%B1%E5%A4%84.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%A4%A7%E6%B5%B7%E6%B7%B1%E5%A4%84.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='潮拍海岸audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6bdaee68b8de6b5b7e5b2b8mp3--typeaudiomp3-controlszoom66-loop-audio'><span>潮拍海岸</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%BD%AE%E6%8B%8D%E6%B5%B7%E5%B2%B8.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%BD%AE%E6%8B%8D%E6%B5%B7%E5%B2%B8.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='轻踏落叶audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e8bdbbe8b88fe890bde58fb6mp3--typeaudiomp3-controlszoom66-loop-audio'><span>轻踏落叶</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E8%BD%BB%E8%B8%8F%E8%90%BD%E5%8F%B6.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E8%BD%BB%E8%B8%8F%E8%90%BD%E5%8F%B6.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='清风徐来audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b885e9a38ee5be90e69da5mp3--typeaudiomp3-controlszoom66-loop-audio'><span>清风徐来</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B8%85%E9%A3%8E%E5%BE%90%E6%9D%A5.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B8%85%E9%A3%8E%E5%BE%90%E6%9D%A5.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='瀑布飞溅audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e78091e5b883e9a39ee6ba85mp3--typeaudiomp3-controlszoom66-loop-audio'><span>瀑布飞溅</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E7%80%91%E5%B8%83%E9%A3%9E%E6%BA%85.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E7%80%91%E5%B8%83%E9%A3%9E%E6%BA%85.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='风吹麦浪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e9a38ee590b9e9baa6e6b5aamp3--typeaudiomp3-controlszoom66-loop-audio'><span>风吹麦浪</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E9%A3%8E%E5%90%B9%E9%BA%A6%E6%B5%AA.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E9%A3%8E%E5%90%B9%E9%BA%A6%E6%B5%AA.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='寒风凛冽audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e5af92e9a38ee5879be586bdmp3--typeaudiomp3-controlszoom66-loop-audio'><span>寒风凛冽</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%AF%92%E9%A3%8E%E5%87%9B%E5%86%BD.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%AF%92%E9%A3%8E%E5%87%9B%E5%86%BD.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='风号雪舞audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e9a38ee58fb7e99baae8889emp3--typeaudiomp3-controlszoom66-loop-audio'><span>风号雪舞</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E9%A3%8E%E5%8F%B7%E9%9B%AA%E8%88%9E.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E9%A3%8E%E5%8F%B7%E9%9B%AA%E8%88%9E.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='篝火冉冉audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e7af9de781abe58689e58689mp3--typeaudiomp3-controlszoom66-loop-audio'><span>篝火冉冉</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E7%AF%9D%E7%81%AB%E5%86%89%E5%86%89.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E7%AF%9D%E7%81%AB%E5%86%89%E5%86%89.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='落叶秋风audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e890bde58fb6e7a78be9a38emp3--typeaudiomp3-controlszoom66-loop-audio'><span>落叶秋风</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E8%90%BD%E5%8F%B6%E7%A7%8B%E9%A3%8E.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E8%90%BD%E5%8F%B6%E7%A7%8B%E9%A3%8E.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='清水洗浴audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b885e6b0b4e6b497e6b5b4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>清水洗浴</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B8%85%E6%B0%B4%E6%B4%97%E6%B5%B4.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B8%85%E6%B0%B4%E6%B4%97%E6%B5%B4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='冬月踩雪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e586ace69c88e8b8a9e99baamp3--typeaudiomp3-controlszoom66-loop-audio'><span>冬月踩雪</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%86%AC%E6%9C%88%E8%B8%A9%E9%9B%AA.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%86%AC%E6%9C%88%E8%B8%A9%E9%9B%AA.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='夜阑听风audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e5a49ce99891e590ace9a38emp3--typeaudiomp3-controlszoom66-loop-audio'><span>夜阑听风</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%A4%9C%E9%98%91%E5%90%AC%E9%A3%8E.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%A4%9C%E9%98%91%E5%90%AC%E9%A3%8E.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='公园小溪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e585ace59bade5b08fe6baaamp3--typeaudiomp3-controlszoom66-loop-audio'><span>公园小溪</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%85%AC%E5%9B%AD%E5%B0%8F%E6%BA%AA.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E5%85%AC%E5%9B%AD%E5%B0%8F%E6%BA%AA.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='蒹葭苍苍audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e892b9e891ade88b8de88b8dmp3--typeaudiomp3-controlszoom66-loop-audio'><span>蒹葭苍苍</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E8%92%B9%E8%91%AD%E8%8B%8D%E8%8B%8D.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E8%92%B9%E8%91%AD%E8%8B%8D%E8%8B%8D.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='海底漫步audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b5b7e5ba95e6bcabe6ada5imp3--typeaudiomp3-controlszoom66-loop-audio'><span>海底漫步</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B5%B7%E5%BA%95%E6%BC%AB%E6%AD%A5.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B5%B7%E5%BA%95%E6%BC%AB%E6%AD%A5i.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='清晨海边audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e6b885e699a8e6b5b7e8beb9mp3--typeaudiomp3-controlszoom66-loop-audio'><span>清晨海边</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B8%85%E6%99%A8%E6%B5%B7%E8%BE%B9.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%B8%85%E6%99%A8%E6%B5%B7%E8%BE%B9.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='挪威森林audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e887aae784b6e68caae5a881e6a3aee69e97mp3--typeaudiomp3-controlszoom66-loop-audio'><span>挪威森林</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%8C%AA%E5%A8%81%E6%A3%AE%E6%9E%97.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%87%AA%E7%84%B6/%E6%8C%AA%E5%A8%81%E6%A3%AE%E6%9E%97.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h2 id='asmr'><span>ASMR</span></h2><h5 id='一碗面条audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e7a297e99da2e69da1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>一碗面条</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%B8%80%E7%A2%97%E9%9D%A2%E6%9D%A1.png" style="zoom:44%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%B8%80%E7%A2%97%E9%9D%A2%E6%9D%A1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='一包薯片audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e58c85e896afe78987mp3--typeaudiomp3-controlszoom66-loop-audio'><span>一包薯片</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%B8%80%E5%8C%85%E8%96%AF%E7%89%87.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%B8%80%E5%8C%85%E8%96%AF%E7%89%87.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='一颗苹果audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e9a297e88bb9e69e9cmp3--typeaudiomp3-controlszoom66-loop-audio'><span>一颗苹果</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%B8%80%E9%A2%97%E8%8B%B9%E6%9E%9C.png" style="zoom:44%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%B8%80%E9%A2%97%E8%8B%B9%E6%9E%9C.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='一杯冰水audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e69dafe586b0e6b0b4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>一杯冰水</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%B8%80%E6%9D%AF%E5%86%B0%E6%B0%B4.png" style="zoom:44%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%B8%80%E6%9D%AF%E5%86%B0%E6%B0%B4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='苏打汽水audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre88b8fe68993e6b1bde6b0b4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>苏打汽水</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E8%8B%8F%E6%89%93%E6%B1%BD%E6%B0%B4.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E8%8B%8F%E6%89%93%E6%B1%BD%E6%B0%B4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='浇花喷雾audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre6b587e88ab1e596b7e99bbemp3--typeaudiomp3-controlszoom66-loop-audio'><span>浇花喷雾</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E6%B5%87%E8%8A%B1%E5%96%B7%E9%9B%BE.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E6%B5%87%E8%8A%B1%E5%96%B7%E9%9B%BE.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='石子小路audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre79fb3e5ad90e5b08fe8b7afmp3--typeaudiomp3-controlszoom66-loop-audio'><span>石子小路</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E7%9F%B3%E5%AD%90%E5%B0%8F%E8%B7%AF.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E7%9F%B3%E5%AD%90%E5%B0%8F%E8%B7%AF.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='泡菜酱汤audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre6b3a1e88f9ce985b1e6b1a4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>泡菜酱汤</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E6%B3%A1%E8%8F%9C%E9%85%B1%E6%B1%A4.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E6%B3%A1%E8%8F%9C%E9%85%B1%E6%B1%A4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='清洗碗碟audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmrasmre6b885e7a29fe6b497e7a297wxbgm051e799bde59bbe-7b6wc8taxxk1qeaxui39png--typeaudiomp3-controlszoom66-loop-audio'><span>清洗碗碟</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/ASMR%E6%B8%85%E7%A2%9F%E6%B4%97%E7%A2%97wxbgm051%E7%99%BD%E5%9B%BE-7b6WC8Taxxk1qeaxUi39.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/ASMR%E6%B8%85%E7%A2%9F%E6%B4%97%E7%A2%97wxbgm051%E7%99%BD%E5%9B%BE-7b6WC8Taxxk1qeaxUi39.png"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='一包瓜子audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4b880e58c85e7939ce5ad90mp3--typeaudiomp3-controlszoom66-loop-audio'><span>一包瓜子</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/ASMR%E4%B8%80%E5%8C%85%E7%93%9C%E5%AD%90wxbgm052%E7%99%BD%E5%9B%BE-rIJhNW39ObXQTEa4qPW9.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%B8%80%E5%8C%85%E7%93%9C%E5%AD%90.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='纸张打印audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre7bab8e5bca0e68993e58db0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>纸张打印</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/ASMR%E6%89%93%E5%8D%B0%E3%81%AE%E6%9C%BAwxbgm053%E7%99%BD%E5%9B%BE-Ul0QdK44zrtdAG0mnrbu.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E7%BA%B8%E5%BC%A0%E6%89%93%E5%8D%B0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='头发烘干audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre5a4b4e58f91e78398e5b9b2mp3--typeaudiomp3-controlszoom66-loop-audio'><span>头发烘干</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/ASMR%E5%A4%B4%E5%8F%91%E7%83%98%E5%B9%B2wxbgm054%E7%99%BD%E5%9B%BE-nJ6WI9aiavrjIN8hLSBz.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E5%A4%B4%E5%8F%91%E7%83%98%E5%B9%B2.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='修剪发梢audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre4bfaee589aae58f91e6a2a2mp3--typeaudiomp3-controlszoom66-loop-audio'><span>修剪发梢</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%BF%AE%E5%89%AA%E5%8F%91%E6%A2%A2.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E4%BF%AE%E5%89%AA%E5%8F%91%E6%A2%A2.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='跳跳糖糖audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0asmre8b7b3e8b7b3e7b396e7b396mp3--typeaudiomp3-controlszoom66-loop-audio'><span>跳跳糖糖</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E8%B7%B3%E8%B7%B3%E7%B3%96%E7%B3%96.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/ASMR/%E8%B7%B3%E8%B7%B3%E7%B3%96%E7%B3%96.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><p>&nbsp;</p><h2 id='动物'><span>动物</span></h2><h5 id='夜虫唧唧audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e5a49ce899abe594a7e594a7mp3--typeaudiomp3-controlszoom66-loop-audio'><span>夜虫唧唧</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%A4%9C%E8%99%AB%E5%94%A7%E5%94%A7.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%A4%9C%E8%99%AB%E5%94%A7%E5%94%A7.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='空山飞鸟audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e7a9bae5b1b1e9a39ee9b89fmp3--typeaudiomp3-controlszoom66-loop-audio'><span>空山飞鸟</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%A9%BA%E5%B1%B1%E9%A3%9E%E9%B8%9F.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%A9%BA%E5%B1%B1%E9%A3%9E%E9%B8%9F.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='绵羊咩咩audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e7bbb5e7be8ae592a9e592a9mp3--typeaudiomp3-controlszoom66-loop-audio'><span>绵羊咩咩</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%BB%B5%E7%BE%8A%E5%92%A9%E5%92%A9.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%BB%B5%E7%BE%8A%E5%92%A9%E5%92%A9.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='林中鸟语audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e69e97e4b8ade9b89fe8afadmp3--typeaudiomp3-controlszoom66-loop-audio'><span>林中鸟语</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%9E%97%E4%B8%AD%E9%B8%9F%E8%AF%AD.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%9E%97%E4%B8%AD%E9%B8%9F%E8%AF%AD.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='打盹的猫audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e68993e79bb9e79a84e78cabmp3--typeaudiomp3-controlszoom66-loop-audio'><span>打盹的猫</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%89%93%E7%9B%B9%E7%9A%84%E7%8C%AB.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%89%93%E7%9B%B9%E7%9A%84%E7%8C%AB.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='布谷之鸣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e5b883e8b0b7e4b98be9b8a3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>布谷之鸣</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%B8%83%E8%B0%B7%E4%B9%8B%E9%B8%A3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%B8%83%E8%B0%B7%E4%B9%8B%E9%B8%A3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='古道瘦马audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e58fa4e98193e798a6e9a9acmp3--typeaudiomp3-controlszoom66-loop-audio'><span>古道瘦马</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%8F%A4%E9%81%93%E7%98%A6%E9%A9%AC.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%8F%A4%E9%81%93%E7%98%A6%E9%A9%AC.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='画眉啾啾audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e794bbe79c89e595bee595bemp3--typeaudiomp3-controlszoom66-loop-audio'><span>画眉啾啾</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%94%BB%E7%9C%89%E5%95%BE%E5%95%BE.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%94%BB%E7%9C%89%E5%95%BE%E5%95%BE.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='蛙鸣蝉噪audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e89b99e9b8a3e89d89e599aamp3--typeaudiomp3-controlszoom66-loop-audio'><span>蛙鸣蝉噪</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E8%9B%99%E9%B8%A3%E8%9D%89%E5%99%AA.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E8%9B%99%E9%B8%A3%E8%9D%89%E5%99%AA.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='莺啼枝头audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e88ebae595bce69e9de5a4b4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>莺啼枝头</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E8%8E%BA%E5%95%BC%E6%9E%9D%E5%A4%B4.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E8%8E%BA%E5%95%BC%E6%9E%9D%E5%A4%B4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='暮云鲸鸣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e69aaee4ba91e9b2b8e9b8a3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>暮云鲸鸣</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%9A%AE%E4%BA%91%E9%B2%B8%E9%B8%A3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%9A%AE%E4%BA%91%E9%B2%B8%E9%B8%A3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='海鸥掠影audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e6b5b7e9b8a5e68ea0e5bdb1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>海鸥掠影</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%B5%B7%E9%B8%A5%E6%8E%A0%E5%BD%B1.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%B5%B7%E9%B8%A5%E6%8E%A0%E5%BD%B1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='小猫喝奶audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e5b08fe78cabe5969de5a5b6mp3--typeaudiomp3-controlszoom66-loop-audio'><span>小猫喝奶</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%B0%8F%E7%8C%AB%E5%96%9D%E5%A5%B6.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%B0%8F%E7%8C%AB%E5%96%9D%E5%A5%B6.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='小猫轻唤audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e5b08fe78cabe8bdbbe594a4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>小猫轻唤</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%B0%8F%E7%8C%AB%E8%BD%BB%E5%94%A4.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%B0%8F%E7%8C%AB%E8%BD%BB%E5%94%A4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='白鸥沙洲audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e7a9bae5b1b1e9a39ee9b89fmp3--typeaudiomp3-controlszoom66-loop-audio'><span>白鸥沙洲</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%99%BD%E9%B8%A5%E6%B2%99%E6%B4%B2.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%A9%BA%E5%B1%B1%E9%A3%9E%E9%B8%9F.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='熊猫食竹audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e7868ae78cabe9a39fe7abb9mp3--typeaudiomp3-controlszoom66-loop-audio'><span>熊猫食竹</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%86%8A%E7%8C%AB%E9%A3%9F%E7%AB%B9.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E7%86%8A%E7%8C%AB%E9%A3%9F%E7%AB%B9.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='鸡犬相闻audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e9b8a1e78aace79bb8e997bbmp3--typeaudiomp3-controlszoom66-loop-audio'><span>鸡犬相闻</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E9%B8%A1%E7%8A%AC%E7%9B%B8%E9%97%BB.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E9%B8%A1%E7%8A%AC%E7%9B%B8%E9%97%BB.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='马儿吃草audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e9a9ace584bfe59083e88d89mp3--typeaudiomp3-controlszoom66-loop-audio'><span>马儿吃草</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E9%A9%AC%E5%84%BF%E5%90%83%E8%8D%89.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E9%A9%AC%E5%84%BF%E5%90%83%E8%8D%89.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='四声杜鹃audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e59b9be5a3b0e69d9ce9b983mp3--typeaudiomp3-controlszoom66-loop-audio'><span>四声杜鹃</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%9B%9B%E5%A3%B0%E6%9D%9C%E9%B9%83.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E5%9B%9B%E5%A3%B0%E6%9D%9C%E9%B9%83.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='松鼠吱吱audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e58aa8e789a9e69dbee9bca0e590b1e590b1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>松鼠吱吱</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%9D%BE%E9%BC%A0%E5%90%B1%E5%90%B1.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%8A%A8%E7%89%A9/%E6%9D%BE%E9%BC%A0%E5%90%B1%E5%90%B1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h2 id='旋律'><span>旋律</span></h2><h5 id='铃响叮当audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be99383e5938de58faee5bd93mp3--typeaudiomp3-controlszoom66-loop-audio'><span>铃响叮当</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%93%83%E5%93%8D%E5%8F%AE%E5%BD%93.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%93%83%E5%93%8D%E5%8F%AE%E5%BD%93.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='半岛铁盒audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be58d8ae5b29be99381e79b92mp3--typeaudiomp3-controlszoom66-loop-audio'><span>半岛铁盒</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%8D%8A%E5%B2%9B%E9%93%81%E7%9B%92.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%8D%8A%E5%B2%9B%E9%93%81%E7%9B%92.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='海浪轻涌audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6b5b7e6b5aae8bdbbe6b68cmp3--typeaudiomp3-controlszoom66-loop-audio'><span>海浪轻涌</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%B5%B7%E6%B5%AA%E8%BD%BB%E6%B6%8Cwx_bgm058%E7%99%BD%E5%9B%BE-XICyP6VHK9GqXFuN2YPu.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%B5%B7%E6%B5%AA%E8%BD%BB%E6%B6%8C.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='漫天星尘audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6bcabe5a4a9e6989fe5b098mp3--typeaudiomp3-controlszoom66-loop-audio'><span>漫天星尘</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%BC%AB%E5%A4%A9%E6%98%9F%E5%B0%98wx_bgm059%E7%99%BD%E5%9B%BE-ufbAvkFwXbb9QjJeoUbo.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%BC%AB%E5%A4%A9%E6%98%9F%E5%B0%98.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='日出印象audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be697a5e587bae58db0e8b1a1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>日出印象</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%97%A5%E5%87%BA%E5%8D%B0%E8%B1%A1wx_bgm60%E7%99%BD%E5%9B%BE-vGwPinzpdrV42wsjQ8TN.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%97%A5%E5%87%BA%E5%8D%B0%E8%B1%A1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='幽谷山涧audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be5b9bde8b0b7e5b1b1e6b6a7mp3--typeaudiomp3-controlszoom66-loop-audio'><span>幽谷山涧</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%B9%BD%E8%B0%B7%E5%B1%B1%E6%B6%A7wx_bgm061%E7%99%BD%E5%9B%BE-mEjziR8zUwR7ClF6eErn.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%B9%BD%E8%B0%B7%E5%B1%B1%E6%B6%A7.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='风铃翩跹audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be9a38ee99383e7bfa9e8b7b9mp3--typeaudiomp3-controlszoom66-loop-audio'><span>风铃翩跹</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%A3%8E%E9%93%83%E7%BF%A9%E8%B7%B9.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%A3%8E%E9%93%83%E7%BF%A9%E8%B7%B9.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='水晶八音audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6b0b4e699b6e585abe99fb3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>水晶八音</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%B0%B4%E6%99%B6%E5%85%AB%E9%9F%B3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%B0%B4%E6%99%B6%E5%85%AB%E9%9F%B3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='奇妙乐园audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be5a587e5a699e4b990e59badmp3--typeaudiomp3-controlszoom66-loop-audio'><span>奇妙乐园</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%A5%87%E5%A6%99%E4%B9%90%E5%9B%AD.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%A5%87%E5%A6%99%E4%B9%90%E5%9B%AD.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='钢琴曲-ⅰaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>钢琴曲 Ⅰ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A0.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='钢琴曲-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>钢琴曲 Ⅱ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A1.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='钢琴曲-ⅲaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a2mp3--typeaudiomp3-controlszoom66-loop-audio'><span>钢琴曲 Ⅲ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A2.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A2.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='钢琴曲-ⅳaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>钢琴曲 Ⅳ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='钢琴曲-ⅴaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>钢琴曲 Ⅴ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A4.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='钢琴曲-ⅵaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a5mp3--typeaudiomp3-controlszoom66-loop-audio'><span>钢琴曲 Ⅵ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A5.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A5.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='钢琴曲-ⅶaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a6mp3--typeaudiomp3-controlszoom66-loop-audio'><span>钢琴曲 Ⅶ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A6.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A6.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='钢琴曲-ⅷaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be992a2e790b4e69bb220e285a7mp3--typeaudiomp3-controlszoom66-loop-audio'><span>钢琴曲 Ⅷ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A7.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%92%A2%E7%90%B4%E6%9B%B2%20%E2%85%A7.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='吉他曲-ⅰaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be59089e4bb96e69bb220e285a0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>吉他曲 Ⅰ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%90%89%E4%BB%96%E6%9B%B2%20%E2%85%A0.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%90%89%E4%BB%96%E6%9B%B2%20%E2%85%A0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='吉他曲-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be59089e4bb96e69bb220e285a1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>吉他曲 Ⅱ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%90%89%E4%BB%96%E6%9B%B2%20%E2%85%A1.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%90%89%E4%BB%96%E6%9B%B2%20%E2%85%A1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='吉他曲-ⅲaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be59089e4bb96e69bb220e285a2mp3--typeaudiomp3-controlszoom66-loop-audio'><span>吉他曲 Ⅲ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%90%89%E4%BB%96%E6%9B%B2%20%E2%85%A2.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%90%89%E4%BB%96%E6%9B%B2%20%E2%85%A2.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='吉他曲-ⅳaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be59089e4bb96e69bb220e285a3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>吉他曲 Ⅳ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%90%89%E4%BB%96%E6%9B%B2%20%E2%85%A3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E5%90%89%E4%BB%96%E6%9B%B2%20%E2%85%A3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='驯鹿颂歌audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be9a9afe9b9bfe9a282e6ad8cmp3--typeaudiomp3-controlszoom66-loop-audio'><span>驯鹿颂歌</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%A9%AF%E9%B9%BF%E9%A2%82%E6%AD%8C.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%A9%AF%E9%B9%BF%E9%A2%82%E6%AD%8C.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='露水晨曦audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be99cb2e6b0b4e699a8e69ba6mp3--typeaudiomp3-controlszoom66-loop-audio'><span>露水晨曦</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%9C%B2%E6%B0%B4%E6%99%A8%E6%9B%A6.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E9%9C%B2%E6%B0%B4%E6%99%A8%E6%9B%A6.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='歌诗风铃audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6ad8ce8af97e9a38ee99383mp3--typeaudiomp3-controlszoom66-loop-audio'><span>歌诗风铃</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%AD%8C%E8%AF%97%E9%A3%8E%E9%93%83.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%AD%8C%E8%AF%97%E9%A3%8E%E9%93%83.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='竖琴曲-ⅰaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be7ab96e790b4e69bb220e285a0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>竖琴曲 Ⅰ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E7%AB%96%E7%90%B4%E6%9B%B2%20%E2%85%A0.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E7%AB%96%E7%90%B4%E6%9B%B2%20%E2%85%A0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='竖琴曲-ⅱaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be7ab96e790b4e69bb220e285a1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>竖琴曲 Ⅱ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E7%AB%96%E7%90%B4%E6%9B%B2%20%E2%85%A1.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E7%AB%96%E7%90%B4%E6%9B%B2%20%E2%85%A1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='竖琴曲-ⅲaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be7ab96e790b4e69bb220e285a2mp3--typeaudiomp3-controlszoom66-loop-audio'><span>竖琴曲 Ⅲ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E7%AB%96%E7%90%B4%E6%9B%B2%20%E2%85%A2.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E7%AB%96%E7%90%B4%E6%9B%B2%20%E2%85%A2.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='竖琴曲-ⅳaudio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be7ab96e790b4e69bb220e285a3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>竖琴曲 Ⅳ</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E7%AB%96%E7%90%B4%E6%9B%B2%20%E2%85%A3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E7%AB%96%E7%90%B4%E6%9B%B2%20%E2%85%A3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='悠闲时光audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be682a0e997b2e697b6e58589mp3--typeaudiomp3-controlszoom66-loop-audio'><span>悠闲时光</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%82%A0%E9%97%B2%E6%97%B6%E5%85%89.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%82%A0%E9%97%B2%E6%97%B6%E5%85%89.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='梵铃轻摇audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e6978be5be8be6a2b5e99383e8bdbbe69187mp3--typeaudiomp3-controlszoom66-loop-audio'><span>梵铃轻摇</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%A2%B5%E9%93%83%E8%BD%BB%E6%91%87.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E6%97%8B%E5%BE%8B/%E6%A2%B5%E9%93%83%E8%BD%BB%E6%91%87.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h2 id='脑波'><span>脑波</span></h2><h5 id='平静舒眠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e5b9b3e99d99e88892e79ca0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>平静舒眠</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%84%91%E6%B3%A2/%E5%B9%B3%E9%9D%99%E8%88%92%E7%9C%A0.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%84%91%E6%B3%A2/%E5%B9%B3%E9%9D%99%E8%88%92%E7%9C%A0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='身心放松audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e8baabe5bf83e694bee69dbemp3httpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e6b7b1e5baa6e586a5e683b3png--typeaudiomp3-controlszoom66-loop-audio'><span>身心放松</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%84%91%E6%B3%A2/%E8%BA%AB%E5%BF%83%E6%94%BE%E6%9D%BE.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%84%91%E6%B3%A2/%E8%BA%AB%E5%BF%83%E6%94%BE%E6%9D%BE.mp3https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%84%91%E6%B3%A2/%E6%B7%B1%E5%BA%A6%E5%86%A5%E6%83%B3.png"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='深度冥想audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e6b7b1e5baa6e586a5e683b3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>深度冥想</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%84%91%E6%B3%A2/%E6%B7%B1%E5%BA%A6%E5%86%A5%E6%83%B3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%84%91%E6%B3%A2/%E6%B7%B1%E5%BA%A6%E5%86%A5%E6%83%B3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='深度睡眠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e88491e6b3a2e8baabe5bf83e694bee69dbemp3--typeaudiomp3-controlszoom66-loop-audio'><span>深度睡眠</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%84%91%E6%B3%A2/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E8%84%91%E6%B3%A2/%E8%BA%AB%E5%BF%83%E6%94%BE%E6%9D%BE.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h2 id='生活'><span>生活</span></h2><h5 id='咖啡时光audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe59296e595a1e697b6e58589mp3--typeaudiomp3-controlszoom66-loop-audio'><span>咖啡时光</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E5%92%96%E5%95%A1%E6%97%B6%E5%85%89.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E5%92%96%E5%95%A1%E6%97%B6%E5%85%89.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='老屋的钟audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe88081e5b18be79a84e9929fmp3--typeaudiomp3-controlszoom66-loop-audio'><span>老屋的钟</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E8%80%81%E5%B1%8B%E7%9A%84%E9%92%9F.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E8%80%81%E5%B1%8B%E7%9A%84%E9%92%9F.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='旭日农庄audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe697ade697a5e5869ce5ba84mp3--typeaudiomp3-controlszoom66-loop-audio'><span>旭日农庄</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%97%AD%E6%97%A5%E5%86%9C%E5%BA%84.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%97%AD%E6%97%A5%E5%86%9C%E5%BA%84.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='落水滴答audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe890bde6b0b4e6bbb4e7ad94mp3--typeaudiomp3-controlszoom66-loop-audio'><span>落水滴答</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E8%90%BD%E6%B0%B4%E6%BB%B4%E7%AD%94.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E8%90%BD%E6%B0%B4%E6%BB%B4%E7%AD%94.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='书笺翻动audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe4b9a6e7acbae7bfbbe58aa8mp3--typeaudiomp3-controlszoom66-loop-audio'><span>书笺翻动</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E4%B9%A6%E7%AC%BA%E7%BF%BB%E5%8A%A8.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E4%B9%A6%E7%AC%BA%E7%BF%BB%E5%8A%A8.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='濯洗沐浴audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe6bfafe6b497e6b290e6b5b4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>濯洗沐浴</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%BF%AF%E6%B4%97%E6%B2%90%E6%B5%B4.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%BF%AF%E6%B4%97%E6%B2%90%E6%B5%B4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='童趣盎然audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bb3de7aba5e8b6a3e79b8ee784b6mp3--typeaudiomp3-controlszoom66-loop-audio'><span>童趣盎然</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E7%AB%A5%E8%B6%A3%E7%9B%8E%E7%84%B6.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%3D%E7%AB%A5%E8%B6%A3%E7%9B%8E%E7%84%B6.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='沙滩嬉戏audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe6b299e6bba9e5ac89e6888fmp3--typeaudiomp3-controlszoom66-loop-audio'><span>沙滩嬉戏</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%B2%99%E6%BB%A9%E5%AC%89%E6%88%8F.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%B2%99%E6%BB%A9%E5%AC%89%E6%88%8F.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='餐具轻放audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe9a490e585b7e8bdbbe694bemp3--typeaudiomp3-controlszoom66-loop-audio'><span>餐具轻放</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E9%A4%90%E5%85%B7%E8%BD%BB%E6%94%BE.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E9%A4%90%E5%85%B7%E8%BD%BB%E6%94%BE.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='蔬果打汁audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe894ace69e9ce68993e6b181mp3--typeaudiomp3-controlszoom66-loop-audio'><span>蔬果打汁</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E8%94%AC%E6%9E%9C%E6%89%93%E6%B1%81.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E8%94%AC%E6%9E%9C%E6%89%93%E6%B1%81.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='搅拌咖啡audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe69085e68b8ce59296e595a1mp3--typeaudiomp3-controlszoom66-loop-audio'><span>搅拌咖啡</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%90%85%E6%8B%8C%E5%92%96%E5%95%A1.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%90%85%E6%8B%8C%E5%92%96%E5%95%A1.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='碗筷清洗audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe7a297e7adb7e6b885e6b497mp3--typeaudiomp3-controlszoom66-loop-audio'><span>碗筷清洗</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E7%A2%97%E7%AD%B7%E6%B8%85%E6%B4%97.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E7%A2%97%E7%AD%B7%E6%B8%85%E6%B4%97.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='细跟微步audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe7bb86e8b79fe5beaee6ada5mp3--typeaudiomp3-controlszoom66-loop-audio'><span>细跟微步</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E7%BB%86%E8%B7%9F%E5%BE%AE%E6%AD%A5.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E7%BB%86%E8%B7%9F%E5%BE%AE%E6%AD%A5.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='浣洗衣衫audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe6b5a3e6b497e8a1a3e8a1abmp3--typeaudiomp3-controlszoom66-loop-audio'><span>浣洗衣衫</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%B5%A3%E6%B4%97%E8%A1%A3%E8%A1%AB.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%B5%A3%E6%B4%97%E8%A1%A3%E8%A1%AB.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='风雨兼程audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe9a38ee99ba8e585bce7a88bmp3--typeaudiomp3-controlszoom66-loop-audio'><span>风雨兼程</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E9%A3%8E%E9%9B%A8%E5%85%BC%E7%A8%8B.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E9%A3%8E%E9%9B%A8%E5%85%BC%E7%A8%8B.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='十字路口audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe58d81e5ad97e8b7afe58fa3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>十字路口</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='一壶开水audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe4b880e5a3b6e5bc80e6b0b4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>一壶开水</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E4%B8%80%E5%A3%B6%E5%BC%80%E6%B0%B4.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E4%B8%80%E5%A3%B6%E5%BC%80%E6%B0%B4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='泳池游泳audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e7949fe6b4bbe6b3b3e6b1a0e6b8b8e6b3b3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>泳池游泳</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%B3%B3%E6%B1%A0%E6%B8%B8%E6%B3%B3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E7%94%9F%E6%B4%BB/%E6%B3%B3%E6%B1%A0%E6%B8%B8%E6%B3%B3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h2 id='城市'><span>城市</span></h2><h5 id='海上邮轮audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e6b5b7e4b88ae982aee8bdaemp3--typeaudiomp3-controlszoom66-loop-audio'><span>海上邮轮</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E6%B5%B7%E4%B8%8A%E9%82%AE%E8%BD%AE.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E6%B5%B7%E4%B8%8A%E9%82%AE%E8%BD%AE.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='绿皮火车audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e7bbbfe79aaee781abe8bda6mp3--typeaudiomp3-controlszoom66-loop-audio'><span>绿皮火车</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E7%BB%BF%E7%9A%AE%E7%81%AB%E8%BD%A6.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E7%BB%BF%E7%9A%AE%E7%81%AB%E8%BD%A6.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='公共汽车audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e585ace585b1e6b1bde8bda6mp3--typeaudiomp3-controlszoom66-loop-audio'><span>公共汽车</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E5%85%AC%E5%85%B1%E6%B1%BD%E8%BD%A6.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E5%85%AC%E5%85%B1%E6%B1%BD%E8%BD%A6.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='高速铁路audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e9ab98e9809fe99381e8b7afmp3--typeaudiomp3-controlszoom66-loop-audio'><span>高速铁路</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E9%AB%98%E9%80%9F%E9%93%81%E8%B7%AF.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E9%AB%98%E9%80%9F%E9%93%81%E8%B7%AF.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='火车远行audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e781abe8bda6e8bf9ce8a18cmp3--typeaudiomp3-controlszoom66-loop-audio'><span>火车远行</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E7%81%AB%E8%BD%A6%E8%BF%9C%E8%A1%8C.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E7%81%AB%E8%BD%A6%E8%BF%9C%E8%A1%8C.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='凌云翱翔audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e5878ce4ba91e7bfb1e7bf94mp3--typeaudiomp3-controlszoom66-loop-audio'><span>凌云翱翔</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E5%87%8C%E4%BA%91%E7%BF%B1%E7%BF%94.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E5%87%8C%E4%BA%91%E7%BF%B1%E7%BF%94.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='城市街头audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e59f8ee5b882e8a197e5a4b4mp3--typeaudiomp3-controlszoom66-loop-audio'><span>城市街头</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E5%9F%8E%E5%B8%82%E8%A1%97%E5%A4%B4.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E5%9F%8E%E5%B8%82%E8%A1%97%E5%A4%B4.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='海港巨轮audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b882e6b5b7e6b8afe5b7a8e8bdaemp3--typeaudiomp3-controlszoom66-loop-audio'><span>海港巨轮</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E6%B5%B7%E6%B8%AF%E5%B7%A8%E8%BD%AE.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/%E6%B5%B7%E6%B8%AF%E5%B7%A8%E8%BD%AE.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='9¾站台audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e59f8ee5b8829c2bee7ab99e58fb0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>9¾站台</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/9%C2%BE%E7%AB%99%E5%8F%B0.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%9F%8E%E5%B8%82/9%C2%BE%E7%AB%99%E5%8F%B0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h2 id='宝宝'><span>宝宝</span></h2><h5 id='婴儿酣眠audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de5a9b4e584bfe985a3e79ca0mp3--typeaudiomp3-controlszoom66-loop-audio'><span>婴儿酣眠</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E5%A9%B4%E5%84%BF%E9%85%A3%E7%9C%A0.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E5%A9%B4%E5%84%BF%E9%85%A3%E7%9C%A0.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='宝宝安抚audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de5ae9de5ae9de5ae89e68a9amp3--typeaudiomp3-controlszoom66-loop-audio'><span>宝宝安抚</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E5%AE%9D%E5%AE%9D%E5%AE%89%E6%8A%9A.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E5%AE%9D%E5%AE%9D%E5%AE%89%E6%8A%9A.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='摇篮小曲audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de69187e7afaee5b08fe69bb2mp3--typeaudiomp3-controlszoom66-loop-audio'><span>摇篮小曲</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E6%91%87%E7%AF%AE%E5%B0%8F%E6%9B%B2.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E6%91%87%E7%AF%AE%E5%B0%8F%E6%9B%B2.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='牙牙学语audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de78999e78999e5ada6e8afadmp3--typeaudiomp3-controlszoom66-loop-audio'><span>牙牙学语</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E7%89%99%E7%89%99%E5%AD%A6%E8%AF%AD.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E7%89%99%E7%89%99%E5%AD%A6%E8%AF%AD.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='生命力量audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de7949fe591bde58a9be9878fmp3--typeaudiomp3-controlszoom66-loop-audio'><span>生命力量</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E7%89%99%E7%89%99%E5%AD%A6%E8%AF%AD.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E7%94%9F%E5%91%BD%E5%8A%9B%E9%87%8F.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='生命律动audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de7949fe591bde5be8be58aa8mp3--typeaudiomp3-controlszoom66-loop-audio'><span>生命律动</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E7%94%9F%E5%91%BD%E5%BE%8B%E5%8A%A8.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E7%94%9F%E5%91%BD%E5%BE%8B%E5%8A%A8.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><h5 id='童年歌谣audio-idbgmmusic-srchttpslearnonly-2oss-cn-zhangjiakoualiyuncscome5b08fe79da1e79ca0e5ae9de5ae9de7aba5e5b9b4e6ad8ce8b0a3mp3--typeaudiomp3-controlszoom66-loop-audio'><span>童年歌谣</span><img src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E7%AB%A5%E5%B9%B4%E6%AD%8C%E8%B0%A3.png" style="zoom:66%;" /><audio id="bgmMusic" src="https://learnonly-2.oss-cn-zhangjiakou.aliyuncs.com/%E5%B0%8F%E7%9D%A1%E7%9C%A0/%E5%AE%9D%E5%AE%9D/%E7%AB%A5%E5%B9%B4%E6%AD%8C%E8%B0%A3.mp3"  type="audio/mp3" controls="zoom:66%;" loop ></audio></h5><p>&nbsp;</p><center>2021</center></div></div>
+</body>
+</html>
