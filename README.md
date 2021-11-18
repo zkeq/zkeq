@@ -1,7 +1,4 @@
- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zkeq)
-
- 
- [国内Github解析不稳定，同步更新Gitee（暗色）](https://zkeq.gitee.io/)
+[国内Github解析不稳定，同步更新Gitee（暗色）](https://zkeq.gitee.io/)
 ## [Welcome  ](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
 ###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
