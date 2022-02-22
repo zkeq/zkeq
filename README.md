@@ -1582,6 +1582,7 @@
 <video width="100%" height="100%" controls="">
     <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E6%97%B6%E5%85%89%EF%BC%8C%E4%B8%80%E5%A6%82%E6%97%A2%E5%BE%80.mp4" type="video/mp4" />
 </video>
+
 ### 这是你想要的生活吗
 
 <video width="100%" height="100%" controls="">
@@ -1763,7 +1764,8 @@
 --------------
 
 -------------------
-### ![icon2](https://learnonly-6.oss-cn-heyuan.aliyuncs.com/icon2.png)你是我为数不多的骄傲
+
+### ![icon2](https://user-images.githubusercontent.com/62864752/155084342-df71f6ba-6e6f-4b13-8e2d-b8ecb236160d.png)你是我为数不多的骄傲
 
 ###### 官方现场MV 新年快乐
 
