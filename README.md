@@ -970,7 +970,6 @@
 -----------
 
 
-
 ### 라일락 
 
 ###### LILAC
@@ -984,6 +983,7 @@
 <video width="100%" height="100%" controls="">
     <source src="https://learnonly.oss-cn-shenzhen.aliyuncs.com/iu2.mp4" type="video/mp4" />
 </video>
+
 -------------------------------------
 
 ![LILAC](https://user-images.githubusercontent.com/62864752/155083286-cc2700f0-ef80-4a2f-9f07-552d8d955780.jpg)
@@ -1222,9 +1222,6 @@
 
 -----------------
 
--------------
-
------
 ### live版
 
 ###### 当前视频清晰度：1080P [HD]
@@ -1233,10 +1230,7 @@
     <source src="https://learnonly.oss-cn-shenzhen.aliyuncs.com/iu.mp4" type="video/mp4" />
 </video>
 
---------------
---------------
---------------
---------------
+
 --------------
 
 
@@ -1594,6 +1588,7 @@
 <video width="100%" height="100%" controls="">
     <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E8%BF%99%E6%98%AF%E4%BD%A0%E6%83%B3%E8%A6%81%E7%9A%84%E7%94%9F%E6%B4%BB%E5%90%97.mp4" type="video/mp4" />
 </video>
+
 ----------------------------
 
 ### 时光，一如既往
@@ -1774,6 +1769,7 @@
 <video width="100%" height="100%" controls="">
     <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E4%BD%A0%E6%98%AF%E6%88%91%E4%B8%BA%E6%95%B0%E4%B8%8D%E5%A4%9A%E7%9A%84%E9%AA%84%E5%82%B2.mp4" type="video/mp4" />
 </video>
+
 ----------------------------
 
 -----------------
