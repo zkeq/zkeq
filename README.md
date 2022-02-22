@@ -3,7 +3,7 @@
 
 ###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
 
-<a href="https://dream-plan.cn"><img src="https://s-bj-2220-zkeq.oss.dogecdn.com/head.jpg"></a>
+<a href="https://dream-plan.cn"><img src="https://user-images.githubusercontent.com/62864752/155082301-d777c58f-d495-42d7-8dba-59ca844379e7.jpg"></a>
 
 
 ### 北海道恋人
@@ -14,7 +14,7 @@
 
 -------------------
 
-![北海道恋人](http://p1.music.126.net/RKPyDWCG43iUFjM7WfzruA==/109951164567769090.jpg)
+![北海道恋人](https://user-images.githubusercontent.com/62864752/155082101-1d954bc2-bc4f-4baf-a0d1-fb85790972ee.jpg)
 
 ##### 作词 : 黑金雨
 
@@ -162,7 +162,7 @@
 
 -----------------------
 
-![想去海边](http://p1.music.126.net/sLWN-iePq4ESOMPER0IWgQ==/109951164602081973.jpg)
+![想去海边](https://user-images.githubusercontent.com/62864752/155082551-97866e98-6615-4de1-9086-815762e5ab59.jpg)
 
 ##### 作词 : 灰鸿啊
 
@@ -300,7 +300,7 @@
 
 -------------------
 
-![風情萬種](http://p2.music.126.net/3umbTVhf3zQxLZgT00dVyA==/109951165638853166.jpg)
+![風情萬種](https://user-images.githubusercontent.com/62864752/155082644-2f5a66d9-c284-4a6f-bbbb-6a0a7a498b12.jpg)
 
 ##### 作词 : 周星星
 
@@ -430,7 +430,7 @@
 
 ---------------------
 
-![你有我](http://p1.music.126.net/wUizNxexAA4Qe9-XUOafog==/109951165870624374.jpg)
+![你有我](https://user-images.githubusercontent.com/62864752/155082831-fcb691c4-9860-40b4-b039-a52acdb15a65.jpg)
 
 ##### 作词 : 马嵩惟/浅紫
 
@@ -542,7 +542,7 @@
 
 ----------------------
 
-![爱就一个字](http://p2.music.126.net/sXY3pJFHq2WVDkv7tpWUJw==/109951165808483827.jpg)
+![爱就一个字](https://user-images.githubusercontent.com/62864752/155082919-34b6a81b-601b-4c1f-a410-d0783e473715.jpg)
 
 ###### 作词 : 陈家丽
 
@@ -666,7 +666,7 @@
 
 ---------------------
 
-![Love Story ](http://p1.music.126.net/hZSQLC2wsZ4e2fe3aEZUIA==/109951165834833715.jpg)
+![Love Story](https://user-images.githubusercontent.com/62864752/155082988-bfab9ad2-e850-4a99-9ec2-dc10fd5439b8.jpg)
 
 ##### 作词 : Taylor Swift
 
@@ -888,7 +888,7 @@
 
 ---------------------------
 
-![溯](http://p1.music.126.net/awh9K8lfyyOtr5X0ysgBFw==/109951164802649972.jpg)
+![溯](https://user-images.githubusercontent.com/62864752/155083144-382674dd-ec15-4b47-951d-c1ce7e4bb85c.png)
 
 ##### 作词 : CORSAK胡梦周
 
@@ -962,24 +962,6 @@
 
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1430850573.mp3" preload="auto" type="audio/mp3" controls=""  ></audio>
 
--------------------
-
-------------------
-
---------------
-
--------------
-
-----------------
-
-
-
-### L Z 、电声与管弦乐 12.回答
-
-<video width="100%" height="100%" controls="">
-    <source src="https://learnonly-3.oss-cn-beijing.aliyuncs.com/%E7%94%B5%E5%A3%B0%E4%B8%8E%E7%AE%A1%E5%BC%A6%E4%B9%90%2012.%E5%9B%9E%E7%AD%94.mp4" type="video/mp4" />
-</video>
-
 
 -----------------
 
@@ -1004,7 +986,7 @@
 </video>
 -------------------------------------
 
-![LILAC](http://p1.music.126.net/JO7EOi6GF8qeYOhCem4e8g==/109951165835781941.jpg)
+![LILAC](https://user-images.githubusercontent.com/62864752/155083286-cc2700f0-ef80-4a2f-9f07-552d8d955780.jpg)
 
 ##### 作词 : IU
 
@@ -1273,7 +1255,7 @@
 
 ------------------------
 
-![至此](http://p1.music.126.net/WS5-o20Rw8NSrFLHdfHs5w==/109951163641446987.jpg)
+![至此](https://user-images.githubusercontent.com/62864752/155083361-7925a032-0091-4db5-9721-51311b91ffdb.jpg)
 
 ##### 作词 : 少年佩/镜千
 
@@ -1365,7 +1347,7 @@
 
 ---------------------
 
-![由于时间与地域的关系](http://p1.music.126.net/KYb3H33YZxDWO8pm4EcIFQ==/109951164915642694.jpg)
+![由于时间与地域的关系](https://user-images.githubusercontent.com/62864752/155083406-12ef1af6-5aea-4962-a734-01daa18d5b1e.jpg)
 
 ##### 作词 : 少年佩/红鼻子小黑/李纤橙
 
@@ -1459,7 +1441,7 @@
 ##### 所属专辑：[极限17 影视原声专辑](https://music.163.com/album?id=80917535)
 --------------
 
-![17](http://p1.music.126.net/qmYsSnHfSsTxluNHZqJXbA==/109951164289691238.jpg)
+![17](https://user-images.githubusercontent.com/62864752/155083519-73aeb3eb-b71e-4214-8f69-185971f0a836.jpg)
 
 ##### 作词 : 代岳东
 
@@ -1623,7 +1605,7 @@
 
 --------------------------
 
-![时光，一如既往](http://p2.music.126.net/YcO7jIQtyiHQQkCrz6v6-A==/109951165750910747.jpg)
+![时光，一如既往](https://user-images.githubusercontent.com/62864752/155083594-b8bf3e7f-2985-4c0f-9a87-adba08c26fd8.jpg)
 
 ##### 作词 : 镜千
 
@@ -1758,7 +1740,7 @@
 
 ------------
 
-![Distance](http://p2.music.126.net/KYb3H33YZxDWO8pm4EcIFQ==/109951164915642694.jpg)
+![Distance](https://user-images.githubusercontent.com/62864752/155083646-a979b4c8-4309-4133-81d7-357bdd8735b4.jpg)
 
 ###### 作曲 : 少年佩
 
@@ -1806,7 +1788,7 @@
 
 -------------------
 
-![是初恋是心动是你](http://p2.music.126.net/rrAdsoFpjJHPEyN0WOOOdA==/109951165536803114.jpg)
+![是初恋是心动是你](https://user-images.githubusercontent.com/62864752/155083786-418edb79-51a1-4dc3-ab83-d96ee9c5a31b.jpg)
 
 ##### 作词 : 唐恬
 
