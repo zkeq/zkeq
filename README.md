@@ -10,6 +10,9 @@
 
 <a href="https://dream-plan.cn"><img src="https://user-images.githubusercontent.com/62864752/155082301-d777c58f-d495-42d7-8dba-59ca844379e7.jpg"></a>
 
+<details open=“open”>
+ <summary>Hide or Show...</summary>
+
 
 ### 北海道恋人
 
@@ -1878,3 +1881,5 @@
 ##### 录音师：段志明 Corey
 
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1803629106.mp3" preload="auto" type="audio/mp3" controls=""></audio>
+ 
+</details>
