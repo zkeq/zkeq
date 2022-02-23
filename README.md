@@ -1,5 +1,5 @@
 [国内Github解析不稳定，同步更新Gitee（暗色）](https://zkeq.gitee.io/)
-## [Welcome](https://zkeq.github.io/zkeq/%C2%B7index.htm)
+## [Welcome](https://zkeq.github.io/zkeq/%C2%B7index.htm) ✨
 
 <p align="center"> 
  <img src="https://github-profile-trophy.vercel.app/?username=zkeq&theme=algolia&row=2&column=3&no-frame=true" width="37%"/>
