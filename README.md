@@ -2,8 +2,8 @@
 ## [Welcome](https://zkeq.github.io/zkeq/%C2%B7index.htm)
 
 <p align="center"> 
- <img src="https://github-profile-trophy.vercel.app/?username=zkeq&theme=algolia&row=2&column=3&no-frame=true" width="35%"/>
- <img src="https://github-readme-stats.vercel.app/api?username=zkeq&show_icons=true&theme=radical&&hide_border=true" width="59%"/>
+ <img src="https://github-profile-trophy.vercel.app/?username=zkeq&theme=algolia&row=2&column=3&no-frame=true" width="37%"/>
+ <img src="https://github-readme-stats.vercel.app/api?username=zkeq&show_icons=true&theme=radical&&hide_border=true" width="62.5%"/>
 </p>
 
 ###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
