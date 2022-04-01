@@ -11,7 +11,7 @@
 
 <a href="https://dream-plan.cn"><img src="https://user-images.githubusercontent.com/62864752/155082301-d777c58f-d495-42d7-8dba-59ca844379e7.jpg"></a>
 
-<details open=“open”>
+<details hide>
  <summary>Hide or Show...</summary>
 
 
