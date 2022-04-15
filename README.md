@@ -7,6 +7,7 @@
  <img src="https://github-readme-stats.vercel.app/api?username=zkeq&show_icons=true&theme=radical&&hide_border=true" width="62.5%"/>
 </p>
 
+
 ###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
 
 <a href="https://dream-plan.cn"><img src="https://user-images.githubusercontent.com/62864752/155082301-d777c58f-d495-42d7-8dba-59ca844379e7.jpg"></a>
@@ -14,7 +15,11 @@
 <details hide>
  <summary>Hide or Show...</summary>
 
+<img src="https://activity-graph.herokuapp.com/graph?username=Zkeq&theme=react-dark&hide_title=true&hide_border=true&area=true"/>
 
+ <details hide>
+ <summary>Hide or Show...</summary>
+ 
 ### 北海道恋人
 
 ##### 歌手：[裘德](https://music.163.com/artist?id=12038239)
@@ -1882,5 +1887,7 @@
 ##### 录音师：段志明 Corey
 
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1803629106.mp3" preload="auto" type="audio/mp3" controls=""></audio>
+ 
+</details>
  
 </details>
