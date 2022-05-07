@@ -10,6 +10,10 @@
 <!--START_SECTION:waka-->
 
 ```text
+From: 07 April 2022 - To: 07 May 2022
+
+Total Time: 42 mins
+
 Python     24 mins         ██████████████▓░░░░░░░░░░   58.36 %
 Markdown   17 mins         ██████████░░░░░░░░░░░░░░░   40.49 %
 YAML       0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.93 %
