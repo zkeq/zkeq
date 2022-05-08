@@ -59,9 +59,6 @@ rel="stylesheet" type="text/css">
 <DIV id="clock"></DIV></DIV><CANVAS width="1100" height="680" 
 id="canvas"></CANVAS>             </DIV></DIV>
 <SCRIPT>
-
-var myAuto = document.getElementById('bgmMusic');  
-                    myAuto.play();  
 	
     (function(){
         var canvas = $('#canvas');
@@ -231,7 +228,11 @@ var myAuto = document.getElementById('bgmMusic');
 			<footer style="line-height:20px">
                 <div id="copyright">
                     <div align="center">Copyright © <span id="current-year">
-			<script>document.getElementById("current-year").innerHTML=(new Date).getFullYear()</script>
+			<script>
+				document.getElementById("current-year").innerHTML=(new Date).getFullYear();
+				var myAuto = document.getElementById('bgmMusic');  
+				myAuto.play();  
+			</script>
 			</span>
                     </div>
                   </object>
