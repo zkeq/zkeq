@@ -7,21 +7,6 @@
  <img src="https://github-readme-stats.vercel.app/api?username=zkeq&show_icons=true&theme=radical&&hide_border=true" width="62.5%"/>
 </p>
 
-<!--START_SECTION:waka-->
-
-```text
-From: 30 April 2022 - To: 07 May 2022
-
-Total Time: 42 mins
-
-Python     24 mins         ██████████████▓░░░░░░░░░░   58.36 %
-Markdown   17 mins         ██████████░░░░░░░░░░░░░░░   40.49 %
-YAML       0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.93 %
-JSON       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 %
-Bash       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
-```
-
-<!--END_SECTION:waka-->
 
 ###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
 
@@ -31,6 +16,9 @@ Bash       0 secs          ░░░░░░░░░░░░░░░░░�
  <summary>Hide or Show...</summary>
 
 <img src="https://activity-graph.herokuapp.com/graph?username=Zkeq&theme=react-dark&hide_title=true&hide_border=true&area=true"/>
+ 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
  <details hide>
  <summary>Hide or Show...</summary>
