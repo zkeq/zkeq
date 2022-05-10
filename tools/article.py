@@ -21,7 +21,7 @@ for i in range(len(article_list)):
 
 
 # 写入 \profile\article.svg
-with open(os.path.join("..", "Profile", "article.svg"), "w", encoding="utf-8") as f:
+with open(os.path.join("Profile", "article.svg"), "w", encoding="utf-8") as f:
     f.write(svg)
 
 print("完成")
