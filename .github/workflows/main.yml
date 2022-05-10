@@ -18,7 +18,7 @@ jobs:
           SHOW_TITLE: true
           SHOW_TOTAL: true
           SHOW_TIME: true
-  Crawler:
+  Profile-SVG:
     name: Crawler
     runs-on: ubuntu-latest
     steps:
@@ -35,7 +35,7 @@ jobs:
         run: |
           pip install -r ./tools/requirements.txt
 
-      - name: 'GET BING'
+      - name: 'GET Profile articles svg'
         env:
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
