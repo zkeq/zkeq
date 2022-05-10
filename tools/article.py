@@ -9,7 +9,7 @@ data = requests.get(url).json()
 article_list = data["article_data"]
 
 # 读取 article.svg 文件
-with open(os.path.join("..", "article.svg"), "r", encoding="utf-8") as f:
+with open(os.path.join("article.svg"), "r", encoding="utf-8") as f:
     svg = f.read()
 
 
