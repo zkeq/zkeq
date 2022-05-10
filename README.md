@@ -21,12 +21,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 01 May 2022 - To: 08 May 2022
+From: 02 May 2022 - To: 09 May 2022
 
-Total Time: 2 hrs 19 mins
+Total Time: 8 hrs 32 mins
 
-Python       1 hr 8 mins     ██████████▒░░░░░░░░░░░░░░   41.49 %
-Other        26 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.05 %
+Python       4 hrs 58 mins   █████████████▓░░░░░░░░░░░   54.94 %
+Markdown     1 hr 13 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.47 %
+CSS          1 hr 1 min      ██▓░░░░░░░░░░░░░░░░░░░░░░   11.23 %
+Other        31 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.84 %
 ```
 
 <!--END_SECTION:waka-->
