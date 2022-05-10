@@ -8,6 +8,19 @@
 </p>
 </a>
 
+<details hide>
+ <summary>About Me..</summary>
+ 
+ <a href="https://icodeq.com">
+<p align="center"> 
+ <img src="https://stats.readme.icodeq.com/api/wakatime?username=zkeq&show_icons=true&theme=algolia&&hide_border=true" width="31.5%"/>
+ <img src="https://zkeq.xyz/Profile/article.svg" width="60%"/>
+</p>
+</a>
+ 
+</details>
+
+ 
 ###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
 
 <a href="https://dream-plan.cn"><img src="https://user-images.githubusercontent.com/62864752/155082301-d777c58f-d495-42d7-8dba-59ca844379e7.jpg"></a>
@@ -21,16 +34,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 03 May 2022 - To: 10 May 2022
+From: 02 May 2022 - To: 09 May 2022
 
-Total Time: 10 hrs 22 mins
+Total Time: 8 hrs 32 mins
 
-Python             5 hrs 29 mins   ████████████▓░░░░░░░░░░░░   50.28 %
-CSS                1 hr 24 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   12.82 %
-Markdown           1 hr 14 mins    ███░░░░░░░░░░░░░░░░░░░░░░   11.34 %
-YAML               40 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.16 %
-HTML               40 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.14 %
-JavaScript         37 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.75 %
+Python       4 hrs 58 mins   █████████████▓░░░░░░░░░░░   54.94 %
+Markdown     1 hr 13 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.47 %
+CSS          1 hr 1 min      ██▓░░░░░░░░░░░░░░░░░░░░░░   11.23 %
+Other        31 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.84 %
 ```
 
 <!--END_SECTION:waka-->
