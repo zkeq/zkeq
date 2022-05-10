@@ -158,7 +158,7 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     </svg> 
       </g>
 
-    <svg x="0" y="0">
+    <svg x="-10" y="0">
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
