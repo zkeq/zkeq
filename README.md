@@ -13,8 +13,8 @@
  
  <a href="https://icodeq.com">
 <p align="center"> 
- <img src="https://stats.readme.icodeq.com/api/wakatime?username=zkeq&show_icons=true&theme=algolia&&hide_border=true" width="292"/>
- <img src="https://zkeq.xyz/Profile/article.svg" width="708"/>
+ <img src="https://github-readme-stats.vercel.app/api/wakatime?username=zkeq&show_icons=true&theme=algolia&hide_border=true&langs_count=7" width="34%"/>
+ <img src="https://zkeq.xyz/Profile/article.svg" width="64.5%"/>
 </p>
 </a>
  
