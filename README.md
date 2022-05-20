@@ -1,4 +1,4 @@
-[国内Github解析不稳定，同步更新Gitee（暗色）](https://zkeq.gitee.io/)
+[国内Github解析不稳定，同步更新Gitee（暗色）](https://zkeq.xyz/dark.html)
 ## [Welcome](https://zkeq.xyz/%C2%B7index.htm) ✨ <a href="https://icodeq.com"><img src="https://komarev.com/ghpvc/?username=zkeq&color=blueviolet&style=flat-square&label=Nice+To+Meet+U"></a>
 
 <a href="https://icodeq.com">
@@ -10,17 +10,17 @@
 
 <details hide>
  <summary>About Me..</summary>
- 
+
  <a href="https://icodeq.com">
 <p align="center"> 
  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=zkeq&show_icons=true&theme=algolia&hide_border=true&langs_count=12" width="34%"/>
  <img src="https://zkeq.xyz/Profile/article.svg" width="64.5%"/>
 </p>
 </a>
- 
+
 </details>
 
- 
+
 ###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
 
 <a href="https://dream-plan.cn"><img src="https://user-images.githubusercontent.com/62864752/155082301-d777c58f-d495-42d7-8dba-59ca844379e7.jpg"></a>
@@ -50,7 +50,7 @@ JSON               1 hr 9 mins     █▒░░░░░░░░░░░░░
 
  <details hide>
  <summary>Hide or Show...</summary>
- 
+
 ### 北海道恋人
 
 ##### 歌手：[裘德](https://music.163.com/artist?id=12038239)
@@ -1918,7 +1918,7 @@ JSON               1 hr 9 mins     █▒░░░░░░░░░░░░░
 ##### 录音师：段志明 Corey
 
 <audio id="bgmMusic" src="http://music.163.com/song/media/outer/url?id=1803629106.mp3" preload="auto" type="audio/mp3" controls=""></audio>
- 
+
 </details>
- 
+
 </details>
