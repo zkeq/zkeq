@@ -4,7 +4,7 @@
 <a href="https://icodeq.com">
 <p align="center"> 
  <img src="https://github-profile-trophy.vercel.app/?username=zkeq&theme=algolia&row=2&column=3&no-frame=true" width="37%"/>
- <img src="https://stats.readme.icodeq.com/api?username=zkeq&show_icons=true&theme=radical&&hide_border=true" width="62.5%"/>
+ <img src="https://stats.readme.icodeq.com/api?username=zkeq&show_icons=true&theme=radical&&hide_border=true" width="62%"/>
 </p>
 </a>
 
