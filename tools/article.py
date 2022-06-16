@@ -21,7 +21,7 @@ def get_now():
 
 
 for i in range(len(article_list)):
-    item = article_list[i]["title"]
+    item = article_list[i]["title"].replace("&","")
     if len(item) > 22:
         item = item[:22] + ".."
     svg = svg.replace("{title-%s}" % (i + 1), item)
