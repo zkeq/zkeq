@@ -34,16 +34,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 14 June 2022 - To: 21 June 2022
+From: 15 June 2022 - To: 22 June 2022
 
-Total Time: 42 hrs 21 mins
+Total Time: 45 hrs 14 mins
 
-Markdown         22 hrs 20 mins  █████████████░░░░░░░░░░░░   51.53 %
-HTML             8 hrs 52 mins   █████░░░░░░░░░░░░░░░░░░░░   20.49 %
-JavaScript       5 hrs 3 mins    ███░░░░░░░░░░░░░░░░░░░░░░   11.66 %
-CSS              3 hrs 11 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   07.35 %
-JSON             1 hr 53 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.36 %
-Other            58 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.26 %
+Markdown         26 hrs 24 mins  ██████████████▒░░░░░░░░░░   57.12 %
+HTML             7 hrs 15 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.69 %
+JavaScript       5 hrs 9 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   11.16 %
+CSS              3 hrs 11 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.89 %
+JSON             1 hr 53 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.08 %
+Other            58 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.12 %
 ```
 
 <!--END_SECTION:waka-->
