@@ -89,7 +89,7 @@
   
         </style>
 
-  <!--2022-06-22 02:13:49-->
+  <!--2022-06-23 02:01:15-->
         <rect
           data-testid="card-bg"
           x="0.5"
@@ -134,25 +134,25 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | CSS 动画</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | HTTP 请求与响应</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | CSS Flex 布局</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | JS 概览</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | CSS flex 实践</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | CSS 动画</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | CSS 层叠上下文</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | CSS Flex 布局</text>
     </g>
   </g>
     </svg> 
@@ -163,31 +163,31 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | JS 入门三座大山之原型</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | JS 数据类型</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | 内存图与 JS 世界</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | JS 语法</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | 作业: CSS 自我知识总结</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | JS 入门三座大山之原型</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | JS 概览</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | 内存图与 JS 世界</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | HTTP 请求与响应</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | 作业: CSS 自我知识总结</text>
     </g>
   </g>
     </svg> 
