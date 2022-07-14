@@ -1026,7 +1026,7 @@ HTML               1 hr 54 mins    █▒░░░░░░░░░░░░░
 ###### 当前视频清晰度：1080P [HD]
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly.oss-cn-shenzhen.aliyuncs.com/iu2.mp4" type="video/mp4" />
+    <source src="https://media.onmicrosoft.cn/iu2.mp4" type="video/mp4" />
 </video>
 
 -------------------------------------
@@ -1272,7 +1272,7 @@ HTML               1 hr 54 mins    █▒░░░░░░░░░░░░░
 ###### 当前视频清晰度：1080P [HD]
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly.oss-cn-shenzhen.aliyuncs.com/iu.mp4" type="video/mp4" />
+    <source src="https://media.onmicrosoft.cn/iu.mp4" type="video/mp4" />
 </video>
 
 
@@ -1280,7 +1280,7 @@ HTML               1 hr 54 mins    █▒░░░░░░░░░░░░░
 
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E8%87%B3%E6%AD%A4.mp4" type="video/mp4" />
+    <source src="https://media.onmicrosoft.cn/%E8%87%B3%E6%AD%A4.mp4" type="video/mp4" />
 </video>
 
 
@@ -1614,24 +1614,24 @@ HTML               1 hr 54 mins    █▒░░░░░░░░░░░░░
 
 ##### 版权方:哇唧唧哇娱乐(天津)有限公司
 
-<audio id="bgmMusic" src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/17.mp3" preload="auto" type="audio/mp3"  controls=""></audio>
+<audio id="bgmMusic" src="https://media.onmicrosoft.cn/17.mp3" preload="auto" type="audio/mp3"  controls=""></audio>
 
 ### 时光，一如既往
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E6%97%B6%E5%85%89%EF%BC%8C%E4%B8%80%E5%A6%82%E6%97%A2%E5%BE%80.mp4" type="video/mp4" />
+    <source src="https://media.onmicrosoft.cn/%E6%97%B6%E5%85%89%EF%BC%8C%E4%B8%80%E5%A6%82%E6%97%A2%E5%BE%80.mp4" type="video/mp4" />
 </video>
 
 ### 这是你想要的生活吗
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E8%BF%99%E6%98%AF%E4%BD%A0%E6%83%B3%E8%A6%81%E7%9A%84%E7%94%9F%E6%B4%BB%E5%90%97-Live%E7%89%88.mp4" type="video/mp4" />
+    <source src="https://media.onmicrosoft.cn/%E8%BF%99%E6%98%AF%E4%BD%A0%E6%83%B3%E8%A6%81%E7%9A%84%E7%94%9F%E6%B4%BB%E5%90%97-Live%E7%89%88.mp4" type="video/mp4" />
 </video>
 
 #### 云村听歌会
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E8%BF%99%E6%98%AF%E4%BD%A0%E6%83%B3%E8%A6%81%E7%9A%84%E7%94%9F%E6%B4%BB%E5%90%97.mp4" type="video/mp4" />
+    <source src="https://media.onmicrosoft.cn/%E8%BF%99%E6%98%AF%E4%BD%A0%E6%83%B3%E8%A6%81%E7%9A%84%E7%94%9F%E6%B4%BB%E5%90%97.mp4" type="video/mp4" />
 </video>
 
 ----------------------------
@@ -1812,7 +1812,7 @@ HTML               1 hr 54 mins    █▒░░░░░░░░░░░░░
 ---------------------------------
 
 <video width="100%" height="100%" controls="">
-    <source src="https://learnonly-6.oss-cn-heyuan.aliyuncs.com/%E4%BD%A0%E6%98%AF%E6%88%91%E4%B8%BA%E6%95%B0%E4%B8%8D%E5%A4%9A%E7%9A%84%E9%AA%84%E5%82%B2.mp4" type="video/mp4" />
+    <source src="https://media.onmicrosoft.cn/%E4%BD%A0%E6%98%AF%E6%88%91%E4%B8%BA%E6%95%B0%E4%B8%8D%E5%A4%9A%E7%9A%84%E9%AA%84%E5%82%B2.mp4" type="video/mp4" />
 </video>
 
 ----------------------------
