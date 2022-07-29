@@ -89,7 +89,7 @@
   
         </style>
 
-  <!--2022-07-29 02:23:01-->
+  <!--2022-07-29 05:18:38-->
         <rect
           data-testid="card-bg"
           x="0.5"
@@ -128,7 +128,7 @@
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">归档 | 前后端均基于 vercel 的每日..</text>
+      <text class="stat bold" x="25" y="12.5">归档 | 前后端均基于 ver..</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -140,7 +140,7 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | JS 函数的执行时机</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | JS 函数的执..</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -175,7 +175,7 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">运维公告 | 关于图欧学习资源库流量激增导致..</text>
+      <text class="stat bold" x="25" y="12.5">运维公告 | 关于图欧学习资源..</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -187,7 +187,7 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">归档 | 原生JS实现会动代码之哆啦A梦</text>
+      <text class="stat bold" x="25" y="12.5">归档 | 原生JS实现会动代码..</text>
     </g>
   </g>
     </svg> 
