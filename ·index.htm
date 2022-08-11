@@ -230,8 +230,8 @@ id="canvas"></CANVAS>             </DIV></DIV>
                     <div align="center">Copyright © <span id="current-year">
 			<script>
 				document.getElementById("current-year").innerHTML=(new Date).getFullYear();
-				document.getElementById("wrap").addEventListener("click", function(){
-                    document.getElementById("hi").play()
+				document.documentElement.addEventListener("click", function(){
+                   hi.play()
                 });
 			</script>
 			</span>
