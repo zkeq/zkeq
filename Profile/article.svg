@@ -89,7 +89,7 @@
   
         </style>
 
-  <!--2022-08-29 02:33:10-->
+  <!--2022-08-30 02:40:02-->
         <rect
           data-testid="card-bg"
           x="0.5"
@@ -128,31 +128,31 @@
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | Ajax 与 ..</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | 一些前端知识点</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">笔记 |　Axios 速查表</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | Ajax 与 ..</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">jQuery 设计思想</text>
+      <text class="stat bold" x="25" y="12.5">笔记 |　Axios 速查表</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">DOM 事件模型</text>
+      <text class="stat bold" x="25" y="12.5">jQuery 设计思想</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">运维公告 | 关于图欧学习资源..</text>
+      <text class="stat bold" x="25" y="12.5">DOM 事件模型</text>
     </g>
   </g>
     </svg> 
@@ -169,25 +169,25 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">Vue | 使用 SVG sp..</text>
+      <text class="stat bold" x="25" y="12.5">笔记 | 一道使用js合并数组..</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">笔记 | 一些常用的 webp..</text>
+      <text class="stat bold" x="25" y="12.5">Vue | 使用 SVG sp..</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | MVC 设计模..</text>
+      <text class="stat bold" x="25" y="12.5">笔记 | 一些常用的 webp..</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">饥人谷前端 | 一些前端知识点</text>
+      <text class="stat bold" x="25" y="12.5">饥人谷前端 | MVC 设计模..</text>
     </g>
   </g>
     </svg> 
