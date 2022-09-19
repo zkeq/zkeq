@@ -34,12 +34,12 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 10 September 2022 - To: 17 September 2022
+From: 11 September 2022 - To: 18 September 2022
 
-Total Time: 3 mins
+Total Time: 2 mins
 
-Markdown   2 mins          ███████████████████░░░░░░   75.40 %
-JSON       0 secs          ██████░░░░░░░░░░░░░░░░░░░   24.60 %
+Markdown   1 min           ████████████████▓░░░░░░░░   67.11 %
+JSON       0 secs          ████████▒░░░░░░░░░░░░░░░░   32.89 %
 ```
 
 <!--END_SECTION:waka-->
