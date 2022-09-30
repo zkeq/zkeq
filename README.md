@@ -34,11 +34,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 21 September 2022 - To: 28 September 2022
+From: 22 September 2022 - To: 29 September 2022
 
-Total Time: 4 hrs 26 mins
+Total Time: 6 hrs 35 mins
 
-HTML   4 hrs 26 mins   █████████████████████████   100.00 %
+HTML       5 hrs 24 mins   ████████████████████▒░░░░   81.83 %
+CSS        1 hr 2 mins     ████░░░░░░░░░░░░░░░░░░░░░   15.77 %
+Markdown   8 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.16 %
+Text       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 %
+C#         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
+JSON       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 %
 ```
 
 <!--END_SECTION:waka-->
