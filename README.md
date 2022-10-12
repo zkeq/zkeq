@@ -34,12 +34,12 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 03 October 2022 - To: 10 October 2022
+From: 04 October 2022 - To: 11 October 2022
 
 Total Time: 5 mins
 
-C#     3 mins          ██████████████████░░░░░░░   72.39 %
-HTML   1 min           ███████░░░░░░░░░░░░░░░░░░   27.61 %
+C#     3 mins          ██████████████████▒░░░░░░   73.93 %
+HTML   1 min           ██████▓░░░░░░░░░░░░░░░░░░   26.07 %
 ```
 
 <!--END_SECTION:waka-->
