@@ -34,14 +34,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 06 October 2022 - To: 13 October 2022
+From: 07 October 2022 - To: 14 October 2022
 
-Total Time: 25 mins
+Total Time: 29 mins
 
-Python   20 mins         ███████████████████▓░░░░░   78.00 %
-C#       3 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.37 %
-HTML     1 min           █▓░░░░░░░░░░░░░░░░░░░░░░░   06.46 %
-Text     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.18 %
+Python   25 mins         █████████████████████▒░░░   85.09 %
+C#       4 mins          ███▒░░░░░░░░░░░░░░░░░░░░░   13.84 %
+HTML     0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.91 %
+Text     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 %
 ```
 
 <!--END_SECTION:waka-->
