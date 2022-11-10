@@ -34,14 +34,15 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 01 November 2022 - To: 08 November 2022
+From: 02 November 2022 - To: 09 November 2022
 
-Total Time: 34 mins
+Total Time: 1 hr 41 mins
 
-HTML     34 mins         ████████████████████████▓   99.07 %
-Text     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-CSS      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.33 %
-Python   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 %
+HTML     1 hr 10 mins    █████████████████▒░░░░░░░   69.62 %
+Python   30 mins         ███████▒░░░░░░░░░░░░░░░░░   29.89 %
+Text     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 %
+JSON     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 %
+CSS      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 %
 ```
 
 <!--END_SECTION:waka-->
