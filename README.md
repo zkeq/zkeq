@@ -34,14 +34,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 01 December 2022 - To: 08 December 2022
+From: 02 December 2022 - To: 09 December 2022
 
-Total Time: 10 hrs 33 mins
+Total Time: 10 hrs 30 mins
 
-HTML         9 hrs 24 mins   ██████████████████████▒░░   89.09 %
-JSON         23 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.79 %
-Python       20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.16 %
-TypeScript   19 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.04 %
+HTML         9 hrs 14 mins   ██████████████████████░░░   88.01 %
+Python       26 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.21 %
+JSON         23 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.80 %
+TypeScript   19 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.05 %
 Text         2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.38 %
 JavaScript   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %
 ```
