@@ -34,16 +34,15 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 02 December 2022 - To: 09 December 2022
+From: 03 December 2022 - To: 10 December 2022
 
-Total Time: 10 hrs 30 mins
+Total Time: 5 hrs 51 mins
 
-HTML         9 hrs 14 mins   ██████████████████████░░░   88.01 %
-Python       26 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.21 %
-JSON         23 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.80 %
-TypeScript   19 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.05 %
-Text         2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.38 %
-JavaScript   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %
+HTML         3 hrs 33 mins   ██████████████▓░░░░░░░░░░   58.90 %
+TypeScript   1 hr 2 mins     ████▒░░░░░░░░░░░░░░░░░░░░   17.15 %
+Python       51 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.30 %
+YAML         12 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.37 %
+Other        10 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.91 %
 ```
 
 <!--END_SECTION:waka-->
