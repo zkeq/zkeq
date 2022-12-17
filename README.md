@@ -2,9 +2,18 @@
 ## [Welcome](https://zkeq.maylove.pub/) ✨ <a href="https://icodeq.com"><img src="https://komarev.com/ghpvc/?username=zkeq&color=blueviolet&style=flat-square&label=Nice+To+Meet+U"></a>
 
 <a href="https://icodeq.com">
-<p align="center"> 
- <img src="https://github-profile-trophy.vercel.app/?username=zkeq&theme=algolia&row=2&column=3&no-frame=true" width="36.5%"/>
- <img src="https://stats.readme.icodeq.com/api?username=zkeq&show_icons=true&theme=radical&&hide_border=true" width="61.7%"/>
+<p align="center">
+ <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=zkeq&theme=algolia&row=2&column=3&no-frame=true" width="36.5%">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://github-profile-trophy.vercel.app/?username=zkeq&theme=flat&row=2&column=3&margin-w=1&margin-h=1" width="36.5%">
+</picture>
+ 
+ 
+ <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://stats.readme.icodeq.com/api?username=zkeq&show_icons=true&theme=radical&hide_border=true" width="61.7%">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://stats.readme.icodeq.com/api?username=zkeq&show_icons=true" width="61.7%">
+</picture>
+ 
 </p>
 </a>
 
@@ -13,8 +22,18 @@
 
  <a href="https://icodeq.com">
 <p align="center"> 
- <img src="https://github-readme-stats.vercel.app/api/wakatime?username=zkeq&show_icons=true&theme=algolia&hide_border=true&langs_count=12" width="34%"/>
- <img src="https://zkeq.xyz/Profile/article.svg" width="64.5%"/>
+ 
+ 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/wakatime?username=zkeq&show_icons=true&theme=algolia&hide_border=true&langs_count=12" width="34%">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://github-readme-stats.vercel.app/api/wakatime?username=zkeq&show_icons=true&langs_count=12" width="34%">
+</picture>
+ 
+ <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://zkeq.xyz/Profile/article.svg" width="64.5%">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://zkeq.xyz/Profile/article.svg" width="64.5%">
+</picture>
+ 
 </p>
 </a>
 
@@ -29,7 +48,11 @@
  <summary>Hide or Show...</summary>
 
 <a href="https://icodeq.com">
-<img src="https://github-readme-activity-graph.cyclic.app/graph?username=Zkeq&theme=react-dark&hide_title=true&hide_border=true&area=true"/>
+ 
+   <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.cyclic.app/graph?username=Zkeq&theme=react-dark&hide_title=true&hide_border=true&area=true">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://github-readme-activity-graph.cyclic.app/graph?username=Zkeq&theme=vue&hide_title=true&hide_border=false&area=true">
+</picture>
  </a>
 <!--START_SECTION:waka-->
 
