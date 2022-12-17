@@ -15,10 +15,10 @@ file_list = [
     "article_light.svg"
 ]
 
-for i in file_list:
+for l in file_list:
 
     # 读取 article.svg 文件
-    with open(os.path.join(i), "r", encoding="utf-8") as f:
+    with open(os.path.join(l), "r", encoding="utf-8") as f:
         svg = f.read()
 
 
@@ -37,7 +37,7 @@ for i in file_list:
 
 
     # 写入 \profile\article.svg
-    with open(os.path.join("Profile", i), "w", encoding="utf-8") as f:
+    with open(os.path.join("Profile", l), "w", encoding="utf-8") as f:
         f.write(svg)
 
     print("完成")
