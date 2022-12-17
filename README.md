@@ -29,7 +29,7 @@
  <summary>Hide or Show...</summary>
 
 <a href="https://icodeq.com">
-<img src="https://activity-graph.herokuapp.com/graph?username=Zkeq&theme=react-dark&hide_title=true&hide_border=true&area=true"/>
+<img src="https://github-readme-activity-graph.cyclic.app/graph?username=Zkeq&theme=react-dark&hide_title=true&hide_border=true&area=true"/>
  </a>
 <!--START_SECTION:waka-->
 
