@@ -57,16 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 04 January 2023 - To: 11 January 2023
+From: 05 January 2023 - To: 12 January 2023
 
-Total Time: 43 hrs 21 mins
+Total Time: 39 hrs 14 mins
 
-HTML               21 hrs 53 mins  ████████████▓░░░░░░░░░░░░   50.20 %
-TypeScript         15 hrs 35 mins  █████████░░░░░░░░░░░░░░░░   35.74 %
-Python             2 hrs 56 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.76 %
-YAML               57 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.21 %
-JavaScript         35 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.37 %
-JSON               23 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.90 %
+TypeScript         17 hrs 35 mins  ███████████░░░░░░░░░░░░░░   44.07 %
+HTML               15 hrs 21 mins  █████████▓░░░░░░░░░░░░░░░   38.45 %
+Python             3 hrs 18 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.30 %
+YAML               57 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.42 %
+Other              41 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.74 %
 ```
 
 <!--END_SECTION:waka-->
