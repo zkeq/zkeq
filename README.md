@@ -57,16 +57,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 16 January 2023 - To: 23 January 2023
+From: 17 January 2023 - To: 24 January 2023
 
-Total Time: 14 hrs 53 mins
+Total Time: 16 hrs 29 mins
 
-Python              9 hrs 7 mins    ██████████████▓░░░░░░░░░░   59.18 %
-Markdown            1 hr 56 mins    ███░░░░░░░░░░░░░░░░░░░░░░   12.63 %
-TypeScript          45 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.86 %
-JSON                41 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.45 %
-Vue.js              37 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.02 %
-Other               32 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.47 %
+Python              10 hrs 24 mins  ███████████████▒░░░░░░░░░   61.47 %
+Markdown            2 hrs 40 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.81 %
+Vue.js              37 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.67 %
+TypeScript          36 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.61 %
+Text                35 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.49 %
+YAML                25 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.54 %
 ```
 
 <!--END_SECTION:waka-->
