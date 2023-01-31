@@ -89,7 +89,7 @@
   
         </style>
 
-  <!--2023-01-30 00:18:58-->
+  <!--2023-01-31 00:23:16-->
         <rect
           data-testid="card-bg"
           x="0.5"
@@ -169,7 +169,7 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">归档 ｜ weibo/ wec..</text>
+      <text class="stat bold" x="25" y="12.5">归档 ｜ weibo wech..</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
