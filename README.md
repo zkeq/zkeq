@@ -57,14 +57,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 30 January 2023 - To: 06 February 2023
+From: 31 January 2023 - To: 07 February 2023
 
-Total Time: 24 hrs 34 mins
+Total Time: 29 hrs 50 mins
 
-HTML               13 hrs 8 mins   █████████████░░░░░░░░░░░░   51.62 %
-Python             5 hrs 41 mins   █████▓░░░░░░░░░░░░░░░░░░░   22.35 %
-Go                 2 hrs 11 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.60 %
-Other              53 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.53 %
+HTML               18 hrs 39 mins  ███████████████▒░░░░░░░░░   61.29 %
+Python             5 hrs 38 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.56 %
+Go                 2 hrs 11 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   07.20 %
+Markdown           52 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.86 %
+CSS                45 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.49 %
+TypeScript         45 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.47 %
 ```
 
 <!--END_SECTION:waka-->
