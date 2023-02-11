@@ -57,16 +57,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 02 February 2023 - To: 09 February 2023
+From: 03 February 2023 - To: 10 February 2023
 
-Total Time: 26 hrs 11 mins
+Total Time: 37 hrs
 
-HTML               15 hrs 18 mins  ██████████████▒░░░░░░░░░░   57.31 %
-Python             4 hrs 17 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.09 %
-Go                 2 hrs 11 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.20 %
-TypeScript         1 hr 7 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   04.21 %
-Vue.js             55 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 %
-Markdown           48 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.00 %
+HTML               15 hrs 23 mins  ██████████▒░░░░░░░░░░░░░░   41.05 %
+Python             8 hrs 51 mins   ██████░░░░░░░░░░░░░░░░░░░   23.61 %
+TypeScript         7 hrs 14 mins   ████▓░░░░░░░░░░░░░░░░░░░░   19.32 %
+Go                 2 hrs 11 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.84 %
+Vue.js             55 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.47 %
+Markdown           48 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.14 %
 ```
 
 <!--END_SECTION:waka-->
