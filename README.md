@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 10 February 2023 - To: 17 February 2023
+From: 11 February 2023 - To: 18 February 2023
 
-Total Time: 18 hrs 38 mins
+Total Time: 14 hrs
 
-Python             9 hrs 36 mins   ████████████▒░░░░░░░░░░░░   48.75 %
-JavaScript         2 hrs 24 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.18 %
-HTML               2 hrs 15 mins   ███░░░░░░░░░░░░░░░░░░░░░░   11.44 %
-Vue.js             1 hr 45 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   08.93 %
-Other              1 hr 3 mins     █▒░░░░░░░░░░░░░░░░░░░░░░░   05.39 %
+Python             5 hrs 59 mins   ██████████░░░░░░░░░░░░░░░   40.24 %
+JavaScript         2 hrs 18 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.53 %
+HTML               2 hrs 15 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   15.13 %
+Vue.js             1 hr 33 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   10.46 %
+Other              53 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.02 %
 ```
 
 <!--END_SECTION:waka-->
