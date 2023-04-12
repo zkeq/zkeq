@@ -57,14 +57,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 03 April 2023 - To: 10 April 2023
+From: 04 April 2023 - To: 11 April 2023
 
-Total Time: 11 hrs 32 mins
+Total Time: 10 hrs 43 mins
 
-HTML           6 hrs 23 mins   █████████████▓░░░░░░░░░░░   54.21 %
-Markdown       4 hrs 14 mins   █████████░░░░░░░░░░░░░░░░   35.98 %
-JavaScript     32 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.52 %
-Other          14 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.11 %
+HTML           6 hrs 23 mins   ██████████████▓░░░░░░░░░░   58.27 %
+Markdown       3 hrs 25 mins   ███████▓░░░░░░░░░░░░░░░░░   31.19 %
+JavaScript     32 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.86 %
+Other          14 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.27 %
 ```
 
 <!--END_SECTION:waka-->
