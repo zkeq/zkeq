@@ -57,13 +57,13 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 06 April 2023 - To: 13 April 2023
+From: 07 April 2023 - To: 14 April 2023
 
 Total Time: 8 hrs 17 mins
 
-HTML         6 hrs 59 mins   ████████████████████░░░░░   79.61 %
-JavaScript   33 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.40 %
-Other        29 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.60 %
+HTML         6 hrs 59 mins   ████████████████████░░░░░   79.79 %
+JavaScript   33 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.41 %
+Other        28 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.39 %
 ```
 
 <!--END_SECTION:waka-->
