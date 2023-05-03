@@ -89,7 +89,7 @@
   
         </style>
 
-  <!--2023-05-02 00:20:33-->
+  <!--2023-05-03 00:20:17-->
         <rect
           data-testid="card-bg"
           x="0.5"
@@ -128,31 +128,31 @@
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">归档｜网站在线人数统计 服务</text>
+      <text class="stat bold" x="25" y="12.5">Kubernetes | 概述..</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">归档｜CSDN 图片上传接口 ..</text>
+      <text class="stat bold" x="25" y="12.5">归档｜网站在线人数统计 服务</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">归档 ｜ weibo wech..</text>
+      <text class="stat bold" x="25" y="12.5">归档｜CSDN 图片上传接口 ..</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">归档｜ 当青训营遇上码上掘金 ..</text>
+      <text class="stat bold" x="25" y="12.5">归档 ｜ weibo wech..</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">归档 | 渺软公益 CDN</text>
+      <text class="stat bold" x="25" y="12.5">归档｜ 当青训营遇上码上掘金 ..</text>
     </g>
   </g>
     </svg> 
@@ -163,7 +163,7 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">Kubernetes | 资源..</text>
+      <text class="stat bold" x="25" y="12.5">归档 | CatGPT 对公服..</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -175,19 +175,19 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">Kubernetes | 集群..</text>
+      <text class="stat bold" x="25" y="12.5">Kubernetes | 资源..</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">Kubernetes | 基础..</text>
+      <text class="stat bold" x="25" y="12.5">Kubernetes | 集群..</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">Kubernetes | 概述..</text>
+      <text class="stat bold" x="25" y="12.5">Kubernetes | 基础..</text>
     </g>
   </g>
     </svg> 
