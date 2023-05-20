@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 11 May 2023 - To: 18 May 2023
+From: 12 May 2023 - To: 19 May 2023
 
-Total Time: 17 hrs 29 mins
+Total Time: 21 hrs 50 mins
 
-Markdown     8 hrs 58 mins   ████████████▒░░░░░░░░░░░░   48.88 %
-HTML         2 hrs 50 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.46 %
-YAML         2 hrs 18 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.58 %
-JavaScript   2 hrs 4 mins    ███░░░░░░░░░░░░░░░░░░░░░░   11.34 %
-Other        51 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.67 %
+Markdown     13 hrs 50 mins  ███████████████▒░░░░░░░░░   61.30 %
+YAML         2 hrs 19 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.31 %
+HTML         2 hrs 15 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.99 %
+JavaScript   2 hrs 4 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.21 %
+Other        44 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.28 %
 ```
 
 <!--END_SECTION:waka-->
