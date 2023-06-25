@@ -57,12 +57,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 16 June 2023 - To: 23 June 2023
+From: 17 June 2023 - To: 24 June 2023
 
-Total Time: 4 mins
+Total Time: 30 mins
 
-Go     4 mins          █████████████████████████   99.64 %
-JSON   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.36 %
+JSON   25 mins         █████████████████████░░░░   84.57 %
+Go     4 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.40 %
+HTML   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 %
 ```
 
 <!--END_SECTION:waka-->
