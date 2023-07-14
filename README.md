@@ -57,12 +57,12 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 05 July 2023 - To: 12 July 2023
+From: 06 July 2023 - To: 13 July 2023
 
-Total Time: 25 mins
+Total Time: 19 mins
 
-HTML   20 mins         ███████████████████▓░░░░░   78.96 %
-YAML   5 mins          █████▒░░░░░░░░░░░░░░░░░░░   21.04 %
+HTML   15 mins         ████████████████████▓░░░░   82.99 %
+YAML   3 mins          ████▒░░░░░░░░░░░░░░░░░░░░   17.01 %
 ```
 
 <!--END_SECTION:waka-->
