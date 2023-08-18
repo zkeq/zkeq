@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 09 August 2023 - To: 16 August 2023
+From: 10 August 2023 - To: 17 August 2023
 
-Total Time: 53 mins
+Total Time: 1 hr
 
-Markdown     25 mins         █████████▒░░░░░░░░░░░░░░░   36.74 %
-Other        14 mins         █████▒░░░░░░░░░░░░░░░░░░░   21.06 %
-TypeScript   14 mins         █████▒░░░░░░░░░░░░░░░░░░░   20.83 %
-Python       11 mins         ████▒░░░░░░░░░░░░░░░░░░░░   16.68 %
-YAML         2 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.83 %
+Markdown     25 mins         ████████▒░░░░░░░░░░░░░░░░   33.57 %
+TypeScript   17 mins         ██████░░░░░░░░░░░░░░░░░░░   23.78 %
+Other        14 mins         █████░░░░░░░░░░░░░░░░░░░░   19.70 %
+Python       11 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   15.24 %
+YAML         2 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.50 %
 ```
 
 <!--END_SECTION:waka-->
