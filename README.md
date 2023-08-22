@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 August 2023 - To: 20 August 2023
+From: 14 August 2023 - To: 21 August 2023
 
-Total Time: 36 mins
+Total Time: 34 mins
 
-TypeScript   18 mins         ██████████▒░░░░░░░░░░░░░░   41.17 %
-Python       11 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.48 %
-Other        8 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.06 %
-YAML         2 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.84 %
-JSON         2 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.73 %
+TypeScript       18 mins         ███████████░░░░░░░░░░░░░░   43.70 %
+Objective-C      8 mins          █████▒░░░░░░░░░░░░░░░░░░░   20.72 %
+Other            8 mins          ████▓░░░░░░░░░░░░░░░░░░░░   19.17 %
+YAML             2 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.20 %
+JSON             2 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.08 %
 ```
 
 <!--END_SECTION:waka-->
