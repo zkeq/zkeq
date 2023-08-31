@@ -57,15 +57,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 22 August 2023 - To: 29 August 2023
+From: 23 August 2023 - To: 30 August 2023
 
-Total Time: 58 mins
+Total Time: 15 mins
 
-Vue.js        24 mins         ██████████▓░░░░░░░░░░░░░░   42.20 %
-Markdown      13 mins         ██████░░░░░░░░░░░░░░░░░░░   23.42 %
-Objective-C   10 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.00 %
-Python        4 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.87 %
-TypeScript    4 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.46 %
+Objective-C   10 mins         █████████████████▒░░░░░░░   69.32 %
+Python        4 mins          ███████▓░░░░░░░░░░░░░░░░░   30.33 %
+HTML          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.34 %
 ```
 
 <!--END_SECTION:waka-->
