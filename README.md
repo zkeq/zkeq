@@ -57,14 +57,12 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 26 August 2023 - To: 02 September 2023
+From: 27 August 2023 - To: 03 September 2023
 
-Total Time: 25 mins
+Total Time: 21 mins
 
-Objective-C    20 mins         ████████████████████▒░░░░   80.68 %
-Python         4 mins          ████▒░░░░░░░░░░░░░░░░░░░░   17.86 %
-ActionScript   0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.33 %
-HTML           0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 %
+Objective-C    20 mins         ████████████████████████▓   98.38 %
+ActionScript   0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.62 %
 ```
 
 <!--END_SECTION:waka-->
