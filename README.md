@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 11 September 2023 - To: 18 September 2023
+From: 12 September 2023 - To: 19 September 2023
 
-Total Time: 1 hr 20 mins
+Total Time: 3 hrs
 
-HTML          52 mins         ████████████████▒░░░░░░░░   64.74 %
-Objective-C   17 mins         █████▒░░░░░░░░░░░░░░░░░░░   21.67 %
-JSON          5 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   07.02 %
-Python        3 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.78 %
-Text          0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.97 %
+HTML          2 hrs 26 mins   ████████████████████▒░░░░   80.91 %
+Objective-C   17 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.67 %
+Pug           6 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.34 %
+JSON          5 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.13 %
+Python        3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.16 %
 ```
 
 <!--END_SECTION:waka-->
