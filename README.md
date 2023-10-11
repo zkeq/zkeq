@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 October 2023 - To: 09 October 2023
+From: 03 October 2023 - To: 10 October 2023
 
-Total Time: 3 hrs 11 mins
+Total Time: 4 hrs 21 mins
 
-Vue.js       2 hrs 23 mins   ██████████████████▓░░░░░░   74.95 %
-JavaScript   15 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.27 %
-Python       10 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.46 %
-Markdown     8 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
-PHP          6 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.35 %
+Vue.js       2 hrs 23 mins   █████████████▓░░░░░░░░░░░   54.96 %
+HTML         1 hr 13 mins    ███████░░░░░░░░░░░░░░░░░░   27.97 %
+JavaScript   18 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.95 %
+Python       10 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 %
+Markdown     8 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.34 %
 ```
 
 <!--END_SECTION:waka-->
