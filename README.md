@@ -57,13 +57,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 31 October 2023 - To: 07 November 2023
+From: 01 November 2023 - To: 08 November 2023
 
 Total Time: 9 mins
 
-Vue.js   6 mins          █████████████████▒░░░░░░░   69.51 %
-YAML     2 mins          ██████▒░░░░░░░░░░░░░░░░░░   24.80 %
-Python   0 secs          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.69 %
+Vue.js   6 mins          █████████████████▒░░░░░░░   68.81 %
+YAML     2 mins          ██████░░░░░░░░░░░░░░░░░░░   24.55 %
+Python   0 secs          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.64 %
+Other    0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.01 %
 ```
 
 <!--END_SECTION:waka-->
