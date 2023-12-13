@@ -57,15 +57,12 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 03 December 2023 - To: 10 December 2023
+From: 04 December 2023 - To: 11 December 2023
 
-Total Time: 20 mins
+Total Time: 0 secs
 
-Vue.js       17 mins         █████████████████████▒░░░   85.14 %
-JavaScript   2 mins          ███▒░░░░░░░░░░░░░░░░░░░░░   13.13 %
-JSON         0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.49 %
-Python       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 %
-CSS          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 %
+JavaScript   0 secs          ████████████████████▓░░░░   82.81 %
+Python       0 secs          ████▒░░░░░░░░░░░░░░░░░░░░   17.19 %
 ```
 
 <!--END_SECTION:waka-->
