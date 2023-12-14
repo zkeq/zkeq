@@ -57,12 +57,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 04 December 2023 - To: 11 December 2023
+From: 06 December 2023 - To: 13 December 2023
 
 Total Time: 0 secs
 
-JavaScript   0 secs          ████████████████████▓░░░░   82.81 %
-Python       0 secs          ████▒░░░░░░░░░░░░░░░░░░░░   17.19 %
+Python   0 secs          █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
