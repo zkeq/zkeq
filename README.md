@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 01 January 2024 - To: 08 January 2024
+From: 02 January 2024 - To: 09 January 2024
 
-Total Time: 1 hr 52 mins
+Total Time: 2 hrs 30 mins
 
-HTML         40 mins         ████████░░░░░░░░░░░░░░░░░   32.64 %
-Python       29 mins         ██████░░░░░░░░░░░░░░░░░░░   23.56 %
-Markdown     13 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.49 %
-Vue.js       12 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.82 %
-Other        11 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.99 %
+HTML         1 hr 6 mins     ██████████▒░░░░░░░░░░░░░░   41.01 %
+Python       41 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.39 %
+Markdown     13 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.05 %
+Vue.js       12 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.53 %
+Other        11 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.89 %
 ```
 
 <!--END_SECTION:waka-->
