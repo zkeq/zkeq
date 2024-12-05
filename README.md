@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 26 November 2024 - To: 03 December 2024
+From: 27 November 2024 - To: 04 December 2024
 
-Total Time: 25 hrs 40 mins
+Total Time: 27 hrs 30 mins
 
-Vue.js        19 hrs 47 mins  ███████████████████░░░░░░   76.50 %
-Python        2 hrs 19 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   08.98 %
-TypeScript    1 hr 40 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.49 %
-YAML          28 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.82 %
-JavaScript    28 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.82 %
+Vue.js        19 hrs 45 mins  ██████████████████░░░░░░░   71.47 %
+Python        4 hrs 3 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.66 %
+TypeScript    1 hr 41 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.10 %
+YAML          32 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.97 %
+JavaScript    28 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.70 %
 ```
 
 <!--END_SECTION:waka-->
