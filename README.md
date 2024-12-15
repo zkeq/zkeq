@@ -1,5 +1,5 @@
-[国内Github解析不稳定，同步更新Gitee（暗色）](https://zkeq.xyz/dark.html)
-## [Welcome](https://zkeq.maylove.pub/) ✨ <a href="https://icodeq.com"><img src="https://komarev.com/ghpvc/?username=zkeq&color=blueviolet&style=flat-square&label=Nice+To+Meet+U"></a> [![CodeTime Badge](https://img.shields.io/endpoint?style=social&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D24375%26project%3D%26in=0)](https://codetime.dev)
+[国内Github解析不稳定，同步更新Gitee（暗色）](https://dream-plan.cn/)
+## [Welcome](https://dream-plan.cn/) ✨ <a href="https://icodeq.com"><img src="https://komarev.com/ghpvc/?username=zkeq&color=blueviolet&style=flat-square&label=Nice+To+Meet+U"></a> [![CodeTime Badge](https://img.shields.io/endpoint?style=social&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D24375%26project%3D%26in=0)](https://codetime.dev)
 
 <a href="https://icodeq.com">
 <p align="center">
@@ -40,7 +40,7 @@
 </details>
 
 
-###### 购得新域名：[zkeq.xyz](https://zkeq.xyz)  本页面已对接。
+###### 购得新域名：[dream-plan.cn](https://dream-plan.cn/)  本页面已对接。
 
 <a href="https://dream-plan.cn"><img src="https://user-images.githubusercontent.com/62864752/155082301-d777c58f-d495-42d7-8dba-59ca844379e7.jpg"></a>
 
