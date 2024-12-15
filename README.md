@@ -30,8 +30,8 @@
 </picture>
  
  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://zkeq.xyz/Profile/article.svg" width="64.5%">
-  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://zkeq.xyz/Profile/article_light.svg" width="64.5%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://zkeq.maylove.pub/Profile/article.svg" width="64.5%">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://zkeq.maylove.pub/Profile/article_light.svg" width="64.5%">
 </picture>
  
 </p>
