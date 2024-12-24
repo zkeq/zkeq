@@ -1,0 +1,245 @@
+﻿<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" ""><HTML 
+xml:lang="zh-cn" xmlns=""><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		 <TITLE>奉七年之约</TITLE>	             <LINK href="shuju/default.css" 
+rel="stylesheet" type="text/css">		 
+<SCRIPT src="shuju/jquery.min.js" type="text/javascript"></SCRIPT>
+		 
+<SCRIPT src="shuju/jscex.min.js" type="text/javascript"></SCRIPT>
+		 
+<SCRIPT src="shuju/jscex-parser.js" type="text/javascript"></SCRIPT>
+		 
+<SCRIPT src="shuju/jscex-jit.js" type="text/javascript"></SCRIPT>
+		 
+<SCRIPT src="shuju/jscex-builderbase.min.js" type="text/javascript"></SCRIPT>
+		 
+<SCRIPT src="shuju/jscex-async.min.js" type="text/javascript"></SCRIPT>
+		 
+<SCRIPT src="shuju/jscex-async-powerpack.min.js" type="text/javascript"></SCRIPT>
+		 
+<SCRIPT src="shuju/functions.js" type="text/javascript" charset="utf-8"></SCRIPT>
+		 
+<SCRIPT src="shuju/love.js" type="text/javascript" charset="utf-8"></SCRIPT>
+	     
+<STYLE type="text/css">
+<!--
+.STYLE1 {color: #666666}
+-->
+        
+-->
+        </STYLE>   
+<style>
+*{font-family: "微软雅黑";}
+#code {font-size: 14px; display: none;}
+.divcss5{width:0px;height:0px;line-height:0px; overflow:hidden;}
+</style>
+<audio id="hi" src="https://media.onmicrosoft.cn/FACEVOID%E6%A1%83%E5%BF%83%E8%84%B8%E5%93%A5%E3%80%81%E6%88%BF%E4%B8%9C%E7%9A%84%E7%8C%AB%20-%20rainy%20night:%E9%9B%A8%E5%A4%9C%20(Ft.%20%E6%88%BF%E4%B8%9C%E7%9A%84%E7%8C%AB).mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
+<DIV id="main">
+<DIV id="wrap">
+<DIV id="text">
+<DIV id="code"> <font color="#ff0000"><span class="say">▧▧▧,▧▧，▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧&nbsp;</span><br>
+       <span class="say"></span><br><span class="say">▧▧▧▧，▧▧▧▧▧▧▧，▧▧▧▧▧，▧▧▧▧▧▧▧▧▧<br>▧&nbsp;</span><br>
+       <span class="say"></span><br><span class="say">▧▧▧▧，▧▧▧▧，▧▧▧▧▧▧▧▧▧，▧▧▧▧▧▧▧<br>▧，▧▧▧▧▧▧▧▧▧，&nbsp;</span><br>
+       <span class="say"></span><br><span class="say">▧▧，▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧，▧▧▧▧&nbsp;&nbsp;</span><br>
+       <span class="say"></span><br><span class="say">▧▧▧▧&nbsp;</span><br>
+       <span class="say"></span><br><span class="say">▧▧，▧▧▧▧▧▧▧▧▧▧▧，▧▧▧▧▧▧▧▧▧▧▧&nbsp;&nbsp;</span><br>
+       <span class="say"></span><br><span class="say">▧▧▧▧，▧▧▧，▧▧▧▧▧，▧▧▧▧。&nbsp;</span><br>
+       <span class="say"></span><br><span class="say">▧▧▧，▧▧▧▧▧▧▧▧▧，▧▧▧▧▧▧▧▧▧▧▧，▧▧<br>▧▧▧▧▧▧▧▧。&nbsp;&nbsp;</span><br>
+       <span class="say"></span><br><span class="say">▧▧▧▧▧▧▧▧▧▧，▧▧▧▧▧▧▧▧▧&nbsp;</span><br>
+        <span class="say"></span><br><span class="say">                                                                   ▧▧▧▧&nbsp;</span>
+       </FONT>
+<P></P></DIV></DIV>
+<DIV id="clock-box">▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧...</SPAN>                
+   
+<DIV id="clock"></DIV></DIV><CANVAS width="1100" height="680" 
+id="canvas"></CANVAS>             </DIV></DIV>
+<SCRIPT>
+	
+    (function(){
+        var canvas = $('#canvas');
+		
+        if (!canvas[0].getContext) {
+            $("#error").show();
+            return false;
+        }
+
+        var width = canvas.width();
+        var height = canvas.height();
+        
+        canvas.attr("width", width);
+        canvas.attr("height", height);
+
+        var opts = {
+            seed: {
+                x: width / 2 - 20,
+                color: "rgb(190, 26, 37)",
+                scale: 2
+            },
+            branch: [
+                [535, 680, 570, 250, 500, 200, 30, 100, [
+                    [540, 500, 455, 417, 340, 400, 13, 100, [
+                        [450, 435, 434, 430, 394, 395, 2, 40]
+                    ]],
+                    [550, 445, 600, 356, 680, 345, 12, 100, [
+                        [578, 400, 648, 409, 661, 426, 3, 80]
+                    ]],
+                    [539, 281, 537, 248, 534, 217, 3, 40],
+                    [546, 397, 413, 247, 328, 244, 9, 80, [
+                        [427, 286, 383, 253, 371, 205, 2, 40],
+                        [498, 345, 435, 315, 395, 330, 4, 60]
+                    ]],
+                    [546, 357, 608, 252, 678, 221, 6, 100, [
+                        [590, 293, 646, 277, 648, 271, 2, 80]
+                    ]]
+                ]] 
+            ],
+            bloom: {
+                num: 700,
+                width: 1080,
+                height: 650,
+            },
+            footer: {
+                width: 1200,
+                height: 5,
+                speed: 10,
+            }
+        }
+
+        var tree = new Tree(canvas[0], width, height, opts);
+        var seed = tree.seed;
+        var foot = tree.footer;
+        var hold = 1;
+
+        canvas.click(function(e) {
+            var offset = canvas.offset(), x, y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            if (seed.hover(x, y)) {
+                hold = 0; 
+                canvas.unbind("click");
+                canvas.unbind("mousemove");
+                canvas.removeClass('hand');
+            }
+        }).mousemove(function(e){
+            var offset = canvas.offset(), x, y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            canvas.toggleClass('hand', seed.hover(x, y));
+        });
+
+        var seedAnimate = eval(Jscex.compile("async", function () {
+            seed.draw();
+            while (hold) {
+                $await(Jscex.Async.sleep(10));
+            }
+            while (seed.canScale()) {
+                seed.scale(0.95);
+                $await(Jscex.Async.sleep(10));
+            }
+            while (seed.canMove()) {
+                seed.move(0, 2);
+                foot.draw();
+                $await(Jscex.Async.sleep(10));
+            }
+        }));
+
+        var growAnimate = eval(Jscex.compile("async", function () {
+            do {
+    	        tree.grow();
+                $await(Jscex.Async.sleep(10));
+            } while (tree.canGrow());
+        }));
+
+        var flowAnimate = eval(Jscex.compile("async", function () {
+            do {
+    	        tree.flower(2);
+                $await(Jscex.Async.sleep(10));
+            } while (tree.canFlower());
+        }));
+
+        var moveAnimate = eval(Jscex.compile("async", function () {
+            tree.snapshot("p1", 240, 0, 610, 680);
+            while (tree.move("p1", 500, 0)) {
+                foot.draw();
+                $await(Jscex.Async.sleep(10));
+            }
+            foot.draw();
+            tree.snapshot("p2", 500, 0, 610, 680);
+
+            // 会有闪烁不得意这样做, (＞﹏＜)
+            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+            canvas.css("background", "#ffe");
+            $await(Jscex.Async.sleep(300));
+            canvas.css("background", "none");
+        }));
+
+        var jumpAnimate = eval(Jscex.compile("async", function () {
+            var ctx = tree.ctx;
+            while (true) {
+                tree.ctx.clearRect(0, 0, width, height);
+                tree.jump();
+                foot.draw();
+                $await(Jscex.Async.sleep(25));
+            }
+        }));
+
+        var textAnimate = eval(Jscex.compile("async", function () {
+		    var together = new Date();
+		    together.setFullYear(2018,07,12); 			//时间年月日
+		 // 这个日期不知道怎么回事，对不上。只能调前面一个月，正确的日期应该是2018年8月12日
+		    together.setHours(13);						//小时	
+		    together.setMinutes(14);					//分钟
+		    together.setSeconds(5);					//秒前一位
+		    together.setMilliseconds(2);				//秒第二位
+		//这几个分钟，秒数，是自己加上去的.
+
+		    $("#code").show().typewriter();
+            $("#clock-box").fadeIn(500);
+            while (true) {
+                timeElapse(together);
+                $await(Jscex.Async.sleep(1000));
+            }
+        }));
+
+        var runAsync = eval(Jscex.compile("async", function () {
+            $await(seedAnimate());
+            $await(growAnimate());
+            $await(flowAnimate());
+            $await(moveAnimate());
+
+            textAnimate().start();
+
+            $await(jumpAnimate());
+        }));
+
+        runAsync().start();
+    })();
+    </SCRIPT>     				     </div>
+				</div>
+			</div>
+</div>
+	<div class="bg1">	
+		<div class="main">
+			<footer style="line-height:20px">
+                <div id="copyright">
+                    <div align="center">Copyright © <span id="current-year">
+			<script>
+				document.getElementById("current-year").innerHTML=(new Date).getFullYear();
+				document.documentElement.addEventListener("click", function(){
+                   hi.play()
+                });
+			</script>
+			</span>
+                    </div>
+                  </object>
+                </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

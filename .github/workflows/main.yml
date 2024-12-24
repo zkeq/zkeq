@@ -1,0 +1,55 @@
+name: Waka Readme
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs at every 12AM UTC
+    - cron: "0 0 * * *"
+  repository_dispatch:
+
+jobs:
+  update-readme:
+    name: Update this repo's README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          SHOW_TOTAL: true
+          SHOW_TIME: true
+  Profile-SVG:
+    name: Crawler
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
+      - name: 'Install requirements'
+        run: |
+          pip install -r ./tools/requirements.txt
+
+      - name: 'GET Profile articles svg'
+        env:
+          PASSWORD: ${{ secrets.PASSWORD }}
+        run: |
+          python ./tools/article.py
+
+      - name: Commit ALL IN ONE files
+        run: |
+          git config --local user.email "admin@icodeq.com"
+          git config --local user.name "zkeq"
+          git add .
+          git commit -m "GitHub Actions Crawler ALL IN ONE at $(date +'%Y-%m-%d %H:%M:%S')"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
