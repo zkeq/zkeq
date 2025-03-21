@@ -50,8 +50,8 @@
 <a href="https://icodeq.com">
  
    <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.cyclic.app/graph?username=Zkeq&theme=react-dark&hide_title=true&hide_border=true&area=true">
-  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://github-readme-activity-graph.cyclic.app/graph?username=Zkeq&theme=vue&hide_title=true&hide_border=false&area=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Zkeq&theme=react-dark&hide_title=true&hide_border=true&area=true">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://github-readme-activity-graph.vercel.app/graph?username=Zkeq&theme=vue&hide_title=true&hide_border=false&area=true">
 </picture>
  </a>
 <!--START_SECTION:waka-->
