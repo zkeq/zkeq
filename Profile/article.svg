@@ -89,7 +89,7 @@
   
         </style>
 
-  <!--2025-08-21 00:29:33-->
+  <!--2025-08-22 00:30:39-->
         <rect
           data-testid="card-bg"
           x="0.5"
@@ -128,31 +128,31 @@
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">前端体系｜Promise专题 ..</text>
+      <text class="stat bold" x="25" y="12.5">项目课 ｜ Vue.js开发印..</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">KubeEdge | [进阶]..</text>
+      <text class="stat bold" x="25" y="12.5">前端体系｜Promise专题 ..</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">KubeEdge | [基础]..</text>
+      <text class="stat bold" x="25" y="12.5">KubeEdge | [进阶]..</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">KubeEdge | 边缘计算..</text>
+      <text class="stat bold" x="25" y="12.5">KubeEdge | [基础]..</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">KubeEdge | 多视角认..</text>
+      <text class="stat bold" x="25" y="12.5">KubeEdge | 边缘计算..</text>
     </g>
   </g>
     </svg> 
@@ -163,31 +163,31 @@ style="stroke:rgb(255,255,255);stroke-width:2"/>
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">Coding | 分别用2天半..</text>
+      <text class="stat bold" x="25" y="12.5">云声计划 ｜ 如何使用宝塔最新..</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">Coding ｜ 记一次使用 ..</text>
+      <text class="stat bold" x="25" y="12.5">Coding | 分别用2天半..</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">年度｜我的2024年度总结</text>
+      <text class="stat bold" x="25" y="12.5">Coding ｜ 记一次使用 ..</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">日常｜IMYAI文本处理工具箱..</text>
+      <text class="stat bold" x="25" y="12.5">年度｜我的2024年度总结</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       <line x1="12" y1="6.25" x2="19" y2="6.25"
 style="stroke:rgb(255,255,255);stroke-width:2"/>
-      <text class="stat bold" x="25" y="12.5">项目课 ｜ Vue.js开发印..</text>
+      <text class="stat bold" x="25" y="12.5">日常｜IMYAI文本处理工具箱..</text>
     </g>
   </g>
     </svg> 
