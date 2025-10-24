@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 15 October 2025 - To: 22 October 2025
+From: 16 October 2025 - To: 23 October 2025
 
-Total Time: 17 hrs 14 mins
+Total Time: 16 hrs 15 mins
 
-Vue.js       8 hrs 10 mins   ████████████░░░░░░░░░░░░░   47.37 %
-Python       4 hrs 58 mins   ███████▒░░░░░░░░░░░░░░░░░   28.83 %
-JSON         1 hr 59 mins    ███░░░░░░░░░░░░░░░░░░░░░░   11.55 %
-Markdown     1 hr 14 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   07.18 %
-YAML         41 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.01 %
+Vue.js       8 hrs 32 mins   █████████████░░░░░░░░░░░░   52.52 %
+Python       3 hrs 28 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.32 %
+JSON         1 hr 53 mins    ███░░░░░░░░░░░░░░░░░░░░░░   11.67 %
+Markdown     1 hr 13 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.53 %
+TypeScript   35 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.63 %
 ```
 
 <!--END_SECTION:waka-->
