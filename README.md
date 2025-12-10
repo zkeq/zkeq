@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 01 December 2025 - To: 08 December 2025
+From: 02 December 2025 - To: 09 December 2025
 
-Total Time: 20 hrs 11 mins
+Total Time: 18 hrs 57 mins
 
-Python              6 hrs 14 mins   ███████▓░░░░░░░░░░░░░░░░░   30.64 %
-Dart                3 hrs 25 mins   ████▒░░░░░░░░░░░░░░░░░░░░   16.85 %
-TypeScript          2 hrs 43 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.39 %
-Vue.js              1 hr 53 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.29 %
-Markdown            1 hr 34 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.75 %
+Dart                7 hrs 17 mins   █████████▓░░░░░░░░░░░░░░░   38.15 %
+Python              3 hrs 55 mins   █████░░░░░░░░░░░░░░░░░░░░   20.48 %
+Vue.js              1 hr 39 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 %
+Markdown            1 hr 20 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.99 %
+XML                 1 hr 11 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.19 %
 ```
 
 <!--END_SECTION:waka-->
