@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 06 December 2025 - To: 13 December 2025
+From: 07 December 2025 - To: 14 December 2025
 
-Total Time: 16 hrs 33 mins
+Total Time: 13 hrs 30 mins
 
-Dart         10 hrs 12 mins  ███████████████░░░░░░░░░░   60.36 %
-Python       1 hr 58 mins    ███░░░░░░░░░░░░░░░░░░░░░░   11.66 %
-Markdown     1 hr 5 mins     █▓░░░░░░░░░░░░░░░░░░░░░░░   06.47 %
-Text         49 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.89 %
-YAML         39 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.88 %
+Dart         10 hrs 12 mins  ██████████████████▓░░░░░░   74.15 %
+Markdown     1 hr 5 mins     ██░░░░░░░░░░░░░░░░░░░░░░░   07.95 %
+Text         45 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.51 %
+TypeScript   25 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.09 %
+JSON         20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.44 %
 ```
 
 <!--END_SECTION:waka-->
