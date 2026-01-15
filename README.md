@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 06 January 2026 - To: 13 January 2026
+From: 07 January 2026 - To: 14 January 2026
 
-Total Time: 6 hrs 25 mins
+Total Time: 10 hrs 5 mins
 
-Markdown     1 hr 30 mins    ██████░░░░░░░░░░░░░░░░░░░   23.37 %
-Python       1 hr 20 mins    █████▒░░░░░░░░░░░░░░░░░░░   20.96 %
-YAML         1 hr 20 mins    █████▒░░░░░░░░░░░░░░░░░░░   20.90 %
-Bash         1 hr 13 mins    ████▓░░░░░░░░░░░░░░░░░░░░   19.16 %
-Dart         40 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.43 %
+JavaScript           4 hrs 9 mins    ██████████▒░░░░░░░░░░░░░░   41.13 %
+Markdown             1 hr 57 mins    █████░░░░░░░░░░░░░░░░░░░░   19.42 %
+YAML                 1 hr 20 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.32 %
+Python               1 hr 10 mins    ███░░░░░░░░░░░░░░░░░░░░░░   11.65 %
+Bash                 42 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.04 %
 ```
 
 <!--END_SECTION:waka-->
