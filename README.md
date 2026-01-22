@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 January 2026 - To: 20 January 2026
+From: 14 January 2026 - To: 21 January 2026
 
-Total Time: 19 hrs 26 mins
+Total Time: 15 hrs 14 mins
 
-JavaScript           14 hrs 37 mins  ██████████████████▓░░░░░░   74.25 %
-Markdown             1 hr 45 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   08.92 %
-Dart                 51 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.37 %
-Wavefront Material   34 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.94 %
-JSON                 27 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.33 %
+JavaScript           10 hrs 30 mins  █████████████████░░░░░░░░   67.81 %
+Dart                 1 hr 41 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   10.89 %
+Markdown             1 hr 19 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.58 %
+Wavefront Material   29 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.17 %
+Vue.js               23 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.53 %
 ```
 
 <!--END_SECTION:waka-->
