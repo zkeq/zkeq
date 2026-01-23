@@ -1,5 +1,5 @@
 [国内Github解析不稳定，同步更新Gitee（暗色）](https://dream-plan.cn/)
-## [Welcome](https://dream-plan.cn/) ✨ <a href="https://icodeq.com"><img src="https://komarev.com/ghpvc/?username=zkeq&color=blueviolet&style=flat-square&label=Nice+To+Meet+U"></a> [![CodeTime Badge](https://img.shields.io/endpoint?style=social&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D24375%26project%3D%26in=0)](https://codetime.dev)
+## [Welcome](https://dream-plan.cn/) ✨ <a href="https://icodeq.com"><img src="https://komarev.com/ghpvc/?username=zkeq&color=blueviolet&style=flat-square&label=Nice+To+Meet+U"></a> [![CodeTime Badge](https://shields.jannchie.com/endpoint?style=flat&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fv3%2Fusers%2Fshield%3Fuid%3D24375)](https://codetime.dev)
 
 <a href="https://icodeq.com">
 <p align="center">
