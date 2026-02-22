@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 February 2026 - To: 20 February 2026
+From: 14 February 2026 - To: 21 February 2026
 
-Total Time: 5 hrs 37 mins
+Total Time: 6 hrs 14 mins
 
-Astro        1 hr 19 mins          ██████░░░░░░░░░░░░░░░░░░░   23.53 %
-TypeScript   55 mins               ████░░░░░░░░░░░░░░░░░░░░░   16.58 %
-Python       54 mins               ████░░░░░░░░░░░░░░░░░░░░░   16.23 %
-Text         34 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   10.14 %
-Bash         28 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   08.49 %
+TypeScript   1 hr 45 mins          ███████░░░░░░░░░░░░░░░░░░   28.11 %
+Astro        1 hr 19 mins          █████▒░░░░░░░░░░░░░░░░░░░   21.18 %
+Markdown     55 mins               ███▓░░░░░░░░░░░░░░░░░░░░░   14.71 %
+YAML         42 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   11.30 %
+Text         34 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.11 %
 ```
 
 <!--END_SECTION:waka-->
