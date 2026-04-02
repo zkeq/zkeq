@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 24 March 2026 - To: 31 March 2026
+From: 25 March 2026 - To: 01 April 2026
 
-Total Time: 10 hrs 27 mins
+Total Time: 8 hrs 43 mins
 
-TypeScript   3 hrs 45 mins         █████████░░░░░░░░░░░░░░░░   35.60 %
-Dart         3 hrs 11 mins         ███████▓░░░░░░░░░░░░░░░░░   30.10 %
-Vue.js       1 hr 10 mins          ██▓░░░░░░░░░░░░░░░░░░░░░░   11.17 %
-Markdown     57 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.01 %
-Python       37 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.94 %
+Dart         3 hrs 21 mins         █████████▓░░░░░░░░░░░░░░░   38.42 %
+Markdown     1 hr 59 mins          █████▓░░░░░░░░░░░░░░░░░░░   22.76 %
+TypeScript   1 hr 19 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   15.17 %
+Vue.js       46 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   08.90 %
+Python       33 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.40 %
 ```
 
 <!--END_SECTION:waka-->
