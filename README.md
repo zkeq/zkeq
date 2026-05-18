@@ -57,15 +57,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 09 May 2026 - To: 16 May 2026
+From: 10 May 2026 - To: 17 May 2026
 
-Total Time: 14 hrs 41 mins
+Total Time: 22 hrs 23 mins
 
-Python             6 hrs 51 mins         ██████████▒░░░░░░░░░░░░░░   40.81 %
-Markdown           2 hrs 34 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   15.33 %
-Other              2 hrs 7 mins          ███░░░░░░░░░░░░░░░░░░░░░░   12.61 %
-Docker             1 hr 48 mins          ██▓░░░░░░░░░░░░░░░░░░░░░░   10.80 %
-JavaScript         1 hr 6 mins           █▓░░░░░░░░░░░░░░░░░░░░░░░   06.60 %
+Python             10 hrs 3 mins         ██████████░░░░░░░░░░░░░░░   40.49 %
+Markdown           3 hrs 57 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.91 %
+Other              2 hrs 27 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.91 %
+TypeScript         2 hrs 5 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.41 %
+Docker             1 hr 40 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.77 %
 ```
 
 <!--END_SECTION:waka-->
