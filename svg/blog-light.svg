@@ -25,10 +25,34 @@
     <line x1="16" y1="56" x2="726" y2="56" stroke="rgba(23,23,23,0.10)" />
   
     
+      <rect x="16" y="68" width="710" height="108" rx="10" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
+      <text class="mono" x="28" y="90" fill="#4F46E5" font-size="9" font-weight="700">[2026-02-19]</text>
+      <text class="mono" x="118" y="90" fill="#4F46E5" font-size="8">最新</text>
+      <text class="mono" x="168" y="90" fill="#737373" font-size="8">4 min</text>
+      <text class="head" x="28" y="114" fill="#171717" font-size="15" font-weight="700">年度｜我的2025年度总结</text>
+      <text class="sans" x="28" y="136" fill="#737373" font-size="11">2025年，日均20次提交的超强工作强度，从河南远程工作到深圳南山，从写出人格相关的书籍到沉浸式的Liv…</text>
+      <text class="mono" x="28" y="156" fill="#737373" font-size="8">#个人成长</text><text class="mono" x="106" y="156" fill="#737373" font-size="8">#生活碎片</text><text class="mono" x="184" y="156" fill="#737373" font-size="8">#年度总结</text>
+    
+      <rect x="16" y="187" width="710" height="108" rx="10" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
+      <text class="mono" x="28" y="209" fill="#4F46E5" font-size="9" font-weight="700">[2025-09-12]</text>
+      
+      <text class="mono" x="168" y="209" fill="#737373" font-size="8">4 min</text>
+      <text class="head" x="28" y="233" fill="#171717" font-size="15" font-weight="700">从想法到落地：我是如何在两个小时的时间里做出一个人格完善站的。(支持大家随意…</text>
+      <text class="sans" x="28" y="255" fill="#737373" font-size="11">记录了作者因为一次恋爱经历和与家人的争吵，意识到自己人格上的不完善，从而决定利用自己的网站开发技…</text>
+      <text class="mono" x="28" y="275" fill="#737373" font-size="8">#技术</text><text class="mono" x="106" y="275" fill="#737373" font-size="8">#个人成长</text><text class="mono" x="184" y="275" fill="#737373" font-size="8">#AI</text>
+    
+      <rect x="16" y="306" width="710" height="108" rx="10" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
+      <text class="mono" x="28" y="328" fill="#4F46E5" font-size="9" font-weight="700">[2025-09-07]</text>
+      
+      <text class="mono" x="168" y="328" fill="#737373" font-size="8">3 min</text>
+      <text class="head" x="28" y="352" fill="#171717" font-size="15" font-weight="700">Hexo 博客搭建：一份写给新手的完全指南</text>
+      <text class="sans" x="28" y="374" fill="#737373" font-size="11">这是一份写给新手的 Hexo 博客搭建完全指南，从本地环境配置到云端自动化部署，带你走过从零到一的全…</text>
+      <text class="mono" x="28" y="394" fill="#737373" font-size="8">#技术教程</text><text class="mono" x="106" y="394" fill="#737373" font-size="8">#Hexo</text><text class="mono" x="184" y="394" fill="#737373" font-size="8">#博客</text>
+    
     
     <line x1="16" y1="416" x2="726" y2="416" stroke="rgba(23,23,23,0.10)"/>
     <text class="mono" x="16" y="436" fill="#737373" font-size="10">ATOM / RSS FEED</text>
-    <text class="sans" x="726" y="436" text-anchor="end" fill="#171717" font-size="11">浏览博客归档 (0+ 篇) →</text>
+    <text class="sans" x="726" y="436" text-anchor="end" fill="#171717" font-size="11">浏览博客归档 (8+ 篇) →</text>
   
     
 </svg>
