@@ -6,8 +6,8 @@
 <p align="center">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/hud-dark.svg">
-    <img src="./svg/hud-light.svg" alt="Zkeq Projects HUD 中控台" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/hud-dark.svg">
+    <img src="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/hud-light.svg" alt="Zkeq Projects HUD 中控台" width="100%">
   </picture>
 </a>
 </p>
@@ -15,29 +15,14 @@
 <p align="center">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/products-dark.svg">
-    <img src="./svg/products-light.svg" alt="核心在研与生活系统" width="55%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/products-dark.svg">
+    <img src="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/products-light.svg" alt="核心在研与生活系统" width="55%">
   </picture>
 </a>
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/talk-dark.svg">
-    <img src="./svg/talk-light.svg" alt="云原生空间与思考电波" width="43%">
-  </picture>
-</a>
-</p>
-
-<p align="center">
-<a href="https://zkeq-projects.dev-tool.cool/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/blog-dark.svg">
-    <img src="./svg/blog-light.svg" alt="博客实时电波与思考沉淀" width="55%">
-  </picture>
-</a>
-<a href="https://zkeq-projects.dev-tool.cool/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/pulse-dark.svg">
-    <img src="./svg/pulse-light.svg" alt="CNB 态势与云原生脉搏" width="43%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/talk-dark.svg">
+    <img src="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/talk-light.svg" alt="云原生空间与思考电波" width="43%">
   </picture>
 </a>
 </p>
@@ -45,20 +30,35 @@
 <p align="center">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/book-dark.svg">
-    <img src="./svg/book-light.svg" alt="人格完善指南" width="32%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/blog-dark.svg">
+    <img src="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/blog-light.svg" alt="博客实时电波与思考沉淀" width="55%">
   </picture>
 </a>
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/patent-dark.svg">
-    <img src="./svg/patent-light.svg" alt="发明专利与知识产权" width="32%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/pulse-dark.svg">
+    <img src="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/pulse-light.svg" alt="CNB 态势与云原生脉搏" width="43%">
+  </picture>
+</a>
+</p>
+
+<p align="center">
+<a href="https://zkeq-projects.dev-tool.cool/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/book-dark.svg">
+    <img src="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/book-light.svg" alt="人格完善指南" width="32%">
   </picture>
 </a>
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/honor-dark.svg">
-    <img src="./svg/honor-light.svg" alt="腾讯云开发者先锋" width="32%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/patent-dark.svg">
+    <img src="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/patent-light.svg" alt="发明专利与知识产权" width="32%">
+  </picture>
+</a>
+<a href="https://zkeq-projects.dev-tool.cool/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/honor-dark.svg">
+    <img src="https://cnb.cool/onmicrosoft/zkeq-profile/-/git/raw/cnb/svg/honor-light.svg" alt="腾讯云开发者先锋" width="32%">
   </picture>
 </a>
 </p>
