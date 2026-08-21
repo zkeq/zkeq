@@ -1,6 +1,6 @@
 <!--
   Zkeq Projects · GitHub profile cards
-  中控台 console-card SVGs. Click any card → https://zkeq-projects.dev-tool.cool/
+  中控台 console-card SVGs. Click any card → https://zkeq-projects.dev-tool.cool/ 20260821
 -->
 
 <p align="center">
