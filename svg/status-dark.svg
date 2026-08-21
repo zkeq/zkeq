@@ -30,7 +30,7 @@
     
     <rect x="130" y="68" width="106" height="52" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
     <text class="hud" x="140" y="86" fill="#A3A3A3">仓库</text>
-    <text class="mono" x="140" y="106" fill="#F4F4F4" font-size="16" font-weight="700">122</text>
+    <text class="mono" x="140" y="106" fill="#F4F4F4" font-size="16" font-weight="700">123</text>
   
     
     <rect x="244" y="68" width="106" height="52" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
