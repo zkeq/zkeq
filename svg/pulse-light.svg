@@ -27,7 +27,7 @@
   
     <rect x="16" y="68" width="548" height="44" rx="10" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
     <text class="hud" x="109.16000000000001" y="84" text-anchor="middle" fill="#737373">云原生仓库</text>
-    <text class="mono" x="109.16000000000001" y="102" text-anchor="middle" fill="#EA580C" font-size="13" font-weight="700">66 Repos</text>
+    <text class="mono" x="109.16000000000001" y="102" text-anchor="middle" fill="#EA580C" font-size="13" font-weight="700">67 Repos</text>
     <text class="hud" x="290" y="84" text-anchor="middle" fill="#737373">组织</text>
     <text class="mono" x="290" y="102" text-anchor="middle" fill="#171717" font-size="13" font-weight="700">onmicrosoft</text>
     <text class="hud" x="470.84" y="84" text-anchor="middle" fill="#737373">核心团队</text>
@@ -71,7 +71,7 @@
     
     <line x1="16" y1="416" x2="564" y2="416" stroke="rgba(23,23,23,0.10)"/>
     <text class="mono" x="16" y="436" fill="#737373" font-size="10">CNB Pulse Telemetry</text>
-    <text class="sans" x="564" y="436" text-anchor="end" fill="#EA580C" font-size="11">查看全部 CNB 仓库 (66+) →</text>
+    <text class="sans" x="564" y="436" text-anchor="end" fill="#EA580C" font-size="11">查看全部 CNB 仓库 (67+) →</text>
   
     
 </svg>
