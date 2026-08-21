@@ -268,7 +268,54 @@ async function fetchPulse(headers) {
   }))
 }
 
+async function fetchContributionTotal(login, createdAt, token) {
+  if (token) {
+    const startYear = new Date(createdAt || "2020-01-01").getUTCFullYear()
+    const endYear = new Date().getUTCFullYear()
+    let total = 0
+    const query = `
+      query($login: String!, $from: DateTime!, $to: DateTime!) {
+        user(login: $login) {
+          contributionsCollection(from: $from, to: $to) {
+            contributionCalendar { totalContributions }
+          }
+        }
+      }
+    `
+    for (let year = startYear; year <= endYear; year++) {
+      const res = await fetch("https://api.github.com/graphql", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "User-Agent": "zkeq-profile",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          query,
+          variables: {
+            login,
+            from: `${year}-01-01T00:00:00Z`,
+            to: `${year}-12-31T23:59:59Z`,
+          },
+        }),
+      })
+      if (!res.ok) throw new Error(`graphql ${res.status}`)
+      const json = await res.json()
+      if (json.errors) throw new Error(json.errors[0]?.message || "graphql error")
+      total +=
+        json.data?.user?.contributionsCollection?.contributionCalendar?.totalContributions || 0
+    }
+    if (total > 0) return total
+  }
+
+  const payload = await getJson(`https://github-contributions-api.jogruber.de/v4/${login}`, {
+    "User-Agent": "ZkeqProjects-Site/2.0",
+  })
+  return Object.values(payload.total || {}).reduce((a, b) => a + Number(b || 0), 0)
+}
+
 async function fetchGithub() {
+  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || ""
   const headers = ghHeaders()
   const user = await getJson(`https://api.github.com/users/${USER}`, headers)
   let stars = 0
@@ -288,11 +335,8 @@ async function fetchGithub() {
   }
   let commits = ""
   try {
-    const payload = await getJson(`https://github-contributions-api.jogruber.de/v4/${USER}`, {
-      "User-Agent": "zkeq-profile",
-    })
-    const total = Object.values(payload.total || {}).reduce((a, b) => a + Number(b || 0), 0)
-    if (total) commits = total.toLocaleString("en-US")
+    const total = await fetchContributionTotal(USER, user.created_at, token)
+    if (total > 0) commits = total.toLocaleString("en-US")
   } catch (err) {
     console.warn("contrib:", err.message)
   }
@@ -300,7 +344,7 @@ async function fetchGithub() {
     repos: user.public_repos || 0,
     followers: user.followers || 0,
     stars,
-    commits: commits || String(user.public_repos || 0),
+    commits,
     langs: [...langs.entries()]
       .sort((a, b) => b[1] - a[1])
       .slice(0, 4)
@@ -325,7 +369,7 @@ export async function loadData() {
     repos: 0,
     followers: 0,
     stars: 0,
-    commits: "0",
+    commits: "",
     langs: [],
   }
 

@@ -201,7 +201,7 @@ function renderHud(t, data) {
 
     ${chip(16, 48, 210, "在线核心产品", `${data.projectCount} units`, t.emerald, t)}
     ${chip(236, 48, 210, "CNB / 渺软仓库", `${data.cnbRepos} repos`, t.cyan, t)}
-    ${chip(456, 48, 210, "GitHub 累计提交", `${data.commits}+`, t.amber, t)}
+    ${chip(456, 48, 210, "GitHub 累计提交", data.commits ? `${data.commits}+` : "—", t.amber, t)}
     ${chip(676, 48, 208, "博客文章沉淀", `${data.postCount}+ posts`, t.indigo, t)}
     `
   )
