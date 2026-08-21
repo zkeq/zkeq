@@ -36,7 +36,7 @@
     
     <rect x="456" y="48" width="210" height="68" rx="12" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
     <text class="hud" x="470" y="70" fill="#737373">GitHub 累计提交</text>
-    <text class="mono" x="470" y="96" fill="#171717" font-size="20" font-weight="700">19,623+</text>
+    <text class="mono" x="470" y="96" fill="#171717" font-size="20" font-weight="700">122+</text>
     <circle cx="648" cy="82" r="3.5" fill="#D97706"/>
   
     
