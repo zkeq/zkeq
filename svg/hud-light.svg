@@ -10,40 +10,40 @@
     .led { animation: blink 2.4s ease-in-out infinite; }
     @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
   ]]></style>
-  <rect width="900" height="132" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <rect width="900" height="132" rx="14" fill="#FFFFFF" stroke="rgba(23,23,23,0.10)"/>
   
-    <rect x="16" y="14" width="268" height="22" rx="11" fill="rgba(26,127,55,0.10)" stroke="#1a7f37" stroke-opacity="0.28"/>
-    <circle class="led" cx="30" cy="25" r="3.2" fill="#1a7f37"/>
-    <text class="hud" x="40" y="29" fill="#1a7f37" font-weight="700">SYSTEM: ALL SYSTEMS OPERATIONAL</text>
-    <text class="mono" x="298" y="29" fill="#656d76" font-size="10">SHENZHEN · NANSHAN [22.53° N, 113.93° E]</text>
-    <rect x="694" y="12" width="96" height="24" rx="8" fill="#1f2328"/>
-    <text class="mono" x="742" y="28" text-anchor="middle" font-size="10" fill="#ffffff" font-weight="700">HUD 中控台  1</text>
-    <rect x="794" y="12" width="90" height="24" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text class="mono" x="839" y="28" text-anchor="middle" font-size="10" fill="#656d76">叙事长文  2</text>
+    <rect x="16" y="14" width="268" height="22" rx="11" fill="rgba(16,185,129,0.10)" stroke="#059669" stroke-opacity="0.28"/>
+    <circle class="led" cx="30" cy="25" r="3.2" fill="#059669"/>
+    <text class="hud" x="40" y="29" fill="#059669" font-weight="700">SYSTEM: ALL SYSTEMS OPERATIONAL</text>
+    <text class="mono" x="298" y="29" fill="#737373" font-size="10">SHENZHEN · NANSHAN [22.53° N, 113.93° E]</text>
+    <rect x="694" y="12" width="96" height="24" rx="8" fill="#171717"/>
+    <text class="mono" x="742" y="28" text-anchor="middle" font-size="10" fill="#FAFAFA" font-weight="700">HUD 中控台  1</text>
+    <rect x="794" y="12" width="90" height="24" rx="8" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
+    <text class="mono" x="839" y="28" text-anchor="middle" font-size="10" fill="#737373">叙事长文  2</text>
 
     
-    <rect x="16" y="48" width="210" height="68" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text class="hud" x="30" y="70" fill="#656d76">在线核心产品</text>
-    <text class="mono" x="30" y="96" fill="#1f2328" font-size="20" font-weight="700">16 units</text>
-    <circle cx="208" cy="82" r="3.5" fill="#1a7f37"/>
+    <rect x="16" y="48" width="210" height="68" rx="12" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
+    <text class="hud" x="30" y="70" fill="#737373">在线核心产品</text>
+    <text class="mono" x="30" y="96" fill="#171717" font-size="20" font-weight="700">16 units</text>
+    <circle cx="208" cy="82" r="3.5" fill="#059669"/>
   
     
-    <rect x="236" y="48" width="210" height="68" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text class="hud" x="250" y="70" fill="#656d76">CNB / 渺软仓库</text>
-    <text class="mono" x="250" y="96" fill="#1f2328" font-size="20" font-weight="700">64 repos</text>
-    <circle cx="428" cy="82" r="3.5" fill="#0969da"/>
+    <rect x="236" y="48" width="210" height="68" rx="12" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
+    <text class="hud" x="250" y="70" fill="#737373">CNB / 渺软仓库</text>
+    <text class="mono" x="250" y="96" fill="#171717" font-size="20" font-weight="700">64 repos</text>
+    <circle cx="428" cy="82" r="3.5" fill="#0891B2"/>
   
     
-    <rect x="456" y="48" width="210" height="68" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text class="hud" x="470" y="70" fill="#656d76">GitHub 累计提交</text>
-    <text class="mono" x="470" y="96" fill="#1f2328" font-size="20" font-weight="700">19,620+</text>
-    <circle cx="648" cy="82" r="3.5" fill="#9a6700"/>
+    <rect x="456" y="48" width="210" height="68" rx="12" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
+    <text class="hud" x="470" y="70" fill="#737373">GitHub 累计提交</text>
+    <text class="mono" x="470" y="96" fill="#171717" font-size="20" font-weight="700">19,620+</text>
+    <circle cx="648" cy="82" r="3.5" fill="#D97706"/>
   
     
-    <rect x="676" y="48" width="208" height="68" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text class="hud" x="690" y="70" fill="#656d76">博客文章沉淀</text>
-    <text class="mono" x="690" y="96" fill="#1f2328" font-size="20" font-weight="700">8+ posts</text>
-    <circle cx="866" cy="82" r="3.5" fill="#8250df"/>
+    <rect x="676" y="48" width="208" height="68" rx="12" fill="rgba(0,0,0,0.03)" stroke="rgba(23,23,23,0.10)"/>
+    <text class="hud" x="690" y="70" fill="#737373">博客文章沉淀</text>
+    <text class="mono" x="690" y="96" fill="#171717" font-size="20" font-weight="700">8+ posts</text>
+    <circle cx="866" cy="82" r="3.5" fill="#4F46E5"/>
   
     
 </svg>
