@@ -1,15 +1,17 @@
-# CNB 云原生构建：与 zkeq-projects 同源拉取数据，刷新 SVG。
-# 仓库设置里配置密钥 CNB_TOKEN、GITHUB_TOKEN。 Wake CNB
+# CNB 云原生构建：从密钥仓库引入 GitHub SK，再拉 GitHub / CNB 数据刷新 SVG。
 
 .generate: &generate
   docker:
     image: node:22
+  imports:
+    - https://cnb.cool/onmicrosoft/Github-SK/-/blob/main/main.yaml
   env:
     TZ: Asia/Shanghai
   stages:
     - name: generate-svgs
       script: |
         set -e
+        export GITHUB_TOKEN="${SK:-$GITHUB_TOKEN}"
         node scripts/generate.mjs
         git config user.name "cnb-bot"
         git config user.email "cnb@cnb.cool"

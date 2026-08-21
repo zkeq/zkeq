@@ -1,7 +1,7 @@
 /**
  * Live data, same sources and auth as zkeq-site (zkeq-projects).
  * CNB_TOKEN: Bearer https://api.cnb.cool
- * GITHUB_TOKEN / GH_TOKEN: GitHub REST
+ * GITHUB_TOKEN / GH_TOKEN / SK: GitHub REST / GraphQL（CNB 密钥仓库 main.yaml 里的 SK）
  */
 
 const USER = "zkeq"
@@ -17,7 +17,7 @@ function cnbHeaders() {
 }
 
 function ghHeaders() {
-  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || ""
+  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || process.env.SK || ""
   const headers = {
     Accept: "application/vnd.github+json",
     "User-Agent": "zkeq-profile",
@@ -315,7 +315,7 @@ async function fetchContributionTotal(login, createdAt, token) {
 }
 
 async function fetchGithub() {
-  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || ""
+  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || process.env.SK || ""
   const headers = ghHeaders()
   const user = await getJson(`https://api.github.com/users/${USER}`, headers)
   let stars = 0
