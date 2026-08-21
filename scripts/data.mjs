@@ -179,8 +179,6 @@ async function fetchRecordings(headers) {
     if (batch.length < 100) break
   }
 
-  console.log(all)
-
   const seen = new Set()
   const out = []
   for (const c of [...all].reverse()) {
