@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="268" viewBox="0 0 300 268" role="img" fill="none">
+  <title>Zkeq Projects</title>
+  <desc>https://zkeq-projects.dev-tool.cool/</desc>
+  <style><![CDATA[
+    .hud { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', sans-serif; }
+    .head { font-family: ui-serif, Georgia, 'Songti SC', 'Noto Serif SC', serif; }
+    .led { animation: blink 2.4s ease-in-out infinite; }
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
+  ]]></style>
+  <rect width="300" height="268" rx="14" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
+  
+    
+    
+    <rect x="16" y="16" width="28" height="28" rx="8" fill="rgba(245,158,11,0.12)"/>
+    <g transform="translate(23,23)" fill="none" stroke="#FBBF24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2h8v14H2zM12 5h2v11H8"/></g>
+  
+    <text class="hud" x="52" y="27" fill="#FBBF24" font-weight="700">PUBLICATION CORE</text>
+    <text class="head" x="52" y="44" fill="#F4F4F4" font-size="16" font-weight="700">人格完善指南</text>
+    
+    <line x1="16" y1="56" x2="284" y2="56" stroke="rgba(255,255,255,0.08)" />
+  
+    <text class="head" x="16" y="78" fill="#F4F4F4" font-size="13" font-weight="700">Zkeq 的人格完善指南</text>
+    <text class="sans" x="16" y="98" fill="#A3A3A3" font-size="11">以名著为指引、AI 赋能的认知提升体系。</text>
+    <text class="mono" x="16" y="122" fill="#FBBF24" font-size="11" font-weight="700">01</text>
+           <text class="sans" x="40" y="122" fill="#F4F4F4" font-size="11">《二次成长》重塑</text><text class="mono" x="16" y="142" fill="#FBBF24" font-size="11" font-weight="700">02</text>
+           <text class="sans" x="40" y="142" fill="#F4F4F4" font-size="11">《人性的弱点》指引</text><text class="mono" x="16" y="162" fill="#FBBF24" font-size="11" font-weight="700">03</text>
+           <text class="sans" x="40" y="162" fill="#F4F4F4" font-size="11">AI 智能深度问答</text><text class="mono" x="16" y="182" fill="#FBBF24" font-size="11" font-weight="700">04</text>
+           <text class="sans" x="40" y="182" fill="#F4F4F4" font-size="11">INFJ-A 升阶演进</text>
+    
+    <line x1="16" y1="232" x2="284" y2="232" stroke="rgba(255,255,255,0.08)"/>
+    <text class="mono" x="16" y="252" fill="#A3A3A3" font-size="10">成书前言 →</text>
+    <text class="sans" x="284" y="252" text-anchor="end" fill="#FBBF24" font-size="11">开启导读 →</text>
+  
+    
+</svg>

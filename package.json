@@ -1,0 +1,12 @@
+{
+  "name": "zkeq-profile",
+  "private": true,
+  "type": "module",
+  "description": "Zkeq GitHub profile cards — self-drawn SVGs of the homepage and GitHub status.",
+  "scripts": {
+    "generate": "node scripts/generate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

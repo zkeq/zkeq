@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="132" viewBox="0 0 900 132" role="img" fill="none">
+  <title>Zkeq Projects</title>
+  <desc>https://zkeq-projects.dev-tool.cool/</desc>
+  <style><![CDATA[
+    .hud { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', sans-serif; }
+    .head { font-family: ui-serif, Georgia, 'Songti SC', 'Noto Serif SC', serif; }
+    .led { animation: blink 2.4s ease-in-out infinite; }
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
+  ]]></style>
+  <rect width="900" height="132" rx="14" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
+  
+    <rect x="16" y="14" width="268" height="22" rx="11" fill="rgba(16,185,129,0.08)" stroke="#34D399" stroke-opacity="0.28"/>
+    <circle class="led" cx="30" cy="25" r="3.2" fill="#34D399"/>
+    <text class="hud" x="40" y="29" fill="#34D399" font-weight="700">SYSTEM: ALL SYSTEMS OPERATIONAL</text>
+    <text class="mono" x="298" y="29" fill="#A3A3A3" font-size="10">SHENZHEN · NANSHAN [22.53° N, 113.93° E]</text>
+    <rect x="694" y="12" width="96" height="24" rx="8" fill="#F4F4F4"/>
+    <text class="mono" x="742" y="28" text-anchor="middle" font-size="10" fill="#111111" font-weight="700">HUD 中控台  1</text>
+    <rect x="794" y="12" width="90" height="24" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text class="mono" x="839" y="28" text-anchor="middle" font-size="10" fill="#A3A3A3">叙事长文  2</text>
+
+    
+    <rect x="16" y="48" width="210" height="68" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text class="hud" x="30" y="70" fill="#A3A3A3">在线核心产品</text>
+    <text class="mono" x="30" y="96" fill="#F4F4F4" font-size="20" font-weight="700">16 units</text>
+    <circle cx="208" cy="82" r="3.5" fill="#34D399"/>
+  
+    
+    <rect x="236" y="48" width="210" height="68" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text class="hud" x="250" y="70" fill="#A3A3A3">CNB / 渺软仓库</text>
+    <text class="mono" x="250" y="96" fill="#F4F4F4" font-size="20" font-weight="700">64 repos</text>
+    <circle cx="428" cy="82" r="3.5" fill="#22D3EE"/>
+  
+    
+    <rect x="456" y="48" width="210" height="68" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text class="hud" x="470" y="70" fill="#A3A3A3">GitHub 累计提交</text>
+    <text class="mono" x="470" y="96" fill="#F4F4F4" font-size="20" font-weight="700">19,616+</text>
+    <circle cx="648" cy="82" r="3.5" fill="#FBBF24"/>
+  
+    
+    <rect x="676" y="48" width="208" height="68" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text class="hud" x="690" y="70" fill="#A3A3A3">博客文章沉淀</text>
+    <text class="mono" x="690" y="96" fill="#F4F4F4" font-size="20" font-weight="700">8+ posts</text>
+    <circle cx="866" cy="82" r="3.5" fill="#818CF8"/>
+  
+    
+</svg>

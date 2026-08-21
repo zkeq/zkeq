@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" role="img" fill="none">
+  <title>Zkeq Projects</title>
+  <desc>https://zkeq-projects.dev-tool.cool/</desc>
+  <style><![CDATA[
+    .hud { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', sans-serif; }
+    .head { font-family: ui-serif, Georgia, 'Songti SC', 'Noto Serif SC', serif; }
+    .led { animation: blink 2.4s ease-in-out infinite; }
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
+  ]]></style>
+  <rect width="480" height="220" rx="14" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
+  
+    
+    
+    <rect x="16" y="16" width="28" height="28" rx="8" fill="rgba(249,115,22,0.12)"/>
+    <g transform="translate(23,23)" fill="none" stroke="#FB923C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 1v4M3 8h8M2 13h10"/></g>
+  
+    <text class="hud" x="52" y="27" fill="#FB923C" font-weight="700">GITHUB STATUS · ZKEQ</text>
+    <text class="head" x="52" y="44" fill="#F4F4F4" font-size="16" font-weight="700">GitHub 仓库与贡献</text>
+    
+    <line x1="16" y1="56" x2="464" y2="56" stroke="rgba(255,255,255,0.08)" />
+  
+    
+    <rect x="16" y="68" width="106" height="52" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text class="hud" x="26" y="86" fill="#A3A3A3">提交</text>
+    <text class="mono" x="26" y="106" fill="#F4F4F4" font-size="16" font-weight="700">19,616</text>
+  
+    
+    <rect x="130" y="68" width="106" height="52" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text class="hud" x="140" y="86" fill="#A3A3A3">仓库</text>
+    <text class="mono" x="140" y="106" fill="#F4F4F4" font-size="16" font-weight="700">122</text>
+  
+    
+    <rect x="244" y="68" width="106" height="52" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text class="hud" x="254" y="86" fill="#A3A3A3">Stars</text>
+    <text class="mono" x="254" y="106" fill="#F4F4F4" font-size="16" font-weight="700">724</text>
+  
+    
+    <rect x="358" y="68" width="106" height="52" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text class="hud" x="368" y="86" fill="#A3A3A3">Followers</text>
+    <text class="mono" x="368" y="106" fill="#F4F4F4" font-size="16" font-weight="700">206</text>
+  
+    <text class="hud" x="16" y="154" fill="#A3A3A3">仓库语言分布</text>
+    <rect x="16" y="168" width="189" height="8" rx="2" fill="#F4F4F4"/><rect x="208" y="168" width="118" height="8" rx="2" fill="#A3A3A3"/><rect x="329" y="168" width="68" height="8" rx="2" fill="#22D3EE"/><rect x="400" y="168" width="61" height="8" rx="2" fill="#818CF8"/>
+    <text class="mono" x="16" y="196" fill="#A3A3A3" font-size="9">HTML 27</text><text class="mono" x="132" y="196" fill="#A3A3A3" font-size="9">JavaScript 17</text><text class="mono" x="248" y="196" fill="#A3A3A3" font-size="9">Python 10</text><text class="mono" x="364" y="196" fill="#A3A3A3" font-size="9">CSS 9</text>
+    
+</svg>
