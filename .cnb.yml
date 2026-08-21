@@ -1,0 +1,42 @@
+# CNB 云原生构建：与 zkeq-projects 同源拉取数据，刷新 SVG。
+# 仓库设置里配置密钥 CNB_TOKEN、GITHUB_TOKEN。
+
+.generate: &generate
+  docker:
+    image: node:22
+  env:
+    TZ: Asia/Shanghai
+  stages:
+    - name: generate-svgs
+      script: |
+        set -e
+        node scripts/generate.mjs
+        git config user.name "cnb-bot"
+        git config user.email "cnb@cnb.cool"
+        git add svg
+        if git diff --staged --quiet; then
+          echo "No SVG changes"
+        else
+          git commit -m "chore: refresh profile svgs"
+          git push
+        fi
+
+cnb:
+  push:
+    - <<: *generate
+      ifModify:
+        - scripts/**
+        - .cnb.yml
+        - package.json
+  "crontab: 0 4 * * *":
+    - <<: *generate
+
+main:
+  push:
+    - <<: *generate
+      ifModify:
+        - scripts/**
+        - .cnb.yml
+        - package.json
+  "crontab: 0 4 * * *":
+    - <<: *generate

@@ -51,7 +51,7 @@
       <text class="sans" x="710" y="84" fill="#A3A3A3" font-size="11">↗</text>
       <g clip-path="url(#p1)">
         <text class="head" x="389" y="106" fill="#F4F4F4" font-size="13" font-weight="700">全息推演个人财务系统</text>
-        <text class="sans" x="389" y="122" fill="#A3A3A3" font-size="11">以未来现金流推演为核心，统一管理账户、预算、负债</text><text class="sans" x="389" y="137" fill="#A3A3A3" font-size="11">与消费计划。</text>
+        <text class="sans" x="389" y="122" fill="#A3A3A3" font-size="11">以未来现金流推演为核心，统一管理账户、预算、负债</text><text class="sans" x="389" y="137" fill="#A3A3A3" font-size="11">与消费计划的全栈财务应用。</text>
       </g>
       <rect x="389" y="150" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
            <text class="mono" x="425" y="160" text-anchor="middle" fill="#A3A3A3" font-size="8">现金流推演</text><rect x="467" y="150" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
@@ -65,7 +65,7 @@
       <text class="sans" x="349" y="205" fill="#A3A3A3" font-size="11">↗</text>
       <g clip-path="url(#p2)">
         <text class="head" x="28" y="227" fill="#F4F4F4" font-size="13" font-weight="700">SparkAI - 多模态 AI 创作平台前端 - 新…</text>
-        <text class="sans" x="28" y="243" fill="#A3A3A3" font-size="11">基于 Vue 3 的企业级多模态 AI 内容创作平台，集</text><text class="sans" x="28" y="258" fill="#A3A3A3" font-size="11">成智能对话、绘画、视频。</text>
+        <text class="sans" x="28" y="243" fill="#A3A3A3" font-size="11">基于 Vue 3 的企业级多模态 AI 内容创作平台,集成</text><text class="sans" x="28" y="258" fill="#A3A3A3" font-size="11">智能对话、AI 绘画、视频生成、文档写作等核心功能</text>
       </g>
       <rect x="28" y="271" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
            <text class="mono" x="64" y="281" text-anchor="middle" fill="#A3A3A3" font-size="8">Vue 3</text><rect x="106" y="271" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
@@ -79,7 +79,7 @@
       <text class="sans" x="710" y="205" fill="#A3A3A3" font-size="11">↗</text>
       <g clip-path="url(#p3)">
         <text class="head" x="389" y="227" fill="#F4F4F4" font-size="13" font-weight="700">SparkAI - 多模态 AI 创作平台前端 - 旧…</text>
-        <text class="sans" x="389" y="243" fill="#A3A3A3" font-size="11">基于 Vue 3 的多模态 AI 综合应用平台，集成对话</text><text class="sans" x="389" y="258" fill="#A3A3A3" font-size="11">、绘画、视频。</text>
+        <text class="sans" x="389" y="243" fill="#A3A3A3" font-size="11">基于 Vue 3 的多模态 AI 综合应用平台，集成对话</text><text class="sans" x="389" y="258" fill="#A3A3A3" font-size="11">、绘画、视频、写作等多种 AI 能力</text>
       </g>
       <rect x="389" y="271" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
            <text class="mono" x="425" y="281" text-anchor="middle" fill="#A3A3A3" font-size="8">Vue 3</text><rect x="467" y="271" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
@@ -93,7 +93,7 @@
       <text class="sans" x="349" y="326" fill="#A3A3A3" font-size="11">↗</text>
       <g clip-path="url(#p4)">
         <text class="head" x="28" y="348" fill="#F4F4F4" font-size="13" font-weight="700">SparkAI 视频生成平台</text>
-        <text class="sans" x="28" y="364" fill="#A3A3A3" font-size="11">企业级 AI 视频生成 SaaS 平台，支持 15+ 主流 AI</text><text class="sans" x="28" y="379" fill="#A3A3A3" font-size="11"> 模型。</text>
+        <text class="sans" x="28" y="364" fill="#A3A3A3" font-size="11">企业级 AI 视频生成 SaaS 平台,支持 15+ 主流 AI</text><text class="sans" x="28" y="379" fill="#A3A3A3" font-size="11"> 模型,实现文生视频、图生视频、视频转换的完整…</text>
       </g>
       <rect x="28" y="392" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
            <text class="mono" x="64" y="402" text-anchor="middle" fill="#A3A3A3" font-size="8">AI视频生成</text><rect x="106" y="392" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
@@ -107,7 +107,7 @@
       <text class="sans" x="710" y="326" fill="#A3A3A3" font-size="11">↗</text>
       <g clip-path="url(#p5)">
         <text class="head" x="389" y="348" fill="#F4F4F4" font-size="13" font-weight="700">IMYAI智能助手官网</text>
-        <text class="sans" x="389" y="364" fill="#A3A3A3" font-size="11">基于 Vue 3 的 AI 智能助手官网，支持多平台下载</text><text class="sans" x="389" y="379" fill="#A3A3A3" font-size="11">与动态内容管理。</text>
+        <text class="sans" x="389" y="364" fill="#A3A3A3" font-size="11">基于Vue 3的AI智能助手官网，支持多平台下载与动态</text><text class="sans" x="389" y="379" fill="#A3A3A3" font-size="11">内容管理</text>
       </g>
       <rect x="389" y="392" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
            <text class="mono" x="425" y="402" text-anchor="middle" fill="#A3A3A3" font-size="8">Vue 3</text><rect x="467" y="392" width="72" height="14" rx="3" fill="#171717" stroke="rgba(255,255,255,0.08)"/>
