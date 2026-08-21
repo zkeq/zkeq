@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="468" viewBox="0 0 640 468" role="img" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="742" height="452" viewBox="0 0 742 452" role="img" fill="none">
   <title>Zkeq Projects</title>
   <desc>https://zkeq-projects.dev-tool.cool/</desc>
   <style><![CDATA[
@@ -10,9 +10,9 @@
     .led { animation: blink 2.4s ease-in-out infinite; }
     @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
   ]]></style>
-  <rect width="640" height="468" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <rect width="742" height="452" rx="14" fill="#ffffff" stroke="#d0d7de"/>
   
-    <defs><clipPath id="p0"><rect x="26" y="100" width="276" height="56" rx="4"/></clipPath><clipPath id="p1"><rect x="334" y="100" width="276" height="56" rx="4"/></clipPath><clipPath id="p2"><rect x="26" y="218" width="276" height="56" rx="4"/></clipPath><clipPath id="p3"><rect x="334" y="218" width="276" height="56" rx="4"/></clipPath><clipPath id="p4"><rect x="26" y="336" width="276" height="56" rx="4"/></clipPath><clipPath id="p5"><rect x="334" y="336" width="276" height="56" rx="4"/></clipPath></defs>
+    <defs><clipPath id="p0"><rect x="26" y="90" width="329" height="52" rx="4"/></clipPath><clipPath id="p1"><rect x="387" y="90" width="329" height="52" rx="4"/></clipPath><clipPath id="p2"><rect x="26" y="211" width="329" height="52" rx="4"/></clipPath><clipPath id="p3"><rect x="387" y="211" width="329" height="52" rx="4"/></clipPath><clipPath id="p4"><rect x="26" y="332" width="329" height="52" rx="4"/></clipPath><clipPath id="p5"><rect x="387" y="332" width="329" height="52" rx="4"/></clipPath></defs>
     
     
     <rect x="16" y="16" width="28" height="28" rx="8" fill="rgba(26,127,55,0.10)"/>
@@ -21,103 +21,103 @@
     <text class="hud" x="52" y="27" fill="#1a7f37" font-weight="700">ACTIVE PRODUCTS MATRIX</text>
     <text class="head" x="52" y="44" fill="#1f2328" font-size="16" font-weight="700">核心在研与生活系统</text>
     
-      <rect x="430" y="18" width="58" height="18" rx="6" fill="#1f2328"/>
-      <text class="mono" x="459" y="31" text-anchor="middle" font-size="9" fill="#ffffff">全部 (16)</text>
-      <text class="mono" x="510" y="31" fill="#656d76" font-size="9">生活</text>
-      <text class="mono" x="548" y="31" fill="#656d76" font-size="9">AI</text>
-      <text class="mono" x="580" y="31" fill="#656d76" font-size="9">基建</text>
+      <rect x="532" y="18" width="58" height="18" rx="6" fill="#1f2328"/>
+      <text class="mono" x="561" y="31" text-anchor="middle" font-size="9" fill="#ffffff">全部 (16)</text>
+      <text class="mono" x="612" y="31" fill="#656d76" font-size="9">生活</text>
+      <text class="mono" x="650" y="31" fill="#656d76" font-size="9">AI</text>
+      <text class="mono" x="682" y="31" fill="#656d76" font-size="9">基建</text>
     
-    <line x1="16" y1="56" x2="624" y2="56" stroke="#d0d7de" />
+    <line x1="16" y1="56" x2="726" y2="56" stroke="#d0d7de" />
   
     
-      <rect x="16" y="72" width="300" height="110" rx="10" fill="rgba(26,127,55,0.10)" stroke="rgba(26,127,55,0.40)"/>
-      <circle class="led" cx="34" cy="88" r="3" fill="#1a7f37"/>
-      <text class="hud" x="44" y="92" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
-      <rect x="94" y="80" width="32" height="14" rx="3" fill="rgba(154,103,0,0.12)"/><text class="mono" x="110" y="90" text-anchor="middle" fill="#9a6700" font-size="8">★ 重点</text>
-      <text class="sans" x="290" y="92" fill="#656d76" font-size="11">↗</text>
+      <rect x="16" y="64" width="349" height="108" rx="10" fill="rgba(26,127,55,0.10)" stroke="rgba(26,127,55,0.40)"/>
+      <circle class="led" cx="34" cy="80" r="3" fill="#1a7f37"/>
+      <text class="hud" x="44" y="84" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
+      <rect x="94" y="72" width="32" height="14" rx="3" fill="rgba(154,103,0,0.12)"/><text class="mono" x="110" y="82" text-anchor="middle" fill="#9a6700" font-size="8">★ 重点</text>
+      <text class="sans" x="349" y="84" fill="#656d76" font-size="11">↗</text>
       <g clip-path="url(#p0)">
-        <text class="head" x="28" y="114" fill="#1f2328" font-size="13" font-weight="700">Vibe Cook 沉浸式烹饪助手</text>
-        <text class="sans" x="28" y="132" fill="#656d76" font-size="11">融合真实菜谱检索、AI 选菜与逐步引导的沉浸</text><text class="sans" x="28" y="147" fill="#656d76" font-size="11">式烹饪应用。</text>
+        <text class="head" x="28" y="106" fill="#1f2328" font-size="13" font-weight="700">Vibe Cook 沉浸式烹饪助手</text>
+        <text class="sans" x="28" y="122" fill="#656d76" font-size="11">融合真实菜谱检索、AI 选菜与逐步引导的沉浸式烹饪</text><text class="sans" x="28" y="137" fill="#656d76" font-size="11">应用。</text>
       </g>
-      <rect x="28" y="162" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="62" y="172" text-anchor="middle" fill="#656d76" font-size="8">AI Agent</text><rect x="100" y="162" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="134" y="172" text-anchor="middle" fill="#656d76" font-size="8">沉浸式烹饪</text><rect x="172" y="162" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="206" y="172" text-anchor="middle" fill="#656d76" font-size="8">智能选菜</text>
+      <rect x="28" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="64" y="160" text-anchor="middle" fill="#656d76" font-size="8">AI Agent</text><rect x="106" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="142" y="160" text-anchor="middle" fill="#656d76" font-size="8">沉浸式烹饪</text><rect x="184" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="220" y="160" text-anchor="middle" fill="#656d76" font-size="8">智能选菜</text>
     
-      <rect x="324" y="72" width="300" height="110" rx="10" fill="rgba(26,127,55,0.10)" stroke="rgba(26,127,55,0.40)"/>
-      <circle class="led" cx="342" cy="88" r="3" fill="#1a7f37"/>
-      <text class="hud" x="352" y="92" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
-      <rect x="402" y="80" width="32" height="14" rx="3" fill="rgba(154,103,0,0.12)"/><text class="mono" x="418" y="90" text-anchor="middle" fill="#9a6700" font-size="8">★ 重点</text>
-      <text class="sans" x="598" y="92" fill="#656d76" font-size="11">↗</text>
+      <rect x="377" y="64" width="349" height="108" rx="10" fill="rgba(26,127,55,0.10)" stroke="rgba(26,127,55,0.40)"/>
+      <circle class="led" cx="395" cy="80" r="3" fill="#1a7f37"/>
+      <text class="hud" x="405" y="84" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
+      <rect x="455" y="72" width="32" height="14" rx="3" fill="rgba(154,103,0,0.12)"/><text class="mono" x="471" y="82" text-anchor="middle" fill="#9a6700" font-size="8">★ 重点</text>
+      <text class="sans" x="710" y="84" fill="#656d76" font-size="11">↗</text>
       <g clip-path="url(#p1)">
-        <text class="head" x="336" y="114" fill="#1f2328" font-size="13" font-weight="700">全息推演个人财务系统</text>
-        <text class="sans" x="336" y="132" fill="#656d76" font-size="11">以未来现金流推演为核心，统一管理账户、预算</text><text class="sans" x="336" y="147" fill="#656d76" font-size="11">、负债与消费计划。</text>
+        <text class="head" x="389" y="106" fill="#1f2328" font-size="13" font-weight="700">全息推演个人财务系统</text>
+        <text class="sans" x="389" y="122" fill="#656d76" font-size="11">以未来现金流推演为核心，统一管理账户、预算、负债</text><text class="sans" x="389" y="137" fill="#656d76" font-size="11">与消费计划。</text>
       </g>
-      <rect x="336" y="162" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="370" y="172" text-anchor="middle" fill="#656d76" font-size="8">现金流推演</text><rect x="408" y="162" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="442" y="172" text-anchor="middle" fill="#656d76" font-size="8">预算管理</text><rect x="480" y="162" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="514" y="172" text-anchor="middle" fill="#656d76" font-size="8">负债管理</text>
+      <rect x="389" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="425" y="160" text-anchor="middle" fill="#656d76" font-size="8">现金流推演</text><rect x="467" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="503" y="160" text-anchor="middle" fill="#656d76" font-size="8">预算管理</text><rect x="545" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="581" y="160" text-anchor="middle" fill="#656d76" font-size="8">负债管理</text>
     
-      <rect x="16" y="190" width="300" height="110" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle class="led" cx="34" cy="206" r="3" fill="#1a7f37"/>
-      <text class="hud" x="44" y="210" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
+      <rect x="16" y="185" width="349" height="108" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle class="led" cx="34" cy="201" r="3" fill="#1a7f37"/>
+      <text class="hud" x="44" y="205" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
       
-      <text class="sans" x="290" y="210" fill="#656d76" font-size="11">↗</text>
+      <text class="sans" x="349" y="205" fill="#656d76" font-size="11">↗</text>
       <g clip-path="url(#p2)">
-        <text class="head" x="28" y="232" fill="#1f2328" font-size="13" font-weight="700">SparkAI - 多模态 AI 创作平台前端…</text>
-        <text class="sans" x="28" y="250" fill="#656d76" font-size="11">基于 Vue 3 的企业级多模态 AI 内容创作平</text><text class="sans" x="28" y="265" fill="#656d76" font-size="11">台，集成智能对话、绘画、视频。</text>
+        <text class="head" x="28" y="227" fill="#1f2328" font-size="13" font-weight="700">SparkAI - 多模态 AI 创作平台前端 - 新…</text>
+        <text class="sans" x="28" y="243" fill="#656d76" font-size="11">基于 Vue 3 的企业级多模态 AI 内容创作平台，集</text><text class="sans" x="28" y="258" fill="#656d76" font-size="11">成智能对话、绘画、视频。</text>
       </g>
-      <rect x="28" y="280" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="62" y="290" text-anchor="middle" fill="#656d76" font-size="8">Vue 3</text><rect x="100" y="280" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="134" y="290" text-anchor="middle" fill="#656d76" font-size="8">TypeScript</text><rect x="172" y="280" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="206" y="290" text-anchor="middle" fill="#656d76" font-size="8">AI 平台</text>
+      <rect x="28" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="64" y="281" text-anchor="middle" fill="#656d76" font-size="8">Vue 3</text><rect x="106" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="142" y="281" text-anchor="middle" fill="#656d76" font-size="8">TypeScript</text><rect x="184" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="220" y="281" text-anchor="middle" fill="#656d76" font-size="8">AI 平台</text>
     
-      <rect x="324" y="190" width="300" height="110" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle class="led" cx="342" cy="206" r="3" fill="#1a7f37"/>
-      <text class="hud" x="352" y="210" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
+      <rect x="377" y="185" width="349" height="108" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle class="led" cx="395" cy="201" r="3" fill="#1a7f37"/>
+      <text class="hud" x="405" y="205" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
       
-      <text class="sans" x="598" y="210" fill="#656d76" font-size="11">↗</text>
+      <text class="sans" x="710" y="205" fill="#656d76" font-size="11">↗</text>
       <g clip-path="url(#p3)">
-        <text class="head" x="336" y="232" fill="#1f2328" font-size="13" font-weight="700">SparkAI - 多模态 AI 创作平台前端…</text>
-        <text class="sans" x="336" y="250" fill="#656d76" font-size="11">基于 Vue 3 的多模态 AI 综合应用平台，集</text><text class="sans" x="336" y="265" fill="#656d76" font-size="11">成对话、绘画、视频。</text>
+        <text class="head" x="389" y="227" fill="#1f2328" font-size="13" font-weight="700">SparkAI - 多模态 AI 创作平台前端 - 旧…</text>
+        <text class="sans" x="389" y="243" fill="#656d76" font-size="11">基于 Vue 3 的多模态 AI 综合应用平台，集成对话</text><text class="sans" x="389" y="258" fill="#656d76" font-size="11">、绘画、视频。</text>
       </g>
-      <rect x="336" y="280" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="370" y="290" text-anchor="middle" fill="#656d76" font-size="8">Vue 3</text><rect x="408" y="280" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="442" y="290" text-anchor="middle" fill="#656d76" font-size="8">TypeScript</text><rect x="480" y="280" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="514" y="290" text-anchor="middle" fill="#656d76" font-size="8">AI 应用</text>
+      <rect x="389" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="425" y="281" text-anchor="middle" fill="#656d76" font-size="8">Vue 3</text><rect x="467" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="503" y="281" text-anchor="middle" fill="#656d76" font-size="8">TypeScript</text><rect x="545" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="581" y="281" text-anchor="middle" fill="#656d76" font-size="8">AI 应用</text>
     
-      <rect x="16" y="308" width="300" height="110" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle class="led" cx="34" cy="324" r="3" fill="#1a7f37"/>
-      <text class="hud" x="44" y="328" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
+      <rect x="16" y="306" width="349" height="108" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle class="led" cx="34" cy="322" r="3" fill="#1a7f37"/>
+      <text class="hud" x="44" y="326" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
       
-      <text class="sans" x="290" y="328" fill="#656d76" font-size="11">↗</text>
+      <text class="sans" x="349" y="326" fill="#656d76" font-size="11">↗</text>
       <g clip-path="url(#p4)">
-        <text class="head" x="28" y="350" fill="#1f2328" font-size="13" font-weight="700">SparkAI 视频生成平台</text>
-        <text class="sans" x="28" y="368" fill="#656d76" font-size="11">企业级 AI 视频生成 SaaS 平台，支持 15+ </text><text class="sans" x="28" y="383" fill="#656d76" font-size="11">主流 AI 模型。</text>
+        <text class="head" x="28" y="348" fill="#1f2328" font-size="13" font-weight="700">SparkAI 视频生成平台</text>
+        <text class="sans" x="28" y="364" fill="#656d76" font-size="11">企业级 AI 视频生成 SaaS 平台，支持 15+ 主流 AI</text><text class="sans" x="28" y="379" fill="#656d76" font-size="11"> 模型。</text>
       </g>
-      <rect x="28" y="398" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="62" y="408" text-anchor="middle" fill="#656d76" font-size="8">AI视频生成</text><rect x="100" y="398" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="134" y="408" text-anchor="middle" fill="#656d76" font-size="8">多模型聚合</text><rect x="172" y="398" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="206" y="408" text-anchor="middle" fill="#656d76" font-size="8">企业级SaaS</text>
+      <rect x="28" y="392" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="64" y="402" text-anchor="middle" fill="#656d76" font-size="8">AI视频生成</text><rect x="106" y="392" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="142" y="402" text-anchor="middle" fill="#656d76" font-size="8">多模型聚合</text><rect x="184" y="392" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="220" y="402" text-anchor="middle" fill="#656d76" font-size="8">企业级SaaS</text>
     
-      <rect x="324" y="308" width="300" height="110" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle class="led" cx="342" cy="324" r="3" fill="#1a7f37"/>
-      <text class="hud" x="352" y="328" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
+      <rect x="377" y="306" width="349" height="108" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle class="led" cx="395" cy="322" r="3" fill="#1a7f37"/>
+      <text class="hud" x="405" y="326" fill="#1a7f37" font-size="8" font-weight="700">ONLINE</text>
       
-      <text class="sans" x="598" y="328" fill="#656d76" font-size="11">↗</text>
+      <text class="sans" x="710" y="326" fill="#656d76" font-size="11">↗</text>
       <g clip-path="url(#p5)">
-        <text class="head" x="336" y="350" fill="#1f2328" font-size="13" font-weight="700">IMYAI智能助手官网</text>
-        <text class="sans" x="336" y="368" fill="#656d76" font-size="11">基于 Vue 3 的 AI 智能助手官网，支持多平</text><text class="sans" x="336" y="383" fill="#656d76" font-size="11">台下载与动态内容管理。</text>
+        <text class="head" x="389" y="348" fill="#1f2328" font-size="13" font-weight="700">IMYAI智能助手官网</text>
+        <text class="sans" x="389" y="364" fill="#656d76" font-size="11">基于 Vue 3 的 AI 智能助手官网，支持多平台下载</text><text class="sans" x="389" y="379" fill="#656d76" font-size="11">与动态内容管理。</text>
       </g>
-      <rect x="336" y="398" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="370" y="408" text-anchor="middle" fill="#656d76" font-size="8">Vue 3</text><rect x="408" y="398" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="442" y="408" text-anchor="middle" fill="#656d76" font-size="8">AI助手</text><rect x="480" y="398" width="68" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="514" y="408" text-anchor="middle" fill="#656d76" font-size="8">响应式设计</text>
+      <rect x="389" y="392" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="425" y="402" text-anchor="middle" fill="#656d76" font-size="8">Vue 3</text><rect x="467" y="392" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="503" y="402" text-anchor="middle" fill="#656d76" font-size="8">AI助手</text><rect x="545" y="392" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="581" y="402" text-anchor="middle" fill="#656d76" font-size="8">响应式设计</text>
     
     
-    <line x1="16" y1="432" x2="624" y2="432" stroke="#d0d7de"/>
-    <text class="mono" x="16" y="452" fill="#656d76" font-size="10">PPS Gateway · 16 Projects</text>
-    <text class="sans" x="624" y="452" text-anchor="end" fill="#1f2328" font-size="11">查看完整作品集清单 →</text>
+    <line x1="16" y1="416" x2="726" y2="416" stroke="#d0d7de"/>
+    <text class="mono" x="16" y="436" fill="#656d76" font-size="10">PPS Gateway · 16 Projects</text>
+    <text class="sans" x="726" y="436" text-anchor="end" fill="#1f2328" font-size="11">查看完整作品集清单 →</text>
   
     
 </svg>

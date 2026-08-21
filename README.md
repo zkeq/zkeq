@@ -16,13 +16,14 @@
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/products-dark.svg">
-    <img src="./svg/products-light.svg" alt="核心在研与生活系统" width="58%">
+    <img src="./svg/products-light.svg" alt="核心在研与生活系统" width="53%">
   </picture>
 </a>
+<img src="./svg/gap.svg" width="4%" alt="">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/talk-dark.svg">
-    <img src="./svg/talk-light.svg" alt="云原生空间与思考电波" width="40%">
+    <img src="./svg/talk-light.svg" alt="云原生空间与思考电波" width="42%">
   </picture>
 </a>
 </p>
@@ -31,13 +32,14 @@
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/blog-dark.svg">
-    <img src="./svg/blog-light.svg" alt="博客实时电波与思考沉淀" width="58%">
+    <img src="./svg/blog-light.svg" alt="博客实时电波与思考沉淀" width="53%">
   </picture>
 </a>
+<img src="./svg/gap.svg" width="4%" alt="">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/pulse-dark.svg">
-    <img src="./svg/pulse-light.svg" alt="CNB 态势与云原生脉搏" width="40%">
+    <img src="./svg/pulse-light.svg" alt="CNB 态势与云原生脉搏" width="42%">
   </picture>
 </a>
 </p>
@@ -46,19 +48,21 @@
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/book-dark.svg">
-    <img src="./svg/book-light.svg" alt="人格完善指南" width="32%">
+    <img src="./svg/book-light.svg" alt="人格完善指南" width="30%">
   </picture>
 </a>
+<img src="./svg/gap.svg" width="4%" alt="">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/patent-dark.svg">
-    <img src="./svg/patent-light.svg" alt="发明专利与知识产权" width="32%">
+    <img src="./svg/patent-light.svg" alt="发明专利与知识产权" width="30%">
   </picture>
 </a>
+<img src="./svg/gap.svg" width="4%" alt="">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/honor-dark.svg">
-    <img src="./svg/honor-light.svg" alt="腾讯云开发者先锋" width="32%">
+    <img src="./svg/honor-light.svg" alt="腾讯云开发者先锋" width="30%">
   </picture>
 </a>
 </p>

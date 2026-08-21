@@ -73,6 +73,14 @@ const THEMES = {
   },
 }
 
+const LAYOUT = {
+  leftW: 742,
+  rightW: 588,
+  rowH: 452,
+  colW: 310,
+  colH: 268,
+}
+
 const PRODUCTS = [
   {
     name: "Vibe Cook 沉浸式烹饪助手",
@@ -324,44 +332,51 @@ function chip(x, y, w, label, value, accent, t) {
 }
 
 function renderProducts(t) {
-  const w = 640
-  const h = 468
+  const w = LAYOUT.leftW
+  const h = LAYOUT.rowH
+  const pad = 16
+  const gutter = 12
+  const tileW = (w - pad * 2 - gutter) / 2
+  const top = 64
+  const footerH = 38
+  const tileH = 108
+  const rowGap = (h - top - footerH - tileH * 3) / 2
   const clips = PRODUCTS.map((_, i) => {
     const col = i % 2
     const row = Math.floor(i / 2)
-    const x = 16 + col * 308
-    const y = 72 + row * 118
-    return `<clipPath id="p${i}"><rect x="${x + 10}" y="${y + 28}" width="276" height="56" rx="4"/></clipPath>`
+    const x = pad + col * (tileW + gutter)
+    const y = top + row * (tileH + rowGap)
+    return `<clipPath id="p${i}"><rect x="${x + 10}" y="${y + 26}" width="${tileW - 20}" height="52" rx="4"/></clipPath>`
   }).join("")
   const tiles = PRODUCTS.map((p, i) => {
     const col = i % 2
     const row = Math.floor(i / 2)
-    const x = 16 + col * 308
-    const y = 72 + row * 118
+    const x = pad + col * (tileW + gutter)
+    const y = top + row * (tileH + rowGap)
     const stroke = p.featured ? t.emeraldBorder : t.border
     const bg = p.featured ? t.emeraldSoft : t.inner
-    const title = fit(p.name, 17)
-    const descLines = wrapFit(p.desc, 21, 2)
+    const title = fit(p.name, 20)
+    const descLines = wrapFit(p.desc, 24, 2)
     const desc = descLines
       .map(
         (line, li) =>
-          `<text class="sans" x="${x + 12}" y="${y + 60 + li * 15}" fill="${t.muted}" font-size="11">${esc(line)}</text>`
+          `<text class="sans" x="${x + 12}" y="${y + 58 + li * 15}" fill="${t.muted}" font-size="11">${esc(line)}</text>`
       )
       .join("")
     const tags = p.tags
       .slice(0, 3)
       .map((tag, ti) => {
         const label = fit(tag, 8)
-        return `<rect x="${x + 12 + ti * 72}" y="${y + 90}" width="68" height="14" rx="3" fill="${t.card}" stroke="${t.border}"/>
-           <text class="mono" x="${x + 46 + ti * 72}" y="${y + 100}" text-anchor="middle" fill="${t.muted}" font-size="8">${esc(label)}</text>`
+        return `<rect x="${x + 12 + ti * 78}" y="${y + tileH - 22}" width="72" height="14" rx="3" fill="${t.card}" stroke="${t.border}"/>
+           <text class="mono" x="${x + 48 + ti * 78}" y="${y + tileH - 12}" text-anchor="middle" fill="${t.muted}" font-size="8">${esc(label)}</text>`
       })
       .join("")
     return `
-      <rect x="${x}" y="${y}" width="300" height="110" rx="10" fill="${bg}" stroke="${stroke}"/>
+      <rect x="${x}" y="${y}" width="${tileW}" height="${tileH}" rx="10" fill="${bg}" stroke="${stroke}"/>
       <circle class="led" cx="${x + 18}" cy="${y + 16}" r="3" fill="${t.emerald}"/>
       <text class="hud" x="${x + 28}" y="${y + 20}" fill="${t.emerald}" font-size="8" font-weight="700">ONLINE</text>
       ${p.featured ? `<rect x="${x + 78}" y="${y + 8}" width="32" height="14" rx="3" fill="${t.amberSoft}"/><text class="mono" x="${x + 94}" y="${y + 18}" text-anchor="middle" fill="${t.amber}" font-size="8">★ 重点</text>` : ""}
-      <text class="sans" x="${x + 274}" y="${y + 20}" fill="${t.muted}" font-size="11">↗</text>
+      <text class="sans" x="${x + tileW - 16}" y="${y + 20}" fill="${t.muted}" font-size="11">↗</text>
       <g clip-path="url(#p${i})">
         <text class="head" x="${x + 12}" y="${y + 42}" fill="${t.fg}" font-size="13" font-weight="700">${esc(title)}</text>
         ${desc}
@@ -377,11 +392,11 @@ function renderProducts(t) {
     `
     <defs>${clips}</defs>
     ${header(t, w, 16, 16, t.emerald, t.emeraldSoft, '<path d="M2 9h10M2 4h14M2 14h7"/>', "ACTIVE PRODUCTS MATRIX", "核心在研与生活系统", `
-      <rect x="430" y="18" width="58" height="18" rx="6" fill="${t.fill}"/>
-      <text class="mono" x="459" y="31" text-anchor="middle" font-size="9" fill="${t.invert}">全部 (16)</text>
-      <text class="mono" x="510" y="31" fill="${t.muted}" font-size="9">生活</text>
-      <text class="mono" x="548" y="31" fill="${t.muted}" font-size="9">AI</text>
-      <text class="mono" x="580" y="31" fill="${t.muted}" font-size="9">基建</text>
+      <rect x="${w - 210}" y="18" width="58" height="18" rx="6" fill="${t.fill}"/>
+      <text class="mono" x="${w - 181}" y="31" text-anchor="middle" font-size="9" fill="${t.invert}">全部 (16)</text>
+      <text class="mono" x="${w - 130}" y="31" fill="${t.muted}" font-size="9">生活</text>
+      <text class="mono" x="${w - 92}" y="31" fill="${t.muted}" font-size="9">AI</text>
+      <text class="mono" x="${w - 60}" y="31" fill="${t.muted}" font-size="9">基建</text>
     `)}
     ${tiles}
     ${footer(t, w, h, "PPS Gateway · 16 Projects", "查看完整作品集清单 →")}
@@ -390,18 +405,22 @@ function renderProducts(t) {
 }
 
 function renderTalk(t) {
-  const w = 480
-  const h = 468
+  const w = LAYOUT.rightW
+  const h = LAYOUT.rowH
+  const inner = w - 32
+  const recTop = 168
+  const recH = 76
+  const recGap = (h - 38 - recTop - recH * 3) / 2
   const rows = RECORDINGS.map((r, i) => {
-    const y = 168 + i * 84
+    const y = recTop + i * (recH + recGap)
     return `
-      <rect x="16" y="${y}" width="448" height="76" rx="10" fill="${t.inner}" stroke="${t.border}"/>
+      <rect x="16" y="${y}" width="${inner}" height="${recH}" rx="10" fill="${t.inner}" stroke="${t.border}"/>
       <text class="mono" x="28" y="${y + 18}" fill="${t.cyan}" font-size="9" font-weight="700">[${r.date}]</text>
-      <text class="mono" x="168" y="${y + 18}" fill="${t.muted}" font-size="8">${esc(r.duration)}</text>
-      <rect x="392" y="${y + 8}" width="58" height="14" rx="3" fill="${t.inner}"/>
-      <text class="mono" x="421" y="${y + 18}" text-anchor="middle" fill="${t.muted}" font-size="8">#${esc(r.tag)}</text>
-      <text class="head" x="28" y="${y + 40}" fill="${t.fg}" font-size="13" font-weight="700">${esc(fit(r.title, 22))}</text>
-      <text class="sans" x="28" y="${y + 60}" fill="${t.muted}" font-size="10">${esc(r.summary)}</text>
+      <text class="mono" x="176" y="${y + 18}" fill="${t.muted}" font-size="8">${esc(r.duration)}</text>
+      <rect x="${w - 86}" y="${y + 8}" width="58" height="14" rx="3" fill="${t.card}" stroke="${t.border}"/>
+      <text class="mono" x="${w - 57}" y="${y + 18}" text-anchor="middle" fill="${t.muted}" font-size="8">#${esc(r.tag)}</text>
+      <text class="head" x="28" y="${y + 40}" fill="${t.fg}" font-size="13" font-weight="700">${esc(fit(r.title, 24))}</text>
+      <text class="sans" x="28" y="${y + 60}" fill="${t.muted}" font-size="10">${esc(fit(r.summary, 32))}</text>
     `
   }).join("")
 
@@ -411,27 +430,27 @@ function renderTalk(t) {
     t,
     `
     ${header(t, w, 16, 16, t.cyan, t.cyanSoft, '<path d="M7 2a4 4 0 0 1 0 8M7 10v3M4 15h6"/><circle cx="7" cy="6" r="2.4"/>', "CNB CLOUD / ONMICROSOFT", "云原生空间 & 思考电波", `
-      <rect x="318" y="16" width="46" height="14" rx="4" fill="${t.emeraldSoft}"/>
-      <text class="mono" x="341" y="26" text-anchor="middle" fill="${t.emerald}" font-size="8">Owner</text>
-      <rect x="370" y="14" width="94" height="20" rx="6" fill="${t.inner}" stroke="${t.border}"/>
-      <text class="mono" x="417" y="28" text-anchor="middle" fill="${t.muted}" font-size="10">vibe-talk ↗</text>
+      <rect x="${w - 156}" y="16" width="46" height="14" rx="4" fill="${t.emeraldSoft}"/>
+      <text class="mono" x="${w - 133}" y="26" text-anchor="middle" fill="${t.emerald}" font-size="8">Owner</text>
+      <rect x="${w - 106}" y="14" width="90" height="20" rx="6" fill="${t.inner}" stroke="${t.border}"/>
+      <text class="mono" x="${w - 61}" y="28" text-anchor="middle" fill="${t.muted}" font-size="10">vibe-talk ↗</text>
     `)}
-    <rect x="16" y="68" width="448" height="42" rx="10" fill="${t.inner}" stroke="${t.border}"/>
-    <text class="hud" x="90" y="84" text-anchor="middle" fill="${t.muted}">组织</text>
-    <text class="mono" x="90" y="100" text-anchor="middle" fill="${t.fg}" font-size="12" font-weight="700">onmicrosoft</text>
-    <text class="hud" x="240" y="84" text-anchor="middle" fill="${t.muted}">全部仓库</text>
-    <text class="mono" x="240" y="100" text-anchor="middle" fill="${t.cyan}" font-size="12" font-weight="700">64</text>
-    <text class="hud" x="380" y="84" text-anchor="middle" fill="${t.muted}">核心成员</text>
-    <text class="mono" x="380" y="100" text-anchor="middle" fill="${t.fg}" font-size="12" font-weight="700">14</text>
+    <rect x="16" y="68" width="${inner}" height="42" rx="10" fill="${t.inner}" stroke="${t.border}"/>
+    <text class="hud" x="${16 + inner * 0.17}" y="84" text-anchor="middle" fill="${t.muted}">组织</text>
+    <text class="mono" x="${16 + inner * 0.17}" y="100" text-anchor="middle" fill="${t.fg}" font-size="12" font-weight="700">onmicrosoft</text>
+    <text class="hud" x="${16 + inner * 0.5}" y="84" text-anchor="middle" fill="${t.muted}">全部仓库</text>
+    <text class="mono" x="${16 + inner * 0.5}" y="100" text-anchor="middle" fill="${t.cyan}" font-size="12" font-weight="700">64</text>
+    <text class="hud" x="${16 + inner * 0.83}" y="84" text-anchor="middle" fill="${t.muted}">核心成员</text>
+    <text class="mono" x="${16 + inner * 0.83}" y="100" text-anchor="middle" fill="${t.fg}" font-size="12" font-weight="700">14</text>
     <text class="hud" x="16" y="130" fill="${t.muted}">集群:</text>
     <rect x="58" y="118" width="86" height="16" rx="4" fill="${t.inner}" stroke="${t.border}"/>
     <text class="mono" x="101" y="130" text-anchor="middle" fill="${t.fg}" font-size="9">vibe-cook (6)</text>
     <rect x="150" y="118" width="70" height="16" rx="4" fill="${t.inner}" stroke="${t.border}"/>
     <text class="mono" x="185" y="130" text-anchor="middle" fill="${t.fg}" font-size="9">imyai (1)</text>
-    <text class="mono" x="16" y="156" fill="${t.muted}" font-size="11">真实声音复盘 (32 篇)</text>
-    <rect x="392" y="144" width="72" height="16" rx="8" fill="${t.cyanSoft}"/>
-    <circle class="led" cx="404" cy="152" r="2.4" fill="${t.cyan}"/>
-    <text class="mono" x="428" y="156" text-anchor="middle" fill="${t.cyan}" font-size="8">CNB LIVE</text>
+    <text class="mono" x="16" y="148" fill="${t.muted}" font-size="11">真实声音复盘 (32 篇)</text>
+    <rect x="${w - 88}" y="136" width="72" height="16" rx="8" fill="${t.cyanSoft}"/>
+    <circle class="led" cx="${w - 76}" cy="144" r="2.4" fill="${t.cyan}"/>
+    <text class="mono" x="${w - 52}" y="148" text-anchor="middle" fill="${t.cyan}" font-size="8">CNB LIVE</text>
     ${rows}
     ${footer(t, w, h, "Quiet Log · Telemetry", "查看 Vibe-Talk 仓库 →", t.cyan)}
     `
@@ -439,23 +458,27 @@ function renderTalk(t) {
 }
 
 function renderBlog(t) {
-  const w = 640
-  const h = 360
+  const w = LAYOUT.leftW
+  const h = LAYOUT.rowH
+  const inner = w - 32
+  const postH = 108
+  const top = 68
+  const gap = (h - 38 - top - postH * 3) / 2
   const rows = POSTS.map((p, i) => {
-    const y = 68 + i * 84
+    const y = top + i * (postH + gap)
     const tags = (p.tags || [])
       .map(
         (tag, ti) =>
-          `<text class="mono" x="${28 + ti * 72}" y="${y + 70}" fill="${t.muted}" font-size="8">#${esc(tag)}</text>`
+          `<text class="mono" x="${28 + ti * 78}" y="${y + 88}" fill="${t.muted}" font-size="8">#${esc(tag)}</text>`
       )
       .join("")
     return `
-      <rect x="16" y="${y}" width="608" height="76" rx="10" fill="${t.inner}" stroke="${t.border}"/>
-      <text class="mono" x="28" y="${y + 18}" fill="${t.indigo}" font-size="9" font-weight="700">[${p.date}]</text>
-      ${p.latest ? `<text class="mono" x="118" y="${y + 18}" fill="${t.indigo}" font-size="8">最新</text>` : ""}
-      <text class="mono" x="168" y="${y + 18}" fill="${t.muted}" font-size="8">${esc(p.read)}</text>
-      <text class="head" x="28" y="${y + 40}" fill="${t.fg}" font-size="13" font-weight="700">${esc(fit(p.title, 36))}</text>
-      <text class="sans" x="28" y="${y + 58}" fill="${t.muted}" font-size="11">${esc(fit(p.excerpt, 42))}</text>
+      <rect x="16" y="${y}" width="${inner}" height="${postH}" rx="10" fill="${t.inner}" stroke="${t.border}"/>
+      <text class="mono" x="28" y="${y + 22}" fill="${t.indigo}" font-size="9" font-weight="700">[${p.date}]</text>
+      ${p.latest ? `<text class="mono" x="118" y="${y + 22}" fill="${t.indigo}" font-size="8">最新</text>` : ""}
+      <text class="mono" x="168" y="${y + 22}" fill="${t.muted}" font-size="8">${esc(p.read)}</text>
+      <text class="head" x="28" y="${y + 46}" fill="${t.fg}" font-size="15" font-weight="700">${esc(fit(p.title, 38))}</text>
+      <text class="sans" x="28" y="${y + 68}" fill="${t.muted}" font-size="11">${esc(fit(p.excerpt, 48))}</text>
       ${tags}
     `
   }).join("")
@@ -466,7 +489,7 @@ function renderBlog(t) {
     t,
     `
     ${header(t, w, 16, 16, t.indigo, t.indigoSoft, '<path d="M3 2h10v14H3zM6 6h4M6 10h4"/>', "ICODEQ.COM TRANSMISSION", "博客实时电波与思考沉淀", `
-      <text class="mono" x="624" y="34" text-anchor="end" fill="${t.muted}" font-size="11">icodeq.com ↗</text>
+      <text class="mono" x="${w - 16}" y="34" text-anchor="end" fill="${t.muted}" font-size="11">icodeq.com ↗</text>
     `)}
     ${rows}
     ${footer(t, w, h, "ATOM / RSS FEED", "浏览博客归档 (30+ 篇) →")}
@@ -479,32 +502,39 @@ function pulseColor(level, t) {
 }
 
 function renderPulse(t, data) {
-  const w = 480
-  const h = 468
+  const w = LAYOUT.rightW
+  const h = LAYOUT.rowH
+  const inner = w - 32
   const bars = (data.pulse28 || []).slice(0, 28)
   while (bars.length < 28) bars.push({ level: 0 })
-  const barW = 12
-  const gap = 3
+  const step = inner / 28
+  const barW = Math.max(8, step - 3)
+  const barY = 140
   const barRow = bars
     .map((b, i) => {
-      const x = 16 + i * (barW + gap)
-      return `<rect x="${x}" y="168" width="${barW}" height="14" rx="2" fill="${pulseColor(b.level, t)}"/>`
+      const x = 16 + i * step
+      return `<rect x="${x}" y="${barY}" width="${barW}" height="14" rx="2" fill="${pulseColor(b.level, t)}"/>`
     })
     .join("")
 
+  const repoTop = 168
+  const repoGutter = 10
+  const repoW = (inner - repoGutter) / 2
+  const repoH = 96
+  const repoGap = h - 38 - repoTop - repoH * 2
   const repos = PINNED.map((r, i) => {
     const col = i % 2
     const row = Math.floor(i / 2)
-    const x = 16 + col * 228
-    const y = 198 + row * 96
+    const x = 16 + col * (repoW + repoGutter)
+    const y = repoTop + row * (repoH + repoGap)
     return `
-      <rect x="${x}" y="${y}" width="220" height="88" rx="10" fill="${t.inner}" stroke="${t.border}"/>
-      <text class="mono" x="${x + 12}" y="${y + 20}" fill="${t.fg}" font-size="11" font-weight="700">${esc(r.name)}</text>
-      <rect x="${x + 148}" y="${y + 8}" width="60" height="14" rx="3" fill="${t.orangeSoft}"/>
-      <text class="mono" x="${x + 178}" y="${y + 18}" text-anchor="middle" fill="${t.orange}" font-size="8">${esc(r.tag)}</text>
-      <text class="sans" x="${x + 12}" y="${y + 42}" fill="${t.muted}" font-size="10">${esc(fit(r.desc, 16))}</text>
-      <text class="mono" x="${x + 12}" y="${y + 70}" fill="${t.fg}" font-size="10">${esc(r.lang)}</text>
-      <text class="mono" x="${x + 208}" y="${y + 70}" text-anchor="end" fill="${t.muted}" font-size="10">CNB 仓库 ↗</text>
+      <rect x="${x}" y="${y}" width="${repoW}" height="${repoH}" rx="10" fill="${t.inner}" stroke="${t.border}"/>
+      <text class="mono" x="${x + 12}" y="${y + 22}" fill="${t.fg}" font-size="11" font-weight="700">${esc(fit(r.name, 16))}</text>
+      <rect x="${x + repoW - 72}" y="${y + 10}" width="60" height="14" rx="3" fill="${t.orangeSoft}"/>
+      <text class="mono" x="${x + repoW - 42}" y="${y + 20}" text-anchor="middle" fill="${t.orange}" font-size="8">${esc(r.tag)}</text>
+      <text class="sans" x="${x + 12}" y="${y + 46}" fill="${t.muted}" font-size="10">${esc(fit(r.desc, 18))}</text>
+      <text class="mono" x="${x + 12}" y="${y + 78}" fill="${t.fg}" font-size="10">${esc(r.lang)}</text>
+      <text class="mono" x="${x + repoW - 12}" y="${y + 78}" text-anchor="end" fill="${t.muted}" font-size="10">CNB 仓库 ↗</text>
     `
   }).join("")
 
@@ -514,18 +544,18 @@ function renderPulse(t, data) {
     t,
     `
     ${header(t, w, 16, 16, t.orange, t.orangeSoft, '<path d="M4 12a6 6 0 1 1 8-8"/><path d="M12 4v4h4"/>', "CNB CLOUD TELEMETRY & PINNED", "CNB 态势与云原生脉搏", `
-      <rect x="352" y="16" width="112" height="20" rx="6" fill="${t.inner}" stroke="${t.border}"/>
-      <text class="mono" x="408" y="30" text-anchor="middle" fill="${t.muted}" font-size="10">@onmicrosoft ↗</text>
+      <rect x="${w - 128}" y="16" width="112" height="20" rx="6" fill="${t.inner}" stroke="${t.border}"/>
+      <text class="mono" x="${w - 72}" y="30" text-anchor="middle" fill="${t.muted}" font-size="10">@onmicrosoft ↗</text>
     `)}
-    <rect x="16" y="68" width="448" height="50" rx="10" fill="${t.inner}" stroke="${t.border}"/>
-    <text class="hud" x="90" y="86" text-anchor="middle" fill="${t.muted}">云原生仓库</text>
-    <text class="mono" x="90" y="106" text-anchor="middle" fill="${t.orange}" font-size="13" font-weight="700">64 Repos</text>
-    <text class="hud" x="240" y="86" text-anchor="middle" fill="${t.muted}">组织</text>
-    <text class="mono" x="240" y="106" text-anchor="middle" fill="${t.fg}" font-size="13" font-weight="700">onmicrosoft</text>
-    <text class="hud" x="380" y="86" text-anchor="middle" fill="${t.muted}">核心团队</text>
-    <text class="mono" x="380" y="106" text-anchor="middle" fill="${t.fg}" font-size="13" font-weight="700">14 Members</text>
-    <text class="mono" x="16" y="146" fill="${t.orange}" font-size="10" font-weight="600">CNB 云原生近 28 天真实脉搏</text>
-    <text class="mono" x="464" y="146" text-anchor="end" fill="${t.orange}" font-size="9">实时动态流</text>
+    <rect x="16" y="68" width="${inner}" height="44" rx="10" fill="${t.inner}" stroke="${t.border}"/>
+    <text class="hud" x="${16 + inner * 0.17}" y="84" text-anchor="middle" fill="${t.muted}">云原生仓库</text>
+    <text class="mono" x="${16 + inner * 0.17}" y="102" text-anchor="middle" fill="${t.orange}" font-size="13" font-weight="700">64 Repos</text>
+    <text class="hud" x="${16 + inner * 0.5}" y="84" text-anchor="middle" fill="${t.muted}">组织</text>
+    <text class="mono" x="${16 + inner * 0.5}" y="102" text-anchor="middle" fill="${t.fg}" font-size="13" font-weight="700">onmicrosoft</text>
+    <text class="hud" x="${16 + inner * 0.83}" y="84" text-anchor="middle" fill="${t.muted}">核心团队</text>
+    <text class="mono" x="${16 + inner * 0.83}" y="102" text-anchor="middle" fill="${t.fg}" font-size="13" font-weight="700">14 Members</text>
+    <text class="mono" x="16" y="130" fill="${t.orange}" font-size="10" font-weight="600">CNB 云原生近 28 天真实脉搏</text>
+    <text class="mono" x="${w - 16}" y="130" text-anchor="end" fill="${t.orange}" font-size="9">实时动态流</text>
     ${barRow}
     ${repos}
     ${footer(t, w, h, "CNB Pulse Telemetry", "查看全部 CNB 仓库 (64+) →", t.orange)}
@@ -579,8 +609,8 @@ function mini(x, y, w, label, value, t) {
 }
 
 function renderBook(t) {
-  const w = 300
-  const h = 268
+  const w = LAYOUT.colW
+  const h = LAYOUT.colH
   const chapters = [
     ["01", "《二次成长》重塑"],
     ["02", "《人性的弱点》指引"],
@@ -608,19 +638,19 @@ function renderBook(t) {
 }
 
 function renderPatent(t) {
-  const w = 300
-  const h = 268
+  const w = LAYOUT.colW
+  const h = LAYOUT.colH
   return svg(
     w,
     h,
     t,
     `
     ${header(t, w, 16, 16, t.red, t.redSoft, '<path d="M7 1l6 2.5v6c0 3.2-2.4 5.6-6 6.5C3.4 15.1 1 12.7 1 9.5v-6z"/>', "PATENT TELEMETRY / CNIPA", "发明专利与知识产权", `
-      <rect x="214" y="16" width="70" height="16" rx="8" fill="${t.amberSoft}"/>
-      <circle class="led" cx="226" cy="24" r="2.4" fill="${t.amber}"/>
-      <text class="mono" x="248" y="27" text-anchor="middle" fill="${t.amber}" font-size="8">实质审查</text>
+      <rect x="${w - 86}" y="16" width="70" height="16" rx="8" fill="${t.amberSoft}"/>
+      <circle class="led" cx="${w - 74}" cy="24" r="2.4" fill="${t.amber}"/>
+      <text class="mono" x="${w - 52}" y="27" text-anchor="middle" fill="${t.amber}" font-size="8">实质审查</text>
     `)}
-    <rect x="16" y="72" width="268" height="148" rx="10" fill="${t.inner}" stroke="${t.border}"/>
+    <rect x="16" y="72" width="${w - 32}" height="148" rx="10" fill="${t.inner}" stroke="${t.border}"/>
     <text class="mono" x="28" y="92" fill="${t.muted}" font-size="8">CONFIDENTIAL FILING ARCHIVE</text>
     <text class="mono" x="28" y="118" fill="${t.fg}" font-size="11">申请号  ████████████████</text>
     <text class="mono" x="28" y="140" fill="${t.fg}" font-size="11">公开日  ████年██月██日</text>
@@ -632,18 +662,18 @@ function renderPatent(t) {
 }
 
 function renderHonor(t) {
-  const w = 300
-  const h = 268
+  const w = LAYOUT.colW
+  const h = LAYOUT.colH
   return svg(
     w,
     h,
     t,
     `
     ${header(t, w, 16, 16, t.amber, t.amberSoft, '<path d="M4 1h8v4H4zM3 5h10v3c0 3.2-2.2 5.5-5 5.5S3 11.2 3 8V5zM8 13.5V17"/>', "TDP LEADERSHIP CREDENTIAL", "腾讯云开发者先锋 · 荣誉认证", `
-      <rect x="222" y="16" width="62" height="16" rx="8" fill="${t.amberSoft}" stroke="${t.amber}" stroke-opacity="0.3"/>
-      <text class="mono" x="253" y="27" text-anchor="middle" fill="${t.amber}" font-size="8" font-weight="700">2025 STAR</text>
+      <rect x="${w - 88}" y="16" width="72" height="16" rx="8" fill="${t.amberSoft}" stroke="${t.amber}" stroke-opacity="0.3"/>
+      <text class="mono" x="${w - 52}" y="27" text-anchor="middle" fill="${t.amber}" font-size="8" font-weight="700">2025 STAR</text>
     `)}
-    <rect x="16" y="72" width="268" height="148" rx="10" fill="${t.inner}" stroke="${t.amber}" stroke-opacity="0.28"/>
+    <rect x="16" y="72" width="${w - 32}" height="148" rx="10" fill="${t.inner}" stroke="${t.amber}" stroke-opacity="0.28"/>
     <text class="mono" x="28" y="96" fill="${t.amber}" font-size="10">腾讯云开发者先锋 · TDP</text>
     <text class="head" x="28" y="122" fill="${t.fg}" font-size="16" font-weight="700">年度技术引领之星</text>
     <text class="mono" x="28" y="144" fill="${t.muted}" font-size="10">先锋: Zkeq · 编号 No.21000075</text>
