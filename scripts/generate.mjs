@@ -520,8 +520,8 @@ function renderPulse(t, data) {
   const repoTop = 168
   const repoGutter = 10
   const repoW = (inner - repoGutter) / 2
-  const repoH = 96
-  const repoGap = h - 38 - repoTop - repoH * 2
+  const repoGap = 10
+  const repoH = (h - 38 - repoTop - repoGap) / 2
   const repos = PINNED.map((r, i) => {
     const col = i % 2
     const row = Math.floor(i / 2)
@@ -533,8 +533,8 @@ function renderPulse(t, data) {
       <rect x="${x + repoW - 72}" y="${y + 10}" width="60" height="14" rx="3" fill="${t.orangeSoft}"/>
       <text class="mono" x="${x + repoW - 42}" y="${y + 20}" text-anchor="middle" fill="${t.orange}" font-size="8">${esc(r.tag)}</text>
       <text class="sans" x="${x + 12}" y="${y + 46}" fill="${t.muted}" font-size="10">${esc(fit(r.desc, 18))}</text>
-      <text class="mono" x="${x + 12}" y="${y + 78}" fill="${t.fg}" font-size="10">${esc(r.lang)}</text>
-      <text class="mono" x="${x + repoW - 12}" y="${y + 78}" text-anchor="end" fill="${t.muted}" font-size="10">CNB 仓库 ↗</text>
+      <text class="mono" x="${x + 12}" y="${y + repoH - 18}" fill="${t.fg}" font-size="10">${esc(r.lang)}</text>
+      <text class="mono" x="${x + repoW - 12}" y="${y + repoH - 18}" text-anchor="end" fill="${t.muted}" font-size="10">CNB 仓库 ↗</text>
     `
   }).join("")
 
