@@ -30,6 +30,8 @@ cnb:
         - scripts/**
         - .cnb.yml
         - package.json
+  web_trigger:
+    - <<: *generate
   "crontab: 0 4 * * *":
     - <<: *generate
 
@@ -40,5 +42,7 @@ main:
         - scripts/**
         - .cnb.yml
         - package.json
+  web_trigger:
+    - <<: *generate
   "crontab: 0 4 * * *":
     - <<: *generate

@@ -1,0 +1,5 @@
+branch:
+  - buttons:
+      - name: 刷新 SVG
+        description: 拉取 GitHub / CNB 最新数据并重新生成 profile SVG
+        event: web_trigger
