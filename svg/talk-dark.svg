@@ -31,14 +31,13 @@
     <text class="hud" x="109.16000000000001" y="84" text-anchor="middle" fill="#8b949e">组织</text>
     <text class="mono" x="109.16000000000001" y="100" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">onmicrosoft</text>
     <text class="hud" x="290" y="84" text-anchor="middle" fill="#8b949e">全部仓库</text>
-    <text class="mono" x="290" y="100" text-anchor="middle" fill="#58a6ff" font-size="12" font-weight="700">64</text>
+    <text class="mono" x="290" y="100" text-anchor="middle" fill="#58a6ff" font-size="12" font-weight="700">66</text>
     <text class="hud" x="470.84" y="84" text-anchor="middle" fill="#8b949e">核心成员</text>
     <text class="mono" x="470.84" y="100" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">14</text>
     <text class="hud" x="16" y="130" fill="#8b949e">集群:</text>
     <rect x="58" y="118" width="86" height="16" rx="4" fill="#0d1117" stroke="#30363d"/>
-    <text class="mono" x="101" y="130" text-anchor="middle" fill="#e6edf3" font-size="9">vibe-cook (6)</text>
-    <rect x="150" y="118" width="70" height="16" rx="4" fill="#0d1117" stroke="#30363d"/>
-    <text class="mono" x="185" y="130" text-anchor="middle" fill="#e6edf3" font-size="9">imyai (1)</text>
+    <text class="mono" x="101" y="130" text-anchor="middle" fill="#e6edf3" font-size="9">vibe-cook (6)</text><rect x="150" y="118" width="86" height="16" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <text class="mono" x="193" y="130" text-anchor="middle" fill="#e6edf3" font-size="9">imyai (1)</text>
     <text class="mono" x="16" y="148" fill="#8b949e" font-size="11">真实声音复盘 (32 篇)</text>
     <rect x="492" y="136" width="72" height="16" rx="8" fill="rgba(88,166,255,0.12)"/>
     <circle class="led" cx="504" cy="144" r="2.4" fill="#58a6ff"/>

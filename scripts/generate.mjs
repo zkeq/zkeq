@@ -6,11 +6,11 @@
 import { mkdir, writeFile } from "node:fs/promises"
 import { dirname, join } from "node:path"
 import { fileURLToPath } from "node:url"
+import { loadData } from "./data.mjs"
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..")
 const OUT = join(ROOT, "svg")
 const HOME = "https://zkeq-projects.dev-tool.cool/"
-const USER = "zkeq"
 const FONT =
   "ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', sans-serif"
 const MONO = "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
@@ -81,120 +81,9 @@ const LAYOUT = {
   colH: 268,
 }
 
-const PRODUCTS = [
-  {
-    name: "Vibe Cook 沉浸式烹饪助手",
-    desc: "融合真实菜谱检索、AI 选菜与逐步引导的沉浸式烹饪应用。",
-    tags: ["AI Agent", "沉浸式烹饪", "智能选菜"],
-    featured: true,
-  },
-  {
-    name: "全息推演个人财务系统",
-    desc: "以未来现金流推演为核心，统一管理账户、预算、负债与消费计划。",
-    tags: ["现金流推演", "预算管理", "负债管理"],
-    featured: true,
-  },
-  {
-    name: "SparkAI - 多模态 AI 创作平台前端 - 新版UI",
-    desc: "基于 Vue 3 的企业级多模态 AI 内容创作平台，集成智能对话、绘画、视频。",
-    tags: ["Vue 3", "TypeScript", "AI 平台"],
-    featured: false,
-  },
-  {
-    name: "SparkAI - 多模态 AI 创作平台前端 - 旧版UI",
-    desc: "基于 Vue 3 的多模态 AI 综合应用平台，集成对话、绘画、视频。",
-    tags: ["Vue 3", "TypeScript", "AI 应用"],
-    featured: false,
-  },
-  {
-    name: "SparkAI 视频生成平台",
-    desc: "企业级 AI 视频生成 SaaS 平台，支持 15+ 主流 AI 模型。",
-    tags: ["AI视频生成", "多模型聚合", "企业级SaaS"],
-    featured: false,
-  },
-  {
-    name: "IMYAI智能助手官网",
-    desc: "基于 Vue 3 的 AI 智能助手官网，支持多平台下载与动态内容管理。",
-    tags: ["Vue 3", "AI助手", "响应式设计"],
-    featured: false,
-  },
-]
-
-const RECORDINGS = [
-  {
-    date: "2026-08-20 05:19",
-    duration: "454.5 秒",
-    title: "公积金事件与个人主页制作记录",
-    summary: "【工作复盘】时长 454.5 秒 · 云端声音与结构化思维归档",
-    tag: "工作复盘",
-  },
-  {
-    date: "2026-08-19 04:42",
-    duration: "275.1 秒",
-    title: "压力转化资产，个人网站成型",
-    summary: "【工作复盘】时长 275.1 秒 · 云端声音与结构化思维归档",
-    tag: "工作复盘",
-  },
-  {
-    date: "2026-08-19 04:37",
-    duration: "642.5 秒",
-    title: "一周回顾与自我调整",
-    summary: "【工作复盘】时长 642.5 秒 · 云端声音与结构化思维归档",
-    tag: "工作复盘",
-  },
-]
-
-const POSTS = [
-  {
-    date: "2026-02-19",
-    read: "4 min",
-    latest: true,
-    title: "年度｜我的 2025 年度总结",
-    excerpt: "2025年，日均20次提交的超强工作强度，从河南远程工作到深圳南山，从写出人格相关的书籍到沉浸式的Live House。",
-    tags: ["个人成长", "生活碎片", "年度总结"],
-  },
-  {
-    date: "2025-09-12",
-    read: "5 min",
-    title: "从想法到落地：两小时做出一个人格完善站",
-    excerpt: "把人格完善做成一个可以提问、可以读的站点。",
-    tags: ["AI", "个人成长"],
-  },
-  {
-    date: "2025-09-07",
-    read: "6 min",
-    title: "Hexo 博客搭建：一份写给新手的完全指南",
-    excerpt: "这是一份写给新手的 Hexo 博客搭建完全指南。",
-    tags: ["Hexo", "博客"],
-  },
-]
-
-const PINNED = [
-  {
-    name: "vibe-talk",
-    tag: "Quiet Log",
-    lang: "TypeScript",
-    desc: "一个安静、低压力、可长期回看的私人声音复盘工作台 (Quiet Log 实时识别与 AI 讲义)",
-  },
-  {
-    name: "Project-PanelShow",
-    tag: "Portfolio",
-    lang: "TypeScript",
-    desc: "现代化个人作品集系统 · 支持多用户、时间线展示与后台管理",
-  },
-  {
-    name: "tdp-demonstration",
-    tag: "TDP Demo",
-    lang: "Docker",
-    desc: "Vibe Cook 腾讯云 TDP 示范工程与云原生全流程实践",
-  },
-  {
-    name: "tdp-hornor",
-    tag: "Astro HUD",
-    lang: "Astro",
-    desc: "腾讯云开发者先锋（TDP）获奖者展示网站，基于 Astro 构建",
-  },
-]
+function featuredName(name = "") {
+  return /vibe cook|烹饪|财务|记账|渺软/i.test(name)
+}
 
 function esc(s) {
   return String(s)
@@ -202,10 +91,6 @@ function esc(s) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
-}
-
-function fmt(n) {
-  return Number(n).toLocaleString("en-US")
 }
 
 function unitWidth(ch) {
@@ -314,10 +199,10 @@ function renderHud(t, data) {
     <rect x="794" y="12" width="90" height="24" rx="8" fill="${t.inner}" stroke="${t.border}"/>
     <text class="mono" x="839" y="28" text-anchor="middle" font-size="10" fill="${t.muted}">叙事长文  2</text>
 
-    ${chip(16, 48, 210, "在线核心产品", `${data.projects} units`, t.emerald, t)}
+    ${chip(16, 48, 210, "在线核心产品", `${data.projectCount} units`, t.emerald, t)}
     ${chip(236, 48, 210, "CNB / 渺软仓库", `${data.cnbRepos} repos`, t.cyan, t)}
     ${chip(456, 48, 210, "GitHub 累计提交", `${data.commits}+`, t.amber, t)}
-    ${chip(676, 48, 208, "博客文章沉淀", `${data.posts}+ posts`, t.indigo, t)}
+    ${chip(676, 48, 208, "博客文章沉淀", `${data.postCount}+ posts`, t.indigo, t)}
     `
   )
 }
@@ -331,7 +216,7 @@ function chip(x, y, w, label, value, accent, t) {
   `
 }
 
-function renderProducts(t) {
+function renderProducts(t, products = [], total = 0) {
   const w = LAYOUT.leftW
   const h = LAYOUT.rowH
   const pad = 16
@@ -341,20 +226,21 @@ function renderProducts(t) {
   const footerH = 38
   const tileH = 108
   const rowGap = (h - top - footerH - tileH * 3) / 2
-  const clips = PRODUCTS.map((_, i) => {
+  const clips = products.map((_, i) => {
     const col = i % 2
     const row = Math.floor(i / 2)
     const x = pad + col * (tileW + gutter)
     const y = top + row * (tileH + rowGap)
     return `<clipPath id="p${i}"><rect x="${x + 10}" y="${y + 26}" width="${tileW - 20}" height="52" rx="4"/></clipPath>`
   }).join("")
-  const tiles = PRODUCTS.map((p, i) => {
+  const tiles = products.map((p, i) => {
     const col = i % 2
     const row = Math.floor(i / 2)
     const x = pad + col * (tileW + gutter)
     const y = top + row * (tileH + rowGap)
-    const stroke = p.featured ? t.emeraldBorder : t.border
-    const bg = p.featured ? t.emeraldSoft : t.inner
+    const featured = p.featured || featuredName(p.name)
+    const stroke = featured ? t.emeraldBorder : t.border
+    const bg = featured ? t.emeraldSoft : t.inner
     const title = fit(p.name, 20)
     const descLines = wrapFit(p.desc, 24, 2)
     const desc = descLines
@@ -375,7 +261,7 @@ function renderProducts(t) {
       <rect x="${x}" y="${y}" width="${tileW}" height="${tileH}" rx="10" fill="${bg}" stroke="${stroke}"/>
       <circle class="led" cx="${x + 18}" cy="${y + 16}" r="3" fill="${t.emerald}"/>
       <text class="hud" x="${x + 28}" y="${y + 20}" fill="${t.emerald}" font-size="8" font-weight="700">ONLINE</text>
-      ${p.featured ? `<rect x="${x + 78}" y="${y + 8}" width="32" height="14" rx="3" fill="${t.amberSoft}"/><text class="mono" x="${x + 94}" y="${y + 18}" text-anchor="middle" fill="${t.amber}" font-size="8">★ 重点</text>` : ""}
+      ${featured ? `<rect x="${x + 78}" y="${y + 8}" width="32" height="14" rx="3" fill="${t.amberSoft}"/><text class="mono" x="${x + 94}" y="${y + 18}" text-anchor="middle" fill="${t.amber}" font-size="8">★ 重点</text>` : ""}
       <text class="sans" x="${x + tileW - 16}" y="${y + 20}" fill="${t.muted}" font-size="11">↗</text>
       <g clip-path="url(#p${i})">
         <text class="head" x="${x + 12}" y="${y + 42}" fill="${t.fg}" font-size="13" font-weight="700">${esc(title)}</text>
@@ -393,25 +279,27 @@ function renderProducts(t) {
     <defs>${clips}</defs>
     ${header(t, w, 16, 16, t.emerald, t.emeraldSoft, '<path d="M2 9h10M2 4h14M2 14h7"/>', "ACTIVE PRODUCTS MATRIX", "核心在研与生活系统", `
       <rect x="${w - 210}" y="18" width="58" height="18" rx="6" fill="${t.fill}"/>
-      <text class="mono" x="${w - 181}" y="31" text-anchor="middle" font-size="9" fill="${t.invert}">全部 (16)</text>
+      <text class="mono" x="${w - 181}" y="31" text-anchor="middle" font-size="9" fill="${t.invert}">全部 (${total})</text>
       <text class="mono" x="${w - 130}" y="31" fill="${t.muted}" font-size="9">生活</text>
       <text class="mono" x="${w - 92}" y="31" fill="${t.muted}" font-size="9">AI</text>
       <text class="mono" x="${w - 60}" y="31" fill="${t.muted}" font-size="9">基建</text>
     `)}
     ${tiles}
-    ${footer(t, w, h, "PPS Gateway · 16 Projects", "查看完整作品集清单 →")}
+    ${footer(t, w, h, `PPS Gateway · ${total} Projects`, "查看完整作品集清单 →")}
     `
   )
 }
 
-function renderTalk(t) {
+function renderTalk(t, data) {
+  const recordings = data.recordings || []
+  const groups = data.subGroups || []
   const w = LAYOUT.rightW
   const h = LAYOUT.rowH
   const inner = w - 32
   const recTop = 168
   const recH = 76
   const recGap = (h - 38 - recTop - recH * 3) / 2
-  const rows = RECORDINGS.map((r, i) => {
+  const rows = recordings.map((r, i) => {
     const y = recTop + i * (recH + recGap)
     return `
       <rect x="16" y="${y}" width="${inner}" height="${recH}" rx="10" fill="${t.inner}" stroke="${t.border}"/>
@@ -437,17 +325,19 @@ function renderTalk(t) {
     `)}
     <rect x="16" y="68" width="${inner}" height="42" rx="10" fill="${t.inner}" stroke="${t.border}"/>
     <text class="hud" x="${16 + inner * 0.17}" y="84" text-anchor="middle" fill="${t.muted}">组织</text>
-    <text class="mono" x="${16 + inner * 0.17}" y="100" text-anchor="middle" fill="${t.fg}" font-size="12" font-weight="700">onmicrosoft</text>
+    <text class="mono" x="${16 + inner * 0.17}" y="100" text-anchor="middle" fill="${t.fg}" font-size="12" font-weight="700">${esc(data.orgName || "onmicrosoft")}</text>
     <text class="hud" x="${16 + inner * 0.5}" y="84" text-anchor="middle" fill="${t.muted}">全部仓库</text>
-    <text class="mono" x="${16 + inner * 0.5}" y="100" text-anchor="middle" fill="${t.cyan}" font-size="12" font-weight="700">64</text>
+    <text class="mono" x="${16 + inner * 0.5}" y="100" text-anchor="middle" fill="${t.cyan}" font-size="12" font-weight="700">${data.cnbRepos}</text>
     <text class="hud" x="${16 + inner * 0.83}" y="84" text-anchor="middle" fill="${t.muted}">核心成员</text>
-    <text class="mono" x="${16 + inner * 0.83}" y="100" text-anchor="middle" fill="${t.fg}" font-size="12" font-weight="700">14</text>
+    <text class="mono" x="${16 + inner * 0.83}" y="100" text-anchor="middle" fill="${t.fg}" font-size="12" font-weight="700">${data.members}</text>
     <text class="hud" x="16" y="130" fill="${t.muted}">集群:</text>
-    <rect x="58" y="118" width="86" height="16" rx="4" fill="${t.inner}" stroke="${t.border}"/>
-    <text class="mono" x="101" y="130" text-anchor="middle" fill="${t.fg}" font-size="9">vibe-cook (6)</text>
-    <rect x="150" y="118" width="70" height="16" rx="4" fill="${t.inner}" stroke="${t.border}"/>
-    <text class="mono" x="185" y="130" text-anchor="middle" fill="${t.fg}" font-size="9">imyai (1)</text>
-    <text class="mono" x="16" y="148" fill="${t.muted}" font-size="11">真实声音复盘 (32 篇)</text>
+    ${groups.slice(0, 2).map((g, i) => {
+      const x = 58 + i * 92
+      const label = `${g.name} (${g.count})`
+      return `<rect x="${x}" y="118" width="86" height="16" rx="4" fill="${t.inner}" stroke="${t.border}"/>
+    <text class="mono" x="${x + 43}" y="130" text-anchor="middle" fill="${t.fg}" font-size="9">${esc(fit(label, 12))}</text>`
+    }).join("")}
+    <text class="mono" x="16" y="148" fill="${t.muted}" font-size="11">真实声音复盘 (${data.recordingCount} 篇)</text>
     <rect x="${w - 88}" y="136" width="72" height="16" rx="8" fill="${t.cyanSoft}"/>
     <circle class="led" cx="${w - 76}" cy="144" r="2.4" fill="${t.cyan}"/>
     <text class="mono" x="${w - 52}" y="148" text-anchor="middle" fill="${t.cyan}" font-size="8">CNB LIVE</text>
@@ -457,14 +347,14 @@ function renderTalk(t) {
   )
 }
 
-function renderBlog(t) {
+function renderBlog(t, posts = [], total = 0) {
   const w = LAYOUT.leftW
   const h = LAYOUT.rowH
   const inner = w - 32
   const postH = 108
   const top = 68
   const gap = (h - 38 - top - postH * 3) / 2
-  const rows = POSTS.map((p, i) => {
+  const rows = posts.map((p, i) => {
     const y = top + i * (postH + gap)
     const tags = (p.tags || [])
       .map(
@@ -492,7 +382,7 @@ function renderBlog(t) {
       <text class="mono" x="${w - 16}" y="34" text-anchor="end" fill="${t.muted}" font-size="11">icodeq.com ↗</text>
     `)}
     ${rows}
-    ${footer(t, w, h, "ATOM / RSS FEED", "浏览博客归档 (30+ 篇) →")}
+    ${footer(t, w, h, "ATOM / RSS FEED", `浏览博客归档 (${total}+ 篇) →`)}
     `
   )
 }
@@ -502,6 +392,7 @@ function pulseColor(level, t) {
 }
 
 function renderPulse(t, data) {
+  const pinned = data.pinned || []
   const w = LAYOUT.rightW
   const h = LAYOUT.rowH
   const inner = w - 32
@@ -522,7 +413,7 @@ function renderPulse(t, data) {
   const repoW = (inner - repoGutter) / 2
   const repoGap = 10
   const repoH = (h - 38 - repoTop - repoGap) / 2
-  const repos = PINNED.map((r, i) => {
+  const repos = pinned.map((r, i) => {
     const col = i % 2
     const row = Math.floor(i / 2)
     const x = 16 + col * (repoW + repoGutter)
@@ -549,63 +440,19 @@ function renderPulse(t, data) {
     `)}
     <rect x="16" y="68" width="${inner}" height="44" rx="10" fill="${t.inner}" stroke="${t.border}"/>
     <text class="hud" x="${16 + inner * 0.17}" y="84" text-anchor="middle" fill="${t.muted}">云原生仓库</text>
-    <text class="mono" x="${16 + inner * 0.17}" y="102" text-anchor="middle" fill="${t.orange}" font-size="13" font-weight="700">64 Repos</text>
+    <text class="mono" x="${16 + inner * 0.17}" y="102" text-anchor="middle" fill="${t.orange}" font-size="13" font-weight="700">${data.cnbRepos} Repos</text>
     <text class="hud" x="${16 + inner * 0.5}" y="84" text-anchor="middle" fill="${t.muted}">组织</text>
-    <text class="mono" x="${16 + inner * 0.5}" y="102" text-anchor="middle" fill="${t.fg}" font-size="13" font-weight="700">onmicrosoft</text>
+    <text class="mono" x="${16 + inner * 0.5}" y="102" text-anchor="middle" fill="${t.fg}" font-size="13" font-weight="700">${esc(data.orgName || "onmicrosoft")}</text>
     <text class="hud" x="${16 + inner * 0.83}" y="84" text-anchor="middle" fill="${t.muted}">核心团队</text>
-    <text class="mono" x="${16 + inner * 0.83}" y="102" text-anchor="middle" fill="${t.fg}" font-size="13" font-weight="700">14 Members</text>
+    <text class="mono" x="${16 + inner * 0.83}" y="102" text-anchor="middle" fill="${t.fg}" font-size="13" font-weight="700">${data.members} Members</text>
     <text class="mono" x="16" y="130" fill="${t.orange}" font-size="10" font-weight="600">CNB 云原生近 28 天真实脉搏</text>
     <text class="mono" x="${w - 16}" y="130" text-anchor="end" fill="${t.orange}" font-size="9">实时动态流</text>
     ${barRow}
     ${repos}
-    ${footer(t, w, h, "CNB Pulse Telemetry", "查看全部 CNB 仓库 (64+) →", t.orange)}
+    ${footer(t, w, h, "CNB Pulse Telemetry", `查看全部 CNB 仓库 (${data.cnbRepos}+) →`, t.orange)}
     `,
     t.orangeBorder
   )
-}
-
-function renderStatus(t, data) {
-  const w = 480
-  const h = 220
-  const langs = data.langs.slice(0, 4)
-  const sum = langs.reduce((a, b) => a + b.count, 0) || 1
-  let lx = 16
-  const colors = [t.fg, t.muted, t.cyan, t.indigo]
-  const bars = langs
-    .map((l, i) => {
-      const bw = Math.max(16, Math.round(((w - 32) * l.count) / sum))
-      const x = lx
-      lx += bw
-      return `<rect x="${x}" y="168" width="${bw - 3}" height="8" rx="2" fill="${colors[i]}"/>`
-    })
-    .join("")
-  const labels = langs
-    .map((l, i) => `<text class="mono" x="${16 + i * 116}" y="196" fill="${t.muted}" font-size="9">${esc(l.name)} ${l.count}</text>`)
-    .join("")
-
-  return svg(
-    w,
-    h,
-    t,
-    `
-    ${header(t, w, 16, 16, t.orange, t.orangeSoft, '<path d="M7 1v4M3 8h8M2 13h10"/>', "GITHUB STATUS · ZKEQ", "GitHub 仓库与贡献", "")}
-    ${mini(16, 68, 106, "提交", data.commits, t)}
-    ${mini(130, 68, 106, "仓库", fmt(data.repos), t)}
-    ${mini(244, 68, 106, "Stars", fmt(data.stars), t)}
-    ${mini(358, 68, 106, "Followers", fmt(data.followers), t)}
-    <text class="hud" x="16" y="154" fill="${t.muted}">仓库语言分布</text>
-    ${bars}
-    ${labels}
-    `
-  )
-}
-
-function mini(x, y, w, label, value, t) {
-  return `
-    <rect x="${x}" y="${y}" width="${w}" height="52" rx="10" fill="${t.inner}" stroke="${t.border}"/>
-    <text class="hud" x="${x + 10}" y="${y + 18}" fill="${t.muted}">${esc(label)}</text>
-    <text class="mono" x="${x + 10}" y="${y + 38}" fill="${t.fg}" font-size="16" font-weight="700">${esc(value)}</text>
-  `
 }
 
 function renderBook(t) {
@@ -685,96 +532,31 @@ function renderHonor(t) {
   )
 }
 
-async function gh(path, token) {
-  const headers = {
-    Accept: "application/vnd.github+json",
-    "User-Agent": "zkeq-profile",
-  }
-  if (token) headers.Authorization = `Bearer ${token}`
-  const res = await fetch(`https://api.github.com${path}`, { headers })
-  if (!res.ok) throw new Error(`${path} ${res.status}`)
-  return res.json()
-}
-
-async function loadData() {
-  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || ""
-  const data = {
-    repos: 122,
-    followers: 206,
-    stars: 724,
-    commits: "19,616",
-    projects: 16,
-    cnbRepos: 64,
-    posts: 8,
-    langs: [
-      { name: "HTML", count: 27 },
-      { name: "JavaScript", count: 17 },
-      { name: "Python", count: 10 },
-      { name: "CSS", count: 9 },
-    ],
-    pulse28: Array.from({ length: 28 }, (_, i) => ({
-      level: [0, 0, 0, 1, 0, 2, 0, 0, 4, 3, 0, 1, 0, 0, 2, 0, 0, 4, 4, 0, 1, 0, 3, 0, 0, 2, 4, 3][i],
-    })),
-  }
-
-  try {
-    const user = await gh(`/users/${USER}`, token)
-    data.repos = user.public_repos ?? data.repos
-    data.followers = user.followers ?? data.followers
-  } catch (err) {
-    console.warn("github user:", err.message)
-  }
-
-  try {
-    const langs = new Map()
-    let stars = 0
-    for (let page = 1; page <= 2; page++) {
-      const repos = await gh(`/users/${USER}/repos?per_page=100&page=${page}&type=owner`, token)
-      if (!Array.isArray(repos) || repos.length === 0) break
-      for (const r of repos) {
-        stars += r.stargazers_count || 0
-        if (r.fork) continue
-        const lang = r.language || "Other"
-        langs.set(lang, (langs.get(lang) || 0) + 1)
-      }
-    }
-    data.stars = stars
-    data.langs = [...langs.entries()]
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 4)
-      .map(([name, count]) => ({ name, count }))
-  } catch (err) {
-    console.warn("github repos:", err.message)
-  }
-
-  try {
-    const res = await fetch(`https://github-contributions-api.jogruber.de/v4/${USER}`, {
-      headers: { "User-Agent": "zkeq-profile" },
-    })
-    if (res.ok) {
-      const payload = await res.json()
-      const total = Object.values(payload.total || {}).reduce((a, b) => a + Number(b || 0), 0)
-      if (total) data.commits = fmt(total)
-    }
-  } catch (err) {
-    console.warn("contrib:", err.message)
-  }
-
-  return data
-}
-
 async function main() {
   await mkdir(OUT, { recursive: true })
   const data = await loadData()
+  console.log(
+    JSON.stringify(
+      {
+        projects: data.projectCount,
+        recordings: data.recordingCount,
+        posts: data.postCount,
+        cnbRepos: data.cnbRepos,
+        commits: data.commits,
+      },
+      null,
+      2
+    )
+  )
   const files = {
     "hud-light.svg": renderHud(THEMES.light, data),
     "hud-dark.svg": renderHud(THEMES.dark, data),
-    "products-light.svg": renderProducts(THEMES.light),
-    "products-dark.svg": renderProducts(THEMES.dark),
-    "talk-light.svg": renderTalk(THEMES.light),
-    "talk-dark.svg": renderTalk(THEMES.dark),
-    "blog-light.svg": renderBlog(THEMES.light),
-    "blog-dark.svg": renderBlog(THEMES.dark),
+    "products-light.svg": renderProducts(THEMES.light, data.projects, data.projectCount),
+    "products-dark.svg": renderProducts(THEMES.dark, data.projects, data.projectCount),
+    "talk-light.svg": renderTalk(THEMES.light, data),
+    "talk-dark.svg": renderTalk(THEMES.dark, data),
+    "blog-light.svg": renderBlog(THEMES.light, data.posts, data.postCount),
+    "blog-dark.svg": renderBlog(THEMES.dark, data.posts, data.postCount),
     "pulse-light.svg": renderPulse(THEMES.light, data),
     "pulse-dark.svg": renderPulse(THEMES.dark, data),
     "book-light.svg": renderBook(THEMES.light),

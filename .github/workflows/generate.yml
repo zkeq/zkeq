@@ -5,7 +5,7 @@ on:
     - cron: "17 16 * * *"
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, cnb]
     paths:
       - "scripts/**"
       - ".github/workflows/generate.yml"
@@ -25,6 +25,7 @@ jobs:
       - name: Generate SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CNB_TOKEN: ${{ secrets.CNB_TOKEN }}
         run: node scripts/generate.mjs
       - name: Commit if changed
         run: |
@@ -34,6 +35,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No SVG changes"
           else
-            git commit -m "chore: refresh github status svgs"
+            git commit -m "chore: refresh profile svgs"
             git push
           fi
