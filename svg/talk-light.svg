@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="588" height="452" viewBox="0 0 588 452" role="img" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="452" viewBox="0 0 580 452" role="img" fill="none">
   <title>Zkeq Projects</title>
   <desc>https://zkeq-projects.dev-tool.cool/</desc>
   <style><![CDATA[
@@ -10,7 +10,7 @@
     .led { animation: blink 2.4s ease-in-out infinite; }
     @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
   ]]></style>
-  <rect width="588" height="452" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <rect width="580" height="452" rx="14" fill="#ffffff" stroke="#d0d7de"/>
   
     
     
@@ -20,58 +20,58 @@
     <text class="hud" x="52" y="27" fill="#0969da" font-weight="700">CNB CLOUD / ONMICROSOFT</text>
     <text class="head" x="52" y="44" fill="#1f2328" font-size="16" font-weight="700">云原生空间 &amp; 思考电波</text>
     
-      <rect x="432" y="16" width="46" height="14" rx="4" fill="rgba(26,127,55,0.10)"/>
-      <text class="mono" x="455" y="26" text-anchor="middle" fill="#1a7f37" font-size="8">Owner</text>
-      <rect x="482" y="14" width="90" height="20" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
-      <text class="mono" x="527" y="28" text-anchor="middle" fill="#656d76" font-size="10">vibe-talk ↗</text>
+      <rect x="424" y="16" width="46" height="14" rx="4" fill="rgba(26,127,55,0.10)"/>
+      <text class="mono" x="447" y="26" text-anchor="middle" fill="#1a7f37" font-size="8">Owner</text>
+      <rect x="474" y="14" width="90" height="20" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text class="mono" x="519" y="28" text-anchor="middle" fill="#656d76" font-size="10">vibe-talk ↗</text>
     
-    <line x1="16" y1="56" x2="572" y2="56" stroke="#d0d7de" />
+    <line x1="16" y1="56" x2="564" y2="56" stroke="#d0d7de" />
   
-    <rect x="16" y="68" width="556" height="42" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text class="hud" x="110.52000000000001" y="84" text-anchor="middle" fill="#656d76">组织</text>
-    <text class="mono" x="110.52000000000001" y="100" text-anchor="middle" fill="#1f2328" font-size="12" font-weight="700">onmicrosoft</text>
-    <text class="hud" x="294" y="84" text-anchor="middle" fill="#656d76">全部仓库</text>
-    <text class="mono" x="294" y="100" text-anchor="middle" fill="#0969da" font-size="12" font-weight="700">64</text>
-    <text class="hud" x="477.47999999999996" y="84" text-anchor="middle" fill="#656d76">核心成员</text>
-    <text class="mono" x="477.47999999999996" y="100" text-anchor="middle" fill="#1f2328" font-size="12" font-weight="700">14</text>
+    <rect x="16" y="68" width="548" height="42" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="hud" x="109.16000000000001" y="84" text-anchor="middle" fill="#656d76">组织</text>
+    <text class="mono" x="109.16000000000001" y="100" text-anchor="middle" fill="#1f2328" font-size="12" font-weight="700">onmicrosoft</text>
+    <text class="hud" x="290" y="84" text-anchor="middle" fill="#656d76">全部仓库</text>
+    <text class="mono" x="290" y="100" text-anchor="middle" fill="#0969da" font-size="12" font-weight="700">64</text>
+    <text class="hud" x="470.84" y="84" text-anchor="middle" fill="#656d76">核心成员</text>
+    <text class="mono" x="470.84" y="100" text-anchor="middle" fill="#1f2328" font-size="12" font-weight="700">14</text>
     <text class="hud" x="16" y="130" fill="#656d76">集群:</text>
     <rect x="58" y="118" width="86" height="16" rx="4" fill="#f6f8fa" stroke="#d0d7de"/>
     <text class="mono" x="101" y="130" text-anchor="middle" fill="#1f2328" font-size="9">vibe-cook (6)</text>
     <rect x="150" y="118" width="70" height="16" rx="4" fill="#f6f8fa" stroke="#d0d7de"/>
     <text class="mono" x="185" y="130" text-anchor="middle" fill="#1f2328" font-size="9">imyai (1)</text>
     <text class="mono" x="16" y="148" fill="#656d76" font-size="11">真实声音复盘 (32 篇)</text>
-    <rect x="500" y="136" width="72" height="16" rx="8" fill="rgba(9,105,218,0.10)"/>
-    <circle class="led" cx="512" cy="144" r="2.4" fill="#0969da"/>
-    <text class="mono" x="536" y="148" text-anchor="middle" fill="#0969da" font-size="8">CNB LIVE</text>
+    <rect x="492" y="136" width="72" height="16" rx="8" fill="rgba(9,105,218,0.10)"/>
+    <circle class="led" cx="504" cy="144" r="2.4" fill="#0969da"/>
+    <text class="mono" x="528" y="148" text-anchor="middle" fill="#0969da" font-size="8">CNB LIVE</text>
     
-      <rect x="16" y="168" width="556" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="16" y="168" width="548" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
       <text class="mono" x="28" y="186" fill="#0969da" font-size="9" font-weight="700">[2026-08-20 05:19]</text>
       <text class="mono" x="176" y="186" fill="#656d76" font-size="8">454.5 秒</text>
-      <rect x="502" y="176" width="58" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-      <text class="mono" x="531" y="186" text-anchor="middle" fill="#656d76" font-size="8">#工作复盘</text>
+      <rect x="494" y="176" width="58" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+      <text class="mono" x="523" y="186" text-anchor="middle" fill="#656d76" font-size="8">#工作复盘</text>
       <text class="head" x="28" y="208" fill="#1f2328" font-size="13" font-weight="700">公积金事件与个人主页制作记录</text>
       <text class="sans" x="28" y="228" fill="#656d76" font-size="10">【工作复盘】时长 454.5 秒 · 云端声音与结构化思维归档</text>
     
-      <rect x="16" y="253" width="556" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="16" y="253" width="548" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
       <text class="mono" x="28" y="271" fill="#0969da" font-size="9" font-weight="700">[2026-08-19 04:42]</text>
       <text class="mono" x="176" y="271" fill="#656d76" font-size="8">275.1 秒</text>
-      <rect x="502" y="261" width="58" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-      <text class="mono" x="531" y="271" text-anchor="middle" fill="#656d76" font-size="8">#工作复盘</text>
+      <rect x="494" y="261" width="58" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+      <text class="mono" x="523" y="271" text-anchor="middle" fill="#656d76" font-size="8">#工作复盘</text>
       <text class="head" x="28" y="293" fill="#1f2328" font-size="13" font-weight="700">压力转化资产，个人网站成型</text>
       <text class="sans" x="28" y="313" fill="#656d76" font-size="10">【工作复盘】时长 275.1 秒 · 云端声音与结构化思维归档</text>
     
-      <rect x="16" y="338" width="556" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+      <rect x="16" y="338" width="548" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
       <text class="mono" x="28" y="356" fill="#0969da" font-size="9" font-weight="700">[2026-08-19 04:37]</text>
       <text class="mono" x="176" y="356" fill="#656d76" font-size="8">642.5 秒</text>
-      <rect x="502" y="346" width="58" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-      <text class="mono" x="531" y="356" text-anchor="middle" fill="#656d76" font-size="8">#工作复盘</text>
+      <rect x="494" y="346" width="58" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+      <text class="mono" x="523" y="356" text-anchor="middle" fill="#656d76" font-size="8">#工作复盘</text>
       <text class="head" x="28" y="378" fill="#1f2328" font-size="13" font-weight="700">一周回顾与自我调整</text>
       <text class="sans" x="28" y="398" fill="#656d76" font-size="10">【工作复盘】时长 642.5 秒 · 云端声音与结构化思维归档</text>
     
     
-    <line x1="16" y1="416" x2="572" y2="416" stroke="#d0d7de"/>
+    <line x1="16" y1="416" x2="564" y2="416" stroke="#d0d7de"/>
     <text class="mono" x="16" y="436" fill="#656d76" font-size="10">Quiet Log · Telemetry</text>
-    <text class="sans" x="572" y="436" text-anchor="end" fill="#0969da" font-size="11">查看 Vibe-Talk 仓库 →</text>
+    <text class="sans" x="564" y="436" text-anchor="end" fill="#0969da" font-size="11">查看 Vibe-Talk 仓库 →</text>
   
     
 </svg>

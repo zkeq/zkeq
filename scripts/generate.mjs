@@ -75,7 +75,7 @@ const THEMES = {
 
 const LAYOUT = {
   leftW: 742,
-  rightW: 588,
+  rightW: 580,
   rowH: 452,
   colW: 310,
   colH: 268,
