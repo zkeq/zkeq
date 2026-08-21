@@ -10,29 +10,29 @@
     .led { animation: blink 2.4s ease-in-out infinite; }
     @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
   ]]></style>
-  <rect width="300" height="268" rx="14" fill="#FFFFFF" stroke="rgba(23,23,23,0.10)"/>
+  <rect width="300" height="268" rx="14" fill="#ffffff" stroke="#d0d7de"/>
   
     
     
-    <rect x="16" y="16" width="28" height="28" rx="8" fill="rgba(245,158,11,0.12)"/>
-    <g transform="translate(23,23)" fill="none" stroke="#D97706" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2h8v14H2zM12 5h2v11H8"/></g>
+    <rect x="16" y="16" width="28" height="28" rx="8" fill="rgba(154,103,0,0.12)"/>
+    <g transform="translate(23,23)" fill="none" stroke="#9a6700" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2h8v14H2zM12 5h2v11H8"/></g>
   
-    <text class="hud" x="52" y="27" fill="#D97706" font-weight="700">PUBLICATION CORE</text>
-    <text class="head" x="52" y="44" fill="#171717" font-size="16" font-weight="700">人格完善指南</text>
+    <text class="hud" x="52" y="27" fill="#9a6700" font-weight="700">PUBLICATION CORE</text>
+    <text class="head" x="52" y="44" fill="#1f2328" font-size="16" font-weight="700">人格完善指南</text>
     
-    <line x1="16" y1="56" x2="284" y2="56" stroke="rgba(23,23,23,0.10)" />
+    <line x1="16" y1="56" x2="284" y2="56" stroke="#d0d7de" />
   
-    <text class="head" x="16" y="78" fill="#171717" font-size="13" font-weight="700">Zkeq 的人格完善指南</text>
-    <text class="sans" x="16" y="98" fill="#737373" font-size="11">以名著为指引、AI 赋能的认知提升体系。</text>
-    <text class="mono" x="16" y="122" fill="#D97706" font-size="11" font-weight="700">01</text>
-           <text class="sans" x="40" y="122" fill="#171717" font-size="11">《二次成长》重塑</text><text class="mono" x="16" y="142" fill="#D97706" font-size="11" font-weight="700">02</text>
-           <text class="sans" x="40" y="142" fill="#171717" font-size="11">《人性的弱点》指引</text><text class="mono" x="16" y="162" fill="#D97706" font-size="11" font-weight="700">03</text>
-           <text class="sans" x="40" y="162" fill="#171717" font-size="11">AI 智能深度问答</text><text class="mono" x="16" y="182" fill="#D97706" font-size="11" font-weight="700">04</text>
-           <text class="sans" x="40" y="182" fill="#171717" font-size="11">INFJ-A 升阶演进</text>
+    <text class="head" x="16" y="78" fill="#1f2328" font-size="13" font-weight="700">Zkeq 的人格完善指南</text>
+    <text class="sans" x="16" y="98" fill="#656d76" font-size="11">以名著为指引、AI 赋能的认知提升体系。</text>
+    <text class="mono" x="16" y="122" fill="#9a6700" font-size="11" font-weight="700">01</text>
+           <text class="sans" x="40" y="122" fill="#1f2328" font-size="11">《二次成长》重塑</text><text class="mono" x="16" y="142" fill="#9a6700" font-size="11" font-weight="700">02</text>
+           <text class="sans" x="40" y="142" fill="#1f2328" font-size="11">《人性的弱点》指引</text><text class="mono" x="16" y="162" fill="#9a6700" font-size="11" font-weight="700">03</text>
+           <text class="sans" x="40" y="162" fill="#1f2328" font-size="11">AI 智能深度问答</text><text class="mono" x="16" y="182" fill="#9a6700" font-size="11" font-weight="700">04</text>
+           <text class="sans" x="40" y="182" fill="#1f2328" font-size="11">INFJ-A 升阶演进</text>
     
-    <line x1="16" y1="232" x2="284" y2="232" stroke="rgba(23,23,23,0.10)"/>
-    <text class="mono" x="16" y="252" fill="#737373" font-size="10">成书前言 →</text>
-    <text class="sans" x="284" y="252" text-anchor="end" fill="#D97706" font-size="11">开启导读 →</text>
+    <line x1="16" y1="232" x2="284" y2="232" stroke="#d0d7de"/>
+    <text class="mono" x="16" y="252" fill="#656d76" font-size="10">成书前言 →</text>
+    <text class="sans" x="284" y="252" text-anchor="end" fill="#9a6700" font-size="11">开启导读 →</text>
   
     
 </svg>

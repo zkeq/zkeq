@@ -18,58 +18,58 @@ const HEAD = "ui-serif, Georgia, 'Songti SC', 'Noto Serif SC', serif"
 
 const THEMES = {
   light: {
-    page: "#F7F7F7",
-    card: "#FFFFFF",
-    inner: "rgba(0,0,0,0.03)",
-    fg: "#171717",
-    muted: "#737373",
-    faint: "#A3A3A3",
-    border: "rgba(23,23,23,0.10)",
-    borderStrong: "rgba(23,23,23,0.16)",
-    invert: "#FAFAFA",
-    fill: "#171717",
-    emerald: "#059669",
-    emeraldSoft: "rgba(16,185,129,0.10)",
-    emeraldBorder: "rgba(16,185,129,0.35)",
-    cyan: "#0891B2",
-    cyanSoft: "rgba(6,182,212,0.12)",
-    indigo: "#4F46E5",
-    indigoSoft: "rgba(99,102,241,0.12)",
-    orange: "#EA580C",
-    orangeSoft: "rgba(249,115,22,0.12)",
-    orangeBorder: "rgba(249,115,22,0.22)",
-    amber: "#D97706",
-    amberSoft: "rgba(245,158,11,0.12)",
-    red: "#DC2626",
-    redSoft: "rgba(239,68,68,0.10)",
-    pulse: ["#E5E5E5", "rgba(249,115,22,0.20)", "rgba(249,115,22,0.45)", "rgba(249,115,22,0.75)", "#F97316"],
+    page: "#ffffff",
+    card: "#ffffff",
+    inner: "#f6f8fa",
+    fg: "#1f2328",
+    muted: "#656d76",
+    faint: "#8c959f",
+    border: "#d0d7de",
+    borderStrong: "#afb8c1",
+    invert: "#ffffff",
+    fill: "#1f2328",
+    emerald: "#1a7f37",
+    emeraldSoft: "rgba(26,127,55,0.10)",
+    emeraldBorder: "rgba(26,127,55,0.40)",
+    cyan: "#0969da",
+    cyanSoft: "rgba(9,105,218,0.10)",
+    indigo: "#8250df",
+    indigoSoft: "rgba(130,80,223,0.10)",
+    orange: "#bc4c00",
+    orangeSoft: "rgba(188,76,0,0.10)",
+    orangeBorder: "rgba(188,76,0,0.35)",
+    amber: "#9a6700",
+    amberSoft: "rgba(154,103,0,0.12)",
+    red: "#cf222e",
+    redSoft: "rgba(207,34,46,0.10)",
+    pulse: ["#d0d7de", "rgba(188,76,0,0.22)", "rgba(188,76,0,0.45)", "rgba(188,76,0,0.72)", "#bc4c00"],
   },
   dark: {
-    page: "#111111",
-    card: "#171717",
-    inner: "rgba(255,255,255,0.04)",
-    fg: "#F4F4F4",
-    muted: "#A3A3A3",
-    faint: "#737373",
-    border: "rgba(255,255,255,0.08)",
-    borderStrong: "rgba(255,255,255,0.14)",
-    invert: "#111111",
-    fill: "#F4F4F4",
-    emerald: "#34D399",
-    emeraldSoft: "rgba(16,185,129,0.08)",
-    emeraldBorder: "rgba(16,185,129,0.35)",
-    cyan: "#22D3EE",
-    cyanSoft: "rgba(6,182,212,0.12)",
-    indigo: "#818CF8",
-    indigoSoft: "rgba(99,102,241,0.14)",
-    orange: "#FB923C",
-    orangeSoft: "rgba(249,115,22,0.12)",
-    orangeBorder: "rgba(249,115,22,0.22)",
-    amber: "#FBBF24",
-    amberSoft: "rgba(245,158,11,0.12)",
-    red: "#F87171",
-    redSoft: "rgba(239,68,68,0.12)",
-    pulse: ["#262626", "rgba(249,115,22,0.20)", "rgba(249,115,22,0.45)", "rgba(249,115,22,0.75)", "#F97316"],
+    page: "#0d1117",
+    card: "#161b22",
+    inner: "#0d1117",
+    fg: "#e6edf3",
+    muted: "#8b949e",
+    faint: "#6e7681",
+    border: "#30363d",
+    borderStrong: "#484f58",
+    invert: "#0d1117",
+    fill: "#e6edf3",
+    emerald: "#3fb950",
+    emeraldSoft: "rgba(63,185,80,0.12)",
+    emeraldBorder: "rgba(63,185,80,0.40)",
+    cyan: "#58a6ff",
+    cyanSoft: "rgba(88,166,255,0.12)",
+    indigo: "#a371f7",
+    indigoSoft: "rgba(163,113,247,0.12)",
+    orange: "#db6d28",
+    orangeSoft: "rgba(219,109,40,0.14)",
+    orangeBorder: "rgba(219,109,40,0.40)",
+    amber: "#d29922",
+    amberSoft: "rgba(210,153,34,0.14)",
+    red: "#f85149",
+    redSoft: "rgba(248,81,73,0.12)",
+    pulse: ["#21262d", "rgba(219,109,40,0.28)", "rgba(219,109,40,0.50)", "rgba(219,109,40,0.75)", "#db6d28"],
   },
 }
 
@@ -200,8 +200,45 @@ function fmt(n) {
   return Number(n).toLocaleString("en-US")
 }
 
-function clip(id, x, y, w, h) {
-  return `<clipPath id="${id}"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8"/></clipPath>`
+function unitWidth(ch) {
+  return /[\x00-\xff]/.test(ch) ? 0.55 : 1
+}
+
+function fit(str, max) {
+  let used = 0
+  let out = ""
+  for (const ch of [...String(str)]) {
+    const w = unitWidth(ch)
+    if (used + w > max) return `${out}…`
+    out += ch
+    used += w
+  }
+  return out
+}
+
+function wrapFit(str, max, maxLines) {
+  const chars = [...String(str)]
+  const lines = []
+  let cur = ""
+  let used = 0
+  for (const ch of chars) {
+    const w = unitWidth(ch)
+    if (used + w > max) {
+      lines.push(cur)
+      cur = ch
+      used = w
+      if (lines.length === maxLines) break
+    } else {
+      cur += ch
+      used += w
+    }
+  }
+  if (lines.length < maxLines && cur) lines.push(cur)
+  const consumed = lines.join("").length
+  if (consumed < chars.length && lines.length) {
+    lines[lines.length - 1] = fit(lines[lines.length - 1], max - 1)
+  }
+  return lines
 }
 
 function css(t) {
@@ -289,6 +326,13 @@ function chip(x, y, w, label, value, accent, t) {
 function renderProducts(t) {
   const w = 640
   const h = 468
+  const clips = PRODUCTS.map((_, i) => {
+    const col = i % 2
+    const row = Math.floor(i / 2)
+    const x = 16 + col * 308
+    const y = 72 + row * 118
+    return `<clipPath id="p${i}"><rect x="${x + 10}" y="${y + 28}" width="276" height="56" rx="4"/></clipPath>`
+  }).join("")
   const tiles = PRODUCTS.map((p, i) => {
     const col = i % 2
     const row = Math.floor(i / 2)
@@ -296,13 +340,21 @@ function renderProducts(t) {
     const y = 72 + row * 118
     const stroke = p.featured ? t.emeraldBorder : t.border
     const bg = p.featured ? t.emeraldSoft : t.inner
+    const title = fit(p.name, 17)
+    const descLines = wrapFit(p.desc, 21, 2)
+    const desc = descLines
+      .map(
+        (line, li) =>
+          `<text class="sans" x="${x + 12}" y="${y + 60 + li * 15}" fill="${t.muted}" font-size="11">${esc(line)}</text>`
+      )
+      .join("")
     const tags = p.tags
       .slice(0, 3)
-      .map(
-        (tag, ti) =>
-          `<rect x="${x + 12 + ti * 72}" y="${y + 88}" width="68" height="14" rx="3" fill="${t.inner}"/>
-           <text class="mono" x="${x + 46 + ti * 72}" y="${y + 98}" text-anchor="middle" fill="${t.muted}" font-size="8">${esc(tag)}</text>`
-      )
+      .map((tag, ti) => {
+        const label = fit(tag, 8)
+        return `<rect x="${x + 12 + ti * 72}" y="${y + 90}" width="68" height="14" rx="3" fill="${t.card}" stroke="${t.border}"/>
+           <text class="mono" x="${x + 46 + ti * 72}" y="${y + 100}" text-anchor="middle" fill="${t.muted}" font-size="8">${esc(label)}</text>`
+      })
       .join("")
     return `
       <rect x="${x}" y="${y}" width="300" height="110" rx="10" fill="${bg}" stroke="${stroke}"/>
@@ -310,8 +362,10 @@ function renderProducts(t) {
       <text class="hud" x="${x + 28}" y="${y + 20}" fill="${t.emerald}" font-size="8" font-weight="700">ONLINE</text>
       ${p.featured ? `<rect x="${x + 78}" y="${y + 8}" width="32" height="14" rx="3" fill="${t.amberSoft}"/><text class="mono" x="${x + 94}" y="${y + 18}" text-anchor="middle" fill="${t.amber}" font-size="8">★ 重点</text>` : ""}
       <text class="sans" x="${x + 274}" y="${y + 20}" fill="${t.muted}" font-size="11">↗</text>
-      <text class="head" x="${x + 12}" y="${y + 42}" fill="${t.fg}" font-size="13" font-weight="700">${esc(p.name)}</text>
-      <text class="sans" x="${x + 12}" y="${y + 64}" fill="${t.muted}" font-size="11">${esc(p.desc.slice(0, 34))}${p.desc.length > 34 ? "…" : ""}</text>
+      <g clip-path="url(#p${i})">
+        <text class="head" x="${x + 12}" y="${y + 42}" fill="${t.fg}" font-size="13" font-weight="700">${esc(title)}</text>
+        ${desc}
+      </g>
       ${tags}
     `
   }).join("")
@@ -321,6 +375,7 @@ function renderProducts(t) {
     h,
     t,
     `
+    <defs>${clips}</defs>
     ${header(t, w, 16, 16, t.emerald, t.emeraldSoft, '<path d="M2 9h10M2 4h14M2 14h7"/>', "ACTIVE PRODUCTS MATRIX", "核心在研与生活系统", `
       <rect x="430" y="18" width="58" height="18" rx="6" fill="${t.fill}"/>
       <text class="mono" x="459" y="31" text-anchor="middle" font-size="9" fill="${t.invert}">全部 (16)</text>
@@ -345,7 +400,7 @@ function renderTalk(t) {
       <text class="mono" x="168" y="${y + 18}" fill="${t.muted}" font-size="8">${esc(r.duration)}</text>
       <rect x="392" y="${y + 8}" width="58" height="14" rx="3" fill="${t.inner}"/>
       <text class="mono" x="421" y="${y + 18}" text-anchor="middle" fill="${t.muted}" font-size="8">#${esc(r.tag)}</text>
-      <text class="head" x="28" y="${y + 40}" fill="${t.fg}" font-size="13" font-weight="700">${esc(r.title)}</text>
+      <text class="head" x="28" y="${y + 40}" fill="${t.fg}" font-size="13" font-weight="700">${esc(fit(r.title, 22))}</text>
       <text class="sans" x="28" y="${y + 60}" fill="${t.muted}" font-size="10">${esc(r.summary)}</text>
     `
   }).join("")
@@ -399,8 +454,8 @@ function renderBlog(t) {
       <text class="mono" x="28" y="${y + 18}" fill="${t.indigo}" font-size="9" font-weight="700">[${p.date}]</text>
       ${p.latest ? `<text class="mono" x="118" y="${y + 18}" fill="${t.indigo}" font-size="8">最新</text>` : ""}
       <text class="mono" x="168" y="${y + 18}" fill="${t.muted}" font-size="8">${esc(p.read)}</text>
-      <text class="head" x="28" y="${y + 40}" fill="${t.fg}" font-size="13" font-weight="700">${esc(p.title)}</text>
-      <text class="sans" x="28" y="${y + 58}" fill="${t.muted}" font-size="11">${esc(p.excerpt.slice(0, 52))}…</text>
+      <text class="head" x="28" y="${y + 40}" fill="${t.fg}" font-size="13" font-weight="700">${esc(fit(p.title, 36))}</text>
+      <text class="sans" x="28" y="${y + 58}" fill="${t.muted}" font-size="11">${esc(fit(p.excerpt, 42))}</text>
       ${tags}
     `
   }).join("")
@@ -447,7 +502,7 @@ function renderPulse(t, data) {
       <text class="mono" x="${x + 12}" y="${y + 20}" fill="${t.fg}" font-size="11" font-weight="700">${esc(r.name)}</text>
       <rect x="${x + 148}" y="${y + 8}" width="60" height="14" rx="3" fill="${t.orangeSoft}"/>
       <text class="mono" x="${x + 178}" y="${y + 18}" text-anchor="middle" fill="${t.orange}" font-size="8">${esc(r.tag)}</text>
-      <text class="sans" x="${x + 12}" y="${y + 42}" fill="${t.muted}" font-size="10">${esc(r.desc.slice(0, 22))}…</text>
+      <text class="sans" x="${x + 12}" y="${y + 42}" fill="${t.muted}" font-size="10">${esc(fit(r.desc, 16))}</text>
       <text class="mono" x="${x + 12}" y="${y + 70}" fill="${t.fg}" font-size="10">${esc(r.lang)}</text>
       <text class="mono" x="${x + 208}" y="${y + 70}" text-anchor="end" fill="${t.muted}" font-size="10">CNB 仓库 ↗</text>
     `
@@ -692,8 +747,6 @@ async function main() {
     "blog-dark.svg": renderBlog(THEMES.dark),
     "pulse-light.svg": renderPulse(THEMES.light, data),
     "pulse-dark.svg": renderPulse(THEMES.dark, data),
-    "status-light.svg": renderStatus(THEMES.light, data),
-    "status-dark.svg": renderStatus(THEMES.dark, data),
     "book-light.svg": renderBook(THEMES.light),
     "book-dark.svg": renderBook(THEMES.dark),
     "patent-light.svg": renderPatent(THEMES.light),

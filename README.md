@@ -12,82 +12,56 @@
 </a>
 </p>
 
-<table>
-  <tr>
-    <td width="58%" valign="top">
-<a href="https://zkeq-projects.dev-tool.cool/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/products-dark.svg">
-    <img src="./svg/products-light.svg" alt="核心在研与生活系统" width="100%">
-  </picture>
-</a>
-    </td>
-    <td width="42%" valign="top">
-<a href="https://zkeq-projects.dev-tool.cool/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/talk-dark.svg">
-    <img src="./svg/talk-light.svg" alt="云原生空间与思考电波" width="100%">
-  </picture>
-</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="58%" valign="top">
-<a href="https://zkeq-projects.dev-tool.cool/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/blog-dark.svg">
-    <img src="./svg/blog-light.svg" alt="博客实时电波与思考沉淀" width="100%">
-  </picture>
-</a>
-    </td>
-    <td width="42%" valign="top">
-<a href="https://zkeq-projects.dev-tool.cool/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/pulse-dark.svg">
-    <img src="./svg/pulse-light.svg" alt="CNB 态势与云原生脉搏" width="100%">
-  </picture>
-</a>
-    </td>
-  </tr>
-</table>
-
 <p align="center">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./svg/status-dark.svg">
-    <img src="./svg/status-light.svg" alt="GitHub Status" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./svg/products-dark.svg">
+    <img src="./svg/products-light.svg" alt="核心在研与生活系统" width="58%">
+  </picture>
+</a>
+<a href="https://zkeq-projects.dev-tool.cool/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./svg/talk-dark.svg">
+    <img src="./svg/talk-light.svg" alt="云原生空间与思考电波" width="40%">
   </picture>
 </a>
 </p>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
+<p align="center">
+<a href="https://zkeq-projects.dev-tool.cool/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./svg/blog-dark.svg">
+    <img src="./svg/blog-light.svg" alt="博客实时电波与思考沉淀" width="58%">
+  </picture>
+</a>
+<a href="https://zkeq-projects.dev-tool.cool/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./svg/pulse-dark.svg">
+    <img src="./svg/pulse-light.svg" alt="CNB 态势与云原生脉搏" width="40%">
+  </picture>
+</a>
+</p>
+
+<p align="center">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/book-dark.svg">
-    <img src="./svg/book-light.svg" alt="人格完善指南" width="100%">
+    <img src="./svg/book-light.svg" alt="人格完善指南" width="32%">
   </picture>
 </a>
-    </td>
-    <td width="33%" valign="top">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/patent-dark.svg">
-    <img src="./svg/patent-light.svg" alt="发明专利与知识产权" width="100%">
+    <img src="./svg/patent-light.svg" alt="发明专利与知识产权" width="32%">
   </picture>
 </a>
-    </td>
-    <td width="34%" valign="top">
 <a href="https://zkeq-projects.dev-tool.cool/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./svg/honor-dark.svg">
-    <img src="./svg/honor-light.svg" alt="腾讯云开发者先锋" width="100%">
+    <img src="./svg/honor-light.svg" alt="腾讯云开发者先锋" width="32%">
   </picture>
 </a>
-    </td>
-  </tr>
-</table>
+</p>
 
 
 <details hide>

@@ -10,68 +10,68 @@
     .led { animation: blink 2.4s ease-in-out infinite; }
     @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
   ]]></style>
-  <rect width="480" height="468" rx="14" fill="#171717" stroke="rgba(249,115,22,0.22)"/>
+  <rect width="480" height="468" rx="14" fill="#161b22" stroke="rgba(219,109,40,0.40)"/>
   
     
     
-    <rect x="16" y="16" width="28" height="28" rx="8" fill="rgba(249,115,22,0.12)"/>
-    <g transform="translate(23,23)" fill="none" stroke="#FB923C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a6 6 0 1 1 8-8"/><path d="M12 4v4h4"/></g>
+    <rect x="16" y="16" width="28" height="28" rx="8" fill="rgba(219,109,40,0.14)"/>
+    <g transform="translate(23,23)" fill="none" stroke="#db6d28" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a6 6 0 1 1 8-8"/><path d="M12 4v4h4"/></g>
   
-    <text class="hud" x="52" y="27" fill="#FB923C" font-weight="700">CNB CLOUD TELEMETRY &amp; PINNED</text>
-    <text class="head" x="52" y="44" fill="#F4F4F4" font-size="16" font-weight="700">CNB 态势与云原生脉搏</text>
+    <text class="hud" x="52" y="27" fill="#db6d28" font-weight="700">CNB CLOUD TELEMETRY &amp; PINNED</text>
+    <text class="head" x="52" y="44" fill="#e6edf3" font-size="16" font-weight="700">CNB 态势与云原生脉搏</text>
     
-      <rect x="352" y="16" width="112" height="20" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
-      <text class="mono" x="408" y="30" text-anchor="middle" fill="#A3A3A3" font-size="10">@onmicrosoft ↗</text>
+      <rect x="352" y="16" width="112" height="20" rx="6" fill="#0d1117" stroke="#30363d"/>
+      <text class="mono" x="408" y="30" text-anchor="middle" fill="#8b949e" font-size="10">@onmicrosoft ↗</text>
     
-    <line x1="16" y1="56" x2="464" y2="56" stroke="rgba(255,255,255,0.08)" />
+    <line x1="16" y1="56" x2="464" y2="56" stroke="#30363d" />
   
-    <rect x="16" y="68" width="448" height="50" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
-    <text class="hud" x="90" y="86" text-anchor="middle" fill="#A3A3A3">云原生仓库</text>
-    <text class="mono" x="90" y="106" text-anchor="middle" fill="#FB923C" font-size="13" font-weight="700">64 Repos</text>
-    <text class="hud" x="240" y="86" text-anchor="middle" fill="#A3A3A3">组织</text>
-    <text class="mono" x="240" y="106" text-anchor="middle" fill="#F4F4F4" font-size="13" font-weight="700">onmicrosoft</text>
-    <text class="hud" x="380" y="86" text-anchor="middle" fill="#A3A3A3">核心团队</text>
-    <text class="mono" x="380" y="106" text-anchor="middle" fill="#F4F4F4" font-size="13" font-weight="700">14 Members</text>
-    <text class="mono" x="16" y="146" fill="#FB923C" font-size="10" font-weight="600">CNB 云原生近 28 天真实脉搏</text>
-    <text class="mono" x="464" y="146" text-anchor="end" fill="#FB923C" font-size="9">实时动态流</text>
-    <rect x="16" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="31" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="46" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="61" y="168" width="12" height="14" rx="2" fill="rgba(249,115,22,0.20)"/><rect x="76" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="91" y="168" width="12" height="14" rx="2" fill="rgba(249,115,22,0.45)"/><rect x="106" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="121" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="136" y="168" width="12" height="14" rx="2" fill="#F97316"/><rect x="151" y="168" width="12" height="14" rx="2" fill="rgba(249,115,22,0.75)"/><rect x="166" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="181" y="168" width="12" height="14" rx="2" fill="rgba(249,115,22,0.20)"/><rect x="196" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="211" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="226" y="168" width="12" height="14" rx="2" fill="rgba(249,115,22,0.45)"/><rect x="241" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="256" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="271" y="168" width="12" height="14" rx="2" fill="#F97316"/><rect x="286" y="168" width="12" height="14" rx="2" fill="#F97316"/><rect x="301" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="316" y="168" width="12" height="14" rx="2" fill="rgba(249,115,22,0.20)"/><rect x="331" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="346" y="168" width="12" height="14" rx="2" fill="rgba(249,115,22,0.75)"/><rect x="361" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="376" y="168" width="12" height="14" rx="2" fill="#262626"/><rect x="391" y="168" width="12" height="14" rx="2" fill="rgba(249,115,22,0.45)"/><rect x="406" y="168" width="12" height="14" rx="2" fill="#F97316"/><rect x="421" y="168" width="12" height="14" rx="2" fill="rgba(249,115,22,0.75)"/>
+    <rect x="16" y="68" width="448" height="50" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text class="hud" x="90" y="86" text-anchor="middle" fill="#8b949e">云原生仓库</text>
+    <text class="mono" x="90" y="106" text-anchor="middle" fill="#db6d28" font-size="13" font-weight="700">64 Repos</text>
+    <text class="hud" x="240" y="86" text-anchor="middle" fill="#8b949e">组织</text>
+    <text class="mono" x="240" y="106" text-anchor="middle" fill="#e6edf3" font-size="13" font-weight="700">onmicrosoft</text>
+    <text class="hud" x="380" y="86" text-anchor="middle" fill="#8b949e">核心团队</text>
+    <text class="mono" x="380" y="106" text-anchor="middle" fill="#e6edf3" font-size="13" font-weight="700">14 Members</text>
+    <text class="mono" x="16" y="146" fill="#db6d28" font-size="10" font-weight="600">CNB 云原生近 28 天真实脉搏</text>
+    <text class="mono" x="464" y="146" text-anchor="end" fill="#db6d28" font-size="9">实时动态流</text>
+    <rect x="16" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="31" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="46" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="61" y="168" width="12" height="14" rx="2" fill="rgba(219,109,40,0.28)"/><rect x="76" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="91" y="168" width="12" height="14" rx="2" fill="rgba(219,109,40,0.50)"/><rect x="106" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="121" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="136" y="168" width="12" height="14" rx="2" fill="#db6d28"/><rect x="151" y="168" width="12" height="14" rx="2" fill="rgba(219,109,40,0.75)"/><rect x="166" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="181" y="168" width="12" height="14" rx="2" fill="rgba(219,109,40,0.28)"/><rect x="196" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="211" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="226" y="168" width="12" height="14" rx="2" fill="rgba(219,109,40,0.50)"/><rect x="241" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="256" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="271" y="168" width="12" height="14" rx="2" fill="#db6d28"/><rect x="286" y="168" width="12" height="14" rx="2" fill="#db6d28"/><rect x="301" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="316" y="168" width="12" height="14" rx="2" fill="rgba(219,109,40,0.28)"/><rect x="331" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="346" y="168" width="12" height="14" rx="2" fill="rgba(219,109,40,0.75)"/><rect x="361" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="376" y="168" width="12" height="14" rx="2" fill="#21262d"/><rect x="391" y="168" width="12" height="14" rx="2" fill="rgba(219,109,40,0.50)"/><rect x="406" y="168" width="12" height="14" rx="2" fill="#db6d28"/><rect x="421" y="168" width="12" height="14" rx="2" fill="rgba(219,109,40,0.75)"/>
     
-      <rect x="16" y="198" width="220" height="88" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
-      <text class="mono" x="28" y="218" fill="#F4F4F4" font-size="11" font-weight="700">vibe-talk</text>
-      <rect x="164" y="206" width="60" height="14" rx="3" fill="rgba(249,115,22,0.12)"/>
-      <text class="mono" x="194" y="216" text-anchor="middle" fill="#FB923C" font-size="8">Quiet Log</text>
-      <text class="sans" x="28" y="240" fill="#A3A3A3" font-size="10">一个安静、低压力、可长期回看的私人声音复盘工…</text>
-      <text class="mono" x="28" y="268" fill="#F4F4F4" font-size="10">TypeScript</text>
-      <text class="mono" x="224" y="268" text-anchor="end" fill="#A3A3A3" font-size="10">CNB 仓库 ↗</text>
+      <rect x="16" y="198" width="220" height="88" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <text class="mono" x="28" y="218" fill="#e6edf3" font-size="11" font-weight="700">vibe-talk</text>
+      <rect x="164" y="206" width="60" height="14" rx="3" fill="rgba(219,109,40,0.14)"/>
+      <text class="mono" x="194" y="216" text-anchor="middle" fill="#db6d28" font-size="8">Quiet Log</text>
+      <text class="sans" x="28" y="240" fill="#8b949e" font-size="10">一个安静、低压力、可长期回看的私…</text>
+      <text class="mono" x="28" y="268" fill="#e6edf3" font-size="10">TypeScript</text>
+      <text class="mono" x="224" y="268" text-anchor="end" fill="#8b949e" font-size="10">CNB 仓库 ↗</text>
     
-      <rect x="244" y="198" width="220" height="88" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
-      <text class="mono" x="256" y="218" fill="#F4F4F4" font-size="11" font-weight="700">Project-PanelShow</text>
-      <rect x="392" y="206" width="60" height="14" rx="3" fill="rgba(249,115,22,0.12)"/>
-      <text class="mono" x="422" y="216" text-anchor="middle" fill="#FB923C" font-size="8">Portfolio</text>
-      <text class="sans" x="256" y="240" fill="#A3A3A3" font-size="10">现代化个人作品集系统 · 支持多用户、时间线…</text>
-      <text class="mono" x="256" y="268" fill="#F4F4F4" font-size="10">TypeScript</text>
-      <text class="mono" x="452" y="268" text-anchor="end" fill="#A3A3A3" font-size="10">CNB 仓库 ↗</text>
+      <rect x="244" y="198" width="220" height="88" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <text class="mono" x="256" y="218" fill="#e6edf3" font-size="11" font-weight="700">Project-PanelShow</text>
+      <rect x="392" y="206" width="60" height="14" rx="3" fill="rgba(219,109,40,0.14)"/>
+      <text class="mono" x="422" y="216" text-anchor="middle" fill="#db6d28" font-size="8">Portfolio</text>
+      <text class="sans" x="256" y="240" fill="#8b949e" font-size="10">现代化个人作品集系统 · 支持多用…</text>
+      <text class="mono" x="256" y="268" fill="#e6edf3" font-size="10">TypeScript</text>
+      <text class="mono" x="452" y="268" text-anchor="end" fill="#8b949e" font-size="10">CNB 仓库 ↗</text>
     
-      <rect x="16" y="294" width="220" height="88" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
-      <text class="mono" x="28" y="314" fill="#F4F4F4" font-size="11" font-weight="700">tdp-demonstration</text>
-      <rect x="164" y="302" width="60" height="14" rx="3" fill="rgba(249,115,22,0.12)"/>
-      <text class="mono" x="194" y="312" text-anchor="middle" fill="#FB923C" font-size="8">TDP Demo</text>
-      <text class="sans" x="28" y="336" fill="#A3A3A3" font-size="10">Vibe Cook 腾讯云 TDP 示范工程…</text>
-      <text class="mono" x="28" y="364" fill="#F4F4F4" font-size="10">Docker</text>
-      <text class="mono" x="224" y="364" text-anchor="end" fill="#A3A3A3" font-size="10">CNB 仓库 ↗</text>
+      <rect x="16" y="294" width="220" height="88" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <text class="mono" x="28" y="314" fill="#e6edf3" font-size="11" font-weight="700">tdp-demonstration</text>
+      <rect x="164" y="302" width="60" height="14" rx="3" fill="rgba(219,109,40,0.14)"/>
+      <text class="mono" x="194" y="312" text-anchor="middle" fill="#db6d28" font-size="8">TDP Demo</text>
+      <text class="sans" x="28" y="336" fill="#8b949e" font-size="10">Vibe Cook 腾讯云 TDP 示范工程…</text>
+      <text class="mono" x="28" y="364" fill="#e6edf3" font-size="10">Docker</text>
+      <text class="mono" x="224" y="364" text-anchor="end" fill="#8b949e" font-size="10">CNB 仓库 ↗</text>
     
-      <rect x="244" y="294" width="220" height="88" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
-      <text class="mono" x="256" y="314" fill="#F4F4F4" font-size="11" font-weight="700">tdp-hornor</text>
-      <rect x="392" y="302" width="60" height="14" rx="3" fill="rgba(249,115,22,0.12)"/>
-      <text class="mono" x="422" y="312" text-anchor="middle" fill="#FB923C" font-size="8">Astro HUD</text>
-      <text class="sans" x="256" y="336" fill="#A3A3A3" font-size="10">腾讯云开发者先锋（TDP）获奖者展示网站，基…</text>
-      <text class="mono" x="256" y="364" fill="#F4F4F4" font-size="10">Astro</text>
-      <text class="mono" x="452" y="364" text-anchor="end" fill="#A3A3A3" font-size="10">CNB 仓库 ↗</text>
+      <rect x="244" y="294" width="220" height="88" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <text class="mono" x="256" y="314" fill="#e6edf3" font-size="11" font-weight="700">tdp-hornor</text>
+      <rect x="392" y="302" width="60" height="14" rx="3" fill="rgba(219,109,40,0.14)"/>
+      <text class="mono" x="422" y="312" text-anchor="middle" fill="#db6d28" font-size="8">Astro HUD</text>
+      <text class="sans" x="256" y="336" fill="#8b949e" font-size="10">腾讯云开发者先锋（TDP）获奖者展…</text>
+      <text class="mono" x="256" y="364" fill="#e6edf3" font-size="10">Astro</text>
+      <text class="mono" x="452" y="364" text-anchor="end" fill="#8b949e" font-size="10">CNB 仓库 ↗</text>
     
     
-    <line x1="16" y1="432" x2="464" y2="432" stroke="rgba(255,255,255,0.08)"/>
-    <text class="mono" x="16" y="452" fill="#A3A3A3" font-size="10">CNB Pulse Telemetry</text>
-    <text class="sans" x="464" y="452" text-anchor="end" fill="#FB923C" font-size="11">查看全部 CNB 仓库 (64+) →</text>
+    <line x1="16" y1="432" x2="464" y2="432" stroke="#30363d"/>
+    <text class="mono" x="16" y="452" fill="#8b949e" font-size="10">CNB Pulse Telemetry</text>
+    <text class="sans" x="464" y="452" text-anchor="end" fill="#db6d28" font-size="11">查看全部 CNB 仓库 (64+) →</text>
   
     
 </svg>
