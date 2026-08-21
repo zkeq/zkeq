@@ -1,5 +1,5 @@
 # CNB 云原生构建：与 zkeq-projects 同源拉取数据，刷新 SVG。
-# 仓库设置里配置密钥 CNB_TOKEN、GITHUB_TOKEN。
+# 仓库设置里配置密钥 CNB_TOKEN、GITHUB_TOKEN。 Wake CNB
 
 .generate: &generate
   docker:
