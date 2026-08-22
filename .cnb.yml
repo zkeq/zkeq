@@ -26,10 +26,6 @@
 cnb:
   push:
     - <<: *generate
-      ifModify:
-        - scripts/**
-        - .cnb.yml
-        - package.json
   web_trigger:
     - <<: *generate
   "crontab: 0 4 * * *":
@@ -38,10 +34,6 @@ cnb:
 main:
   push:
     - <<: *generate
-      ifModify:
-        - scripts/**
-        - .cnb.yml
-        - package.json
   web_trigger:
     - <<: *generate
   "crontab: 0 4 * * *":
