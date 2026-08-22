@@ -54,6 +54,69 @@ function cstDateKeysLastDays(n) {
   return keys
 }
 
+const RECORD_PREFIX = "<!-- quiet-log-record:"
+const RECORD_SUFFIX = " -->"
+const CONFIG_RECORD_ID = "__quiet_log_repository_config__"
+
+function decodeQuietLogManifest(body) {
+  const start = body.indexOf(RECORD_PREFIX)
+  if (start < 0) return null
+  const from = start + RECORD_PREFIX.length
+  const end = body.indexOf(RECORD_SUFFIX, from)
+  if (end < 0) return null
+  const encoded = body.slice(from, end).trim()
+  try {
+    const padded =
+      encoded.replace(/-/g, "+").replace(/_/g, "/") +
+      "=".repeat((4 - (encoded.length % 4)) % 4)
+    return JSON.parse(Buffer.from(padded, "base64").toString("utf8"))
+  } catch {
+    return null
+  }
+}
+
+function foldQuietLogComments(comments) {
+  const latest = new Map()
+  for (const comment of comments) {
+    const body = comment.body
+    if (!body) continue
+    const manifest = decodeQuietLogManifest(body)
+    const recordId = manifest?.id || body.match(/记录 ID：`([^`]+)`/)?.[1] || ""
+    if (!recordId || recordId === CONFIG_RECORD_ID) continue
+    if (manifest?.op === "delete" || body.includes("已删除")) {
+      latest.delete(recordId)
+      continue
+    }
+    if (manifest?.op && manifest.op !== "upsert") continue
+
+    const lines = body.split("\n")
+    const title = (lines.find((l) => l.startsWith("### ")) || "").replace(/^###\s*/, "").trim()
+    if (!title || title.includes("配置") || title.startsWith("已删除")) continue
+    const durationMatch = body.match(/时长[：:]\s*([0-9.]+\s*秒)/)
+    if (!durationMatch) continue
+    const typeLine = lines.find((l) => l.includes("类型：") || l.includes("类型:")) || ""
+    const type = typeLine.replace(/.*类型[：:]\s*/, "").trim()
+    const tagsLine = lines.find((l) => l.includes("标签：") || l.includes("标签:")) || ""
+    const rawTags = tagsLine.replace(/.*标签[：:]\s*/, "").trim()
+    const tags = []
+    if (type && type !== "无类型" && type !== "无标签") tags.push(type)
+    if (rawTags && rawTags !== "无标签") tags.push(...rawTags.split(/[,\s]+/).filter(Boolean))
+    const recordedAt = manifest?.created_at || comment.created_at || ""
+    latest.set(recordId, {
+      date: formatCstDateTime(recordedAt),
+      duration: durationMatch[1],
+      title,
+      summary:
+        type && type !== "声音复盘"
+          ? `【${type}】时长 ${durationMatch[1]} · 云端声音与结构化思维归档`
+          : `录音时长 ${durationMatch[1]} · 云端声音与结构化思维归档`,
+      tag: tags[0] || "声音复盘",
+      timestamp: recordedAt,
+    })
+  }
+  return [...latest.values()].sort((a, b) => (b.timestamp || "").localeCompare(a.timestamp || ""))
+}
+
 function cnbHeaders() {
   const token = process.env.CNB_TOKEN || ""
   const headers = { Accept: "application/json", "User-Agent": "zkeq-profile" }
@@ -224,48 +287,7 @@ async function fetchRecordings(headers) {
     if (batch.length < 100) break
   }
 
-  const seen = new Set()
-  const out = []
-  for (const c of [...all].reverse()) {
-    if (!c.body) continue
-    if (
-      c.body.includes("__quiet_log_repository_config__") ||
-      c.body.includes("仓库配置") ||
-      c.body.includes("配置更新") ||
-      c.body.includes("已删除")
-    ) {
-      continue
-    }
-    const durationMatch = c.body.match(/时长[：:]\s*([0-9.]+\s*秒)/)
-    if (!durationMatch) continue
-    const duration = durationMatch[1]
-    const lines = c.body.split("\n")
-    const titleLine = lines.find((l) => l.startsWith("### ")) || ""
-    const title = titleLine.replace(/^###\s*/, "").trim()
-    if (!title || title.includes("配置")) continue
-    const key = `${title}_${duration}`
-    if (seen.has(key)) continue
-    seen.add(key)
-    const typeLine = lines.find((l) => l.includes("类型：") || l.includes("类型:")) || ""
-    const type = typeLine.replace(/.*类型[：:]\s*/, "").trim()
-    const tagsLine = lines.find((l) => l.includes("标签：") || l.includes("标签:")) || ""
-    const rawTags = tagsLine.replace(/.*标签[：:]\s*/, "").trim()
-    const tags = []
-    if (type && type !== "无类型" && type !== "无标签") tags.push(type)
-    if (rawTags && rawTags !== "无标签") tags.push(...rawTags.split(/[,\s]+/).filter(Boolean))
-    const dateStr = c.created_at ? formatCstDateTime(c.created_at) : ""
-    out.push({
-      date: dateStr,
-      duration,
-      title,
-      summary:
-        type && type !== "声音复盘"
-          ? `【${type}】时长 ${duration} · 云端声音与结构化思维归档`
-          : `录音时长 ${duration} · 云端声音与结构化思维归档`,
-      tag: tags[0] || "声音复盘",
-    })
-  }
-  return out
+  return foldQuietLogComments(all)
 }
 
 async function fetchPulse(headers) {
