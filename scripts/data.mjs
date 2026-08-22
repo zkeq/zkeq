@@ -8,6 +8,51 @@ const USER = "zkeq"
 const CNB_GROUP = "onmicrosoft"
 const PPS = "https://pps-backend.onmicrosoft.cn/api/projects/zkeq"
 const ATOM = "https://icodeq.com/atom.xml"
+const CST = "Asia/Shanghai"
+
+function cstParts(input) {
+  const d = input instanceof Date ? input : new Date(input)
+  if (Number.isNaN(d.getTime())) return null
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: CST,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(d)
+  const get = (type) => parts.find((p) => p.type === type)?.value || ""
+  return {
+    y: get("year"),
+    m: get("month"),
+    d: get("day"),
+    h: get("hour"),
+    min: get("minute"),
+  }
+}
+
+function formatCstDateTime(input) {
+  if (!input) return ""
+  const p = cstParts(input)
+  if (!p) return String(input).slice(0, 16).replace("T", " ")
+  return `${p.y}-${p.m}-${p.d} ${p.h}:${p.min}`
+}
+
+function formatCstDate(input) {
+  if (!input) return ""
+  const p = cstParts(input)
+  if (!p) return String(input).slice(0, 10)
+  return `${p.y}-${p.m}-${p.d}`
+}
+
+function cstDateKeysLastDays(n) {
+  const keys = []
+  for (let i = n - 1; i >= 0; i--) {
+    keys.push(formatCstDate(new Date(Date.now() - i * 86_400_000)))
+  }
+  return keys
+}
 
 function cnbHeaders() {
   const token = process.env.CNB_TOKEN || ""
@@ -208,7 +253,7 @@ async function fetchRecordings(headers) {
     const tags = []
     if (type && type !== "无类型" && type !== "无标签") tags.push(type)
     if (rawTags && rawTags !== "无标签") tags.push(...rawTags.split(/[,\s]+/).filter(Boolean))
-    const dateStr = c.created_at ? c.created_at.slice(0, 16).replace("T", " ") : ""
+    const dateStr = c.created_at ? formatCstDateTime(c.created_at) : ""
     out.push({
       date: dateStr,
       duration,
@@ -225,10 +270,8 @@ async function fetchRecordings(headers) {
 
 async function fetchPulse(headers) {
   const daily = {}
-  for (let i = 0; i < 28; i++) {
-    const d = new Date()
-    d.setDate(d.getDate() - (27 - i))
-    daily[d.toISOString().slice(0, 10)] = 0
+  for (const key of cstDateKeysLastDays(28)) {
+    daily[key] = 0
   }
   try {
     const commits = await getJson(
@@ -239,7 +282,7 @@ async function fetchPulse(headers) {
       for (const c of commits) {
         const dateStr = c.commit?.author?.date || c.commit?.committer?.date
         if (!dateStr) continue
-        const key = dateStr.slice(0, 10)
+        const key = formatCstDate(dateStr)
         if (daily[key] !== undefined) daily[key] += 1
       }
     }
@@ -254,7 +297,7 @@ async function fetchPulse(headers) {
     if (Array.isArray(comments)) {
       for (const c of comments) {
         if (!c.created_at) continue
-        const key = c.created_at.slice(0, 10)
+        const key = formatCstDate(c.created_at)
         if (daily[key] !== undefined) daily[key] += 1
       }
     }
