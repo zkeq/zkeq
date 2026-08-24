@@ -31,7 +31,7 @@
     <text class="hud" x="109.16000000000001" y="84" text-anchor="middle" fill="#656d76">组织</text>
     <text class="mono" x="109.16000000000001" y="100" text-anchor="middle" fill="#1f2328" font-size="12" font-weight="700">onmicrosoft</text>
     <text class="hud" x="290" y="84" text-anchor="middle" fill="#656d76">全部仓库</text>
-    <text class="mono" x="290" y="100" text-anchor="middle" fill="#0969da" font-size="12" font-weight="700">67</text>
+    <text class="mono" x="290" y="100" text-anchor="middle" fill="#0969da" font-size="12" font-weight="700">68</text>
     <text class="hud" x="470.84" y="84" text-anchor="middle" fill="#656d76">核心成员</text>
     <text class="mono" x="470.84" y="100" text-anchor="middle" fill="#1f2328" font-size="12" font-weight="700">14</text>
     <text class="hud" x="16" y="130" fill="#656d76">集群:</text>
