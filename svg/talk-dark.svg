@@ -33,7 +33,7 @@
     <text class="hud" x="290" y="84" text-anchor="middle" fill="#8b949e">全部仓库</text>
     <text class="mono" x="290" y="100" text-anchor="middle" fill="#58a6ff" font-size="12" font-weight="700">69</text>
     <text class="hud" x="470.84" y="84" text-anchor="middle" fill="#8b949e">核心成员</text>
-    <text class="mono" x="470.84" y="100" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">14</text>
+    <text class="mono" x="470.84" y="100" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="700">15</text>
     <text class="hud" x="16" y="130" fill="#8b949e">集群:</text>
     <rect x="58" y="118" width="86" height="16" rx="4" fill="#0d1117" stroke="#30363d"/>
     <text class="mono" x="101" y="130" text-anchor="middle" fill="#e6edf3" font-size="9">vibe-cook (6)</text><rect x="150" y="118" width="86" height="16" rx="4" fill="#0d1117" stroke="#30363d"/>
