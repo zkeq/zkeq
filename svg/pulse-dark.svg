@@ -27,7 +27,7 @@
   
     <rect x="16" y="68" width="548" height="44" rx="10" fill="#0d1117" stroke="#30363d"/>
     <text class="hud" x="109.16000000000001" y="84" text-anchor="middle" fill="#8b949e">云原生仓库</text>
-    <text class="mono" x="109.16000000000001" y="102" text-anchor="middle" fill="#db6d28" font-size="13" font-weight="700">86 Repos</text>
+    <text class="mono" x="109.16000000000001" y="102" text-anchor="middle" fill="#db6d28" font-size="13" font-weight="700">92 Repos</text>
     <text class="hud" x="290" y="84" text-anchor="middle" fill="#8b949e">组织</text>
     <text class="mono" x="290" y="102" text-anchor="middle" fill="#e6edf3" font-size="13" font-weight="700">onmicrosoft</text>
     <text class="hud" x="470.84" y="84" text-anchor="middle" fill="#8b949e">核心团队</text>
@@ -61,17 +61,17 @@
       <text class="mono" x="273" y="396" text-anchor="end" fill="#8b949e" font-size="10">CNB 仓库 ↗</text>
     
       <rect x="295" y="296" width="269" height="118" rx="10" fill="#0d1117" stroke="#30363d"/>
-      <text class="mono" x="307" y="318" fill="#e6edf3" font-size="11" font-weight="700">TCH-Game-20260524</text>
+      <text class="mono" x="307" y="318" fill="#e6edf3" font-size="11" font-weight="700">agent-eval-lab</text>
       <rect x="492" y="306" width="60" height="14" rx="3" fill="rgba(219,109,40,0.14)"/>
-      <text class="mono" x="522" y="316" text-anchor="middle" fill="#db6d28" font-size="8">Game</text>
-      <text class="sans" x="307" y="342" fill="#8b949e" font-size="10">《归途》是一款以视障人士第一人称视角…</text>
-      <text class="mono" x="307" y="396" fill="#e6edf3" font-size="10">Ren'Py</text>
+      <text class="mono" x="522" y="316" text-anchor="middle" fill="#db6d28" font-size="8">CNB Pin</text>
+      <text class="sans" x="307" y="342" fill="#8b949e" font-size="10">CNB 云原生云端协同与生产力项目</text>
+      <text class="mono" x="307" y="396" fill="#e6edf3" font-size="10">TypeScript</text>
       <text class="mono" x="552" y="396" text-anchor="end" fill="#8b949e" font-size="10">CNB 仓库 ↗</text>
     
     
     <line x1="16" y1="416" x2="564" y2="416" stroke="#30363d"/>
     <text class="mono" x="16" y="436" fill="#8b949e" font-size="10">CNB Pulse Telemetry</text>
-    <text class="sans" x="564" y="436" text-anchor="end" fill="#db6d28" font-size="11">查看全部 CNB 仓库 (86+) →</text>
+    <text class="sans" x="564" y="436" text-anchor="end" fill="#db6d28" font-size="11">查看全部 CNB 仓库 (92+) →</text>
   
     
 </svg>
