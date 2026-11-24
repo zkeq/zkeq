@@ -50,13 +50,13 @@
       <rect x="455" y="72" width="32" height="14" rx="3" fill="rgba(154,103,0,0.12)"/><text class="mono" x="471" y="82" text-anchor="middle" fill="#9a6700" font-size="8">★ 重点</text>
       <text class="sans" x="710" y="84" fill="#656d76" font-size="11">↗</text>
       <g clip-path="url(#p1)">
-        <text class="head" x="389" y="106" fill="#1f2328" font-size="13" font-weight="700">Vibe Cook 沉浸式烹饪助手</text>
-        <text class="sans" x="389" y="122" fill="#656d76" font-size="11">融合真实菜谱检索、AI 选菜与逐步引导的沉浸式烹饪</text><text class="sans" x="389" y="137" fill="#656d76" font-size="11">应用。</text>
+        <text class="head" x="389" y="106" fill="#1f2328" font-size="13" font-weight="700">Vibe Cook · 沉浸式烹饪助手</text>
+        <text class="sans" x="389" y="122" fill="#656d76" font-size="11">把 HowToCook 菜谱变成可搜索、可换算份量、可语</text><text class="sans" x="389" y="137" fill="#656d76" font-size="11">音操作的全屏分步烹饪助手。</text>
       </g>
       <rect x="389" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="425" y="160" text-anchor="middle" fill="#656d76" font-size="8">AI Agent</text><rect x="467" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="503" y="160" text-anchor="middle" fill="#656d76" font-size="8">沉浸式烹饪</text><rect x="545" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="581" y="160" text-anchor="middle" fill="#656d76" font-size="8">智能选菜</text>
+           <text class="mono" x="425" y="160" text-anchor="middle" fill="#656d76" font-size="8">烹饪工具</text><rect x="467" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="503" y="160" text-anchor="middle" fill="#656d76" font-size="8">AI Agent</text><rect x="545" y="150" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="581" y="160" text-anchor="middle" fill="#656d76" font-size="8">语音交互</text>
     
       <rect x="16" y="185" width="349" height="108" rx="10" fill="rgba(26,127,55,0.10)" stroke="rgba(26,127,55,0.40)"/>
       <circle class="led" cx="34" cy="201" r="3" fill="#1a7f37"/>
@@ -65,12 +65,12 @@
       <text class="sans" x="349" y="205" fill="#656d76" font-size="11">↗</text>
       <g clip-path="url(#p2)">
         <text class="head" x="28" y="227" fill="#1f2328" font-size="13" font-weight="700">全息推演个人财务系统</text>
-        <text class="sans" x="28" y="243" fill="#656d76" font-size="11">以未来现金流推演为核心，统一管理账户、预算、负债</text><text class="sans" x="28" y="258" fill="#656d76" font-size="11">与消费计划的全栈财务应用。</text>
+        <text class="sans" x="28" y="243" fill="#656d76" font-size="11">把账户余额、收入、预算和还款计划串成未来现金流，</text><text class="sans" x="28" y="258" fill="#656d76" font-size="11">提前看到每月余额、资金低点和新支出的影响。</text>
       </g>
       <rect x="28" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="64" y="281" text-anchor="middle" fill="#656d76" font-size="8">现金流推演</text><rect x="106" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="142" y="281" text-anchor="middle" fill="#656d76" font-size="8">预算管理</text><rect x="184" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="220" y="281" text-anchor="middle" fill="#656d76" font-size="8">负债管理</text>
+           <text class="mono" x="64" y="281" text-anchor="middle" fill="#656d76" font-size="8">个人财务</text><rect x="106" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="142" y="281" text-anchor="middle" fill="#656d76" font-size="8">现金流预测</text><rect x="184" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="220" y="281" text-anchor="middle" fill="#656d76" font-size="8">预算管理</text>
     
       <rect x="377" y="185" width="349" height="108" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle class="led" cx="395" cy="201" r="3" fill="#1a7f37"/>
@@ -79,12 +79,12 @@
       <text class="sans" x="710" y="205" fill="#656d76" font-size="11">↗</text>
       <g clip-path="url(#p3)">
         <text class="head" x="389" y="227" fill="#1f2328" font-size="13" font-weight="700">LIVE ROOM 音乐现场</text>
-        <text class="sans" x="389" y="243" fill="#656d76" font-size="11">在浏览器中欣赏实时 3D 舞台，让歌曲、歌词与 AI </text><text class="sans" x="389" y="258" fill="#656d76" font-size="11">编排的灯光共同组成一场演出。</text>
+        <text class="sans" x="389" y="243" fill="#656d76" font-size="11">在浏览器里进入一座可交互的虚拟 Live House，让</text><text class="sans" x="389" y="258" fill="#656d76" font-size="11">歌曲、实时歌词和逐句编排的灯光共同完成一场演出。</text>
       </g>
       <rect x="389" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="425" y="281" text-anchor="middle" fill="#656d76" font-size="8">实时3D</text><rect x="467" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
+           <text class="mono" x="425" y="281" text-anchor="middle" fill="#656d76" font-size="8">实时 3D</text><rect x="467" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
            <text class="mono" x="503" y="281" text-anchor="middle" fill="#656d76" font-size="8">音乐可视化</text><rect x="545" y="271" width="72" height="14" rx="3" fill="#ffffff" stroke="#d0d7de"/>
-           <text class="mono" x="581" y="281" text-anchor="middle" fill="#656d76" font-size="8">AI灯光</text>
+           <text class="mono" x="581" y="281" text-anchor="middle" fill="#656d76" font-size="8">Three.js</text>
     
       <rect x="16" y="306" width="349" height="108" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle class="led" cx="34" cy="322" r="3" fill="#1a7f37"/>
