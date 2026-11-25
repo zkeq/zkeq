@@ -37,3 +37,4 @@
 | [Self-Music](https://github.com/zkeq/Self-Music) | 自建音乐库，管理歌单、同步歌词，并在不同设备上播放。 | MIT |
 | [Self-Cinema](https://github.com/zkeq/Self-Cinema) | 自建私人影院，管理影视收藏，支持和朋友同步观影。 | MIT |
 | [Bing-Wallpaper-Action](https://github.com/zkeq/Bing-Wallpaper-Action) | 用 GitHub Actions 收集并归档不同地区的必应每日壁纸。 | AGPL-3.0 |
+| [每日早报](https://github.com/zkeq/news) | 可切换 60 秒早报和网易早报，支持按日期回看与自部署。[在线阅读](https://news.icodeq.com/) | — |
