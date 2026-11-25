@@ -7,7 +7,7 @@
 
 我做自己想用的工具，也写开发记录。最值得写的往往是用过一阵以后，我决定改掉什么。
 
-[个人主页](https://book.corerevive.cn/) · [作品集](https://zkeq.space.dev-tool.cool/) · [开发手记](https://icodeq.com/) · 联系我: admin@icodeq.com
+[个人主页](https://book.corerevive.cn/) · [作品集](https://zkeq.space.dev-tool.cool/) · [开发手记](https://icodeq.com/) · admin@icodeq.com
 
 ## 这段时间在做回想
 
