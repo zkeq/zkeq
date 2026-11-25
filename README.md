@@ -23,7 +23,7 @@
 | --- | --- |
 | **回想 RechoMemory** | 接续长对话，找回以前的讨论、资料和决定。 |
 | **Synapse** | 在同一张画布上编辑 Markdown、组织项目和协作。 |
-| [Tempo](https://tempo.dev-tool.cool/play/152) | 把听歌记录、歌词和回忆整理成时间轴。 |
+| [Tempo](https://tempo.dev-tool.cool/s/709166957f0f685cd8b8d905f44df8a7) | 把听歌记录、歌词和回忆整理成时间轴。 |
 | [个人财务推演](https://finance.corerevive.cn/) | 把收入、预算和还款排进时间轴，提前看余额在哪个月最低。 |
 | [LIVE ROOM](https://livehouse.dev-tool.cool/) | 在浏览器里听一场配有逐句歌词和灯光的虚拟演出。 |
 
