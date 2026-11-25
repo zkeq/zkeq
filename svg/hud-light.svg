@@ -30,19 +30,19 @@
     
     <rect x="236" y="48" width="210" height="68" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
     <text class="hud" x="250" y="70" fill="#656d76">CNB / 渺软仓库</text>
-    <text class="mono" x="250" y="96" fill="#1f2328" font-size="20" font-weight="700">94 repos</text>
+    <text class="mono" x="250" y="96" fill="#1f2328" font-size="20" font-weight="700">95 repos</text>
     <circle cx="428" cy="82" r="3.5" fill="#0969da"/>
   
     
     <rect x="456" y="48" width="210" height="68" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
     <text class="hud" x="470" y="70" fill="#656d76">GitHub 累计提交</text>
-    <text class="mono" x="470" y="96" fill="#1f2328" font-size="20" font-weight="700">19,970+</text>
+    <text class="mono" x="470" y="96" fill="#1f2328" font-size="20" font-weight="700">19,986+</text>
     <circle cx="648" cy="82" r="3.5" fill="#9a6700"/>
   
     
     <rect x="676" y="48" width="208" height="68" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
     <text class="hud" x="690" y="70" fill="#656d76">博客文章沉淀</text>
-    <text class="mono" x="690" y="96" fill="#1f2328" font-size="20" font-weight="700">8+ posts</text>
+    <text class="mono" x="690" y="96" fill="#1f2328" font-size="20" font-weight="700">0+ posts</text>
     <circle cx="866" cy="82" r="3.5" fill="#8250df"/>
   
     
